@@ -1,0 +1,272 @@
+A DECADE AFTER THE FIRST FULL HUMAN
+GENOME SEQUENCING: WHEN WILL WE
+UNDERSTAND OUR OWN GENOME?
+
+The contrast between the pomp of celebrating the firrst full human genome sequencing in 2000
+and the cautious tone of recollections a decade thereafter could hardly be greater. The promises
+with regard to medical cures and biotechnology applications have been realized not even nearly
+to the expectations. Understanding the human genomes means knowing the genes' and proteins'
+functions and their interconnectedness via biomolecular mechanisms. This articles estimates
+how long will it take to achieve this goal if we extrapolate from the previous decade (indeed, a
+century!) and the possible disruptive trends in science, technology and society that may
+accelerate the pace of progress dramatically.
+Keywords: Bioinformatics; full human genome sequencing; gene function; protein function
+prediction; biomolecular mechanism.
+
+1. What Does it Mean to Read the Human Genome as "Instruction Book of Life"?
+Whereas the typical increments of scienti¯c progress accumulated in a snail-like
+manner are usually not awarded any attention of the general public, the ¯rst full
+human genome sequencing1,2 was celebrated at the beginning of the 21st century
+with pomp unheard of and with no precedence in the history of science. Maybe, it requires being American (and it is the biomedical science of the USA which provided
+the by far largest contribution) to give the event a spiritual, even religious turn that,
+otherwise, is considered so misplaced in the scienti¯c context. When Bill Clinton
+congratulated those who participated in the ¯rst sequence draft of the human
+genome on 26 June 2000, he said, \Today we are learning the language in which
+God created life. We are gaining ever more awe for the complexity, the beauty, the
+wonder of God's most divine and sacred gift." The director of the Human Genome
+Project, Francis Collins, followed him stating, \…we have caught the ¯rst glimpse
+of our own instruction book, previously known only to God." (both quotes from
+Ref. 3).
+The contrast between this spectacle from the beginning of the 21st century and
+the recollections summarizing the progress made in a decade thereafter is striking.
+The author of Ref. 4 can hardly be accused of being shy or humble as he was one
+of the top leaders who promoted the human genome project and helped politically
+justifying total direct costs approaching USD 3 billion in the USA alone.5
+Nevertheless, he concludes in his article from 2011 that \…medical revolutions
+require many decades to achieve their full promise.… We must be scrupulous not
+to promise the public a pharmacopoeia of quick pay-o®s" (quoted from Ref. 4).
+Will it really require many decades for us to understand the human genome so
+that the older among us will not have any hope to witness this breakthrough and
+to bene¯t from it?
+Indeed, this view sounds very di®erent compared with 2001 when, for example in
+Ref. 6, it was promised that \Genetic prediction of individual risks of disease and
+responsiveness to drugs will reach the medical mainstream in the next decade or so.
+The development of designer drugs, based on a genomic approach to targeting
+molecular pathways that are disrupted in disease, will follow soon after." In the early
+years of the 21st century, there were wide expectations that the cures for so far nontreatable diseases and conditions and many urgently awaited biomedical and biotechnological applications are just around the corner.
+Maybe it is naïve to believe that an e®ort like ¯rst full human genome sequencing
+could have been acceptable to political decision makers without exaggeration of
+bene¯ts and godly elevation of the cause. Whereas on one hand, it is generally
+acknowledged that there is no future progress in human society without science, the
+readiness of the decision-making elite to understand the nitty-gritty of the possible
+complications and to accept the real cost, necessary e®orts and time scale toward this
+scienti¯c progress is limited.
+The general media successfully supported the hype and the layman could rightfully expect that, once the genomic text itself is known and made public, it can be
+\read" and, in this way, its meaning be understood and exploited in applications.
+Yet, it is well known that reading does not necessarily imply understanding. In the
+context of the human genome, the contradiction translates into the question: What
+are the biomolecular and cellular mechanisms that connect certain pieces of the
+genome text with phenotypic e®ects?
+
+2. To Which Extent Human Biology is Known at the Level
+of Biomolecular Mechanisms?
+The following is an attempt to provide a rough estimate to which extent we seem to
+know this set of biomolecular mechanisms. About 25% of the human genome is taken
+by protein-coding genes. Most of it is occupied by introns, just 1.5% of the genome
+are actually protein-coding regions. Although the actual number is still a matter of
+scienti¯c dispute, let us assume that there is, in total, about 23,000 genes.7
+For how many genes, their biological function is known? Gene function is a
+hierarchical notion involving many aspects of function at the molecular, cellular and
+phenotypic levels.8,9 For interference into biological systems with predictable outcome, it is absolutely necessary to know the molecular and cellular functions of
+genes/proteins to enable rational intervention into biomolecular mechanisms they
+are involved in. The alternative would be just looking for statistical associations/
+correlations between genome sequence features and phenotypic properties; yet, the
+relationship between the two appears to be so complicated that even the whole
+mankind's genomes might not provide su±cient data to clarify all aspects of it,
+especially with regards to pleiotropic genes and to e®ects in°uenced by large numbers
+of genes. Thus, without knowledge of biomolecular mechanisms and gene/protein
+functions, ever faster and cheaper sequencing technology will only lead to the ever
+faster accumulation of non-understood sequences.
+For yeast, the most studied eukaryote organism with approximately 6000 genes,
+there are about 1000 genes that were still listed as uncharacterized in Saccharomyces
+Genome Database in 2007 (i.e. 10 years after full yeast genome sequencing10) and
+this situation has essentially not changed ever since. Notably, many of these
+uncharacterized genes have predicted functions11; yet, the respective experimental
+follow-up is not moving much forward despite a large and internationally wellorganized yeast research community.
+In humans, the situation is apparently grimmer than in the case of yeast. On the
+positive side, there is a group of several thousand human genes and their derived
+proteins that has been in the center of scienti¯c attention for a long time, typically
+over many decades even before human genome sequencing, and their functions, such
+as those of myosin and actin, lysozyme or p53, are quite well known. This block of
+genes still attracts the bulk of biological research with a continuous °ood of scienti¯c
+publications. Thus, the bulk of our biological knowledge (maybe, 99.99%) is related
+to  1% of the human genome. For a number of previously uncharacterized genes
+and proteins, their functions have been discovered during the last decade. Separin,12
+SET domain methyltransferases,13 Eco1 acetyltransferase,14 kleisins,15 ATGL, the
+adipocyte triglyceride lipase at the surface of lipid storage vesicles,16,17 ghrelin
+octanoyltransferase,18 and the mec-17 methyltransferase for -tubulin19 are just
+some illustrative examples (including a few more or less successful cases from the
+author's past research). On the other hand, there are still about 10,000 human
+proteins described as hypothetical in the NCBI protein database. Many other
+
+proteins with hardly more precise descriptions cannot be considered functionally
+characterized when, often with a length of 1000 amino acid residues or more (the
+isoforms of NFAT520 being one example), the function of one domain with, maybe,
+100200 amino acids, is known when the rest is unclear. For example, the molecular
+function of the C-terminal macro domain of macroH2A (complementing the conformationally °exible N-terminal tail and the histone domain), namely binding of the
+SirT1-metabolite O-acetyl-ADP-ribose,21,22 was only discovered in 2005. Hence, it
+appears rather a lower estimate if we assume that roughly 10,00015,000 human
+genes fundamentally require functional characterization, either to get an idea at all
+what the gene/protein is about or to close knowledge gaps at the levels of molecular,
+cellular or phenotypic function.
+This estimate allows us also to guess how much of the human biology at the
+molecular level is still unknown. With the function of 10,00015,000 genes/proteins
+still obscured, this will translate into about a thousand protein-based pathways or
+molecular machines yet to be discovered. Most likely, we do not know half or even
+three-quarters of the human physiology at the level of biomolecular mechanisms,
+indeed a truly discouragingly shaky starting point for any truly systems biology
+approach at present.
+
+3. When Will we Have Understood the Biomolecular
+Mechanisms Encoded in the Human Genome?
+Who carefully follows the scienti¯c literature notices that, not every week, a new
+gene function is reported. Roughly estimating, we can conclude that the number of
+newly characterized genes per year is about or below 100. Hence, linear extrapolation
+gives us an estimate of a century until the functions of all protein-coding genes are
+discovered, a time frame very much in line with the prognosis in Ref. 4.
+Without diving into the topic of the RNA world with great detail, we need to
+acknowledge that the nonprotein-coding part genome has also tremendous signi¯cance for physiology. There is undeniable evidence that the genome is pervasively
+transcribed, also in regions that are not protein-coding.23 In most cases, the biological function of these short and long non-coding RNAs is enigmatic except for a
+few cases; yet, they are known to in°uence a variety of important biological processes.24,25 Although many of these non-coding RNAs are certainly implicated in
+transcription/translation and their regulation, it is tempting to assume some are
+involved in metabolic or signaling, binding or enzymatic functions similar to proteins
+given the experience from aptamers.26 Thus, maybe, a century is even not enough to
+understand the human genome.
+4. What Limits the Progress in Gene Function Discovery?
+Why is the problem of discovering the genes' function so di±cult? The reports from
+successful gene function discoveries show that no molecular function discovery has
+come directly out of large-scale studies. At best, these studies helped to select genes for further analysis. Due to their speci¯c biological e®ects, the genes' functions are
+individual a®airs that require creative, gene-speci¯c, tailored approaches that resist
+generalized handling. Typically, there were computational biology-derived hypotheses9,27,28 about a gene function or candidate genes at the beginning of the discovery.
+These hypotheses directed the experimental follow-up, ingeniously modi¯ed experiments using the existing arsenal of molecular and cell biology, biochemistry as well
+as genetics and physiology of model organisms. It is this sequence of e®orts that has
+¯nally delivered the breakthroughs. There is yet another aspect to a new gene
+function discovery. With homology considerations and sequence pattern-function
+correlations,9,2731 it is possible to extrapolate into the yet unknown part of the
+genome and to narrow down the functions of several other, not yet functionally
+characterized genes in the human and other genomes. Hence, the prospective value of
+an experimental life science research project can be evaluated to which extent it has
+potential to ¯nd a function for an uncharacterized gene and to which extent its
+results allow to hypothesize functions for other, yet untouched parts of the genome.
+Thus, it is probably more a combination of bioinformatics with old-fashioned
+biochemistry and cell biology that will provide the bulk of insight into yet unknown
+biomolecular mechanisms and gene/protein functions. As a rule, no principally new
+technology needed to be developed.
+If there is no technological barrier, maybe, there are issues with science organization, ¯nancing or incentives for scientists and administrators? One gene function
+discovery requires the engaged work of one or several medium-sized research teams
+over a period of about ¯ve years and with costs in the order of USD 10 million
+(assigning 1 million per team per year and including some unsuccessful attempts).
+A complete list of protein functions in the human genome would run into USD 100
+billion, not an outrageous sum since it is comparable in order of magnitude with total
+research spending of pharmaceutical industry per year (USD 65.3 billion in 2009
+alone32 spent mostly on clinical trials that failed). Thus, gene function discovery is
+also not primarily a ¯nancial problem. And what about the expensive datasets from
+large-scale omics studies? Most likely, many of those will never be fully analyzed
+since the data can be reproduced cheaper and with much higher accuracy with
+methods that are currently in the process of development. It appears also improbable
+that sequencing another 10,000 human individual human genomes in addition to the
+already known 100033 will have great impact for biomolecular mechanism discovery;
+even another magnitude of increase will hardly generate enough data to statistically
+correlate genome variations with all types of phenotypic properties signi¯cantly
+given the complexities of human biology.
+
+5. Disruptive Events Breaking the Extrapolation: Science
+and Technology Developments
+It is unlikely that the linear extrapolation leading to a century of waiting until the
+information hidden in the human genome becomes fully accessible will hold. History is nonlinear, and disruptive events are already on the horizon. A mixture of scienti¯c,
+technological and social developments has the potential to redraw the rules of the
+game. DNA sequencing is already the key research technology in life sciences. Most
+importantly, DNA sequencing is becoming so inexpensive and accessible that, very
+soon, sequencing will no longer be a prerogative for rich publicly or corporately
+sponsored research institutes. The new Life Technology or Illumina sequencers to be
+expected this or next year promise sequencing a human genome in 24 hours for
+consumable costs of USD $1000 with an equipment pricing that is in the range for
+people that can live without a second Ferrari.34 Thus, sequencing e®orts by quali¯ed
+members of the civil society will become normal, ¯rst as services purchased, later
+with own equipment in the side wing of the villa.
+This single example exempli¯es a general, recent trend that research tool prices
+(for many items of IT devices, lab consumables, etc.) are going down considerably.
+Also notably, the new generations of laboratory equipment introduced at present
+supersede the previous ones at a time point when the latter has not been intellectually exhausted and still can be used for making discoveries. For example, IT
+capacity was a major limitation to computational biology research in the 1990s; it is
+not a barrier any longer for most of the tasks, o®-the-shelf equipment is just ¯ne and
+often better performing than necessary. Thus, the conditions for gentlemen's science
+as in the 19th century are re-appearing.
+6. Disruptive Events Breaking the Extrapolation:
+Social Developments
+The sheer availability of genome sequencing, combined with the curiosity of people to
+learn about themselves, will make personal genomes widely available in the civil
+society. With all the more a®luent part of the society having their personal genomes
+on a thumbdrive in their pocket, they will naturally ask what kind of insight they
+might gain from it for improving their lives. This will build an enormous pressure
+from the side of demand. Once these people recognize that all the institutes for
+systems biology are not giving them an answer, they will question why this happens,
+only to discover the usual scenario, that PIs write grants, sit in committees and
+meetings or do administrative activities within ine±cient structures instead of doing
+science or they drop more long-term, risky projects for low hanging fruits to ensure a
+continuous output of papers (in this context, going after yet another facet of a
+functionally characterized gene instead of an uncharacterized gene function) that
+keeps their careers alive (rather, their employment and economic survival). It might
+be a research topic itself to clarify how much of the public resources and publicly
+¯nanced working time actually goes into research and how much of it gets stuck in
+\para-scienti¯c" activities of administering, evaluating, lobbying, communicating
+and hunting after key performance indicators such as long publication lists.
+The bureaucratization of academic science is not easy to change. The problem is
+for the public hand in the process of fund allocation to decide (i) what is good science, (ii) what are acceptable time frames and outcomes and (iii) how well individual
+researchers and teams perform and manage the challenges. This is far from trivial (if
+not impossible) when the public hand has actually no vision (as commissions will
+never take bold decisions), there are no good numerical parameters to measure and,
+at the same time, the public science system has ballooned in size, and the internal
+scienti¯c cleansing mechanisms based on intellectual pressure and reviews increasingly break down. The developed nations in the West have generated no other
+answers than compounding ever more sophisticated bureaucratic mechanism for
+control on top of each other (until, probably, science comes to a complete halt) and
+there is no lack of evermore proposals for new structures to parasitize on the body of
+science.35 Not surprisingly, scienti¯c publishing has returns that rival with those of
+organized crime36 since high-impact journals are used as surrogate to evaluate scientists. Over the decades witnessed by the author (19832012 in various countries
+and social systems), the issue has only aggravated. Possibly, there is no way for the
+public hand to resolve the problems e±ciently.
+Would every scientist really do the same research and publish the same stream of
+papers if (s)he were rich enough to ¯nance the work out of own private funds? In the
+economy, we are told that states are not good investors and private initiative has the
+advantage of vision (and can absorb the risks without systemic consequences). Why
+is this considered to be di®erent in science when the number of years, the lag between
+e®ort and result is even much larger? The scienti¯c questions that can result in
+productive research represent a thin layer between the known and the unknown and
+their selection depends very much of the researcher's understanding of the state of
+the art and her/his personal speci¯cs with regard to ideas, research technology and,
+not to forget, intuition.
+Not everybody needs to take an o±cial \cannot" for granted and wait since
+there might be possibilities for financing alternatives privately. The same post
+human-genome decade has also privatized and concentrated the growing total
+wealth within a small part of society.37 Subsequently, some more, some less
+reasonable civil society activities including nonprofit-oriented research in competition to the o±cial, public academic science will certainly arise. To note, the
+problem of research evaluation in this context will collapse to the issue of scienti¯c
+correctness, and private researchers will not need expensive high-impact journals
+since they value the direct comment from quali¯ed colleagues after the report was
+shared with them. Thus, it will be tested where research resources will produce the
+greatest increment in scienti¯c insight. Although, at present, private initiative in
+science is essentially restricted to the application side (foundations that want to
+¯nd cures for diseases, etc.), it is not excluded and hopeless that the insight might
+spread that basic research in cell division and cell di®erentiation mechanisms is the
+key to cancer and other diseases or that epigenetics research might be more useful
+for combating HIV and, possibly, other viral infections (for solidly suppressing the
+virus genome incorporated into the human cells' genome) than developing vaccines
+in the long term. Gene function and biomolecular mechanism discovery is a field
+where private non-pro¯t initiative can show its advantages and have, at the same
+time, a dramatic impact.
+7. Conclusions
+Pejoratively said, the first full human genome sequencing could be seen not so much
+as a scienti¯c breakthrough as just a technical and organizational achievement of
+applying some early, immature sequencing technology onto a very large, complicated
+sequence target. Nevertheless, the author is convinced that, with hindsight, our
+successors will hail the event of ¯rst full genome sequencing as a watershed event in
+the history of science since, for the ¯rst time, a biological system was characterized
+with exact data in its totality. What is missing in the genome is not in the biological
+system; thus, we get an idea for the upper limit of cells' complexity and, in contrast to
+previous eras, understand the size of the research task ahead. The basis for understanding the human genome is the knowledge of biomolecular mechanisms and the
+discovery of functions of yet uncharacterized genes, proteins and RNAs is the central
+task in life science research today. If the solution to this scienti¯c problem is
+accompanied with a return of civil society into basic research, this will not have only
+positive implications for science itself.
+
+

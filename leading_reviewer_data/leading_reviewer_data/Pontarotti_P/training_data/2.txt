@@ -1,0 +1,27 @@
+Evolutionary Biology from Concept to Application
+
+Preface
+
+Every biological system is the outcome of its evolutionary history; therefore, the
+deciphering of the evolutionary history is of tremendous importance to understand
+biology.
+Since 1997, scientists of different disciplines who share a deep interest in evolutionary biology concepts and knowledge have held an “evolutionary biology meeting at Marseilles” in order to discuss their research, exchange ideas, and start collaborations. Lately, scientists interested in the application of the concepts have joined
+the group.
+This book is a selection of what I think are the most representative talks of 11th
+meeting as they represent an up-to-date overview of concepts of evolution and how
+these concepts can be used to understand biology in general. The book comprises
+several topics that we have arranged in different subcategories: modelization of evolution (Yu: Chap. 1, Meade and Pagel: Chap. 2), concepts in evolutionary biology
+(Toll-Riera et al: Chap. 3, Erenpreisa and Cragg: Chap. 4, Mikhalevich: Chap. 5,
+Raineri: Chap. 6), knowledge (Shimizu: Chap. 7, Hwang et al: Chap. 8), and applied evolutionary biology (Barth´el´emy et al: Chap. 9, Hilu and Barthet: Chap. 10,
+Kryger and Scholtz: Chap. 11, Swynghedauw: Chap. 12, Levasseur and Pontarotti:
+Chap. 13). I hope that this book will be useful not only to evolutionary biologists but
+also to biologists in general and that it will help to produce a needed epistemological shift in the different domains of biology—genomics, postgenomics, etc.—from
+correlative approaches to evolutionary approaches.
+I would like to express my sincere gratitude to the other members of the scientific committee—Etienne Pardoux, Philippe Monget, Bernard Swynghedauw,
+Etienne Danchin, Vincent Laudet, and Michel Milinkovitch, to the organizational committee—Virginie Lopez-Rascol, Olivier Chabrol, and Julie Perrot, to
+the sponsor—Universit´e de Provence, CNRS, GDR BIM, R´egion PACA, Conseil
+G´en´eral 13, Marseille Provence M´etropole, and to Association pour l’Etude de
+l’Evolution Biologique that organizes the meetings. I also wish to thank the staff at
+Springer for their cooperation.
+Last but not least I thank the meeting coordinator Axelle Pontarotti for her work
+and also, as many participants said, for making us feel at home during the meeting.

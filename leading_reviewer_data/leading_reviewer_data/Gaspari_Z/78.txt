@@ -1,0 +1,10 @@
+This paper describes some important findings about the role of intrinsic protein disorder in minimal genomes. Its original and can be of interest for researchers working in the respective field. Although I think that the work contains novel findings, the volume of the data processed and the novel information provided is a bit limited. I think that the amount of sequences analyzed makes a more detailed study possible and I make some recommendations for this below that the authors might consider to improve the manuscript.
+
+- The authors used one prediction algorithm (IUPred), one threshold (0.5) for classifying residues and one (20 aa) for identifying long regions. Where such necessarily subjective choices should be made, it can be important to prove the robustness of the main conclusions by repeating the analysis with some parameters varied. Can the authors provide such considerations?
+- It could be of interest to analyze some of the protein families with LDR regions in a bit more detail, including sequences from organisms with non-minimal genomes. There might be interesting patterns in the presence/absence of LDRs that are only apparent on a larger data set.
+- In general, the study could benefit from using some “reference organisms” with non-minimal genome from all investigated groups. It can be of interest whether any feature might be associated with being in a minimal genome.
+- The authors might want to comment on whether all the identified LDRs are ‘genuine’ disordered regions and not coiled coils or other segments commonly predicted to be disordered.
+- It is not described how the authors identified orthologs as gene/protein names might not be conclusive. Kindly comment on this as there are many missing homologs/orthologs indicated in Table 1.
+- The authors might want to comment on the proteins with LDRs found in only one of the investigated proteomes. It can be of interest whether these proteins are in any way associated with being located in a minimal genome.
+- Page 5, line 39: “translation initioation factor” is misspelled.
+- The two additional xls files could be combined to a single one with the data in two tabs.

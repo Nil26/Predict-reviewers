@@ -1,0 +1,86 @@
+A Novel Phototaxis Receptor Hidden in the Cyanobacterial Genome
+
+Many microorganisms, plants and animals control their
+movements in response to light. The simplest motility
+response to light, bacterial phototaxis, was described more
+than a century ago (Engelmann, 1883). Although bacterial
+taxis is now the best-understood simple sensory system,
+no phototaxis receptors in bacteria have been described
+yet. More complex organisms are better studied in this
+respect: phototaxis in unicellular algae (Foster, 1984; Ebnet
+et al., 1999) and fungi (Saranak and Foster, 1997), as well
+as in Archaea (Spudich, 1998) was shown to be dependent
+on rhodopsin-like receptors.
+Complete genome sequencing of the photosynthetic
+cyanobacterium Synechocystis sp. PCC6803 (Kaneko et
+al., 1996) should have resulted in the identification of a
+phototaxis receptor. However, the bioinformatics methods
+used for the genome annotation in 1996 were not sensitive
+enough. An increased power of new algorithms for
+genomics, especially the introduction of the PSI-BLAST
+program (Altschul et al., 1997), provided new opportunities
+for discoveries in completely sequenced genomes.
+Therefore, I have revisited the Synechocystis genome in
+order to identify the first bacterial phototaxis receptor.
+BLAST searches against the Synechocystis genome
+database (available at www.kazusa.or.jp/cyano/cyano.html)
+by using a highly conserved signaling domain of bacterial
+chemotaxis receptors (Le Moual and Koshland, 1996) as
+queries have identified three genes coding for taxis
+receptors: sll0041, sll1294 and slr1044. Further in silico
+domain analysis including PSI-BLAST searches (Altschul
+et al., 1997) and multiple alignments revealed that the gene
+sll0041, which has been annotated as coding for a methylaccepted chemotaxis protein I or a serine chemotaxis
+receptor (Kaneko et al., 1996), coded in fact for a phototaxis
+receptor. In its C-terminal region, the sll0041 protein
+contains a conserved signaling module typical of bacterial
+taxis receptors (Figure 1). This sequence region is
+homologous to the signaling module from the serine
+chemoreceptor and other methyl-accepting chemotaxis
+proteins from Escherichia coli that caused the erroneous
+gene annotation in 1996. I have identified two GAF domains
+and two HAMP domains in the N-terminal region of the
+sll0041 protein (Figure 1). The GAF domains are sensor
+modules in various phototransducing proteins in both
+eukaryotes and prokaryotes (Aravind and Ponting, 1997).
+The best known examples of GAF-domain-containing
+photoreceptors are plant phytochromes (Reed, 1999) and
+ethylene response sensors (Chang and Shockey, 1999)
+and mammalian rod photoreceptor phosphodiesterases
+(Soderling and Beavo, 2000). HAMP domain is found in
+various signal transduction proteins. Aravind and Ponting
+have recently suggested that the HAMP domain is not just
+a linker between a transmembrane region and a signaling
+domain, as it was previously thought, but it is an important
+signaling domain itself (Aravind and Ponting, 1999). The
+presence of the second HAMP domain between the GAF2
+domain and the signaling module in the cyanobacterial
+photoreceptor (Figure 1) is in a good agreement with their
+idea. All sensory and signaling domains of the sll0041
+protein are predicted to be located in the cytoplasm (Figure
+1).
+The GAF1 domain of sll0041 has a conserved histidine
+(His311), the known tetrapyrolle chromophore binding site
+in eubacterial photoreceptors (Davis et al., 1999), whereas
+the GAF2 domain has a conserved cysteine residue
+(Cys483), the known tetrapyrolle chromophore binding site
+in plant phytochromes (Reed, 1999) (Figure 2). Thus, both
+GAF domains of sll0041 may contain the chromophore.
+Tetrapyrolle chromophores in plant and bacterial
+photoreceptors mediate responses to red/far red light.
+Recent finding that Synechocystis has a positive phototactic
+response to red/far red light (Choi et al., 1999) suggests
+the presence of a tetrapyrolle-containing sensor and
+supports our in silico evidence that the sll0041 protein is
+indeed a phototaxis receptor. A GAF-domain-containing
+sensor module has been recently reported in lightresponsive histidine kinases from Rhodocista centenaria
+(Jiang et al., 1999), Deinococcus radiodurans and
+Pseudomonas aeruginosa (Davis et al., 1999) indicating
+that GAF photosensors are present in distantly related
+bacteria. The GAF-domain-containing phototaxis receptor
+from cyanobacteria is a member of the emerging subclass
+of taxis receptors that sense stimuli intracellularly. This
+involves the PAS-domain-containing Aer protein from E.
+coli (Bibikov et al., 1997; Rebbapragada et al., 1997) and
+myoglobin-like oxygen sensors from Halobacterium
+salinarum and Bacillus subtilis (Hou et al, 2000).

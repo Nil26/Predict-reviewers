@@ -1,0 +1,19 @@
+The authors propose that the genome size constraint and the genome evolution process of archea* and bacteria* (gene duplication: divergence) lead to gene function loss and that these losses need to be compensated by genes arising from other species. A process called Horizontal Gene Transfer (HGT).
+
+In the case of eukaryotes, the genome size does not seem to be a problem; therefore the genes that are not used can be conserved during a long time period and could still be re-used after a while. If this time is too long then, the genes will be lost but gene function resurrection (or back/reverse cooption) could occur.
+
+Comments:
+
+1) To strengthen their hypothesis, the authors need to give some examples of resurrected gene function in eukaryotes.
+
+2) At the end of the paper, the authors give an example of style life returns, several other examples are found on character return that seem to me more appropriate. Clear example of reverse evolution for a given character could be found in the following references:
+
+a) Evidence for the reversibility of digit loss: A phylogenetic study of limb evolution in Bachia Gymnophthalmidae: Squamata, Kohlsdorf T and Wagner. GP EVOLUTION 60: 9 Pages: 1896-1912, 2006.
+
+And b) Limpets break Dollo's law Pagel M: TRENDS IN ECOLOGY & EVOLUTION 19:6 Pages: 278-280, 2004.
+
+3) Do the authors look at eukaryotic phyla in which HGT occurred and do they found an inverse correlation between the level of HGT and the genome size (or with genes number ...)?
+
+4) Minor comments The part of the article: testing of the hypothesis should be re-written as it is very hard to follow (even if we read the previous article published by the authors. Please consider revision of this section to clarify.
+
+*I think that the word prokaryote is misleading

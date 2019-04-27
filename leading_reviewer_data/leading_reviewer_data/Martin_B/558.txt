@@ -1,0 +1,27 @@
+If these ideas are drawn from cosmology, that could be stated, but I don't think they are. Instead it seems that these ideas emerge independently from cosmological considerations and are founded in evolutionary thinking, not in cosmological.
+
+Abstract: "It is proposed that each major transition during evolution that shows the "explosive" pattern of emergence of new classes of biological entities corresponds to a boundary between two qualitatively distinct evolutionary processes (phases)" I think that some specification is needed here, because different biologists have different views as to what the major transitions are.
+
+Abstract: "that the eukaryotic supergroups emerged through distinct endosymbiotic events". What eukaryote phylogeny buffs are now calling supergroups are things like excavates, opisthokonts, archaeplastida, etc. These are summarized in recent reviews, especially the one by Adl et al cited in (44). They all have only one and the same endosymbiont (the mitochondrion), so distinct symbioses is not at all a clear term here. Plants had a second distinct symbiosis, some algae had distinct 2° symbioses, but that's about it, it seems. So the passage needs clarification.
+
+"identification of symbiotic events that would have led to the emergence of eukaryotic kingdoms" comment as above.
+
+In the first two paragraphs of "Background" we see that the tree concept is being contrasted to a rate concept (gradualism). That problem occurs throughout the paper. One cannot easily present rates plus mechanisms (Bangs) as alternatives to shapes (the tree). I don't really have a suggestion as to how to fix this problem of the present paper except for major recouching of the issues. But I do think that it needs to be fixed.
+
+Abstract: "In each major class of biological objects, the principal types emerge "ready-made", and intermediate grades cannot be identified." Ouch, that will be up on ID websites faster than one can bat an eye.
+
+Regarding the animal phyla, see two new papers on Canfield oceans, where they say that the lineages just got larger 580 MY ago.
+
+Fike DA, Grotzinger JP, Pratt LM, Summons RE (2006) Oxidation of the Ediacaran ocean. Nature 444:744–747
+
+Canfield DE, Poulton SW, Narbonne GM (2007) Late-Neoproterozoic deep-ocean oxygenation and the rise of animal life. Science 315:92–95
+
+Background, the last paragraph of the 1st subsection: "Here, I argue for a fundamentally different solution, i.e., that a single, uninterrupted TOL does not exist." I think we are hitting a big snag here that needs a couple of paragraphs of explanation. Ford Doolittle and others are saying that too, but for very different reasons (for example Doolittle and Bapteste, 2007, PNAS), so it is really necessary to explain what the difference is. I really do think that the essence of the present paper is a general assault on gradualism. The people who most vociferously criticize the ToL concept are saying that i) the ToL is not a tree because lateral gene transfer is widespread and possibly the predominating factor in the overall evolution of prokaryotic gene combinations across chromosomes and that endosymbiosis with endosymbiotic gene transfer is important. They are saying that the ToL is not a tree because it is not, in the main, bifurcating. This paper is not commenting on the topology or general shape of the ToL, but is instead using the term "ToL" without further qualification, hence accepting that a ToL exists in nature (see here Doolittle and Baptest 2007 for the difference between really existing ToLs in nature that one might discover and assumedly existing ToLs evidence for which one might seek), and within a ToL framework is saying that there are order of magnitude differences in the yearly rate and nature at which at which growth occurs along the branches. That comes to the fore with allusions to punctuated equilibrium.
+
+The cosmology part of the paper would need to be toned down because even if the cosmology parallels can be drawn, the substance of the paper needs to stand or fall on biological arguments, cosmology provides no help at all.
+
+I think that the discussion of the proposed symbiotic events needs to be contrasted and compared to what Lynn Margulis is saying for example in Proc Natl Acad Sci USA. 103:13080–10385 (2006).
+
+Section on Cosmology and Discussion: I do not agree that any general similarities between biological process and cosmological process can be drawn. If biologists first have to read up on their cosmology to understand evolution, then something must be wrong. Biologists have long listened to chemists and physicists when it comes to early evolution and its principles. I am convinced that biology and biochemistry are sufficiently rich as disciplines to allow the problems to be cast in biological and biochemical terms. That is a plea for a more down-to-Earth presentation of the present text.
+
+I think that this whole paper needs to be contrasted to previously published literature on LGT, on punctuated evolution, and on endosymbiotic theory in more detail. I think that most readers will come away with the same feeling. For topics as broad as this MS is cut out, anything short of a book is probably too brief. The easy fix is to focus on a specific point like gradualism.

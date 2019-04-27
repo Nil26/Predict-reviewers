@@ -1,0 +1,7 @@
+In this work the authors described a fundamental tradeoff between nucleotide and amino acid compositions using a set of more than 1300 prokaryotic genomes. A nonlinear equation has been set to fit the data and analyzed the possible effects on the mutational biases. They have analyzed various factors and different organisms such as mesophiles and thermophiles bacteria and archaea based on habitat and oxygen tolerance. The work is interesting with the combination of physical basis and statistical analysis. The manuscript is well written and sufficient details are provided:
+
+1.The advantages of using nonlinear fit could be discussed.
+
+2.The significance of coefficients in Figure 2 may be discussed.
+
+3.The comparison of features used in Figure 4 using quantitative measures may be useful.

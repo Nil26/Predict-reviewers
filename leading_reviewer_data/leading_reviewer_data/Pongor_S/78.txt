@@ -1,0 +1,9 @@
+The manuscript by Pancsa and Tompa highlights the fact that in organisms with a minimal genome, essential protein functions are linked with structural disorder. The ms is well written and understandable. The figures are clear.
+
+I feel that the message could be made more succinct by emphasizing a few aspects that may not be immediately clear to wider audiences. For instance, i) Why was the set of 13 proteomes selected? Is the finding—i.e. the set of proteins found—sensitive to the selection? The NCBI list of complete (annotated) genomes includes over 80 endosymbionts. In more detail, the Mazumder dataset is optimized for sequence similarity as well bibliographic criteria in the context of all proteomes, while taxonomic coverage within the group of the selected (minimal genome) organisms may be more relevant to this work, at least according to this reviewer. The original paper of Mazumder et al states that CMT55 is superior to other dbase distributions in this respect ü can the author explain why they chose the CMT15 dataset?
+
+ii) Are the orthologues of the identified proteins found in non-reduced genomes also disordered?
+
+iii) The identification of disordered proteins relies on the prediction of long disordered stretches. Does the length threshold and the selection of the prediction program influence the findings? Would a different prediction method give different functional predictions?
+
+iii) Can one assign statistical significance to the findings, for instance by simply repeating the predictions with a series of subsets of the selected proteomes?

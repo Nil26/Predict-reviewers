@@ -1,0 +1,56 @@
+Evolutionary Biology: Exobiology and Evolutionary Mechanisms
+
+Preface
+
+For the 16th time, the Evolutionary Biology Meeting at Marseilles (EBM) took
+place. The goal of this annual meeting was to allow scientists of different disciplines, who share a deep interest in evolutionary biology concepts, knowledge
+and applications, to meet, exchange and start interdisciplinary collaborations.
+The EBM at Marseilles is now recognised internationally as an important
+exchange platform and a booster for the use of evolutionary-based approaches in
+biology and also in other scientific areas.
+This year more than 100 presentations were selected by the EBM scientific
+committee. These presentations really reflected the epistemological positioning of
+the meeting. We have selected 19 of the most representative ones for the book.
+The book will give the reader an overview of the state of the art in the evolutionary biology field. The book is the sixth that we have published further to the
+meeting. I would like to underline that the six books are complementary to each
+another and should be considered as tomes.
+The reader of evolutionary biology books as well as the meeting participants
+would maybe, like me, witness years after years during the different meetings and
+book editions a shift in the evolutionary biology concepts. Obviously, this shift is
+not only specific to this meeting but also reflects a general trend in the evolutionary
+biology community and the scientific community.
+We shifted slowly in a few years from bifurcative phylogenetic trees thinking of
+evolutionary processes to a phylogenetic network thinking (Chaps. 10 and 11)
+indicating that the part of horizontal evolution should not be neglected. The HGT
+hybridization and the speciation process do not lead to clear-cut separation
+between species but to more or less mosaic evolution (incomplete lineage sorting).
+In regard to the HGT concept, scientists interested in the origin of life questions
+do not think any more or much less of the Last Universal Common Ancestor
+hypothesis (concept linked to a tree view of evolution) but to a world with
+independent protocells, each of them bringing its own metabolic contribution to
+the protocells community (Chap. 6).
+Another new discovery that will be important to shifts in evolutionary biology
+thinking is the revolutionary concept of transgenerational epigenetic showing that
+heredity is not only based directly on the genetic code (Chap. 13).
+I am still puzzled that the adaptationist thinking stays very much alive and the
+fact that evolutionary models (mathematics and informatics) rely strongly on that.
+In fact, the participation of the adaptive evolution on evolutionary shift is likely
+to be minor, but this is my hypothesis; let us see what will happen in the future and
+especially at the EBM.
+As for the last book, we start the book with a chapter, then explain the history of
+great discoveries, and the life and scientific contribution of major contributors in
+the field.
+The following articles are organised in the following categories:
+Evolutionary Biology Concepts
+Exobiology and Origin of Life
+Evolutionary Mechanisms
+I would like to thank all the authors, the meeting participants, the sponsors: Aix
+Marseille Université, Conseil Général 13, GDR BIM, ITMO, Region PACA, Ville
+de Marseille.
+I also wish to thank Springer’s edition staff and in particular Andrea
+Schlitzberger for her competence and help.
+I wish also to thank members of the Association pour l’Etude de l’Evolution
+Biologique (AEEB) and the members of the Evolutionary Biology Modelling
+Laboratory.
+Finally, I thank the AEEB coordinator: Marie Hélène Rome for the organisation
+of the 16th EBM and her help with the book.

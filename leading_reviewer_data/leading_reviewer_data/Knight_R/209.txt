@@ -1,0 +1,21 @@
+This intriguing hypothesis draws on the now well-established principle that parasites and microbes can affect host behavior to suggest that some religious rituals that have the effect of increasing pathogens transmission might in fact be under the control of the pathogens that are thus transmitted, conferring a selective advantage.
+
+The hypothesis is intriguing, and to my knowledge novel.
+
+There are some concerns that should be addressed:
+No actual data are presented in favor of the hypothesis; this would of course strengthen the manuscript considerably.
+
+We know that gut bacteria (e.g. in Vijay-Kumar et al. 2010 Science, and numerous subsequent studies that should also be cited) can affect behavior, so it is not necessary that microbial differences would be found in brain tissue itself as proposed by the authors.
+
+Many religious rituals involve washing, avoidance of potentially contaminated food sources, restrictions on sexual partners, etc. Is the proposal that some parasites are better at manipulating host behavior than others, such that particular religious traditions are associated with the parasites they benefit and would there be some competition between those parasites and the parasites that are disadvantaged by the rituals? More thought is needed here.
+
+It would be interesting to isolate sanitation from other variables that are often correlated with it, but this might be difficult. The authors should consider modeling frameworks that allow conclusions to be drawn from highly confounded and multivariate datasets.
+
+The taxa identified in the brain transcriptome data are common low biomass/lab contaminants. Substantial additional work, including qPCR, would be needed to confirm these taxa in brain tissue in a convincing way. In general, it is very hard to get correct identifications from shotgun metagenomic sequencing of highly host-contaminated samples, and special procedures analogous to those used for forensic and ancient DNA studies need to be employed to avoid contamination. The alpha proteobacteria are an entire bacterial phylum, and the generalizations about the properties of the very different organisms listed are not helpful and this section should be removed. In general, this analysis is very weak and should either be omitted, leaving this a pure hypothesis paper, or done correctly with careful positive and negative controls. The methods e.g. for taxonomy assignment are also not well described, and in general doing this correctly will take a lot of additional work beyond what is in the present version of the manuscript.
+
+Additionally, some additional connections might be useful to draw:
+Toxoplasma infections have been connected to schizophrenia, which is connected to religiosity, so data confirming/denying the Toxoplasma-religion link might already be available
+
+Fasting has also been observed to change the microbiome in burmese pythons, mice, and hibernating ground squirrels (and possibly other taxa), this should be mentioned and cited.
+
+Different components of religious rituals might be affected by different taxa: how correlated are the different components of religious practice from a comparative religion standpoint? e.g. do people who kiss idols also tend to avoid multiple sexual partners?

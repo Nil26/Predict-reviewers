@@ -1,0 +1,8 @@
+Reviewer summary
+One of the key problems in cancer genomics data is the identification of driver mutations distinction from from passengers mutations. There are a number of known algorithms for the purpose but current approaches are often limited by biases in structural assignments as well as by the inaccuracy of the statistical background models. To stear clear of these problems the authors offer statistically-based method that considers statistically significant missense mutations, in-frame insertions and deletions in a unified statistical framework.
+
+Reviewer recommendations to authors
+This is a piece of careful work and the results are convincing. One important issue is how an method can be maintained as the databases change and new raw data become available. the authors may want to add a few sentences how their method differs in this respect from other methods.
+
+Minor issues
+The authors may want to go through the English of text which is however clear and understandable in its present form.

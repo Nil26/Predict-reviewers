@@ -1,0 +1,45 @@
+Endorse publication
+
+-In this manuscript, Tice and co-workers contribute to clarifying the phylogeny of Acanthamoebida through phylogenomic analysis and better circumscribing the morphological and cell biology features of the group. Thus, by showing that some amoeba species of previous uncertain position belong to this clade, the range of phenotypic characteristics for this important group of free-living and parasitic amoeba is expanded. While the analyses are well done and the information obtained in this way is relevant for protistologists and other biologists interested in amoeba, the manuscript needs to be significantly improved, as follows.
+
+Major comments: 1. The work is very descriptive and, in many points, excessively specific for the generalist audience of Biology Direct. Therefore, a considerable didactic effort must be done in order to communicate to the broader readership the key points of the message that the authors are trying to pass: i) what was known about this group (a real introduction of the lineages later discussed in the paper), ii) what is the problem that you are addressing (e.g. clarifying the position of certain strains), iii) what your results solve in this respect and iv) what are the further implications of your findings for general amoebal phylogeny and protistology. This information is hidden in the text and it will be very difficult for a non-specialist reader to get the message. I would invite the authors to revise their text accordingly, and eventually restructure some sections, in particular the discussion, to provide a more cohesive manuscript that highlights the important points.
+
+The conclusion section is trivial as it is; I would suggest making a true conclusion of this particular work, or removing it.
+
+2. While some parts of the text can be streamlined (condense excessively detailed and/or hypothetical diversions in the results and discussion) to make your message clearer, there is a significant part of the information missing from the main text. For instance, what is the rational to remove part of materials and methods from the main text while keeping the "325 gene analysis" section? I would suggest including a synthesis of all materials and methods used; an extended, more detailed version can be then included as supplementary material.
+
+Also, the species diagnoses must be in the main text.
+
+3. Traceability is essential for any work of these characteristics. I suggest you provide a table in the main text including the name of all the Acanthamoebida strains used, the proposed new name (if applicable), the original source of the strain (the type of environment they were isolated from, who isolated them-reference if available) and the accession number in a culture collection. You might also include a few key morphological descriptors. Such a table could greatly improve the presentation of the basic data.
+
+Descriptions of new species and re-descriptions of old ones must be improved at specialist level (include morphometric data, for instance, and full authorship of revised taxa), but these extended descriptions of each species can be included as supplementary information.
+
+Minor issues
+
+Line 36, abstract, "we greatly increase the diversity". You include only a few additional species to the known diversity, you might perhaps refer to the expansion of morphological traits for the group
+
+Line 42, please define what you mean by 'spore' and 'cyst' for the reader and keep a homogenous nomenclature along the manuscript
+
+Line 51, one key word is "Acanthamoebic keratitis" – this is not mentioned at all in the manuscript.
+
+cited literature, especially in the introduction, is not always relevant and sometimes looks a bit randomly selected. Please, check this.
+
+Lines 71-87. This can be summarized in 1-2 sentences, as it is not the topic of this manuscript. By contrast, a more careful presentation of the phylogenetic context (e.g. Pellita, Endostelium or Stereomyxa, which are relevant for your manuscript) would be welcome.
+
+Line 158, "which should be examined…", not a result.
+
+Line 198, define 'uroid.
+
+Lines 236-242. This could be removed or shortened, as the taxonomic sampling in your manuscript is not as extensive as that in the mentioned work, so the comparison is limited
+
+Line 269. You should include the family labels in the corresponding tree.
+
+You might consider making a larger (or 2) figure with more or larger pictures where details (e.g. of cysts) are visible
+
+Additional file 7: Figure S1 does not display any bootstrap value (contrary to what is mentioned in the figure legend).
+
+Endorse Publication
+
+Reviewer Summary:
+
+The manuscript has been considerably improved and I have no further comments

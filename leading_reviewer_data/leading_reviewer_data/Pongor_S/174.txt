@@ -1,0 +1,17 @@
+The study of Siwiak and Zielenkiewicz examines the co-regulation of translation rates of interacting proteins, using analysis of correlations of several translational parameters assigned to proteins in the interaction network. These parameters are derived from a computational model of translation described in the authors’ previous works and further developed in this paper. The main conclusion of this research is that members of stable complex subunits and party hubs tend to be translationally co-regulated, which is not the case for interactions with regulatory proteins and date hubs. The authors suggest that such regulation may be “energetically favorable” and facilitate complex formation.
+
+The presented article regards important an interesting, yet very weakly understood natural phenomenon. The authors present convincing analysis based on well-designed tests performed on carefully chosen protein-protein interaction data. The authors have chosen to report the correlations as confidence intervals instead of just p-values, offering readers much more reliable and comprehensible results. Generally, the text is well written and suitable for publication in BiologyDirect.
+
+Minor things:
+
+1) Weak correlations for binary PPIs sets, received mainly from Y2H experiments, may be caused by limitation of this experimental methodology in detection of low-affinity protein-protein interactions (requiring higher concentrations of substrate subunits). Such limitations should be mentioned in the discussion.
+
+2) Page 1: Abstract, Conclusions. It is not clear to me if the results obtained for E.coli are indeed similar to those for other two organisms, as the set used for E.coli (“intra-operon PPIs”) was treated as a “positive control”. Besides, the name of this set is confusing. Although authors stressed that this set does not need to include physically interacting proteins, the acronym “PPI” suggests it.
+
+3) Page 5: What does “modes” in “comparisons of modes” refer to?
+
+4) Page 9-10: Inconsistent use of the index “i”, e.g. “i gene’s mRNAs”.
+
+5) Page 13: Line 2, “transcritption” instead of “transcription”.
+
+6) General remark: A table of parameters (including abbreviations) used for calculations would be very helpful.

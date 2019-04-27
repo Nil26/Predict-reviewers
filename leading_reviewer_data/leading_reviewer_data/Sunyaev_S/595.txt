@@ -1,0 +1,7 @@
+This very interesting manuscript presents a toy computational model of an evolving cell. Although the model has a high level of abstraction, it incorporates many features of a real living cell. Several types of mutational events are allowed. Fitness of an organism is somewhat arbitrary, although reasonably, defined as the ability to maintain homeostasis.
+
+The model allows investigating the gene network structure of organisms reaching high fitness. These structures appear to be surprisingly diverse given relative simplicity of the model. The authors specifically focus on number of genes, which they consider a proxy to "complexity". This analysis provided a few interesting counterintuitive results.
+
+The discussion section of the manuscript is interesting but sometimes speculative. It probably can be made clearer and concise. Some explanations of the "complexity burst" can be possibly merged. Also, high per genome mutation rate is proposed to explain both increase and reduction of complexity.
+
+In sum, the manuscript convincingly shows that simple computational models can contribute greatly to current studies on evolution of biochemical and regulatory networks.

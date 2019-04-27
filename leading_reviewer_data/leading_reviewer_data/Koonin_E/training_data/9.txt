@@ -1,0 +1,17 @@
+Swift publication would reward good reviewers
+
+Sir
+
+I completely agree with T. Clausen and O. B. Nielsen, who say in Correspondence (Nature 421, 689; 200310.1038/421689b) that peer-reviewing needs to be adequately rewarded for the system to work efficiently. However, their proposed remedies, such as mandatory inclusion of reviews in CVs, do not seem promising, not least because this is already routinely done and does not seem to change the general picture.
+
+While toiling on my considerable backlog of manuscripts to review, I came up with a scheme that might stand a better chance of improving the situation: diligent reviewing could be rewarded by speeding up publication of the reviewer's own research.
+
+Currently, most of the prominent journals impose a strict deadline (typically between 7 and 14 days) on reviewers, yet the level of compliance is dismally low, as any author waiting for longer than two months for reviews of a submitted manuscript can testify.
+
+My suggestion is that a researcher who meets the deadline for a particular journal with satisfactory reviews on, say, six consecutive occasions within a two-year period is guaranteed by the journal that his or her next submission will be given privileged status and reviewed within that same deadline. If the journal's editor cannot receive reviews of a privileged submission before the deadline, the journal would have to make a decision based on the other referees' comments or, if none had been received, accept the paper as it stands.
+
+A possible variant is for journals that reject many submissions without review to guarantee to review a privileged submission (again, within the deadline). This is unlikely to burden these high-profile journals with piles of junk, because an individual writing six or more useful reviews for one of them within a limited time span is, by definition, a highly competent researcher.
+
+Of course, a crucial aspect is the notion of a 'useful' review: to earn a privileged submission, reviews would have to be of high quality, as judged by the journal's editors, rather than one-liners. I believe that such direct feedback between a researcher's own publications and reviewing activity could seriously improve the peer-review system.
+
+Feedback loops do wonders in biological systems; they just might work for science, too.

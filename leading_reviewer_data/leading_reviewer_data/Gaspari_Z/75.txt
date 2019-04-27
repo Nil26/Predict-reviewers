@@ -1,0 +1,15 @@
+The manuscript describes a method to estimate the binding affinities of peptides to human PDZ domains. The method is based on structural modeling of the complexes. The approach is interesting and combines previous results in a meaningful and usable manner. The corresponding web service is well designed and offers useful functionality. Overall I think that the workflow has its merits and is of importance in its field.
+I have remarks about the presentation and discussion of the results.
+
+- The study implies that backbone structural variations both in the PDZ domain and the bound peptide are negligible. It would be advisable to provide a justification of this premise.
+
+- Can the authors offer any (structure-based) explanation for the differences in performance on different PDZ domains?
+- Please comment on the relation of the approach and known variations of PDZ:peptide binding modes, with emphasis on PDZ-PDZ supramodules (e.g. Feng & Zhang, 2009, Nat Rev Neurosci 10:87).
+- Please provide a more robust justification for using the BT pair potential instead of referring to its application in your previous work also.
+Minor issues
+- Please refrain from using the phrase “most homologous”, use “most similar” instead. Please comment on whether here overall similarity or local similarity (in and near the binding site) can yield more reliable results and please state explicitly how you used and measured the similarity in this respect.
+- Please explain in detail how exactly the 98 % estimate of the human PDZome and its interactions potentially covered by the approach was obtained.
+-In Additional file 1: Table S1, please give the minimum and maximum ROC values and the standard deviation besides the averaged value.
+- I suggest to combine the Supplementary tables into a single Excel file with multiple tabs.
+
+

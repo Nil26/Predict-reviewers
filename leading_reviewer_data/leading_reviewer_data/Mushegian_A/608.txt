@@ -1,0 +1,17 @@
+Good: 1. Part 2: the main idea appears to be to trade a more complex model for a larger training set. This seems to improve specificity of the splicing site detection.
+
+Two relevant issues that are not discussed but should be: a. In Figure ​Figure3,3, all ROC curves are still below the non-discrimination line – is this acceptable.
+
+b. Gain of the current method is more evident in the lower FP zone, where sensitivity is also low.
+
+2. A repertoire of intronic splicing enhancers was detected, which is interesting. Not so good: 1. Very unclear writing at different levels:
+
+a. Various inconsistencies and poorly defined terms, for example on pg. 3–4, authors say that they compiled two test sets, and then describe three. Or on pg. 4, line 8 and further: what is "cross-correlating"?
+
+b. section 3.1 : MHMM is not described well: we see a mix of introductory references on general HMMs, of more specialized references that may be telling something relevant but we do not know that, and cat's cradle pictures which are not self-explanatory (and what about these mu parameters?).
+
+2. The Results section mentions the programs that work less well than SpliceScan. But we do not hear about comparison between SpliceScan (which barely gets over the non-discrimination line) and half a dozen other, more successful methods represented on the same plots. If the goal of the work was to improve the ab initio approach (cf a line in the abstract), this has to be maintained as the message throughout the paper.
+
+Overall, this manuscript reads more like the technical report on the ongoing project than a stand-alone paper.
+
+I declare that I have no competing interests.

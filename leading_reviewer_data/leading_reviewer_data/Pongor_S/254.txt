@@ -1,0 +1,11 @@
+The authors present transcriptome sequencing studies on the Alvinella pompejana worm that lives in high temperature environments. A. pompejana is an attractive eukaryotic model organism both for studying thermoadaptation and also because thermophylic proteins hold promise for structural studies. The paper presents a significant advance in the sequencing of this organism, a large number of potential ORFs were discovered which warrants publication in itself. The manuscript also presents a variety of data coming from and evaluated by different techniques. The authors also conducted biophysical tests that showed that not all A. pompejana proteins are thermotolerant, indicating that the thermotolerance of this species may not be as outstanding as previously thought.
+
+I recommend the following points to the attention of the authors:
+
+At the first sight, the title and abstract does not make it clear whether or not the CvP index is defined here, or is it already known. I suggest to clarify this, for instance by adding a restrictive adjective, something like “…identifies the CvP-bias as a (reliable, robust) measure of eukaryotic thermostability”. CvP-bias was described in several articles including PMID: 16494505. Since CvP-bias is part of the main message, these papers could be cited in the introduction.
+
+We have now changed the title to “.identifies the CvP-bias as a robust measure…”. We also changed one sentence in the abstract to clearly state that we looked at already known measures “We then performed an extensive survey of previously established prokaryotic thermoadaptation measures” We also included a reference to PMID: 16494505 (ref. 18).
+
+Even though the technical parts are well separated from the main text of the paper, at times the manuscript is still difficult to read, simply because many techniques are used in the project. This could be helped by emphasizing the main messages clarifying the details. For instance, ROC curves presented in Figure ​Figure44 could be complemented by a tabular comparison of AUC values. The panels of Figure ​Figure44 are too tiny and crowded in my opinion. Also, more details in the Figure legends would improve readability.
+
+We have included the AUC values in Figure ​Figure44 and give more details in the figure legends.

@@ -1,0 +1,11 @@
+This is an interesting manuscript on molecular evolution and structural analysis of the HIV protease. The goal of the study is to use co-evolution of amino acid pairs for proposing drug binding sites immune to mutational escape. Although the work is of interest, I have a few comments listed below.
+
+The approach based on the contingency table analysis ignores phylogenetic structure of the dataset. This may lead to false-positive predictions of co-evolved residues. It is clear that the size of the dataset prevents any accurate phylogenetic analysis. However, it should be easier to verify that selected clusters cannot be explained by phylogeny and represent a real signal of co-evolution. At least, the manuscript would benefit from a detailed discussion of this point.
+
+It is unclear why does the method treat variation in all positions as bi-allelic (mutated or non-mutated genotype). It is possible that taking into account actual amino acid types would be more informative. Again, this point warrants at least a detailed discussion.
+
+The manuscript would benefit from the clarification of the main hypothesis. Why would a single mutation at the SL cluster be always insufficient for an efficient escape?
+
+The authors observe co-evolution rather than synthetic lethality. This result can be explained by a very moderate fitness loss rather than lethality. This is a serious complication for the anti-escape strategy. It would be great to discuss this issue.
+
+It is of interest that the majority of SL pairs are distant. Possibly, this warrants an additional discussion as well.

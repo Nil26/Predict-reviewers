@@ -1,0 +1,11 @@
+Detecting positive selection at the DNA sequence level is of substantial interest in view of the role it may play in pathogenic events. Glazko and coworkers show, using three statistical tests developed for the purpose, that the mutational hotspots of the TP53 gene evolve by positive selection. In view of the general interest of the topic I sought the advice of Dr. Lawrence Banks who is a biologist working on p53 mutations. We both felt that the calculations are thoroughly planned and the results support the main message of the paper.
+
+The presentation of the paper could however be improved with special respect to the wide audience of Biology Direct. The most important criticism is that p53 mutations can lead both to inactivation and/or to GOF type changes, and these two groups may need to be analyzed separately. Currently, the reader may not see clearly if positive selection was found only in the case of GOF-type mutations or also in the case of inactivating mutations.
+
+Minor points:
+
+- In the Background section it might be useful to add 1) a brief description of mutation types found in p53 as well as their biological roles; and 2) a paragraph describing the mathematical approaches to detecting positive selection. These sections may help the reader in understanding what has been done and what is being accomplished in this work.
+
+- It may be useful to carry out the statistics on subgroups (GOF or inactivation)
+
+- In order to show the strength of the statistical methods presented here it might be useful to consider tests similar to those described by Jianzhi Zhang (Mol. Biol. Evol. 21(7): 1332–1339, 2004).

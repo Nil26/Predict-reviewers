@@ -1,0 +1,363 @@
+The Place of Viruses in Biology in Light of the Metabolismversus-replication-first Debate
+
+ABSTRACT - The last decade has seen a revival of old virocentric ideas. These concepts
+are heterogeneous, extending from proposals that consider viruses functionally as living
+beings and/or as descendants of viral lineages that preceded cell evolution to other claims
+that consider viruses and/or some viral families a fourth domain of life. While the debates
+about whether viruses are aUve or not and whether some virus-Hke replicators preceded
+the first cells fall under the long-lasting dichotomous view on the nature and origin of life
+(metabolism- versus replication-first), the claim that some giant viruses form a fourth domain
+in an organismal tree of life is not consistent with current evidence and can be falsified.
+KEYWORDS - Tree of life, metabolism, self-replication, origin of life, definition of life,
+giant viruses, horizontal gene transfer, evolution
+
+Introduction
+At the beginning of the twentieth century, the conditions for a
+scientific investigation into the origin of Hfe on Earth were estabHshed.
+The rebuttal of continuous spontaneous generation by Louis Pasteur in
+the 1860s and the pubHcation of On the Origin of Species in 1859 by
+Charles Darwin, led inevitably to the question of how the first Hfe forms
+emerged. At the same time, immense progress in organic chemistry,
+biochemistry, cytology, and, among other advances, the discovery of^
+the crucial importance of the cell nucleus, made it possible to approach
+a question that had remained untu then too complex and intractable
+(Fry 2006). From very early on, however, two clear ideological currents
+emerged. One current gave primacy to self-repHcation (making copies
+of itself) as the crucial starting point for Hfe and the other gave primacy
+to metaboHsm or self-maintenance. This persistent chicken-and-egg
+dichotomy corresponded, in the terminology of the time, to a nucleus
+© 2012 Stazione Zoológica Anton Dohrn
+
+versus cytoplasm debate. Accordingly, hypotheses on the origin of life
+subscribed either to nucleocentric or C3^oplasmic views of life.
+Among the important discoveries due to microscopy and other technological advances at the onset of the twentieth century was the discovery of viruses. Viruses were first discovered at the end of the nineteenth
+century when the Russian botanist Dmitri Ivanovsky (1892) observed
+that suspensions of plant tissues afflicted with mosaic tobacco disease
+were still infectious after passage through ceramic filters that retained
+bacteria. This observation was confirmed in 1898 by one of the spiritual founders of the so-called Delft school of microbiology, Martinus
+Beijerinck, who popularized the term "virus" to refer to the filterable
+infectious agents (reviewed in Podolsky 1996). A few years later, Erederick Twort (1915) and Eelix D'Hérelle (1917) discovered viruses infecting bacteria, which were subsequently called bacteriophages. It is not
+surprising that at the time many researchers considered the mysterious
+viruses, with their infective capacities and their small sizes, the simplest
+living entities. As such, they were intermingled in the debate on the origin of life for several decades with different connotations: the virus as a
+metaphor for the simplest form of Hfe, the virus as a functional model
+(an independent existing gene) and, collectively, the viruses as a phylogenetic lineage with historical continuity that could be placed between
+the chemical world and the first cells (Podolsky 1996).
+The importance of viruses for models on the origin of life and on the
+concept of what is life has vacillated over time. As reviewed in Podolsky
+(1996), until the mid-1930s the idea of a virus-centered origin-of-life was
+gaining credence. As early as 1914, the American psycho-physiologist
+Leonard Troland had envisaged that the first life form might have been
+an "enzyme or organic catalyst" (Troland 1914), although he later spoke
+of a "genetic enzyme," and identified it with nucleic acids and proteins
+in the nucleus (T'roland 1917). Subsequently, Herman Muller adopted
+and simplified Troland's ideas, replacing "genetic enzyme" with "gene"
+(Ery 2006). In 1922, Muller made a clear conceptual link between virus
+and gene, saying that "there is no distinction between genes and them
+[viruses]" (Muller 1922) and, in 1929, he openly proposed that the first
+living organism was a primitive gene (Muller 1929). The same year, John
+B.S. Haldane, in his essay on the origin of life, extended that operational view to a more phylogenetic view, asserting that "life may have
+remained in the virus stage for many millions of years before a suitable
+assemblage of elementary units was brought together in the first cell"
+(Haldane 1929). Along the same line of thought, Alexander and Bridges
+conceived of self-copjdng entities such as genes and viruses as the simplest components necessary to life, even dividing living beings into two
+
+THE PL ACE OF VIRUSES IN BIOLOGY
+
+taxonomic categories, "Cytobiontia" (ceUular organisms) and "Ultrabiontia" (viruses) (Alexander and Bridges 1928). The syUogism, "smaUest
+= virus, smaUest = first, so that virus = first" (Beutner 1938), was readUy
+accepted during those early years; the nucleocentric view of the origin of
+life was also virocentric.
+This view, however, soon feU out of favor largely due to the cytoplasmist Alexander I. Oparin's extensive work on the origin of Ufe. Oparin
+conceived the origin of life from a biochemical or "coUoidal chemistry"
+perspective, placing the emphasis on metaboUsm (Oparin 1938). For
+Oparin, life was a self-regulating system of catalytic reactions. In addition to Oparin's influential model for the origin of life, several investigators caUed into question the progressivist view of viruses. Robert G.
+Green perceived viruses as products of the most extensive rétrogradation and parasitization (Green 1932). This regressive view of viral evolution, shared by André Lwoff (Lwoff 1943; 1957), was increasingly accepted. Furthermore, Haldane affirmed that "most evolutionary change
+has been degenerative" (Haldane 1932). Haldane's position became,
+however, increasingly conciUatory to Oparin's views. Although Haldane
+identified life with molecular self-reproduction, he pointed out that in
+a true Uving system the function of any part, including genes, depended
+on the cooperation of aU other parts (Fry 2006).
+Nucleocentric views of life regained credence after the discovery that
+DNA was the genetic material (Avery et al. 1944) and, most importantly,
+after determination of the DNA structure, which suggested an elegant
+self-copying mechanism (Watson and Crick 1953). It was also shown
+that the nucleic acid component of viruses was the infectious component
+(Hershey and Chase 1952). Consequently, the association of virus - nucleic acid - gene was easy to make. Even so, the initial notion that viruses
+were phylogeneticaUy the most primitive organisms on Earth was abandoned in the 1950s in favor of an operational view according to which
+viruses were seen as metaphors for "living genes" (Podolsky 1996).
+Virocentric ideas on the origin of life were largely abandoned in the
+1960s and throughout the remainder of the twentieth century. This was
+due to two major factors. First, advances in biochemistry and molecular
+biology led to the recognition that viruses were strict molectilar parasites. Since then, viruses have been considered biological entities able,
+like genes, to evolve but unable to self-repUcate and to self-sustain, a
+position StiU held by the International Committee on Taxonomy of Viruses (van Regenmortel 2000; 2008). Second, the discovery was made
+that some RNAs have catalytic activity and, thus, display dual functions
+as informative polymers and catalysts. This and the discovery that the
+highly conserved ribosome is a ribozyme, led to the development of the
+"RNA world" as a powerful model of early life evolution (for a review,
+see Orgel 2004; Robertson and Joyce 2010). RNA replaced viruses in
+origin-of-life thinking: nucleocentric views on the origin of life were no
+longer virocentric.
+Renaissance of old virocentric ideas: what's new in the viral world?
+At the beginning of the twenty-first century, a renaissance of old
+virocentric ideas has taken place. Interestingly, this revival is taking
+place at both an operational level, with viruses seen functionally as
+living beings (Raoult and Forterre 2008), and at a phylogenetic level,
+with viruses viewed as descendants of viral lineages that preceded cell
+evolution (Bamford et al. 2005; Koonin et al. 2006). Additional claims
+assert more strongly that viruses and/or some viral families form a
+fourth domain of life (Raoult et al. 2004; Raoult and Forterre 2008).
+Some authors even consider viruses as "capsid-encoding organisms,"
+a renovated version of the Ultrabiontia, as opposed to "ribosomeencoding organisms" (cells) (Raoult and Forterre 2008). Collectively,
+these proposals are heterogeneous and, as we will see in the following,
+whue some of these ideas fall under the two rival views on the nature
+and origin of Ufe (metabolism versus genetic information), others are not
+consistent with current evidence and can be falsified (López-García and
+Moreira 2009; Moreira and López-García 2009).
+Why have these virocentric proposals been revived? The reasons
+are to be found in the considerable progress that is being made in viral
+research at various levels, from molecular and structural biology to
+ecology and evolution.
+A vast amount of knowledge about the structure and infectious cycles
+of viruses from very different families has been acquired in the past
+decades. The development of genomics has made it possible to sequence
+and compare RNA and DNA viral genomes, and also to compare those
+sequences to the host genomes. Contrary to recent virocentric claims
+asserting that "viruses have been neglected by evolutionary biologists"
+(Raoialt and Forterre 2008), viruses have served for decades as models
+in population genetics - often from an epidemiológica! standpoint because they evolve fast and have large population sizes. These factors
+allow for the testing of predictions based on different hypotheses (e.g.
+Gojobori et al. 1990; Lauring and Andino 2010).
+In recent years, it has also become clear through comparative genomics and phylogenetic analyses that viruses are active vehicles for horizontal gene transfer (HGT). Viral genomes or genome fragments (DNA
+
+THE PLACE OF VIRUSES IN BIOLOGY
+
+or retrotranscribed RNA) can recombine with host DNA, sometimes
+being inserted into host genomes and remaining latent in a proviral state
+until they are activated and enter an active repUcative and infectious
+phase. Fragments of viral DNA can also be incorporated between short
+palindromic sequences in regions known as CRISPRs, which provide
+immunity to bacteria and archaea against specific viruses (Horvath and
+Barrangou 2010). By recombining with host genomes, viruses can pick
+up genes from ceUs or insert genes of foreign origin (either from viral
+or from distant ceUular donors) into ceU genomes. Therefore, they can
+affect and promote host evolution by transferring genes among ceUular
+lines, an important phenomenon in evolution (Gogarten and Townsend
+2005), or by promoting recombination of ceUular genes (Zeidner et al.
+2005). Some ceUular genes, occasionaUy leading to innovations, appear
+to come from viruses, such as the telomerase enzyme (Eickbush 1997;
+Nakamura et al. 1997), or syncytin (of possible retroviral origin), found
+in placental mammals (Dupressoir et al. 2009). However, genes associated with viral genomes evolve fast, so that determining whether viral
+genes are truly viral or whether they correspond to fast-evolving cellular
+genes is extremely difficult. The contrary is certainly true: ceUular genes
+are captured by viral genomes. This may happen accidentaUy, but occasionaUy the genes are nonetheless retained by selection. For instance,
+genes encoding elements of photosystems II (SuUivan et al. 2006) and I
+(Sharon et al. 2009) have been found in many cyanophages. These genes
+are expressed and appear to confer an advantage during phage infection.
+Another important element contributing to the renovated virocentric debate is the realization that viruses are extraordinarily diverse and
+abundant. This diversity has been revealed by classical studies on viruses infecting divergent ceUular lineages and also by the development
+of new approaches, notably metagenomic analysis of viral fractions in
+various environments. Thus, studies on viruses infecting hyperthermophilic archaea revealed an unsuspected variety of new viral families, including new morphotypes. Some of these viruses can even experience
+morphological changes that render them infective when exposed to high
+temperatures (PrangishviU et al. 2006). A landmark discovery in recent
+years was that of giant viruses with very large genomes infecting amoeba.
+Some of these genomes exceed the size of some parasitic bacterial genomes and possess some homologues to ceUular genes involved in typical ceUular processes, including translation (Colson et al. 2011; Raoult
+et al. 2004). Some of these giant viruses can even be parasitized by other
+viruses (La Scola et al. 2008). At the same time and at the ecosystem
+level, DNA-staining of ultra-filtrates supposed to be free of bacteria suggested that viral particles (virions) can be up to an order of magnitude
+more abundant than ceHs in ocean plankton. These studies prompted
+the metagenomic analysis of such ceH-free fractions by direct DNA or
+retrotranscribed-DNA sequencing, and revealed immense viral genetic
+diversity (CuHey et al. 2003; Edwards and Rohwer 2005). Since then,
+metagenomic analyses of viruses are expanding and, with them, the discovery of novel groups of viruses and virus-like agents (Kristensen et al.
+2010).
+CoHectively, viruses constitute a huge genetic reservoir and are important engines of cellular evolution (Rohwer and Thurber 2009; Suttle
+2007). Not only are they vehicles for HGT between ceHs and contribute
+to the acceleration of gene evolutionary rates (leading potentiaHy to the
+evolution of novel functions in ceHs), they also impact ceH evolution via
+their regulatory effect on ceH populations. Viruses regulate populations
+by inducing ceH lysis, contributing to both biogeochemical cycles and
+the maintenance of biodiversity via a "kiH-the-winner" mechanism (Rodriguez-Valera et al. 2009; Suttle 2007). They also contribute to ceHular
+evolution by "Red Queen" effects; i.e., generating an arms race involving
+the continuous evolution of resistance by hosts to novel virus variants.
+Recently, they have even been shown to influence ceH cycle changes in
+the photosynthetic picoeukaryote Emiliania huxleyi, promoting a change
+from a diploid non-motüe to a haploid motile and virus-resistant phase,
+a so-caHed "Cheshire cat" escape strategy (Frada et al. 2008).
+Dissecting current controversies on the place of viruses in biology
+The accumxolated knowledge about virus diversity and their undeniable role in cellular evolution have revived virocentric debates. These
+are various, but can be generally classed into two types. The first is conceptual and relates to the definition of viruses and whether or not they
+can be considered aHve from an operational point of view. The second
+is phylogenetic and relates to the actual possibüity of placing viruses in
+the tree of Hfe.
+Epistemological considerations: are viruses alive?
+Biologists work on Hving organisms but do not generaHy define Hfe
+and do not feel comfortable with the task. This is largely due to the difficulty in delimiting barriers to some kind of natural continuum. Defining life, as with defining species, is therefore problematic. However, this
+should not prevent biologists from reaching a consensus on what is life
+(Morange 2011). Indeed, when some biologists say that viruses are alive.
+they implicidy apply a definition of life. There are many definitions of
+life and/or living organisms that incorporate more or less long lists of
+properties (Luisi 1998). However, when reduced to essentials, they can
+be aligned along the two historically opposed views on the origin of life,
+metabolist (cytoplasmist) versus geneticist (nucleocentric).
+Eor metabolist views - more popular among biochemists and physicists - the essential property of life is self-maintenance. Obviously, viruses do not conform to such a definition of life because they lack any
+form of metabolism. Despite all the recent fascinating discoveries about
+the extent of viral diversity and their role in cellular evolution mentioned
+above, none of these discoveries actually challenges the basic essence of
+viruses: they are strict molecular parasites unable to transform energy
+and matter. They are unable to "create order from disorder" and actively keep the system far from thermodynamic equilibrium. Nonetheless,
+some authors have recently tried to accommodate viruses within this
+type of definition by using a conceptual trick. According to them, viruses
+would be quasi-autonomous entities whose true state is the "cell factory"
+or the "virocell"; i.e., the transformed infected cell actively replicating
+the virus. Virions, they say, should not be confounded with viruses, just
+as fish eggs should not be confounded with fish, or human spermatozoids with humans (Claverie 2006; Claverie and Abergel 2010; Eorterre
+2010). Using this artifice, the properties intrinsic to life (cells) are transferred to the virus. However, for a scientist, there is no doubt that a fish
+egg of a given species is a member of that species just as the adult fish
+is; they are both part of the life cycle of that species. The same applies
+to viruses: virions are viruses just as the viruses being actively replicated
+within the cell are viruses; they are both part of the infective viral cycle
+(Moreira and López-García 2009; Van Regenmortel 2010). Defining an
+entity (a virus) in terms of itself plus a portion of another entity (a cell)
+is alien to logic and can be considered as epistemological cheating. Viruses, unlike cells (including obligatory parasitic ceUs), are devoid of
+metabolic capabilities and cannot be deemed alive if self-maintenance is
+considered as the irreducible property of life.
+Eor geneticist views, the essential properties of life are self-replication
+and evolution. Evolution is a consequence of imperfect replication generating variants upon which drift or natural selection can act. Viruses
+do evolve, but are unable to self-replicate. Consequently, this definition
+of life does not accommodate viruses either. A seLf-replicating ribozyme
+would be alive (Robertson and Joyce 2010), but a virus would not be.
+Yet, many biologists consider viruses alive because they do evolve. However, viruses, like genes, do not evolve by themselves because they cannot self-replicate; they are evolved by cells, because they are replicated
+by ceUs (Moreira and López-García 2009). SimUarly, cultural traits such
+as language, art, or technology ("mêmes" according to Dawkins 1976),
+do not evolve by themselves; they are evolved by humans. At this point,
+we face two different possibiUties if we want to consider viruses aUve
+according to the geneticist view. Either anything that can evolve or be
+evolved is aUve, wlaich would include genes and mêmes in general, or the
+term virus is extended to accommodate a hypothetical capacity for selfrepUcation. The latter is precisely the option that some authors defend,
+namely those who maintain that viruses historicaUy predate ceUs. Thus,
+Koonin and co-workers proposed the existence of a "Virus World" preceding ceUs that were composed of self-repUcating virus-like genetic elements (Koonin et al. 2006). Modern viruses would derive from these
+virus-like entities. Similarly, others speak of self-repUcating proto-viruses at the origin of ceUs (Jalasvuori and Bamford 2008). These proposals
+invite ambiguity and introduce confusion because viruses as we know
+them do not self-repUcate. The term "virus" is being used not only as
+current non-self-reproducing viruses, but also as more generic genetic
+elements having properties that viruses actuaUy lack.
+Despite the ambiguity, these models, which propose that self-repUcating virus-like entities pre-date ceUs and are at the origin of modern
+viruses (Bamford et al. 2005; Jalasvuori and Bamford 2008; Koonin et al.
+2006), are fuUy comprehensible under a pure geneticist view of life and
+its origin.
+Methodological considerations: can viruses he placed in a phylogenetic
+tree of life?
+The unquestionable importance of viruses in biological evolution
+does not necessarUy authorize their inclusion in the tree of life. In addition to logical issues of the kind, "if viruses are alive, they should be
+included in the tree of life; if they are not aUve, they should excluded,"
+there are other issues that prevent any practical attempt to place viruses
+in the tree of life.
+The first issue has to do with the meaning of the tree of life and how
+to reconstruct it in practice. A tree of life may be defined as a conceptual representation of organismal history. Since organisms and ceUs form
+from pre-existing organisms/ceUs, this tree would proceed basically by
+successive branch bifurcation. Based on biochemical grounds and the
+universality of the genetic code, there is Uttle doubt that extant Ufe derives from a common ancestor. Therefore, a universal organismal tree of
+vertical descent must exist because, physicaUy, ceUs derive from ceUs.
+However, how to reconstruct such a tree from contemporary traits is far
+
+from trivial, because few traits are universally shared. In the late 1970s,
+Carl R. Woese had the idea of using universally conserved genes and,
+in particular, ribosomal RNA genes to build such a tree, which incidentally resulted in the discovery of the archaea (Woese and Fox 1977). The
+use of other conserved markers confirmed that initial topology. Subsequently, however, the important development of genomics and molecular phylogeny has revealed conflicting tree topologies for different gene
+markers. This is due to a number of reasons, among which one of the
+most important is the significant level of horizontal gene transfer, especially among prokaryotes (Dagan and Martin 2006). This has led to the
+proposal that a tree of life does not exist and that it should be replaced
+by a network of genes and genomes (Dagan and Martin 2009; Doolittle
+and Bapteste 2007), or by a forest of individual gene trees (Puigbo et al.
+2010).
+This controversy reflects again the dichotomous view of life. More
+metabolist views conceive of life in terms of organisms whose history can
+be reconstructed using a core of conserved gene markers and can be represented in the form of a tree of life. By contrast, pure geneticist views
+conceive of life in terms of genes and they deny the existence of a tree
+of life, because organisms are seen as mixtures of genes from different
+origins. Can viruses be placed in the tree of life? Paradoxically, under a
+pure geneticist view, which would be the only one that could accommodate viruses as living beings, a tree of life does not exist, making artificial
+the placement of viruses in such a tree.
+Independently of that theoretical consideration, can viruses be actually placed in the tree of life? Here, we need again to differentiate
+between two types of hypotheses. As mentioned, some hypotheses propose that viruses derive from an ancient "virus world" that preceded
+the evolution of cells (Koonin et al. 2006). They recognize that viruses
+cannot be placed in a tree of life because, among other things, they are
+polyphyletic, evolve fast, and the genes that they share with cells were
+mostly acquired by HGT from cells. Yet, they propose that there is a
+series of largely distributed "hallmark viral" genes and/or protein folds
+that are not present in cells and that could attest to ancient virus-specific
+genes (Bamford et al. 2005; Koonin et al. 2006). However, since viruses
+are indeed polyphyletic, there is not a single gene actually shared by all
+viruses, which impedes any attempt to construct a universal phylogeny
+of all viruses (this is, however, possible for independent viral families).
+Furthermore, the conclusion that particular viral capsid folds attest to a
+common origin (Bamford et al. 2005) ignores alternative explanations of
+the presence of common viral features in very different viral families or
+of viruses infecting very distant organisms. These include HGT, which is
+
+extremely frequent in viruses, but also host shifts (the capacity to infect
+distant hosts) and even convergence, which is relatively easy for simple
+structures such as icosahedral capsid proteins (Moreira and López-García 2009). Therefore, that similar capsid protein folds occur in distant
+viral families infecting distant hosts is not compelling evidence for those
+specific folds and viruses to actuaUy predate ceUs. Current data do not
+aUow verifjdng or falsifying this hypothesis.
+By contrast, the last type of hypotheses to be considered here proposes that homologous genes shared by cells and viruses either were
+transferred to cells from viruses (Forterre 1999; 2006; ViUarreal and De
+Füippis 2000) or indicate a common descent that allows placing viruses
+in the tree of life. This latter claim has been most specificaUy made for
+the giant Mimivirus and related nucleo-cytoplasmic large DNA viruses
+(NCLDV) which, based on the presence of homologues of ceUular genes
+involved in typical ceUular housekeeping functions such as translation,
+would constitute a fourth domain of life branching at the base of eukaryotes (Boyer et al. 2010; Raoult et al. 2004). These hypotheses can be
+tested using phylogenetic analyses.
+However, to make meaningful phylogenetic analyses, it is very important to apply appropriate models of sequence evolution, because viral
+genes evolve fast and are particularly prone to phylogenetic reconstruction artifacts such as long branch attraction, which would tend to place
+them at the base of the phylogenetic tree (Phüippe et al. 2000). It is also
+very important to incorporate sequences that wiU result in a good taxonomic sampling, a sampling that includes, among other elements, representatives from the virus's hosts. Taking those precautions into consideration, it can be shown that the vast majority of homologues to ceUular
+genes present in giant viruses correspond to transfers from the host (or
+from bacteria co-infecting the same host) to its virus. NCLDV genes
+do not form a monophyletic group at the base of eukaryotes, but appear dispersed within the eukaryotic tree close to their respective hosts
+(López-García and Moreira 2009; Moreira 2000; Moreira and BrochierArmanet 2008; Moreira and López-García 2005; 2009; WilUams et al.
+2011). Therefore, the hypothesis can be refuted that NCLDV giant viruses form a fourth domain of life, which can be placed in an organismal
+tree of life (Boyer et al. 2010; Raoult et al. 2004).
+The inconsistencies of claims proposing giant viruses as a fourth domain of Ufe have also been revealed by the ambivalent positions of the
+proponents of such hypotheses as a response to criticism based on indepth phylogenetic analyses. Thus, after having proposed a fourth domain for viruses based on the reconstruction of an organismal tree of life
+using conserved genes (Raoult et al. 2004), Raoult first denied the exis-
+
+THE PLACE OF VIRUSES IN BIOLOGY
+
+tence of a tree of life "from which viruses were out" (Raoult 2009) and
+then made an ambiguous proposal for a fuzzy "rhizome of Hfe" (Raoult
+2010). In other words, to escape criticism, Raoult shifted from a metaboHst view to a pure geneticist view to something undefined in between,
+thus adding much confusion to the debate. Claverie, another proponent
+of giant viruses as a fourth domain of Hfe (Raoult et al. 2004), modified
+his opinion in order to claim that giant viruses are degenerated ceHs
+(Arslan et al. 2011). This implies a departure from the previous idea that
+these viruses constitute a fourth domain on the same footing as ceHular
+domains, because now they would derive from within a ceHular domain.
+There is no doubt that these giant viruses are very interesting and attest to a variety of mechanisms involved in genome evolution. However,
+the available data do not support their origin as an independent domain
+of life or as a line of degenerated ceHs. On the contrary, thorough genome comparative analyses suggest that these NCLDVs evolved from
+an ancestral virus having a core of proteins involved in viral repHcation
+and capsid formation after the recruitment of many eukaryotic and some
+bacterial genes via HGT, as weH as many mobile genetic elements followed by massive lineage-specific dupHcations (Filee 2009; Koonin and
+Yutin 2010).
+
+Conclusion
+Old virocentric debates that considered viruses as aHve and/or predating ceHs have been revived due to the accumulation of genomic and
+metagenomic analyses showing that viruses are extremely diverse, represent a huge genetic reservoir that interferes with the ceHular reservoir via
+HGT (Brussow 2009), and play an important role in organismal ecology
+and evolution. However, despite their extraordinary diversity, no novel
+properties can be attributed to viruses, which remain strict genetic parasites lacking carbon and energy metaboHsm.
+Therefore, claims that viruses are alive and predate cellular evolution
+can be understood only within the framework of a strict geneticist view
+of life based exclusively on the property of evolution and the use of the
+term "virus" as a relaxed metaphor for self-repHcating entities - something which viruses, strictly speaking, are not. From a metaboHst perspective, although it is conceivable that viruses emerged very early in
+evolution (i.e. right after ceUs or during cell evolution), they could not
+have evolved prior to ceHs or pre-ceHular stages that could be parasitized
+by them.
+By contrast, claims that giant viruses form a fourth domain in thetree of life based on genes shared by cells involved in typical cellular
+functions can be refuted by proper molecular phylogenetic analyses and
+need to be removed from this debate.

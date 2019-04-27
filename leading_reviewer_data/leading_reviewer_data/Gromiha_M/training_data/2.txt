@@ -1,0 +1,33 @@
+Editorial
+ Proteins and their interactions play vital roles in living organisms. Elucidating the mechanism of protein folding as well as the recognition
+of protein complexes are intriguing and challenging problems in protein science. Recent years have shown tremendous advances to our
+knowledge of protein folding, stability and their interactions. The problem of protein folding, stability and interactions has been viewed
+through several perspectives using experimental and computational approaches.
+ The special issue on “Protein folding, stability and interactions” is aimed at providing a recent update on the folding and stability of
+proteins and their interactions with other molecules (proteins, nucleic acids, carbohydrates and ligands). It also addresses the significance of
+the analysis of protein structures, secondary and tertiary structure predictions and folding rates of proteins. The special issue is broadly
+classified into two parts; the first part is focused on the aspects of protein folding and stability with seven articles and the second part is
+devoted to protein interactions, which has five papers.
+ The opening article by Shenoy and Jayaram [1] provided the state of the art in protein three-dimensional structure prediction along with
+disordered proteins and protein-protein interactions. Gaspari et al. [2] analyzed the dynamically restrained conformational ensemble of
+proteins generated from residual dipolar coupling data in terms of protruding and buried atoms as well as inter-atomic distances with
+ubiquitin as an example. Galzitskaya [3] proposed Monte Carlo and Capillarity models for understanding and predicting protein folding rates
+using protein three-dimensional structures. The overview of SBASE domain library, a curated collection of domain sequences and standard
+similarity search algorithms, which is based on a simple statistics of the domain similarity network, has been illustrated by Dhir et al. [4].
+They showed that this method is especially useful in detecting rare, atypical examples of known domain types which are sometimes missed
+even by more sophisticated methodologies. Tusnady and Simon [5] discussed the current status of topology prediction in transmembrane
+helical proteins and the annotation of such proteins in genomic sequences. Verma et al. [6] employed a minimal Distance Constraint Model to
+predict the stability of a series of lysozyme mutants and proposed probable mutants for characterization. The effects of missense mutations on
+functional stability have been studied with protein sequence analysis algorithms such as spatial distributions of sequence, evolutionary, and
+physicochemical conservation by Horst et al. [7]. Rashid et al. [8] developed a support vector machine (SVM) based approach using position
+specific scoring matrices (PSSM) for identifying the interacting proteins in genomic sequences. The combination of hidden Markov models
+and support vector machines has been used to predict the interaction sites in genome-wide interaction networks by Bartoli et al. [9]. Zhang
+et al. [10] analyzed a set of RNA binding proteins and developed a method for identifying the RNA binding residues in proteins using
+evolutionary conservation and predicted secondary structure and solvent accessibility. The recognition mechanism of protein-RNA complexes
+has been studied with a novel energy based apporach by Gromiha et al. [11]. Carugo and Carugo [12] reviewed the structures of human
+filamin with emphasis on the relationship between structure, function and interaction.
+ In essence, this special issue comprehends the exciting developments in the area of protein folding, stability and interactions, and it will
+be a valuable resource for computational biologists, biochemists, biophysicists, bioinformaticians and researchers working in the field of
+proteins.
+ I would like to thank all the authors for their outstanding contributions and cooperation to complete the task. The guest editor also thanks
+the Editor-in-Chief Professor Ben M. Dunn for his invitation, encouragement, and support for the successful completion of the special issue. 

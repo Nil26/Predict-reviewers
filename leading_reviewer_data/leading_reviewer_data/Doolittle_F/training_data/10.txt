@@ -1,0 +1,39 @@
+A paradigm gets shifty
+If we look at cell structure, there are clearly only two kinds of organisms in the living world: prokaryotes (Bacteria and Archaea) and eukaryotes (everything else). The differences that mark this dichotomy are shown in Fig. 1. In the main, eukaryotic cells have complex structural features (such as the membrane-enveloped true nucleus, or eukaryon, which gives the group its name) and prokaryotic cells don't. Many eukaryotic and some prokaryotic organisms are multicellular, but there are no difficulties in distinguishing them at the level of cell structure, and no obvious transitional forms.
+
+Not surprisingly, biologists have long assumed that eukaryotes evolved from prokaryotes, and have come up with theories for the origin of the more complex eukaryotic structural components that involve particular selective advantages, mechanisms and histories. The best articulated and most widely accepted of the theories, 30 years old this year, is Lynn Margulis's version of the ‘endosymbiont hypothesis’ — ‘endo-’ for internal, and ‘symbiont’ as in a partner in a mutually beneficial relationship — for the origin of mitochondria and plastids1. Mitochondria are the powerhouses of most eukaryotic cells, generating ATP in respiration; plastids (chloroplasts) are the organelles of photosynthesis in algae and plants.
+
+In textbook accounts, the endosymbiont theory takes in several notions, as follows.
+
+• The eukaryotic endomembrane (including the nuclear membrane) and cytoskeletal systems arose in some ancestral anaerobic prokaryotic lineage, and were selected for because these systems made the engulfing of solid particles possible.
+
+• Cells of the resulting ‘proto-eukaryotic’ lineage made a living by engulfing and digesting prokaryotes.
+
+• Sometimes these prokaryotes, rather than being digested, became endosymbionts, conferring a metabolic advantage on their predator, which then became their host.
+
+• An endosymbiosis between an aerobic bacterium (on biochemical grounds, probably an α-proteobacterium similar to the present-day Paracoccus) and an anaerobic proto-eukaryotic host was stabilized through mutual advantage — respiration-derived ATP in exchange for metabolizable substrates and physical protection.
+
+• Genes needed only for independent growth were lost from the genome of the endosymbiont, while some endosymbiont genes needed directly or indirectly for respiration were transferred to the host nucleus.
+
+• The result for the endosymbiont was to become a modern mitochondrion, an organelle with a highly reduced genome (coding for only about a dozen proteins in animals). Similarly, but not discussed further here, chloroplasts evolved from endosymbiotic cyanobacteria.
+
+Most people now consider that molecular sequence data, accumulated between about 1975 and 1995 (ref. 2), clinched the endosymbiont hypothesis for mitochondria. Such data showed that genes in mitochondrial genomes (together with genes in eukaryotic nuclear genomes whose products are targeted to mitochondria) are indeed of bacterial, and gratifyingly of α-proteobacterial, origin, while indicating that the rest of the eukaryotic nuclear genome may be of archaea-like ancestry3. Excitingly, components of the machinery for the replication, transcription and translation of DNA that were once thought to be eukaryote-specific, are now known from archaeans4. So we have come to believe in the endosymbiont hypothesis as outlined in Fig. 2 (overleaf; see also ref. 5).
+
+However, the sequence data only address the origins of genes: they have been taken as support for the assumptions about mechanism and selective advantage outlined above primarily because there was no other well-fleshed-out theory which made these same predictions about genes. Data published over the past two or three years, much of them from genome-sequencing projects, have hinted that it is time for a new theory. In particular, it is turning out that eukaryotic nuclear genomes carry many genes of bacterial (sometimes α-proteobacterial) origin which have nothing to do with mitochondrial functions. Moreover, mitochondrion-free eukaryotes that we had come to think of as direct descendants of ancient proto-eukaryotes carry mitochondrial genes in their nuclear genomes.
+
+It is possible to cobble together an expanded version of Margulis's theory to accommodate all of this6. But, on page 37 of this issue7, William Martin and Miklós Müller take a much bolder step. They propose a model (the ‘hydrogen hypothesis’) which is in some ways more plausible than the current view. It is testable in several of its implications; and, whether true or false, it is the first new hypothesis about eukaryotic origins in 30 years to have been really thoroughly articulated at the biochemical, molecular and cellular levels.
+
+What Martin and Müller propose is this.
+
+• There was indeed an ancient symbiosis involving an α-proteobacterium as one partner and a relative or member of the Archaea as the other. The relevant activity of the α-proteobacterium was not, however, respiration, as in Margulis's hypothesis, but the excretion of H2 and CO2 — which are the waste products of anaerobic fermentation of externally available, reduced organic compounds in some contemporary α-proteobacteria. The archaean partner, like modern methane-producing archaeans, used H2 and CO2 as its sole sources of energy and carbon. Both metabolisms could go on simultaneously and independently in anaerobic environments like many known today, and there are many examples of mutual relationships based on their coupling.
+
+• In the absence of an outside source of hydrogen, the archaean (nominally the host) became dependent on the α-proteobacterium (the symbiont). Selection on host genes produced tighter and tighter physical association and greater surface contact between the two.
+
+• Gene transfer from symbiont to host provided the latter with membrane proteins for the import of the substrates and enzymes for glycolysis, the process by which ATP is generated anaerobically. So the host could begin to feed its symbionts, and thus surround them completely.
+
+• The effect of this was conversion of the host from autotrophy (using H2 and CO2 as substrates) to heterotrophy (able to use complex organic molecules). The symbiont was then either lost, converted to a hydrogenosome, or became a mitochondrion (in the evolutionary line leading to all complex cells).
+
+The reader may well complain that, mitochondria apart, Martin and Müller have not addressed the origin of the other complex eukaryote-specific features shown in Fig. 1. But neither do textbook versions of Margulis's endosymbiont hypothesis — the strongest support for which remains the presence of α-proteobacterial genes in eukaryotic genomes. The hydrogen hypothesis accounts for this α-proteobacterial presence, and for the kinds of genes concerned, more naturally than does the endosymbiont theory. It more readily explains the energy metabolism of eukaryotes that lack mitochondria (which, however, were little known when Margulis formulated her hypothesis). And by viewing bacterium-to-archaean gene transfer in terms of ecological interactions, it also hints at an explanation for the many bacterial genes in the genome sequence of the heterotrophic archaean Archaeoglobus8, published late last year.
+
+None of this is to say that Martin and Müller are right: the classical endosymbiosis theory may yet be amended and saved. But the onus is on its defenders to say why the hydrogen hypothesis is not at least as good. In the genomes that have been or will shortly be completely sequenced, we may already have all the data we need. We need the wit — and the will — to analyse them open-mindedly.
+

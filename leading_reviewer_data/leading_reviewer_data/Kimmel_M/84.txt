@@ -1,0 +1,18 @@
+The paper is based on the interesting idea that delay in metastatic progression may be caused by structured population growth. The paper requires major rewriting before it is suitable for publication. In particular, the supplement should be partly incorporated into the main body (see further on), to make the paper understandable. More detailed medical examples will help.
+
+Major issues - The paper has an unusual construction. Most of the expository material, which clarifies what the author is trying to say, is relegated to a Supplement. This concerns the definition of the parametrically heterogeneous growth laws as well references to the Reduction and Maximum Entropy principles. The relevant part of the Supplement needs to be incorporated in the “Modeling background” or similar section in the main body.
+I am not sure how the paper is related to other papers of Dr. Kareva and her co-author with the same last name. If there is an overlap, it should be carefully discussed.
+
+The author assembled an interesting, if a little dated (only few entries after 2011) literature concerning biological aspect of metastasis and tumor growth dynamics.
+
+It will make sense to provide some relevant biological context (tumor classifiction, type of study and conclusions; maybe just 1–2 sentences), each time such a source is cited.
+Detailed remarks
+
+p. 2. Please state and explain the Reduction theorem. How is the Reduction theorem different from clonal competition in the context of cancer (if it is similar, then perhaps the connection with driver and passenger mutations should be clarified). p. 3. Sentence “Applying the Reduction theorem (35–37) to …” is not sufficiently informative. Please provide details. Similarly, the paragraph concerning the Allee model is not standing on its own, as of now.
+p. 3. I am puzzled as to what the “systemic nature of disseminated disease” (bottom line) might really mean. Please provide details.
+Supplement:
+
+p. 1. “…parameter distribution technique, also known as the Reduction Theorem. It was well described in (1, 2), and main results have been summarized in (3).” Unfortunately, this seems not a sufficient explanation.
+
+p. 1. “According to the principle of maximum entropy (MaxEnt)…”. Likewise.
+p. 2. Calling the expression (3) and (4) the expectation and variance of r.v. c, is misleading if it is not explicitly stated that the distribution of c varies with time (superscript t in the LHS only muddles the issue). Also, is it really needed to call M_0[t], the moment-generating function (mgf)? Are any standard properties of mgf used here?

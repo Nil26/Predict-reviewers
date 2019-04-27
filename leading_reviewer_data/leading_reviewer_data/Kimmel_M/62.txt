@@ -1,0 +1,12 @@
+Reviewer’s summary: This is an interesting paper, contributing to the understanding of the mechanistic details of the active and passive transport between cytoplasm and nucleus using an important example of NF-kB. The message of the paper is very well documented, both experimentally and by simulations. I have three remarks or rather discussion item, which in my opinion are worthy of clarification.
+
+Reviewer’s recommendations to authors
+1.Naively, one obvious thing to do is to compare functioning of the system with importins and exportins to the system without these molecules. It seems easy computationally, but more difficult experimentally. It would be good to know the authors’ opinion on this and maybe some simulations carried out.
+2.In several places, the possibility of the cell optimizing this or that is mentioned. There are two caveats to such hypotheses. One is that most real-life systems (not only biological) are clearly suboptimal, but linger for long periods regardless (trilobites and human genome, being ad hoc examples). Why should cells be different? Second, optimization of two different processes may be contradictory (consider cancer cells dividing slower than normal cells). The NF-κB system is a multifunctional hub, so how to optimize such an object? Authors’ insights are welcome.
+
+3.I like the “digitized” pulse-series experiment. However, what I would expect is that if a “1” is succeeded by a “0”, there should be some low-level transients observed, while there is a complete absence of signal. Might you explain how it is possible? Is this exactly what is also expected in an experiment (no such experiment has been performed, correct?)?
+4.DETAILS: Background: Please explain if exportins help export mRNA and proteins, while importins only help import proteins, or is the distinction more complex.
+5.Results: “NF-κB is transported back to the cytoplasm complexed with IκBα, which passes through nuclear pores after association with exportin 1”. Do you mean that exportin pulls IkBa, which in turn pulls NF-kB out of the nucleus?
+6.Is dynamics of exporting of such large complex different from say, exporting of pure IkBa?
+7.“For freely diffusing molecules the ratio of nuclear export to nuclear import …” Do you mean the ratio of rates? The reasoning outlined in this paragraph is pivotal for the paper, so it should be carefully phrased.
+

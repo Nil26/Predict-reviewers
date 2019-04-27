@@ -1,0 +1,295 @@
+3.1 The NAD(P) biosynthesis subsystem
+A table of functional roles, which are known to be involved in the biogenesis
+of NAD and NADP in various species is shown in Table 2. A general subsystem diagram, illustrating respective biochemical transformations, is shown
+in Figure 2. Once the initial set of functional roles is defined and matched
+with annotations from model organisms, the system automatically fills in
+gene identifiers (IDs) in the respective cells of a subsystem spreadsheet. This
+spreadsheet is a key representation of a subsystem, showing functional
+roles as columns and organisms as rows. Populating a subsystem amounts
+to the gradual expansion of the initial spreadsheet by adding genomes and
+by carefully projecting annotations. Table 3 provides a condensed form
+of the original NAD(P) subsystem spreadsheet. It reflects the gene occurrence patterns of all functional variants identified in the ∼100 genomes
+of pathogens, commensals and related bacteria in The SEED database. In
+this condensed presentation, gene IDs are replaced by symbols, and each
+functional variant is illustrated by a single representative species.
+The NAD(P) subsystem can be divided into six modules: two distinct
+de novo pathways – one from aspartate as in many bacterial pathogens
+and the other from tryptophan as in humans; three alternative salvage
+pathways – two involving either the deamidating or the non-deamidating
+salvage of niacin (vitamin B3) and the third involving the utilization of
+nicotinamide ribose. The final module is the ‘universal’ pathway for the
+conversion of nicotinic acid mononucleotide (NaMN) to NAD and NADP
+(see Fig. 2 and Tab. 3). Different combinations of these modules, along
+with some nonorthologous gene displacements, results in the substantial
+diversity reflected here involving >20 distinct functional variants clustered
+in five major groups (see Tab. 3). None of the organisms contain all six
+modules. E. coli and H. sapiens are among the richest functional variants,
+while some obligate intracellular pathogens such as Chlamydia and Rickettsia spp., manifest extreme pathway truncation. These organisms may
+have developed a unique transport machinery to scavenge the NAD cofactor from the host [48], and the recent identification of a possible NAD
+transporter in one of the plant-borne Chlamydia provides the first experimental evidence supporting this prediction [55].
+
+The most common type of incomplete functional variants involves a missing gene for the Gln-amidotransferase component (GAT) of NAD synthetase (NADS), as indicated by ‘?’ in the respective cells of the spreadsheet. This component was experimentally identified as an N-terminal
+nitrilase-like domain of a two-domain (‘long’) form of NADS in eukaryotes
+[56] and some bacteria [57]. At the same time, many other bacterial NADS
+homologs lack the corresponding amidotransferase domain, and they are
+unable to utilize glutamine as an amide donor in vitro [58–61]. Among
+other missing gene problems in this subsystem are possible nonorthologous gene displacements of aspartate oxidase (AOX) and NAD kinase
+(NADK) in a limited number of species (marked by ‘?’ in Tab. 3).
+
+ndrei L. Osterman and Tadhg P. Begley
+Despite a few remaining problems, this example reveals a very clear picture, which allows us to reliably predict the phenotype and even the details
+of the NAD(P) biosynthetic sub-network in hundreds of species. For example, we can predict that ∼50 diverse bacterial species, which implement
+functional variants clustered in Group 3 (Tab. 3), are strictly dependent
+on exogenous nicotinamide or nicotinic acid (vitamin B3). Straightforward
+conjectures of this type may have immediate implications for the development of new therapies, and for the reevaluation of existing therapies.
+The most substantial difference between the human and bacterial variants of the subsystem is related to the de novo biosynthesis of quinolinate
+(see Fig. 2). Although for many years the pathway from tryptophan to
+quinolinate was thought to be a eukaryotic pathway, it was recently identified in a small group of bacteria by a comparative genomics study followed by experimental verification [62, 63]. None of the analyzed human
+pathogens belong to this group, although some of them (e.g., P. aeruginosa and B. anthracis, see Tab. 3) contain a ‘nonfunctional’ variant of this
+pathway leading to anthranilate instead of quinolinate [64].
+The observed picture of conservation and nonrandom variations in
+the NAD(P) biosynthesis subsystem is consistent with an emerging understanding of the intrinsic modularity of cellular networks and the conservation
+of functional modules in the Central Machinery of Life [65–68]. A crucial
+aspect of this cross-species subsystem analysis is the identification of the
+most conserved modules, which potentially contain possible drug targets.
+For the NAD(P) subsystem, such a module is the three-step ‘universal’ pathway (see Fig. 2 and Tab. 3), since: (i) it is conserved in most bacterial
+pathogens; (ii) its indispensable role is supported by the observed essentiality of all three enzymes involved (see Tab. 1); and (iii) this essentiality
+is in agreement with the fact that all of the intermediates and products of
+this pathway are phosphorylated compounds (see Fig. 2), which cannot
+be directly imported from the medium.
+Comparative genomics helped to fill in many gaps in our knowledge
+of NAD(P) biosynthesis. Several ‘missing’ genes were identified using a
+combination of bioinformatics techniques such as long-range homology
+and genome context analysis. These techniques and their applications in
+gene discovery have been discussed in a number of recent surveys [10, 20,
+23, 67, 69]. Here, we will briefly illustrate the gene discovery aspect of subsystems analysis using selected examples immediately related to drug
+target development.
+
+3.1.1 Example 1: Nicotinic acid mononucleotide adenylyltransferase
+Although, this enzymatic activity was for a long time known to play a
+central role in NAD biosynthesis [70], a respective gene was only recently
+identified by bioinformatics techniques followed by experimental verification. This was accomplished using a combination of its approximate
+chromosomal location with long-range similarity searches [71], and, independently, based on the observation of chromosomal clustering of a
+putative nucleotidyl transferase gene with other NAD biosynthetic genes
+in a number of analyzed genomes (see Fig. 3). The latter approach, which
+allows us to infer functional coupling of genes based on their operon-like
+clustering on the prokaryotic chromosome, is one of the most powerful
+techniques of genome context analysis. It was pioneered by R. Overbeek
+and colleagues [72, 73], later implemented in a number of web-based tools,
+including The SEED, and successfully applied to the identification of several missing genes [10]. Although the E. coli nadD gene, as well as its
+orthologs in most bacterial pathogens, is not involved in any ‘suggestive’
+chromosomal clustering, its assignment was a straightforward homologybased expansion of the implicated protein family. These assignments were
+directly verified by the cloning overexpression and characterization of several representatives of this family from divergent bacterial pathogens, including S. aureus, H. pylori and F. nucleatum [48]. In addition, a long-range
+similarity analysis allowed us to expand this new family to include previously missing enzymes playing the same role in human NAD biosynthesis.
+Three identified human isoforms were experimentally verified and characterized [74–78], revealing a number of fundamental differences between
+these enzymes and their bacterial counterparts (as reviewed by [79]). Some
+of these findings, relating to the development of NadD as a potential antiinfective drug target, are further discussed in the next Section.
+
+3.1.2 Example 2: The bi-functional nicotinamide mononucleotide
+adenylyltransferase/ribosylnicotinamide kinase (NMNAT/RNK,
+NadR family)
+The inference of functional coupling, based on protein domain fusion
+events, is another important strategy of genome context analysis [80]. This
+approach played a critical role in the prediction and verification of the
+previously unknown gene encoding bacterial ribosylnicotinamide kinase
+(RNK) (see Fig. 4) [81]. This prediction was triggered by the analysis of one
+of the extremely truncated NAD biosynthesis subsystem variants (Group 4
+in Tab. 3) – an NADS-independent salvage of nicotinamide ribose, which is
+essential for the survival of H. influenzae [82] and related Pasteurellaceae.
+Remarkably, both essential enzymatic activities, RNK and NMNAT, were
+found within a single fusion protein, a homolog of E. coli NadR, originally
+described as a transcriptional regulator of the nadA-pnuC operon [83], and
+later shown to possess NMNAT activity [84]. An additional RNK activity
+was predicted based on the presence of a domain with unknown function
+containing Walker A and B motifs characteristic of many kinases. Both
+activities were experimentally verified, and confirmed to be essential for
+the survival of H. influenzae in culture [81], and later, in vivo [85, 86]. However, only one of these activities, namely NMNAT, is expected to be essential in H.ducreyi, a related bacterial representative of the V-factor independent Pasteurellaceae, which contain an additional gene (nadV) encoding
+nicotinamide phosphoribosyl transferase (NMPRT) [87]. The addition of
+this enzyme enables the non-deamidating salvage of exogenous vitamin
+B3, bypassing the requirement for V-factors and RNK activity. More representatives of this functional variant, which include Manheimia haemolytica
+(see Tab. 3) and Actinobacillus actinomycetemcomitans, are predicted by the
+subsystem analysis. This is another example illustrating the importance
+of subsystem analysis for drug target identification and evaluation. The
+3D structure of the H. influenzae NadR protein was solved, providing more
+insights into the structure-function relations in the NaMNAT/NMNAT superfamily [88] and setting the stage for niche-specific drug development.
+Two additional examples provide a brief illustration of using similar
+techniques for the analysis of Coenzyme A and Fatty acid biosynthesis
+(see Tab. 1).
+
+3.1.3 Example 3: The human bi-functional phosphopantetheine
+adenylyltransferase/dephospho-CoA kinase/(PPAT/DPCK)
+The host/pathogen comparative analysis of the universal subsystems (such
+as many of those in Tab. 1) plays an important role in target prioritization.
+In addition to that, this analysis helps to significantly refine our knowledge
+of the human variants of subsystems, which is still incomplete. For example, until recently, four of the five genes in the human CoA biosynthetic
+pathways were unknown, and even the relative order of the biosynthetic steps in this pathway remained controversial. The identification of the
+complete set of genes implementing this pathway in E. coli [89–91] and its
+homology-based projection across the collection of genomes, allowed us
+to reliably predict three out of the four unidentified human genes. The last
+missing gene, encoding a nonorthologous human PPAT enzyme, was identified using the same domain fusion analysis technique as described in the
+previous example. An uncharacterized human protein containing a domain of unknown function with a nucleotidyl transferase signature fused
+with another domain homologous to bacterial DPCK, was predicted and
+experimentally verified to be a bi-functional PPAT/DPCK enzyme [92]. The
+four-step human CoA biosynthetic pathway from phosphopantothenate
+was verified by reconstitution in vitro using a mixture of purified recombinant enzymes. This analysis contributed to the selection of bacterial PPAT
+as a high-priority drug target [48]. Functional variants and remaining unsolved problems in the Coenzyme A biosynthesis subsystem were briefly
+discussed in [2].
+3.1.4 Example 4: The nonorthologous displacement of enoyl-ACP
+reductase (FabI) in Streptococcus pneumoniae
+Sequence analysis of the first S. pneumoniae genome provided an immediate
+rationale for its resistance to triclosan: an apparent loss of the target, enoylACP reductase, which is encoded by an essential gene (fabI) in E. coli and
+many other bacteria. Considering the absolute requirement for this enzymatic step in the elongation cycle of fatty acid biosynthesis, nonorthologous gene displacement was the most likely explanation for the missing
+fabI. Indeed, a putative oxidoreductase gene embedded in a large chromosomal cluster of FAS genes, was predicted and experimentally confirmed as
+an alternative FMN-dependent and triclosan-insensitive enoyl-ACP reductase [93]. Although, initially, the replacement of fabI with a nonorthologous gene termed fabK appeared to be a characteristic feature of Streptococci,
+our recent analysis of the FAS subsystem in the SEED database revealed a
+substantial number of diverse bacteria carrying fabK instead of, or in addition, to fabI. Such an analysis of distribution of nonorthologous gene
+displacements allows us to rapidly assess which species may be sensitive
+or resistant to a particular antibacterial agent.
+
+4 Stage III: Selecting target genes.
+Target prioritization and validation
+The comparative analysis of functional variants helps to reveal critical
+components of subsystems that may constitute potential targets, as illustrated for the example of NAD(P) biosynthesis. The selection and prioritization of drug targets is dictated by a combination of criteria, most of
+which are widely used and have been extensively discussed in a number
+of surveys (see Section I). Here we will briefly illustrate their application
+using the NAD(P) subsystem as an example.
+The spectrum of target species defined by the specific goals of a drug development project is one of the most important and straightforward prioritization criteria. The strategy described in this chapter for the identification of targets for broad-spectrum drug development can also be applied
+to a narrower spectrum (e.g., Gram-positive) or niche pathogens (e.g., H.
+influenzae or H. pylori). The growing availability of genomes, including
+avirulent and attenuated strains and isolates, improves the quality of subsystem analysis and facilitates the selection of optimal drug targets.
+4.1 Biological rationale and subsystem topology
+A detailed analysis of metabolic subsystems, including all biochemical
+transformations, transport as well as the availability of precursors and intermediates in the cell and at the site of infection, makes it possible to assess the relative importance of the subsystem components. The analysis of
+functional variants of a subsystem enables us to make reliable projections
+across species, even in the absence of physiological data. As mentioned
+above, we may expect the three-step universal pathway of the NAD(P) subsystem to be essential for most of the bacterial species due to: (i) the strict
+requirement of NAD(P) for a large number of redox reactions in all types
+of living cells; (ii) the anticipated inability of the cell to import NAD(P) or
+phosphorylated intermediates, (iii) the merging of the most common de
+novo and salvage pathways at the start of the universal pathway, (iv) the
+non-redundance of this pathway. The existence of the non-deamidating
+salvage pathways, which in some species may generate enough NAD for cell survival, implicates NAD kinase (NADK) as the most universal drug
+target candidate (see Fig. 2).
+4.2 Projection of gene essentiality
+Despite some similar aspects, the scope of gene essentiality analysis at
+this stage is quite different from the initial subsystem selection process
+(Stage I). As already mentioned, two sets of genes – one that provided
+evidence implicating a target subsystem, and another one, representing
+selected targets, may not fully overlap. Although in the specific example of NAD(P) biosynthesis, both sets happened to be identical, in general it may not be the case, depending on the quality of essentiality data,
+the choice of filtration strategy, etc. While a certain level of ‘noise’ in
+the data, has almost no effect on the selection of target subsystems, it
+may not be acceptable for the evaluation of individual targets. For the
+broad-spectrum targets, this problem can be addressed by the integration
+of several essentiality data sets in different species or by single-gene disruption experiments. Emerging efforts in systematic targeted gene knockouts,
+such as the E. coli projects in Japan (http://ecoli.aist-nara.ac.jp/) and the
+USA (http://www.genome.wisc.edu/functional/tnmutagenesis.htm), open
+excellent opportunities for acquiring reliable gene essentiality assignments
+at the whole-genome scale. The biggest challenge however is the projection of gene essentiality across the entire spectrum of target pathogens.
+Comparative analysis of subsystem functional variants, including alternative routes and nonorthologous displacements, provides a natural framework for the tentative projection and even prediction of essentiality of
+certain genes. For example, the essentiality of the nadD gene, projected
+from E. coli to S. aureus, was confirmed by a directed knockout experiment
+[48]. In another example discussed in Section II, orthologs of nadR and
+pnuC (nicotinamide transporter), which are dispensable in E. coli, were
+predicted and experimentally proven to be essential in H. influenzae [81].
+Likewise, analysis of the subsystem leads to the prediction of essentiality
+for the de novo pathway genes in H. pylori, and for the niacin salvage genes
+in S. aureus (see Fig. 2B). Such predictions, if proven experimentally, would
+allow us to consider these genes as possible drug targets in a number of pathogens implementing the respective functional variants of the NAD(P)
+biosynthesis subsystem.
+4.3 Target conservation
+Two aspects of target conservation play a role in target prioritization. The
+first is the requirement for the presence of the corresponding orthologs
+across the entire spectrum of target pathogens. Instead of the global homology screening, which was used for the initial subsystem selection (Stage
+I), target prioritization requires more stringent orthology analysis supported by subsystem-based functional assignments. Likewise, the threshold used in the initial conservation analysis (ERI >0.75) is irrelevant when
+selecting a common target for a strictly defined set of pathogens. The absence of a target in a pathogen would automatically exclude this organism
+from the spectrum, which may or may not be acceptable, depending on
+the scope of a particular drug development project. For example, two of
+the three potential targets in the universal pathway of NAD(P) biosynthesis, NaMNAT and NADS, are not present in a relatively small but important
+group of pathogens, including H. influenzae (see Tab. 3). That alone may
+exclude both of these, otherwise attractive, targets from a high-priority list
+of anti-respiratory drug development programs.
+The second and a more subtle aspect of conservation analysis is the level
+of sequence similarity within the target protein family. The structural compactness of a protein family may be roughly assessed by building an HMM
+consensus profile and by computing the relative distance of each representative from this profile, as described in [48]. This analysis, however, may be
+used only for preliminary target prioritization, for the detection of outliers
+and the evaluation of the range of susceptible pathogens. Since the scope
+of sequence conservation analysis is to assess the likelihood of developing
+a universal inhibitor, the actual comparison should focus on the topology
+of the active site (or, more generally, binding pocket), rather than on the
+overall sequence conservation. The availability of a 3D structure for at least
+one target in a complex with substrate(s), product(s) or their analogs substantially improves the quality of such analysis. For example, 3D structures
+are available for two, rather divergent bacterial NAMNAT of the NadD family, one from E. coli [94] and the other from B. subilis [95].The comparative analysis of their active sites (revealed by co-crystallization with substrates)
+supports the selection of this enzyme family as a potential drug target for
+a relatively broad spectrum of bacterial pathogens.
+4.4 Target validation and drugability
+The most important aspect of target validation is the experimental confirmation of essentiality in representative pathogens. Functional comparison
+of divergent representatives of a target family, e.g., substrate specificity profiling, provides an additional assessment of the conservation of their active
+sites. For example, both analyzed representatives of the NadD family from
+gram-negative (E. coli) and gram-positive (S. aureus) bacteria, displayed a
+strong preference for NaMN over NMN in the adenylyl transferase reaction
+[48]. A steady state kinetic analysis indicated that this preference was manifested mostly at the level of substrate binding, contributing to the likelihood of finding a common inhibitor. The importance of structural data
+for conservation analysis was already emphasized. In addition to that, the
+availability of 3D structure opens up the possibility of assessing the ‘drugability’ of a target. This is another validation criterion, which requires
+a well-defined binding site on the protein suitable for the development
+of bioavailable, synthetically accessible small molecule inhibitors. While
+some non-metabolic targets do not meet this requirement, it is a characteristic feature of most metabolic enzymes with active sites that have evolved
+to interact with small molecule substrates and cofactors. The results of
+the 3D structural analysis of the E. coli NaMNAT were in line with such
+expectations and enabled us to define a structural template for the virtual
+screening of a small molecule library.
+4.5 Comparison with human countertargets
+While the absence of human homologs has been perceived as a very important target prioritization criterion, the existence of successful counterexamples suggests that this point of view needs to be refined. These
+counterexamples, [4] include trimetoprim, which specifically inhibits bacterial dihydrofolate reductase despite 28% sequence identity with its human ortholog, and quinolones, which specifically inhibit bacterial gyrase A despite 20% sequence similarity with human topoisomerase II. However,
+ideally, a target that has a minimal sequence similarity with its human
+counterpart is preferable. Mostly based on this consideration, of the three
+possible targets in NAD(P) biosynthesis, NaMNAT of the NadD family was
+preferred over NADS and NADK [48]. In our example, both, the functional
+and structural comparison of the bacterial and human enzymes provided
+support for this choice of target. In agreement with previous data, and
+in contrast to the bacterial NAMNAT, all three isoforms of the human
+enzyme displayed an almost equal preference for NMN and NaMN. This
+dual specificity of the human bifunctional NAMNAT/NMNAT is consistent
+with its biological role in the deamidating and non-deamidating pathways
+inferred by metabolic reconstruction (see Fig. 2). Although sequence comparison alone reveals almost no appreciable similarity between the E. coli
+NAMNAT and the human NAMNAT/NMNAT, their overall 3D structures
+are quite similar [75]. At the same time, substantial differences in the
+regions of the active site, presumably responsible for the difference in substrate specificity, provided an opportunity for selective targeting
+
+5 Concluding remarks: From targets to drugs
+The central paradigm of target-based drug discovery is the development
+of small molecules that disrupt the functional activity of a target protein
+via specific binding with its active (or allosteric) site. To that end, various high-throughput screening strategies are usually applied, including in
+silico screening of virtual compound libraries. The latter approach is dependent on the availability of a high-quality 3D structure of at least one
+representative target. The rapidly improving efficiency of virtual docking algorithms, including freely available or affordable software packages
+(such as AutoDock, http://www.scripps.edu/mb/olson/doc/autodock/), access to growing electronic libraries of compounds (such as ZINC, http://
+blaster.docking.org/zinc/) and to new chemical web-resources (such as PubChem, http://pubchem.ncbi.nlm.nih.gov/), are factors that strongly affect
+the routines and perceptions in the field. For example, in contrast to a
+traditional high-throughput screening, a virtual screening of millions of
+compounds, followed by experimental testing of ∼100 of the best-scoring compounds (available from several providers) is perfectly feasible for academic research groups. Moreover, this rapid and rather inexpensive procedure may become a routine aspect of target validation. The goal of such a
+prescreening effort would be to evaluate the drugability of a selected target,
+not to find actual lead compounds. Structural analysis of the target, complexed with some of the identified compounds, may provide very useful
+information for adjusting a screening template, various docking parameters and constraints.
+Finally, it is worth noting that the small molecule library screening (virtual or experimental) is not the only strategy of target-driven drug development. Alternative approaches include rational inhibitor design based on
+the substrate or product structure or on the reaction mechanism. Covalent,
+enzyme-activated (or suicide) inhibitors represent a particularly sophisticated version of this approach. For example, difluoromethyl ornithine efficiently kills Trypanosoma brucei by covalently binding at the active site of
+ornithine decarboxylase. A similar but distinct strategy involves pathwayactivated prodrugs. Previously we described pyrazinamide, an antituberculosis prodrug that is converted to pyrazinoic acid by NAM, the first enzyme
+of the niacin salvage pathway. Another interesting example related to NAD
+biosynthesis beyond anti-infective disease research, is the anticancer prodrug tiazofurin. This nicotinamide ribose analog is known to hijack the
+RNK/NMNAT-dependent salvage pathway in human cells, which leads to
+formation of tiazofurin adenine dinucleotide (TAD), a toxic analog of NAD.
+The latter is known to inhibit IMP dehydrogenase, a key enzyme in purine
+biosynthesis, ultimately suppressing the growth of certain cancer cells [96].
+Although the notion of target for these pathway-activated antimetabolites
+is quite different from the main drug development paradigm, even in this
+case, certain techniques of target selection discussed in this chapter may
+be applicable. For example, both activities (subsystems), responsible for
+prodrug activation and the actual target of the ultimate antimetabolite,
+should be conserved and essential in the desired spectrum of pathogens.
+The impact of subsystem analysis on the development of pathwayactivated antibacterial agents, may also be illustrated by the mechanism
+of action of pantothenate analogs, such as N-pentylpantothenamide. The
+antibacterial activity of this compound was initially thought to be a result
+of inhibition of some of the CoA biosynthetic enzymes [97]. However, in a series of recent studies, it was shown that this compound is a prodrug activated by the CoA biosynthetic pathway, leading to formation of the toxic
+ethyldethia-CoA [90]. The latter ultimately inhibits fatty acid biosynthesis
+through the formation of the nonfunctional holo-acyl carrier protein [94].
+While N-pentylpantothenamide does not appear to be a likely drug candidate due to its rather modest antibacterial activity, its mechanism of action
+provides an illustration of an alternative drug development strategy.

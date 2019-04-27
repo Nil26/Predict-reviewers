@@ -1,0 +1,12 @@
+In this work, the authors developed a method for predicting the interaction patterns of human PDZ domains using structure based approaches. The structures of complexes have been utilized to predict interaction partners and evaluating binding energy using statistical pair potentials. A web server has been developed for the structure based analysis for application point of view. The manuscript is well written and sufficient details are provided for the analysis and prediction.
+It could be strengthened by incorporating the following suggestions.
+1. The residue pair potentials have been used to compute the binding energy. It will be helpful to provide the details about BT potentials, obtaining the binding energy from BT pair potentials and the contributions in DGbinding.
+2. It is not clear whether the experimental data are binary or real values. If the real values are known the performance may assessed with correlation coefficient and mean absolute error. It seems the binding energy data are in numerical values and it will be better to explain the procedure to convert into binaries (any cutoff values) to compute TP, TN, FP and FN.
+3. Several decimal points are not necessary in Table 1.
+4. Experimental data should be given at the website.
+5. The performance may be compared with other methods in the literature although they use experimental data for training.
+6. Molecular dynamics simulations have also been performed to obtain the binding energy. It is not clear about the applications of MD in prediction.
+
+
+
+        

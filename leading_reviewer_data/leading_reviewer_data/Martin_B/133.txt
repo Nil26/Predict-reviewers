@@ -1,0 +1,59 @@
+Summary : The authors present novel (network) methods to address diversity in envirnomental sequences. The paper is very interesting and technically an important step in the right direction to explore more of what we do not know about environmental microbial diversity. It can be published as is in my view, some language editing by a native speaker would help, I listed some but by no means all style and usage problems below.
+
+Recommandations:
+
+p. 1.
+
+l. 30 life levels? reword, not clear
+
+l 43, tres of life — > phylogenetic trees
+
+papers should be line numbered continuously in the future, please, makes commenting easier.
+
+life division — > divisions of life
+
+have been constant progresses — has been constant progress
+
+obsidian Pool , capitalization
+
+polymorphism. 30 % of the genes — > polymorphism. Thirty percent of the genes (never start a sentence with a numeral)
+
+Likewise, in 2005, Chouari et al. : reference number?
+
+In 2012, Narasingarao et al. : reference number?
+
+it seems that one could in principle come up with some novel microbial lineages, at various levels of the biological classification — > novel microbial lineages are being discovered through environmental sequencing.
+
+microbial dark universe : was dark matter already introduced?
+
+these data are amongst the most numerous — > these data are amongst the most abundant
+
+seeked to identify --- sought to identify
+
+families fulfilled these --- families fulfilling these
+
+protocole---protocol
+
+important amount of microbial divergent genes --- substantial number of divergent microbial genes
+
+proved its efficiency to unravel --- was efficient in uncovering
+
+such gene families ! --- why !
+
+In either case, the host lineage of the divergent environmental genes would be
+
+439 distantly related to known organismal lineages in a way that may challenge our
+
+knowledge in evolutionary 440 microbiology. As a follow up of this proof of concept
+
+441 analysis, it would next be interesting to perform larger comparative studies, with
+
+442 expanded datasets, including more sequences from cultured organisms and from more
+
+443 environments, this new dataset might identify other ancient, divergent, rarely
+
+444 transferred between domains gene families.
+
+Sorry, is that essential and what is it supposed to mean?
+
+theories on the origins of eukaryotes [41] -- Woese did not revolutionize theories for eukaryote origin, he (co-)discovered archae(bacteri)a and introduced the concept of microbial phylogeny.

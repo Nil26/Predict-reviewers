@@ -1,0 +1,672 @@
+Symbiosis Between Methanogenic Archaea and ␦-Proteobacteria as the Origin of Eukaryotes: The Syntrophic Hypothesis
+
+Abstract. We present a novel hypothesis for the origin
+of the eukaryotic cell, or eukaryogenesis, based on a
+metabolic symbiosis (syntrophy) between a methanogenic archaeon (methanobacterial-like) and a ␦proteobacterium (an ancestral sulfate-reducing myxobacterium). This syntrophic symbiosis was originally
+mediated by interspecies H2 transfer in anaerobic, possibly moderately thermophilic, environments. During eukaryogenesis, progressive cellular and genomic cointegration of both types of prokaryotic partners occurred.
+Initially, the establishment of permanent consortia, accompanied by extensive membrane development and
+close cell–cell interactions, led to a highly evolved symbiotic structure already endowed with some primitive
+eukaryotic features, such as a complex membrane system
+defining a protonuclear space (corresponding to the archaeal cytoplasm), and a protoplasmic region (derived
+from fusion of the surrounding bacterial cells). Simultaneously, bacterial-to-archaeal preferential gene transfer
+and eventual replacement took place. Bacterial genome
+extinction was thus accomplished by gradual transfer to
+the archaeal host, where genes adapted to a new genetic
+environment. Emerging eukaryotes would have inherited
+archaeal genome organization and dynamics and, consequently, most DNA-processing information systems.
+Conversely, primordial genes for social and developmental behavior would have been provided by the ancient
+myxobacterial symbiont. Metabolism would have been
+
+Correspondence to: P. López-Garcı́a; e-mail: puri@igmors.u-psud.fr
+
+issued mainly from the versatile bacterial organotrophy,
+and progressively, methanogenesis was lost.
+Key words: Eukaryogenesis — Syntrophy — Symbiosis — Eukaryotic evolution — Interspecies H2 transfer — Methanogenic archaea — Histones — ␦Proteobacteria — Myxobacteria — Anaerobic consortium
+
+Introduction
+Evolutionary biology has entered an era characterized by
+the widespread use of phylogenetic reconstruction techniques based on protein and nucleic acid sequence comparison. The most striking breakthrough was the socalled ‘‘Woesian revolution,’’ whose origin dates back to
+1977 when, after comparison of ribosomal RNA (rRNA)
+oligonucleotide catalogs, a tripartite division of the living
+world into primary kingdoms, Eubacteria, Archaebacteria, and Eukaryotes, was claimed (Woese and Fox 1977).
+These lineages were later reclassified as the domains
+Bacteria, Archaea, and Eucarya, respectively (Woese et
+al. 1990). Additional work on protein sequence comparison further supported the phylogenetic distinctness of the
+three groups. Subsequently, sequence comparison of ancestral paralogous genes, i.e., those derived from genes
+duplicated before the separation of the three domains,
+such as the elongation factors EF-Tu (1␣) and EF-G (2)
+and ATPase V and F genes, was used by some authors to
+root the tree of life in the bacterial branch (Gogarten et
+
+al. 1989; Iwabe et al. 1989). Such classification and rooting have become widely accepted and represent the
+prevalent viewpoint on biological evolution, although its
+validity remains controversial (Forterre et al. 1993;
+Doolittle and Brown 1994).
+Those ideas have essential implications regarding one
+of the major unsolved questions in contemporary biology: the origin of the eukaryotic cell or eukaryogenesis.
+Notwithstanding Woese’s original speculation of a very
+primitive last common ancestor, a ‘‘progenote,’’ from
+which the three domains would have been directly derived (Woese 1987), the Gogarten and Iwabe rooting
+implies two things: first, that the last common ancestor
+(or cenancestor) was prokaryotic and, second, that eukaryotes were direct descendants of a common archaeal–
+eukaryal ancestor (Gogarten et al. 1989; Iwabe et al.
+1989; Woese 1990). Despite the scientific success of this
+so-called ‘‘archaeal model,’’ alternative hypotheses addressing the question of eukaryotic origins have been
+proposed. Detailed discussion of these is beyond the
+scope of this work; however, we briefly summarize them
+in order to provide a general framework as a base to
+formulate a different model for eukaryogenesis.
+
+Hypotheses for the Origin of Eukaryotes: State of
+the Art and Criticisms
+A completely independent hypothesis was originally
+stated by Reanney (1974) and Darnell (1978), who proposed that the cenancestor was a eukaryote itself. Nevertheless, these authors did not explain how the transition
+from this ancestor to prokaryotic cells proceeded. The
+idea was recently revived by Forterre, who argued that
+the results shown by Woese and others are artifacts derived from the inadequacy of the phylogenetic methods
+employed (Forterre 1996). He hypothesized that prokaryotes issued from a eukaryote-like ancestor by a reductive
+process as a consequence of adaptation to hyperthermophilic environments (Forterre 1995). However, these
+ideas fail to explain the evolution of the extremely complex eukaryotic cellular organization directly from precellular systems. If eukaryotes evolved directly from precellular systems, they must have relied on a continuous
+supply of prebiotic organic substrates over a long period
+of time, since bacterial-derived chloroplasts appeared
+later in evolution. It is highly unlikely that any prebiotic
+‘‘soup’’ provided a regular source of organic nutrients up
+to a eukaryote-like stage of organismal evolution. In addition, eukaryotic life seems incompatible with the high
+temperature regimes of the archaean Earth, for which
+increasing evidence exists (Knauth 1992; Schwartzman
+and Shore 1996). The antagonism with high-temperature
+regimes could be circumvented by alluding to a relatively moderate thermophilic environment compatible
+with higher temperature limits for eukaryotes (Brock
+
+1986). However, the essential advantage of a hot origin
+hypothesis is the implication that the first living beings
+were autotrophic, relying only on chemolithotrophic resources. Finally, a eukaryotic ancestor is at odds with the
+Precambrian fossil record, which suggests that the most
+ancient fossils (3500 million years ago) are prokaryotic
+(Schopf 1993), whereas the earliest eukaryotic fossils
+date at 1800 to 2100 million years ago (Han and Runnegar 1992).
+The remaining hypotheses are based on the currently
+accepted idea of a prokaryotic cenancestor from which
+the prokaryotic domains, i.e., Archaea and Bacteria, were
+the primary offshoots. The above-mentioned archaeal
+model, which entails the direct evolution of the eukaryotic nuclear genome from a common archaeal–eukaryal
+ancestor, could be classified as ‘‘autogenous.’’ This
+model has not always been supported by protein sequence comparison. Some phylogenies, especially those
+based on elongation factors EF-1␣ and EF-2 (Rivera and
+Lake 1992; Baldauf et al. 1996), but also those based on
+rRNA sequence parsimony analysis (Lake 1988), argued
+in favor of a specific sisterhood between eukaryotes and
+crenarchaea (kingdom Crenarchaeota), or ‘‘eocytes,’’ according to the nomenclature of Rivera and Lake (1992).
+The other archaeal lineage (kingdom Euryarchaeota)
+would be closer to Bacteria (especially Gram-positive
+bacteria), and the paraphyly of Archaea would be inferred (Lake 1988; Gupta and Singh 1992; Rivera and
+Lake 1992; Gupta and Golding 1993; Doolittle and
+Brown 1994). However, some of these results have been
+interpreted as artifacts derived from undetected hidden
+paralogies and presumptive horizontal gene transfers
+(Hilario and Gogarten 1993; Brown et al. 1994; Roger
+and Brown 1996). Bias in species sampling could also
+account for some molecular characteristics claimed to be
+shared only by eukaryotes and crenarchaea; for instance,
+several of these have recently been detected in some
+methanogenic euryarchaea, including Methanopyrus
+kandleri (Lake and Rivera 1996; Feng et al. 1997). In
+addition, limitations in current phylogeny reconstruction
+methods may constitute a major pitfall in this kind of
+analysis, since very often the approximations and assumptions utilized are quite unrealistic. These methods
+are especially sensitive to different evolutionary rates
+among the organisms studied, a problem known as ‘‘unequal rate effect’’ (Felsenstein 1978; Lake 1991).
+As a result of all these apparent contradictions, hypotheses appealing to an archaeal–bacterial partnership
+at the origin of eukaryotes have been on the rise. These
+could be considered ‘‘chimeric’’ or ‘‘heterogenous,’’
+and may be classified into three subgroups according to
+the kind of relationship that putatively occurred between
+the two partners: fusion, phagotrophy, or symbiosis. The
+fusion model postulates that the eukaryotic nuclear genome is a chimera resulting from the amalgamation of an
+archaeon and a bacterium (Zillig et al. 1989; Zillig
+
+1991). Among other mechanistic difficulties, this hypothesis fails to explain the origin of the nuclear membrane. A previous model attempting to overcome this
+problem had already been proposed by Cavalier-Smith,
+suggesting that the origin of this structure was the fusion
+of cytoplasmic cisternae (Cavalier-Smith 1980) in a transient intermediate between an archaeon and a Grampositive bacterium (Cavalier-Smith 1987). In addition,
+fusion models are based on events never observed in
+nature, i.e., cell fusion between lineages as phylogenetically distant as archaea and bacteria. Phagotrophic models propose the engulfment of one of the partners by the
+other. Thus, Lake and Rivera (1994) suggested that a
+bacterium engulfed a crenarchaeon (eocyte), which
+would have originated the nucleus (‘‘eocyte hypothesis’’). Similarly, Gupta and Golding (1996) postulated
+the engulfment of an eocyte by a Gram-negative bacterium lacking a cell wall. In these models, the nuclear
+envelope and the endoplasmic reticulum would be remnants of the eocytic plasma membrane and the bacterial
+phagotrophic vesicle membrane, respectively. In a related but quite different model, Sogin (1991) proposed
+the engulfment of an archaeon by a protoeukaryote still
+endowed with RNA-based metabolism. However, it is
+difficult to conceive the persistence of such ancient protoeukaryotes having a primitive and inefficient RNAbased metabolism in a world already inhabited by ecologically competitive DNA-based prokaryotes. However,
+this hypothesis overcomes the main objection for the rest
+of the phagotrophic models, which is the inability for
+bacteria to accomplish phagocytosis.
+Considering these major drawbacks, the most realistic
+models could be those based on symbiotic relationships
+between archaea and bacteria, i.e., the symbiotic models.
+Symbiosis does not depend on single, perhaps unlikely,
+events, such as cell fusion or phagocytosis, but offers the
+possibility of coevolution (eventually cointegration) over
+long periods of time. To date (see also Note Added in
+Proof), the only symbiotic model described is the serial
+endosymbiotic theory (SET) proposed by Margulis
+(1970, 1993), which recapitulates some of the pioneering
+ideas of Mereschkowsky (1905). This hypothesis postulates that eukaryotes evolved from the symbiosis between an archaeon (a thermoacidophilic Thermoplasmalike organism) and a bacterium (a spirochete). In this
+way, the archaeon acquired swimming motility, while
+the spirochete obtained useful metabolites (Margulis
+1996). Subsequent endosymbiotic incorporations of ␣proteobacteria and cyanobacteria originated mitochondria and plastids, respectively. This hypothesis does not
+favor the endosymbiotic origin of the nucleus. Although
+this kind of motile symbiosis is known to occur between
+eukaryotic protista and spirochetes (Cleveland and Grimstone 1964; Bloodgood and Fitzharris 1976), it has never
+been observed between archaea and spirochetes, which,
+in addition, are not known to thrive in extreme acido-
+
+philic environments. T. acidophilum lacks a cell wall and
+was the first archaeal species where putative ‘‘histone’’
+proteins were characterized (Searcy and DeLange 1980).
+Those were regarded as crucial eukaryotic-like traits, and
+some others followed (Searcy 1987), all of which made
+this archaeon a candidate of choice for that proposal. But
+in the end, its histone-like proteins turned out to be much
+more closely related to bacterial HU proteins rather than
+to eukaryotic histones (DeLange et al. 1981; Drlica and
+Rouvière-Yaniv 1987; Grayling et al. 1994).
+If we dismiss this (quite unlikely) Thermoplasma–
+spirochete symbiosis as the origin of eukaryotes, does
+any kind of primary symbiosis exist that could have
+paved the way to eukaryotic evolution? A look at the
+present-day archaeal–bacterial symbioses may help answer this question.
+
+Contemporary Symbioses Between Archaea
+and Bacteria
+The existence of symbiosis has not been extensively explored within the domain Archaea. Most characterized
+symbioses between archaea and bacteria are related to
+the process of ‘‘interspecies H2 transfer,’’ which is metabolically advantageous for both partners. The bacterial
+partner ferments organic compounds producing more
+oxidized organic molecules and H2 as end products. This
+H2, together with environmental CO2, is assimilated by
+the archaeal partner, a methanogen, to form methane in
+an energy-conserving reaction. The methanogen acts as a
+sink of H2, thus increasing the velocity of the otherwise
+less efficient bacterial fermentative reactions. This kind
+of mutualistic symbiosis is known as syntrophy and it is
+frequently found in anaerobic natural communities (for a
+review, see Fenchel and Finlay 1995). Generally, a close
+proximity between partners is required to avoid loss of
+the volatile H2. This requirement leads to the establishment of well-integrated consortia. A most striking example is the case of the so-called ‘‘Methanobacillus omelianskii,’’ which, 50 years after its discovery, was
+shown to be not a single organism but a pair of dissimilar
+species in close contact: a chemotrophic bacterium
+known as S-organism and the methanogenic archaeon
+Methanobacterium bryantii (Bryant et al. 1967). When
+isolated, each organism grows poorly on its own. For this
+reason they were classified as obligate syntrophs.
+Many more examples of this kind of syntrophic symbiosis between methanogens and bacteria are presently
+known. They involve a variety of methanogenic archaea
+and a more restricted diversity of bacteria, usually members of the ␦ subdivision of the Proteobacteria, which
+groups the vast majority of the sulfate-reducing bacteria
+(Woese 1987). Some of these bacteria, e.g., species of
+the genera Desulfovibrio and Syntrophobacter, can develop syntrophic relationships with methanogens (Tatton
+
+et al. 1989). Also, some nonstrict sulfate-reducing ␦proteobacterial genera are specialized in obligate syntrophic symbioses with methanogens, such as Pelobacter
+and Syntrophus (Zinder 1993).
+The existence of such intimate relationships raises an
+intriguing and exciting question: Might a methanogenic
+archaeon/␦-proteobacterium syntrophic symbiosis have
+triggered eukaryogenesis?
+
+A Syntrophic Symbiosis at the Origin of Eukaryotes
+We hypothesize that eukaryotes emerged from a syntrophic symbiotic event involving a methanogenic archaeon
+and a ␦-proteobacterium in an anaerobic, likely moderately thermophilic, context. The former would have provided the basic genome and nucleic acid metabolism, and
+the latter, most metabolic capabilities. Presumably, the
+eukaryotic endoplasmic reticulum and nuclear membrane arose, at least in part, from archaeal membranes or
+membrane components, while the plasmic membrane derived mostly from a bacterial membrane.
+We try now to justify this proposal briefly by first
+analyzing some key eukaryotic-like features of the respective candidate partners.
+The Archaeal Partner
+Since the recognition of Archaea as a distinct lineage,
+archaeal research has been prompted largely by the discovery of many essential features in common with eukaryotes but absent from bacteria. Transcriptional machinery similarities were among the first to be
+documented (Zillig et al. 1978, 1979). Subsequent work,
+including completion of the first archaeal genome sequences, allowed the identification of homologies in replication and translation as well (Bult et al. 1996; Klenk et
+al. 1997; Olsen and Woese 1997; Smith et al. 1997).
+Most authors interprete these as evidence of archaeal–
+eukaryal sisterhood rather than specific bacterial loss
+from a complex ancestor. Many of these shared features
+would equally support either an autogenous or any bacterial–archaeal chimeric (heterogenous) hypothesis. In
+this section, we do not recapitulate all these characteristics, extensively revised elsewhere (Klenk and Doolittle
+1994; Langer et al. 1995; Thomm 1996; Belfort and
+Weiner 1997; Dennis 1997; Brown and Doolittle 1997;
+Edgell and Doolittle 1997; Reeve et al. 1997). Alternatively, we focus on certain essential traits shared specifically by eukaryotes and archaea belonging to the kingdom Euryarchaeota (particularly a subgroup of
+euryarchaeal methanogens), which might reveal an intimate phyletic relationship between both (a common history). These are the presence of histones and nucleosomes, DNA topoisomerases, and lipids.
+A classical eukaryotic hallmark is the organization of
+
+chromatin in nucleosome arrays. Eukaryotic nucleosomes are formed by a histone core, consisting of an
+octamer built upon an (H3–H4)2 tetramer plus two H2A–
+H2B dimers, around which DNA wraps (Kornberg 1977;
+Luger et al. 1997). The tetramer interacts first with DNA,
+and it is critical to determine nucleosome positioning,
+whereas H2A–H2B dimers assemble later and may have
+a role in transcriptional regulation. Likely, H2A and H2B
+evolved after H3–H4, allowing further DNA condensation (Ramakrisnan 1995) and increasing the regulatory
+repertoire (Luger et al. 1997). Histone homologues specifically related, by sequence and structural data, to the
+highly conserved H3–H4 have been discovered in Archaea, but exclusively in the euryarchaeal branch (Grayling et al. 1994; Starich et al. 1996; Pereira et al. 1997;
+Reeve et al. 1997; Zlatanova 1997). No core histone has
+been discovered so far in Bacteria or in the crenarchaea,
+in spite of intense search and of the fact that these proteins are very abundant in the cell. They have been found
+in the hyperthermophilic Thermococcales (Sandman et
+al. 1994; Ronimus and Musgrave 1996), and in several
+hyperthermophilic and mesophilic methanogens from the
+orders Methanococcales and Methanobacteriales (Grayling et al. 1994; Darcy et al. 1995; Pereira et al. 1997)
+(Fig. 1). However, archaeal histones are not present in
+the related Thermoplasma acidophilum, which contains
+instead a bacterial HU-like protein, HTa (DeLange et al.
+1981; Grayling et al. 1994). The presence of histones in
+these archaea and in eukaryotes establishes an intriguing
+link between both groups of organisms. Plausible explanations of the occurrence of this essential eukaryotic
+character in some archaea are (i) independent loss of
+histones inherited from a histone-endowed common archaeal–eukaryal ancestor (or even cenancestor), but retention in eukaryotes and some archaea for unknown
+reasons, and (ii) horizontal transfer. However, the most
+parsimonious possibility may be that histones evolved in
+the euryarchaeal branch and eukaryotes simply inherited
+them. From this viewpoint, eukaryotes would have
+implemented and optimized histone function, may be
+more related to transcriptional regulation at the beginning. Indeed, a parallel origin of the nucleosome core
+and eukaryotic transcription from archaea has already
+been formulated based on the similarities between the
+protein families H3, H4, archaeal histones, and the central domain of subunits A and B of the CCAAT-binding
+factor (CBF), a transcription factor associated with eukaryotic promoters (Ouzounis and Kyrpides 1996).
+A second euryarchaeal–eukaryotic connection concerns DNA topoisomerase distribution. These universal
+proteins are required to disentangle DNA strands or duplexes and are, therefore, indispensable for cellular processes such as replication, transcription, recombination,
+and regulation of DNA supercoiling (Drlica 1992; Wang
+1996). Depending on their ability to cut one or both DNA
+strands, they are classified into two mechanistic types, I
+
+Fig. 1. Distribution of histones, reverse gyrase, and gyrase in an rRNA-based archaeal tree and possible phylogenetic position of the archaeal
+syntrophic partner. The tree (adapted from Woese et al. 1990; Stetter 1996) is idealized, so that branch lengths are not necessarily proportional to
+phylogenetic distances. Thick lines indicate thermophilic lineages; asterisks, moderately thermophilic species.
+
+and II, each one of which is subdivided into two phylogenetic families (Wang 1996; Bergerat et al. 1997). The
+presence of at least one type I and one type II enzyme
+member seems to be necessary for any organism. In this
+regard, and strictly speaking, the only archaeal trace present in eukaryotes is a protein involved in meiotic recombination that is homologous to one of the two subunits of topoisomerase VI (Topo VI) (Bergerat et al.
+1997). Topo VI is the prototype of a recently recognized
+type II phylogenetic family, which is widespread among
+the archaea but not found in bacteria. Nevertheless, another interesting observation comes from the distribution
+in archaea of the two supercoil-introducing activities
+known to date, gyrase and reverse gyrase. Reverse gyrase has attracted much attention because of its ability to
+introduce positive supercoils in DNA and because it appears to be a marker of hyperthermophily. It was first
+thought to be only archaeal. However, it was found not
+only in all hyperthermophilic archaea, but also in hyperthermophilic bacteria (for reviews, see Duguet 1995;
+Forterre et al. 1996). Thus, it is present in hyperthermophilic methanogens, but not in mesophilic or thermophilic (such as Methanobacterium thermoautotrophicum,
+growing optimally at 65°C) species (Fig. 1). On the other
+hand, gyrase, a type II DNA topoisomerase specifically
+introducing negative supercoils, is present in all bacteria.
+It may be an original bacterial feature, since it is the only
+type II enzyme in the deep-branching Thermotoga maritima (Guipaud et al. 1997) and likely in many other
+bacteria (Huang 1996). It also appears in some euryar-
+
+chaea (Archaeoglobus and haloarchaea; see Fig. 1), presumably by horizontal import from bacteria (Forterre et
+al. 1994; Klenk et al. 1997; López-Garcı́a 1998). Neither
+gyrase nor reverse gyrase is present in eukaryotes, which
+possess only topoisomerases with relaxing activities. If
+we consider, for instance, the rRNA phylogenetic tree, a
+sort of ‘‘living temperature gradient’’ may be established
+along the euryarchaeal branch, from the deep-branching
+hyperthermophiles to the mesophilic halophiles (Fig. 1).
+Roughly, reverse gyrase is present at the base of the
+branch, coincident with hyperthermophily, whereas gyrase appears toward the tip. Interestingly, M. thermoautotrophicum, located in the middle of this gradient, is
+devoid of the genes coding for both supercoilintroducing activities (Smith et al. 1997). Although this
+is not a conclusive piece of evidence, it is interesting to
+note that this organism is endowed with only relaxing
+topoisomerases, which, in combination with histones,
+highly recalls the situation found in eukaryotic cells.
+One major argument against eukaryotic membranes
+being derived from archaeal ones concerns lipids. Archaeal lipids are mainly isoprenoid glycerol ethers, in
+contrast to the bacterial and eukaryal ester-based linkages. However, the presence of ether lipids is not restricted to archaea, being present also in hyperthermophilic bacteria of the genera Thermotoga and Aquifex
+(De Rosa et al. 1989; Huber et al. 1992). Only the simultaneous occurrence of ether linkages, the isopranic
+nature of the aliphatic chains, and the chirality of glycerol (2,3-sn-glycerol instead of 1,2-sn stereochemistry)
+
+Archaeol, diphytanylglycerol diether; caldarchaeol, dibiphytanyldiglycerol tetraether. Based on Kates (1993).
+Important traits (molecules or synthetic pathways) found also in eukaryotes (see text).
+
+can be considered of phylogenetic relevance (Gambacorta et al. 1994). Archaeal lipids are diverse and complex (Table 1). This turns out to be especially true for
+lipids in methanogenic species, whose variability is derived mainly from the phosphodiester-bonded, watersoluble alcoholic residues, in contrast to the lipid structure in extreme halophiles or sulfur-dependent archaea,
+whose diversity is due to the sugar residues of glycolipids (Koga et al. 1993).
+Glucosaminyl archaetidylinositol was the first polar
+lipid reported to share a characteristic with eukaryalspecific lipids. It is the major either polar lipid in Methanosarcina barkeri, and it consists of GlcNp(␣1-6)-myoinositol 1-phosphate as the polar head group, linked via
+a phosphodiester bond to an archaeol (2,3-di-Ophytanyl-sn-glycerol). Interestingly, this polar group is
+identical to the conserved core structure of glycosylated
+phosphatidylinositol, which serves as a membrane protein anchor in eukaryotes (Nishihara et al. 1992).
+Another differential feature of archaeal lipids is the
+occurrence of tetraether lipids in some archaeal members, including methanogens and sulfur-dependent archaea (but not Methanopyrus or Thermococcus species)
+(Table 1). It has been demonstrated recently that the
+synthesis of tetraether from diether lipids in T. acidophilum, a close relative of methanogens (Olsen et al. 1994),
+is inhibited by a potent inhibitor of eukaryotic steroid
+biosynthesis acting on squalene epoxidase. Both biosynthetic enzymes appear to have structural similarity. Since
+squalene epoxidase is located in the endoplasmic reticulum, it has already been suggested that this structure
+originated from cytoplasmic protoarchaeal membranes
+(Yamagishi et al. 1996).
+Although inositol and tetraether lipids are present in
+some sulfur-dependent archaea and in methanogens, they
+have not been detected in extreme halophiles. Glycerol
+and amino compounds have been found as polar head
+groups only in methanogens (Koga et al. 1993) (Table 1).
+Taken together, these data suggest that there is a restricted range of methanogenic archaea (centered around
+Methanobacteriales) as putative candidates to have set up
+a syntrophic eukaryogenetic symbiosis.
+
+The Bacterial Partner
+The ␦ subdivision of the Proteobacteria clusters three
+groups that are phenotypically different, the dissimilatory sulfate-reducing bacteria, the myxobacteria, and the
+bdellovibrios (Oyaizu and Woese 1985). All these
+groups are able to perform a broad variety of energetic
+metabolisms, and they may have evolved their respiratory chains from that of an anaerobic sulfate-reducing
+ancestor (Woese 1987). Some genera within this subdivision exhibit gliding motility, and the myxobacteria and
+the bdellovibrios also exhibit complex developmental
+and cell division cycles (Reichenbach and Dworkin
+1992; Shimkets and Woese 1992).
+Myxobacteria are of special interest with regard to the
+problem of eukaryogenesis since, indeed, they display a
+surprising number of similarities with eukaryotes at the
+molecular level. The most remarkable are (a) the presence of serine–threonine kinases (previously thought to
+be unique to Eukarya) (Muñoz-Dorado et al. 1991); (b) a
+protein involved in spore morphogenesis that shares
+some structural properties with calmodulin and with vertebrate ␤ and ␥ crystallins (Wistow et al. 1985; Inouye et
+al. 1993); (c) an intercellular signaling factor (factor C)
+homologous to vertebrate 17 ␤-hydroxysteroid dehydrogenase (Baker 1994), which is related to the existence of
+steroids in this group (Kohl et al. 1983); (d) the presence
+of a phosphatidyl-inositol cycle with the possible participation of a G protein in the process (Benaı̈ssa et al. 1994)
+(inositol phosphates are second messengers in eukaryotic
+signal transduction); (e) the existence of reverse transcriptase and retron elements (Rice et al. 1993); (f) the
+presence of a GTPase involved in motility homologous
+to the Ras/Rab/Rho superfamily of small eukaryotic
+GTPases (Hartzell 1997); and (g) the existence of a transcriptional factor homologous to the eukaryotic highmobility group (Y) proteins (Murillo 1997).
+In addition, myxobacteria display interesting similarities to some eukaryotic groups at the level of primary and
+secondary metabolism. They secrete a great variety of
+hydrolytic enzymes and antibiotics, likely in relation to
+their ecological role as predators of other microorgan-
+
+Fig. 2. Schematic representation of eukaryogenesis from syntrophic
+symbiosis between methanogenic archaea and ancestral sulfaterespiring ␦-proteobacteria. Initially, a syntrophic consortium is established (A) where each methanogenic cell (black) is surrounded by
+several bacterial partners endowed with double membranes. Extensive
+membrane development for efficient interspecies H2 transfer and in-
+
+creased cell–cell interactions progressively occur (B), leading eventually to bacterial cytoplasmic fusion (C). Ultimately, redundant membranes are lost (D), an endoplasmic reticulum develops, and nuclear
+pores appear (E). The process is accompanied by gene transfer, gene
+replacement, and bacterial genome extinction. Mitochondria may have
+been acquired at the latest stages. See text.
+
+isms or scavengers of organic matter (Dworkin 1996).
+This ability, together with pigment production, like
+melanin (Burchard and Dworkin 1966), and their complex developmental cycle, explains why botanists and
+microbiologists classified them as fungi for almost a century (reviewed by Reichenbach and Dworkin 1992).
+Taken together, all these data allowed some authors to
+conclude that ‘‘there is little doubt that the myxobacteria
+have played some kind of role in the evolution of eukaryotic multicellularity’’ (Dworkin 1996). We think
+that this ‘‘kind of role’’ may have been indeed played by
+ancestral sulfate-reducing fermentative myxobacteria at
+the very origin of eukaryotes.
+
+both partners (Schink 1992). The production of mucus,
+slime, and other extracellular materials by some syntrophic species greatly enhances the cohesion of these structures (Fenchel and Finlay 1995).
+In this way, the physical juxtaposition of the syntrophic partners facilitates the interspecies H2 transfer,
+which would be strongly improved by subsequent development of coupled membrane invaginations and extrusions. Interestingly, methanobacteria are able to develop
+extensive membrane invaginations forming internal
+membrane systems. Indeed, they have been referred to as
+‘‘methanochondria,’’ due to their mitochondrial-like appearance under the microscope (Zeikus and Bowen
+1975). They are also able to form membrane extrusions,
+and even the production of branched cellular extensions
+by an apparent cell wall-less species, Methanoplasma
+elizabethii, was reported (Rose and Pirt 1981). These
+kinds of membrane invaginations and extrusions are also
+widespread among the proteobacteria, improving considerably diverse metabolic capacities with the increase in
+cell surface (Leive 1973).
+Once this putative consortium of methanoarchaea and
+anaerobic ancestral sulfate-reducing myxobacteria was
+established, a further step would involve bacterial membrane fusion around the methanogenic core (Fig. 2). This
+would have been facilitated by the intimate relationships
+already existing between the bacterial cells surrounding
+the methanogen, in an analogous way to contemporary
+myxobacterial interactions. The result would be a methanogen embedded within a continuous layer of bacterial
+cells with a complex membrane interphase. This arrangement may be regarded as similar to the final situation of
+
+The Eukaryogenetic Pathway
+Formation of Stable Consortia and Close
+Cell–Cell Interactions
+As depicted schematically in Fig. 2, the first eukaryogenetic step would consist of the consolidation of a permanent syntrophic consortium integrated by a core methanogenic archaeon entirely wrapped by ␦-proteobacterial
+cells. This situation can actually be found in present-day
+microbial flocs, such as those formed by Methanobacterium and Syntrophobacter species (Dubourgier et al.
+1988; Thiele et al. 1988; Fenchel and Finlay 1995). Flocs
+are generally composed of large numbers of both cell
+types, sustaining a maximum efficiency by the adoption
+of mosaic arrangements allowing extensive mixing of
+
+a putative phagocytosis of an archaeon by a bacterium,
+although not requiring the necessity of such a very unlikely event.
+Membrane Development and Membrane Loss
+A later eukaryogenetic state would imply loss of one of
+the plasma membranes (Fig. 2). Membrane loss occurs in
+nature; for instance, phagocytotic membranes engulfing
+some cellular endosymbionts, including mitochondria
+and plastids (Gray 1992). Even the outer membrane of
+Gram-positive bacteria could have been lost if, as suggested, the presence of two cell membranes is an ancient
+character in bacteria (Blobel 1980; Rachel et al. 1990).
+Two possibilities can be considered. One involves the
+loss of the external membrane of bacterial cells, i.e., the
+bacterial membrane in closest contact with the methanogen. Hence, a single eukaryotic plasma membrane could
+be generated. The preservation of the archaeal membrane, currently used as an argument against a putative
+archaeal origin of the eukaryotic nucleus, could in this
+way explain some archaeal-like features of nuclear and
+endoplasmic reticulum membranes (see above). If this
+turns out to be the case, substitution of ether-linked lipids
+by bacterial ester-linked ones would have been required,
+while some polar lipids and metabolic pathways would
+have been conserved. However, these similarities do not
+argue specifically in favor of this possibility, since a
+similar situation could result if the archaeal membrane
+were lost, but some of the genes involved were conserved, and their products began to interact with bacterial
+membranes. This suggestive possibility would entail
+elimination of the unique membrane of the methanogenic
+archaeon, while maintaining useful membrane components and their associated synthetic pathways. In such a
+scenario, it might be speculated that the archaeal membrane, completely encircled by a continuous layer of bacterial ones, became redundant and was lost, as well as the
+outer bacterial membranes exposed to the environment.
+In any case, the final situation would have corresponded to a methanogenic core wrapped by a double
+membrane with a complex system of invaginations and
+extrusions. This eukaryotic-like membrane arrangement
+could be considered preadaptative, having evolved initially with a function (increase in contact surface between syntrophic partners) quite different from that of
+present-day eukaryotic membranes. The central compartment surrounded by a double membrane could be considered as a protonucleus plus a protoendoplasmic reticulum.
+Gene Flow, Gene Replacement, and Eukaryotic
+Genome Emergence
+We suggest that, during this cointegrative process, a bidirectional flow of genetic material between both part-
+
+ners took place. Since single archaeal cells were surrounded by several bacterial ones, horizontal transfer
+from bacterial to archaeal genomes would have been
+more important. Two critical consequences must have
+followed. First, transfer of some housekeeping genes
+from one species to the other led to an irreversible stabilization of the symbiotic consortium. Second, the transferred bacterial genes met a new genetic environment in
+the archaeal genome, and therefore, they had to adapt to
+it by acquisition of some (eukaryotic-like) archaeal features such as TATA boxes or histone-mediated regulation. This symbiotic gene transfer could be compared to
+that undergone by mitochondrial and plastid genomes
+towards the nuclear genome (Gray 1992). In some cases,
+the complete genome of a symbiont can be transferred in
+a so-called ‘‘genome extinction’’ process (Palmer 1997).
+Interesting examples are the hydrogenosomes (Müller
+1993) and some secondary plastid endosymbionts
+(Palmer and Delwiche 1996). Obviously, each transferred gene had to acquire a targeting signal ensuring
+efficient posttranslational transport of the encoded protein to the donor symbiont. Such targeting signals generally consist of short sequences, which seem to be easily
+incorporated, as testified by all mitochondrial and plastid-derived nuclear genes. This may happen in a short
+period of time, as has been documented for coxII. This
+gene is normally transcribed from mitochondrial DNA,
+but in some legumes it was recently transferred to the
+nucleus, where it acquired a classical sequence to target
+the protein back into the mitochondrion (Nugent and
+Palmer 1991).
+Logically, bacterial genes having homologues within
+the host archaeal genome should also have been transferred, and these genes may have often replaced the host
+copies. This is a well-known process for some eukaryotic
+genes of mitochondrial or plastidial origin, and is referred to as symbiotic gene replacement (Martin et al.
+1993; Martin and Schnarrenberger 1997). Obviously, the
+probability of a successful gene replacement was higher
+when the transferred gene encoded a protein that was not
+involved in a large number of interactions with other
+proteins, as could be the case for many enzymes of different metabolic pathways. In contrast, host genes encoding proteins interacting with many others were unlikely to be replaced by the transferred homologues. This
+would also be in agreement with the finding that eukaryotic replication, transcription, and translation are archaeal-like, whereas some eukaryotic metabolic genes
+are more akin to those of bacteria (Feng et al. 1997;
+Brown and Doolittle 1997).
+Such a putative gene flow, and eventually gene replacement, toward the archaeal symbiont would explain
+eukaryotic genome’s birth more easily than fusion models of eukaryogenesis do (Zillig et al. 1989). Whereas, as
+stated by Roger and Brown (1996), it is very difficult to
+explain how two very different genetic systems (archaeal
+
+and bacterial) could be successfully integrated by such a
+radical event as cell fusion, a progressive integration by
+transfer of discrete amounts of genetic information, as
+occurred in the case of mitochondria and plastids, seems
+much more feasible. One simple and efficient genetic
+transfer mechanism to be considered, although not exclusive, would be conjugation, which, indeed, can efficiently mobilize DNA between distantly related prokaryotes (Mazodier and Davies 1991) and even between
+individuals from different domains, including eukaryotes
+(Buchanen-Wollaston et al. 1987; Heineman and Sprague 1989). Notably, conjugative plasmids and conjugation are widespread in Archaea (Rosenshine et al. 1989;
+Schleper et al. 1995; Zillig et al. 1996) and also in Proteobacteria, including the ␦ subdivision (Argyle et al.
+1992; Wall et al. 1993).
+All these processes of gene uptake would have been
+accompanied by an increase in genome size and, ultimately, genome partition and linearization. These phenomena occur in present-day prokaryotes. Indeed, some
+(relatively large) prokaryotic genomes are integrated by
+more than one large replicon (chromosomes and/or giant
+plasmids) (Allardet-Servent et al. 1993; Michaux et al.
+1993; Choudhary et al. 1994; Netolitzky 1995), and
+many bacteria have linear chromosomes and plasmids
+(Hinnebusch and Tilly 1993; Casjens et al. 1995). In
+halophilic euryarchaea, some of which carry the largest
+known genomes among the Archaea, large extrachromosomal elements (up to approximately 700 kb) are widespread too (López-Garcı́a et al. 1996). Remarkably,
+myxobacterial genomes are the largest found in prokaryotes (around 9–10 mbp) (Chen et al. 1990; Neumann et
+al. 1992), which might be required for their complex
+social and developmental biology. Such values are comparable to those of free-living unicellular eukaryotes
+such as Saccharomyces cerevisiae (13 mbp) and the microalga Galdieria sulphuraria (10 mbp) (Coetzee et al.
+1987; Moreira et al. 1994).
+Thus, finally, a developed integrated consortium already endowed with a complex large genome would
+have emerged. Metabolic, social, and developmental
+functions would have had a bacterial origin, whereas
+genetic information-processing activities, less susceptible to the interspecific transfer, would have been archaeal-like. This is the overall case in contemporary eukaryotic genomes.
+
+Metabolism
+Initially, the metabolic activities of the eukaryogenetic
+syntrophic consortium would have been greatly dependent on interspecific H2 transfer via intimate cell-to-cell
+interactions. General metabolism would have mostly relied on the bacterial H2-releasing fermentation of organic
+substrates, followed by archaeal H2-dependent methanogenesis. The end products were diverse oxidized organic
+
+molecules and methane. Likely, the consortium displayed broad metabolic abilities, contributed mainly by
+the bacterial partner. In fact, most ␦-proteobacteria (both
+sulfate-reducing and myxobacteria) are able to decompose a great diversity of organic compounds (Reichenbach and Dworkin 1992; Widdel and Hansen 1992). Interestingly, myxobacteria produce extracellular enzymes
+hydrolyzing several macromolecules (Reichenbach and
+Dworkin 1992), which might have already evolved in the
+putative ancestral sulfate-reducing myxobacterial partner. Consequently with these capabilities, these consortia
+would have thrived in anaerobic (maybe microaerobic)
+environments, gaining energy from the fermentation of a
+variety of organic compounds and, possibly, playing the
+ecological role of organotrophic scavengers, as some eukaryotes do today.
+During the eukaryogenetic process, a dramatic metabolic change must have occurred, leading to the complete
+loss of methanogenesis, absent in contemporary eukaryotes. This change can be explained in several ways. On
+the one hand, adaptation to an efficient saprophytism
+(even phagotrophism after cytoskeleton development,
+likely favored by size increase) made methanogenesis no
+more selectively advantageous, and it was finally lost.
+The methanogenic partner was, however, already essential to the consortium as recipient of the bacterial genome. On the other hand, the acquisition of the mitochondrial endosymbiont undoubtedly caused substantial
+changes in the protoeukaryotic metabolism. All known
+eukaryotes appear to have harbored mitochondria once
+(Germot et al. 1996; Roger et al. 1996, 1998). Therefore,
+mitochondrial symbiosis must have been a very early
+event in the history of eukayotes, perhaps as ancient as
+they are. At this point, it is tempting to speculate that the
+mitochondrial symbiosis driving force might have been
+methane production by the syntrophic consortium itself.
+Most methanotrophic bacteria, which derive energy from
+methane oxidation under aerobic or anaerobic conditions, belong to the Proteobacteria, and some genera
+(such as Methylocystis, Methylosinus, and Methylobacterium) to the ␣ subdivision (Lidstrom 1991; Hanson and
+Hanson 1996). Methanotrophs are ubiquitous; some species associate with methanogens to form consortia under
+anoxic conditions (Hoehler et al. 1995), and some are
+intracellular symbionts of diverse invertebrates (Cavanaugh 1985, 1993). Furthermore, methanotrophs develop
+internal membrane systems strikingly similar to those of
+mitochondria (Davies and Whittemburg 1970; Takeda
+and Tanaka 1980). If ancestral eukaryotes were methane
+producers, the first mitochondrial endosymbionts could
+have been anaerobic or microaerophilic methanotrophs
+of the ␣-Proteobacteria. Taking into account the fact that
+mitochondrial acquisition is a very ancient event, perhaps even prior to the massive accumulation of atmospheric O2, the original endosymbiont’s metabolism may
+have been different from the present-day aerobic one.
+
+The common evolutionary origin of aerobic mitochondria and anaerobic hydrogenosomes may actually suggest this (Bui et al. 1996). A mitochondrial transition to
+aerobic respiration would have been subsequent, as an
+adaptative consequence to increasing environmental O2
+concentrations. Methanogenesis was, thus, ultimately
+lost in favor of a much more productive aerobic metabolism, and old-fashioned methanogenic (proto)eukaryotes
+might have been completely outcompeted by the novel
+efficient organotrophs.
+
+Discussion and Perspectives
+We have reported here an alternative hypothesis for the
+origin of eukaryotes in an attempt to overcome some of
+the unsolved questions in current models, many of which
+were artificially born to explain particular contradictions
+in protein phylogenies. We believe that the idea that
+eukaryotes derived from syntrophic symbiosis between
+certain methanogenic archaea and ancestral anaerobic
+sulfate-respiring ␦-proteobacteria provides a coherent
+molecular and cellular evolutionary scenario compatible
+with actual phenomena in nature.
+This evolutionary syntrophic symbiotic process presumably took place under anaerobic (or microaerobic),
+and possibly moderately thermophilic (Schwartzman and
+Shore 1996), conditions, as can be found in many present-day methanogenic consortia (Zinder and Koch
+1984). The inferred primeval eukaryotic anaerobic nature
+could be in agreement with the reported existence of
+eukaryotic fossils predating the massive oxygen release
+to the atmosphere (Han and Runnegar 1992; Canfield
+and Teske 1996).
+In addition to the compatibility with observations
+from microbial ecology, this eukaryogenetic pathway accommodates a continuous evolution, allowing a parsimonious explanation of the existence of many eukaryotic
+characters in common with archaea or bacteria, in many
+cases with specific groups within them. This is seen in
+the case of histone- and nucleosome-based genome organization shared with the euryarchaea and of many molecular features of the complex social behavior and developmental cycles of some ␦-proteobacteria.
+Curiously, as mentioned in a previous section, certain
+molecular phylogenies may favor a closer proximity of
+eukaryotes and crenarchaea (Rivera and Lake 1992;
+Baldauf et al. 1996). In addition to possible unrecognized
+paralogies, horizontal transfers, or biased sampling, unequal rate effects may mask their real evolutionary relationships, especially since very different evolutionary
+rates often occur among eukaryotes and archaea. Certain
+insertion/deletion sequences are more difficult to explain. The example often cited corresponds to an oligopeptide stretch of 11 amino acids shared by EF-1␣ sequences from crenarchaea and eukaryotes, which is used
+
+as evidence for their specific sisterhood (Rivera and
+Lake 1992). However, it has been noted that this insertion/deletion is not a stable character. In fact, among the
+Euryarchaeota, this particular region has changed at least
+three times (Creti et al. 1994). Therefore, an alternative
+explanation would be that this oligopeptide stretch represents an ancestral archaeal character (perhaps present
+in the euryarchaeon that we propose to be involved in the
+eukaryogenetic pathway) that has been lost several independent times in the euryarchaeal branch. Additionally,
+although the EF-1␣ and EF-2 analysis indicates that the
+eukaryote–crenarchaea relationship seems the best supported, other possibilities cannot be statistically rejected
+(Baldauf et al. 1996). In any case, an essential consequence of the proposed syntrophic hypothesis is that the
+resulting eukaryotic genome would have had, at least
+partly, a high evolutionary rate. Acceleration of evolutionary rates appears to be a common phenomenon
+among symbiotic partners (Lutzoni and Pagel 1997; Matic et al. 1997), and indeed, some eukaryotic genes, such
+as rRNA genes, have evolved rapidly (De Rijk et al.
+1995; Baldauf et al. 1996). Besides, the generation of
+innovative properties is an intrinsic, even conclusive,
+characteristic of symbiosis (Smith 1989; Margulis and
+Fester 1993). Although mosaic evolution and differential
+gene loss can complicate our understanding of life’s evolutionary history, the differential presence of a significant number of relevant characters, such as the common
+occurrence of histones and associated pathways of genomic regulation in euryarchaea and eukaryotes, may constitute a valuable phylogenetic tool.
+This syntrophic eukaryogenetic hypothesis is capable
+of being tested. First, some nuclear eukaryotic genes are
+thought to have been acquired via endosymbiotic gene
+replacement by mitochondrial genes (Martin and Schnarrenberger 1997). Perhaps a closer investigation of some
+of them could reveal more similarity to their ␦-proteobacterial than to their ␣-proteobacterial counterparts.
+Even if many phylogenetic signals permitting discrimination between both possibilities could have been extinguished after such a long evolutionary period, having
+␦-proteobacterial genomes sequenced may be very useful. Unfortunately, few ␦-proteobacterial gene sequences
+are presently available to perform a meaningful analysis.
+Second, evidence may come from the analysis of present-day consortia. It would be most interesting to analyze in more detail the molecular biology of obligatory
+symbiosis and try to detect, for instance, recent gene
+horizontal transfers or how, if detected, they may be
+taking place. Finally, a different look at the fossil record
+(especially of prokaryotic consortia) might reveal important information concerning one of the most exciting
+intelectual challenges in evolutionary biology, the
+enigma of the origin of eukaryotes.

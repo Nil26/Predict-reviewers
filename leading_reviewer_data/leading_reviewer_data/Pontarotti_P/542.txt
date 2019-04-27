@@ -1,0 +1,27 @@
+Review of the article Hox, Wnt and the evolution of the primary body axis: insights from the early divergent phyla.
+
+This article shed some light on the understanding and the evolution of the bilaterian animals using knowledge from non bilaterian phyla.
+
+Two main important insights come out from this exegesis of the current literature: 1) the revaluation of the zootype hypothesis and 2) the putative role of the Wnt genes in the partitioning of the body axis in urbilateria.
+
+I think that this review article will help experimental design for the "evo/devo" scientific community.
+
+Specific comments:
+
+"Early divergent phyla and the primary body axis" paragraph:
+
+1) The single cell ancestor hypothesis
+
+What really are the evidence that animals descent from several single cell ancestors? Multicellularity occurred several times independently in the history of life, see for example Fungi. I do not understand why the hypothesis of convergent multicellularity should not be considered in the case of animal.
+
+2) The dating of the occurrence of animal multicellularity
+
+I would be careful about the dating; the fact that we cannot witness older multicellular fossil than the one found in the Ediacaran fauna does not mean that they did not exist.
+
+"Graded morphological complexity" paragraph:
+
+The authors wrote: "sponges are much simpler than bilaterians and that cnidarians occupy an intermediate level of axial complexity". What is the objective parameter of complexity. The authors should explain it (even if this is evident for most of our colleague).
+
+Concerning the phylogeny of Animal
+
+Do the authors think that Bilaterian and Cnidarians form a monophylogentic group, do they think the hox where co-opted in the most common ancestor of these two phyla? It should be helpful if the authors discuss this possibility.

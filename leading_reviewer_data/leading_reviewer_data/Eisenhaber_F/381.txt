@@ -1,0 +1,12 @@
+"The authors describe a method to determine underrepresented pairwise combinations of hexanucleotides with spacers of differing length between them (with up to two mismatches for each motif half) and find that up to 3% of these pairs have drastic reductions of occurrences at specific spacer lengths. These motifs are called spanions. Spanions are reported to be clustered and to occur at genomic locations that are correlated with (i) some isochors and notably CpG islands, (ii) RNAPII binding sites, and (iii) locations of tiRNAs and several other small RNAs.
+
+Whereas the work brings up important observations and successfully connects them with previous knowledge, the manuscript would benefit from considering the following issues:
+
+1) Is there any motivation why the authors analyze motifs of the type hexanucleotide-spacer-hexanucleotide and restrict the mismatches to two on each side? Why not one mismatch or penta-/heptanucleotides, why is the spacer introduced?"
+
+"2) The work would greatly benefit from presenting detailed data for a single representative spanion and a single representative non-spanion so that the reader gets a feeling what kind of data does this analysis produce (to be inserted at page 3 bottom/page 4 top)."
+"3) The section "spanions and isochors" finally does not clarify what is the relationship between them. How many spanions are "near" CpG islands or isochors (what is the distance relationship)? Generally, the authors are scarce with exact numbers; instead, the trends in the data are described with words here and throughout the text. Maybe, it would be good to summarize in a table all absolute numbers of spanions, RNAP sites, tiRNAs, etc. and how many of those overlap sequentially."
+"4) The author should provide a algorithmic definition of what is a spanion cluster with all parameters in the main text (top of page 5)."
+"5) The language of the MS would benefit from polishing. Some sentences are incomplete (e.g., 2nd sentence of last paragraph of page 7)."
+"6) The abstract would benefit from including all conclusions and some of the most important numerical results in this MS; at present, it is too verbose without the interesting pieces of information provided in this work."
+

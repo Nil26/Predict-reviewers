@@ -1,0 +1,22 @@
+This paper presents three main results:
+1)
+dN/dS declines with dS.
+
+ 
+2)
+18% of paralogous gene pairs evolve asymmetrically when the relative rates are tested with a more distant paralog is used as an outgroup.
+
+ 
+3)
+The fraction of predicted deleterious substitutions is much higher in the fast evolving member of a recent duplicate pair.
+
+ 
+Generally, I found the paper boring at times, especially with the introduction repeating the discourse that has been tackled with over the last decade at least. More so, it seemed to me that while the paper analyzed interesting results it did not leave me as a reader feeling completely satisfied. I would suggest rewriting the paper either doing a more complete literature review, or stating the tested hypotheses and the reasons why they are tested more succinctly.
+
+My major concern deals with the first result being a possible artifact of taking fractions of very small values. It would be worthwhile for the authors to invest some time showing that dN/dS values < 0.05 are not systematically overestimated due to the nature of discrete counting of the number of substitutions.
+
+On a more minor level, I think it would be worthwhile for the authors to at least mention the issue of gene conversion, which is especially important here because the outgroup may also be subject to converting with the sister species. If this occurs across few exons the authors may not be measuring dN and dS values correctly across the entire gene. Also, because gene families are selected this automatically pre-selects genes with non-random gene functions, that is more non-random that all possible gene duplications, which may have an effect on the proportion of observed asymmetrically evolving gene copies.
+
+Finally, I believe that the strongest and the most novel result of the paper is the large skew of predicted deleterious substitutions in the gene copies and that it deserved greater attention.
+
+Another minor point: the use of the first two citations is strange, I am sure that more appropriate citations can be found for the theoretical-methodological background they are cited for initially.

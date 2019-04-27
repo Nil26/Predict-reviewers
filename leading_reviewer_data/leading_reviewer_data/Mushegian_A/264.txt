@@ -1,0 +1,15 @@
+The study by Makarova et al. notes that most of the operons encoding bacterial immunity systems (i.e., restriction-modification, DNA phosphorothioation, and CRISP-Cas) are associated with the known or predicted suicide/dormancy systems (i.e., toxin-antitoxin and abortive infection). The hypothesis is that bacteria are playing zone defense, which apparently can take two different forms: first, if immunity system fails to mount an efficient response to non-self DNA, then a suicide system is activated to kill the cell and prevent the completion of virus infection; second, if immunity system is slow to mount a response to non-self DNA, then a dormancy system may shift cell metabolism in low gear, perhaps slowing down virus reproduction and ‘buying time’ for the immunity system to catch up. Somehow, these two versions of the echeloning are not presented as two distinct responses, despite their opposite outcome, but are discussed interminglingly; perhaps it would be better to state them as the alternatives.
+
+The idea, nonetheless, is of a considerable interest. It comes with many specific predictions of novel functions and domain architectures of the involved proteins. In addition to all this, it is hypothesized that Cas system itself has a built-in Kingston valve, consisting of the ubiquitous Cas2 component that acts as a suicidal toxin when released from its inhibitory interaction with Cas1, which has an antitoxin function. The main open question in my mind is whether the tight control of the zone defense of the suicidal variety is possible. Failure or slowness of the cell to
+
+mount the immunity response has to be sensed neither too early (otherwise, futile destruction of the cell that was mounting said response just fine) nor too late (otherwise, destruction only releases already-formed virus progeny). This has to be recognized as an intrinsic difficulty; perhaps dormancy response is more flexible in this regard.
+
+Minor comments:
+
+“[defense island formation] occurs fortuitously due to non-adaptive clustering of horizontally transferred genes” --- perhaps horizontally transferred genes may also cluster adaptively, but not because of their molecular functions but because, for example of the advantage in avoiding the established genome neighborhoods?
+
+“Cas2 .. is a homolog of the VapD toxin of the VapD/VapX TA system [41-44]. Therefore it appears highly likely that analogously to VapD, Cas2 is an mRNA interferase…” --- two homologs have the same function; somehow, ‘analogously’ does not belong here.
+
+is it out of the realm of possibility that Cas-associated reverse transcriptases
+
+could act on virus RNA, rare as the RNA bacteriophages are?

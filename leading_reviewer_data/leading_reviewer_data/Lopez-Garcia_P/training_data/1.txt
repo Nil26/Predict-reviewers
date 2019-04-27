@@ -1,0 +1,591 @@
+DNA Supercoiling and Temperature Adaptation: A Clue to Early Diversification of Life?
+
+Abstract.
+Cellular systems to control an appropriate DNA geometry for function probably evolved simultaneously with DNA genomes. Such systems are basically DNA topoisomerases and DNA-binding proteins. Therefore, their distribution in extant organisms may be a source of information on early evolution and the nature of the last common ancestor (cenancestor). Most living beings need the strand-opening potential of negative DNA supercoiling to allow transcription and other DNA-dependent processes. Mesophiles have global negatively supercoiled DNA, essentially due to gyrase (introducing negative supercoils) in bacteria and to DNA wrapping around histone cores in eukaryotes. Mesophilic archaea, halophilic methanogens, and halophiles might use a gyrase, whereas some methanogens might use histone wrapping. The existence of these two distinct mechanisms suggests that mesophily appeared at least twice in evolution. On the other hand, only one system which is based on reverse gyrase (introducing positive supercoils) appears to be required for hyperthermophilic life. Archaeal hyperthermophiles lacking gyrase have relaxed to positively supercoiled DNA, but hyperthermophilic bacteria of the genus Thermotoga, which have both gyrase and reverse gyrase, have negative supercoiling. This suggests that reverse gyrase is necessary at least locally, but whereas these hyperthermophilic bacteria favor general melting potential and stability at critical active regions, hyperthermophilic archaea favor general linking excess and local melting. In this context, the existence of a thermophilic (60–80°C) ancestor endowed with only relaxing topoisomerases is hypothesized. Such temperatures allow a compromise between melting potential and stability, i.e., an appropriate DNA geometry for function. Subsequent duplication and functional specialization of existing DNA topoisomerases would then have facilitated adaptation to hyperthermophily and mesophily in archaea and bacteria, respectively. If reverse gyrase is an ancient character in hyperthermophilic bacteria, the cenancestor would have already been a hyperthermophile. Histone sequence homology and similarities of nucleosome structural dynamics suggest that eukaryotes inherited this system for DNA structural homeostasis from methanogenic euryarchaea. Some mesophilic archaea would have improved their adaptability to mesophily by importing gyrase from bacteria.
+
+Introduction
+The appearance of a DNA world must have been paralleled by the development of systems to maintain the
+integrity and functionality of DNA molecules. DNA topoisomerases and DNA-binding proteins (histone and
+histone-like) are the key components of such systems.
+Histones are found in eukaryotes and some archaea and
+they allow DNA wrapping around nucleosomal cores
+(Kornberg 1977; Starich et al. 1996; Luger et al. 1997;
+Pereira et al. 1997). Histone-like proteins are widespread
+in the three domains of life, but unlike true histones, they
+cannot wrap DNA. Although histone-like proteins are
+not generally sequence homologues, they do share several properties, being small, generally basic, nonspecific,
+DNA bending, and unwinding, normally via the minor
+groove (Drlica and Rouvie`re-Yaniv 1987; Schmid 1990;
+Laine et al. 1991; Grove et al. 1996; Robinson et al.
+1998). DNA topoisomerases are essential to disentangle
+DNA strands or duplexes, being charged to resolve topological problems arising from DNA-derived processes.
+Thus, they intervene in a high variety of cellular functions, ranging from transcription, recombination, and
+replication (including decatenation and segregation of
+chromosomes) to the regulation of DNA supercoiling
+and maintenance of genome stability (Wang et al. 1990;
+Drlica 1992; Luttinger 1995; Wang 1996). DNA topoisomerases are mechanistically classified as type I or type
+II, depending on their ability to act via a single-strand or
+a double-strand break. In turn, each mechanistic type
+groups two distinct phylogenetic families (see Table 1)
+(Forterre et al. 1994, 1996; Wang 1996; Bergerat et al.
+1997). In Archaea, Eukarya, and Bacteria, type I and II
+enzymes are indispensable and coexist in the cell, which
+suggests that both mechanistic types evolved before domain diversification.
+
+The hypothesis of a hot origin of life is favored nowadays based on two kinds of evidence. Phylogenetically,
+the hyperthermophilic nature of deep-branching archaea
+and bacteria suggest that their ancestor was also a hyperthermophile (Woese 1987; Wa¨chtersha¨user 1988;
+Woese et al. 1990; Pace 1991; Stetter 1995, 1996). In
+agreement, geological evidence suggests that when life
+arose (3.8–4.2 Ga), Earth environments resembled hyperthermophilic biotopes today (Baross and Hoffman
+1985; Nisbet 1985; Shock 1996). A hot autotrophic origin appeared specially supported after the root of the
+phylogenetic tree of life was placed in the bacterial
+branch (Woese et al. 1990; Brown and Doolittle 1995;
+Baldauf et al. 1996). Although the root of the tree and the
+hot origin of life are still controversial (Forterre 1996),
+some authors have indicated the need to distinguish between the conditions in which the origin of life took
+place and those in which the last common ancestor or
+cenancestor was thriving (Miller and Lazcano 1995). Hyperthermophilic or not, the cenancestor was already quite
+complex, as can be deduced from comparative analyses
+of archaeal, bacterial, and eukaryal genomes (Edgell and
+Doolittle 1997; Olsen and Woese 1997). A more or less
+long period of evolution in between, accompanied by the
+possibility of significant environmental changes, is therefore implicit.
+One of the most relevant features of hyperthermophiles is the possession of the special DNA topoisomerase reverse gyrase, which has been consistently found in
+all bacteria and archaea growing optimally above 80°C
+(Duguet 1995). The discovery of this novel activity, capable of creating positive supercoils in DNA molecules,
+not only opened up a discussion about its likely role in
+stabilizing DNA at high temperature, but also fed some
+evolutionary debates. Since the gene for reverse gyrase
+appears to result from a fusion event between two preexisting genes (a putative helicase + topoisomerase), the
+primitiveness of hyperthermophiles was questioned (Forterre et al. 1995). A proposal for the evolution of this
+enzyme in the course of a reduction process from a mesophile to a hypothetic hyperthermophilic common ancestor to prokaryotes was formulated (Forterre 1995).
+However, as discussed in this report, the phylogenetic
+distribution of reverse gyrase and other DNA topoisomerase-based systems for DNA homeostasis, namely, gyrase- and nucleosome-based systems, suggests that mesophily appeared at least twice in evolution, possibly
+later than hyperthermophily. I speculate on the existence
+of a thermophilic ancestor (60–80°C) lacking supercoilintroducing topoisomerases (gyrase and reverse gyrase)
+with an appropriate DNA conformation for function being spontaneously generated. Strategies involving specialization of DNA topoisomerases, as well as histone
+wrapping, evolved subsequently to regulate DNA structure improving the adaptability of organisms to different
+temperature niches.
+The Role of DNA Supercoiling in Living Beings
+DNA Supercoiling, DNA Topology, and
+Topoisomerase Function
+DNA supercoiling is currently used to approximate the
+spatial structure of DNA molecules, or, more precisely,
+their geometry. However, the geometry of the DNA molecule in vivo is difficult to assess, because it is influenced
+by different factors, for instance, protein binding. This is
+the reason why, as an easily measurable topological
+property, the linking number (Lk) is estimated in practice. Lk represents the number of links between the two
+strands of the double helix and is a constant value for a
+covalently closed DNA molecule (ccDNA). Lk can be
+decomposed into two geometrical parameters that determine the shape of the molecule in the space: Lk 4 Tw
++ Wr. The twist (Tw) represents the wrapping of one
+strand around the other, being directly related to the path
+of the helix, and the writhe (Wr) corresponds to the coiling of the helix’s axis in space, i.e., supercoiling (for a
+review, see Bates and Maxwell 1993). For a ccDNA, any
+change in Tw or Wr can affect the other geometrical
+component, but not Lk. Lk can be altered only by a
+process of cutting, passing through, and resealing DNA
+strands or duplexes, i.e., a topoisomerase activity. Under
+these premises, DNA supercoiling and DNA topology
+(Lk) are straightforwardly related. Both parameters are
+sometimes employed indiscriminately to describe DNA
+geometry in living cells (especially in bacteria, where
+DNA–protein binding is not so extensive as in eukaryotic
+nucleosomes; see below). The underlying basis for this is
+that Tw cannot change too much at global levels (only
+locally) if general functionality is to be maintained (important changes in Tw would lead to denaturation or
+inactive structures).
+The geometry of the DNA molecule in the cell can
+also be directly affected by factors other than Lk changes
+induced by topoisomerase action. Among these, physical
+parameters, such as salt or temperature, can make DNA
+an environmental sensor (McClellan et al. 1990; Higgins
+et al. 1990). Also important are the attachment to histones or other DNA-binding proteins (Drlica and Rouvie`re-Yaniv 1987; Travers 1994) and protein tracking during DNA-dependent processes (Kornberg and Lorch
+1992; Dro¨ge 1993; Wang and Lynch 1993; Wang 1996).
+None of these factors can modify the topology of a
+ccDNA molecule per se; however, they can do it indirectly by attracting topoisomerases to release geometrically induced tensions. Most probably the primary function for which topoisomerases evolved was the release of
+local torsional stress generated during transcription, replication, and recombination. In addition to the resolution
+of topological problems during those processes, DNA
+topoisomerases are responsible, alone or with auxiliary
+DNA-binding proteins, for the maintenance of global
+levels of DNA supercoiling (Drlica 1992; Luttinger
+1995; Wang 1996).
+Optimal DNA Geometry and Supercoiling Levels in
+Present-Day Organisms
+It has been hypothesized that a precise overall geometry
+of the DNA molecule exists where the appropriate relative distances are maintained so that the correct interaction with all proteins and factors involved in DNAdependent processes is assured (Forterre et al. 1996).
+This hypothesis was originally based on the different
+DNA topologies found in living organisms. In all mesophiles belonging to the three domains of life, DNA is
+negatively supercoiled, with specific linking differences
+(relative measures of DLk) between −0.07 and −0.05 in
+vitro (Worcel and Burgi 1972; Germond et al. 1975;
+Wang 1987; Sioud et al. 1988; Charbonnier and Forterre
+1994). On the other hand, in hyperthermophilic archaea,
+plasmid DNA is from relaxed to positively supercoiled,
+with specific linking differences from −0.006 to +0.03
+(Charbonnier and Forterre 1994; Lo´pez-Garcı´a and For
+terre 1997). A linking deficit in mesophiles would provide the required activation energy for DNA-dependent
+processes, compensating for the physical effect of lower
+temperatures, which would tend to increase the twist. On
+the other hand, a linking excess in hyperthermophiles
+would counteract the denaturing effect of high temperatures (Fig. 1) (Forterre et al. 1996). However, the 846-bp
+plasmid pRQ7 from the hyperthermophilic bacterium
+Thermotoga sp. RQ7 has recently been shown to be
+negatively supercoiled (Guipaud et al. 1997), suggesting
+that levels of negative supercoiling depend exclusively
+on the presence or absence of gyrase (see below). The Lk
+differences between archaeal and bacterial hyperthermophiles suggest that a local appropriate geometry is necessary but also sufficient for life, provided that measures
+against DNA denaturation or degradation exist.
+Nonetheless, the hypothesis of an optimal DNA geometry has to be interpreted in relative terms. Indeed, for
+any given organism global levels of supercoiling are under homeostatic control and may vary (within certain
+limits) depending on, for instance, growth conditions
+(Balke and Gralla 1987; Jensen et al. 1995) or different
+environmental stimuli including shifts in osmolarity
+(Hsieh et al. 1991b), oxygen concentration (Hsieh et al.
+1991a), pH (Karem and Foster 1993), and temperature
+within the growth range of the organism (Goldstein and
+Drlica 1984). These environmentally induced changes
+have been suggested to control overall gene expression
+(Higgins et al. 1990; Dorman 1995). Global supercoiling
+changes are known to act locally and regulate the transcription of many genes having promoters sensitive to
+supercoiling (Wang and Lynch 1993). In hyperthermophilic archaea, plasmid DNA supercoiling also varies
+during growth and depending on temperature and may
+even reach negative values (Lo´pez-Garcı´a and Forterre
+1997).
+It can be concluded that a certain degree of negative
+supercoiling is, at least locally, necessary for active DNA
+in most, if not all, organisms, since it provides the energy
+of activation required to open both DNA strands for transcription or replication (Weintraub 1985; Wang 1996).
+The only possible exception would be hyperthermophilic
+archaea, for which contradictory reports from in vitro
+transcription systems exist. Whereas negative supercoiling seems to be required in Pyrococcus (Soares et al.
+1998; C Hethke, M Thomm, and P Forterre, unpublished
+results), template topology has no influence at all at normal growth temperatures in Sulfolobus (Bell et al. 1998).
+Therefore, in these organisms high temperatures may actually provide the strand-opening potential needed. However, negative supercoiling is indispensable for transcription at lower temperatures (Bell et al. 1998). Thus,
+whereas in mesophiles global negative supercoiling is
+essential to facilitate opening of DNA strands, in hyperthermophiles, the key problem is the opposite, to prevent
+excessive denaturation by high temperatures. Archaeal
+hyperthermophiles generate global linking excess,
+whereas bacterial hyperthermophiles may avoid excessive local melting: i.e., whereas archaea favor general
+stability and local melting, bacteria favor melting potential and local stability at critical active regions (see below).
+Systems for Homeostatic Control of
+DNA Supercoiling
+Gene and genome sequencing in combination with biochemical studies are providing a more complete and unexpected picture of the distribution of DNA-binding proteins and topoisomerases in the living world. I comment
+briefly on the occurrence of key proteins generating the
+respective global levels of supercoiling in the three domains of life, namely, gyrase, reverse gyrase, and histones (summarized in Figs. 1 and 2).
+Bacteria
+All known bacteria have negatively supercoiled DNA.
+Global DNA supercoiling in bacteria is essentially due to
+the concerted action of DNA topoisomerases, although
+histone-like proteins such as HU can help to fine-tune
+supercoiling levels, for instance, during thermal stress
+(Ogata et al. 1997; Mizushima et al. 1997). Most studies
+derive from mesophilic bacteria, where control of DNA
+supercoiling implies the antagonistic action of gyrase,
+introducing negative superturns, and a type I topoisomerase with the opposite effect (protein v) (Drlica 1992;
+Wang 1996). There are other topoisomerases in bacteria,
+although apparently they do not have a major role in
+maintaining general levels of supercoiling. These are
+type I topoisomerase III (Topo III) and type II topoisomerase IV (Topo IV), both carrying only relaxing activities
+(Luttinger 1995; Wang 1996) (Table 1). Topo IV was
+previously thought to be widespread in all bacteria, but it
+turned out to be restricted to some branches (Fig. 2) (see
+below and Huang 1996; Kaneko and Tabata 1997; Guipaud et al. 1997).
+In hyperthermophilic bacteria of the genus Thermotoga, where gyrase and reverse gyrase coexist, plasmid
+negative supercoiling is detected (Guipaud et al. 1997).
+This implies that gyrase is more active or efficient than
+reverse gyrase at normal growth temperatures. The function of reverse gyrase in vivo is not fully understood, but
+its recurrent presence in hyperthermophiles suggests an
+essential role at high temperatures. If not for the maintenance of relaxed or positively supercoiled overall
+DNA, it may be related to resistance to increased temperatures or to the prevention of DNA denaturation during critical openings of the double helix (Guipaud et al.
+1997). Indeed, at least in hyperthermophilic archaea
+lacking a masking gyrase activity, an increased reverse
+gyrase activity and induction of plasmid positive supercoiling is observed during heat shock and during growth
+at supraoptimal temperatures (Lo´pez-Garcı´a and Forterre
+1997).
+Eukaryotes
+All eukaryotes are mesophiles or slight thermophiles and
+have negatively supercoiled DNA constrained by nucleosomes. The eukaryotic strategy to generate global levels
+of supercoiling is radically different from that used by
+bacteria. Protein binding not only helps to adjust precise
+levels of supercoiling induced by topoisomerases, but is
+necessary to generate high levels of negative supercoiling. Eukaryotes carry only relaxing DNA topoisomerases
+(Table 1), and indeed, bulk chromatin is not under torsional stress (Sinden et al. 1980). Negative supercoiling
+is therefore generated, and restrained, by DNA wrapping
+around the histone core, followed by relaxation of the
+internucleosomal tension by topoisomerases (Saavedra
+and Huberman 1986). The final result is that, if one
+removes histones and topoisomerases, whole DNA is
+negatively supercoiled to about the same extent as DNA
+from prokaryotic mesophiles (Wang 1987). Other eukaryotic DNA-binding proteins, such as the high mobility-group proteins (HMGs), exist. They are involved in
+DNA bending, having a function similar to that of bacterial HU and IHF proteins (Bustin et al. 1990; Grove et
+al. 1996).
+Archaea
+In the domain Archaea, studies about the regulation of
+DNA supercoiling are in their infancy, but already the
+situation seems more complex. Levels of supercoiling
+may vary from highly negative to positive, and the type
+and content of DNA topoisomerases and DNA-binding
+proteins suggest similarities to both bacterial and eukaryotic machineries (Figs. 1 and 2).
+Thus, an involvement of DNA topoisomerases similar
+to that of mesophilic bacteria for control of supercoiling
+could exist in halophilic euryarchaea, since they have
+highly negatively supercoiled DNA (Mojica et al. 1994)
+and may carry a bacterial-like gyrase. At least, the presence of bacterial gyr-like genes has been reported
+(Holmes and Dyall-Smith 1991), as well as sensitivity to
+low doses of the gyrase inhibitor novobiocin (Sioud et al.
+1988).
+All hyperthermophilic archaea studied so far have a
+reverse gyrase and relaxed to positively supercoiled
+DNA. In crenarchaea, small DNA-binding proteins exist
+which have features similar to those of bacterial (HU,
+etc.) or eukaryal (HMGs) histone-like proteins, including
+DNA unwinding proteins, such as Sac/Sso7 and relatives
+(Lo´pez-Garcı´a et al. 1998; Mai et al. 1998; Robinson et
+al. 1998). In these organisms, control of supercoiling
+could involve the antagonistic action of reverse gyrase
+and one relaxing activity (Forterre and Elie 1993; Forterre et al. 1996). Among the relaxing topoisomerase
+candidates that are widespread in both archaeal kingdoms, only a type II enzyme exists, topoisomerase VI
+(Topo VI) (Table 1). Topo VI, first purified from Sulfolobus shibatae (Bergerat et al. 1994), is the prototype
+of a new phylogenetic family characteristic of archaea
+and with some eukaryal protein homologues (Bergerat et
+al. 1997). Regarding type I topoisomerases with exclusively relaxing activities, Topo III-like genes have been
+detected in both archaeal branches (Bult et al. 1996; FitzGibbon et al. 1997), and the enzymatic activity may have
+been detected previously in archaea (Slesarev et al.
+1991). Also, Topo V, a biochemical member of the “eukaryotic” IB subfamily, has been described in Methanopyrus kandlerii (Slesarev et al. 1993) (Table 1), but
+whether or not its presence is widespread in archaea is
+not known.
+Interestingly, early-branching euryarchaea possess
+true histones (Fig. 2). These have been found in hyperthermophilic and some mesophilic methanogens (Methanococcales and Methanobacteriales), as well as Thermococcales (Grayling et al. 1994; Sandman et al. 1994;
+Ronimus and Musgrave 1996; Darcy et al. 1995). However, histones are present neither in Thermoplasma,
+where a protein homologous to the bacterial HU, HTa,
+was described (DeLange et al. 1981; Grayling et al.
+1994), nor in Methanomicrobiales, where MC1 is the
+most abundant histone-like protein (Chartier et al. 1988,
+1989). In haloarchaea, a gene coding for a MC1-like
+protein was found (Darkacheva and Kagramanova 1994;
+A. Mankin, personal communication), but whether or not
+histones occur is unknown. Histones have never been
+detected in crenarchaea, despite intensive searches and
+the fact that these proteins are very abundant in the cell.
+Archaeal histones not only exhibit sequence homology
+with eukaryotic ones, but also form nucleosomal structures with canonical histone folds (Starich et al. 1996).
+Archaeal nucleosomes have recently been found to constrain negative supercoils at physiological conditions of
+salt and temperature (Musgrave et al. 1999). They could
+help to provide the local melting necessary for DNAdependent processes under a control situation, i.e., in a
+context of general linking excess. Moreover, they could
+have a primordial role in mesophilic euryarchaea having
+lost reverse gyrase and still devoid of gyrase. In this case,
+some archaea would use a “eukaryotic” strategy for homeostasis of DNA structure (see below).
+Did Early Diversification of Life Correlate with
+Adaptation to Distinct Temperature Niches?
+An appropriate DNA geometry for function must have
+been conserved throughout evolution, keeping the balance between stability and melting potential. Since
+DNA-binding proteins and topoisomerases are essential
+components of the machinery controlling DNA topology,
+their phylogenetic and environmental distribution is basic to understanding their functional evolution and putative role in temperature adaptation. In this section, I comment on these aspects, using preliminary conclusions to
+trace some hypothetical evolutionary pathways.
+Reverse Gyrase and Hyperthermophily
+An interesting example is constituted by type I topoisomerases, in general, and reverse gyrase, in particular.
+Topoisomerases evolved to resolve topological problems
+in nucleic acid molecules. Early replicative genomes
+might have been composed of small linear nucleic acids
+before the evolution of any topoisomerase activity. Locally generated tensions might have been released spontaneously (see below and Fig. 4, bottom). In this context,
+type I topoisomerases, simpler than type II enzymes and
+ATP-independent, likely evolved first, which could contribute to size increase of small replicons. This might
+have occurred before the DNA era, during a putative
+RNA-protein world. Moreover, type I enzymes might
+have played an essential role facilitating the transition
+between both RNA and DNA-based worlds, particularly
+Topo III-like enzymes. Not only are these ubiquitous in
+the three domains of life, but also the Escherichia coli
+Topo III has been shown to be a true RNA topoisomerase
+(DiGate and Marians 1992; Wang et al. 1996). They
+could have supplied an initial segregating activity. In
+fact, Topo III is able in vitro to decatenate and could be
+involved in chromosomal replication or in mRNA decatenation during transcription (DiGate and Marians 1992;
+Wang et al. 1996). Its absence may be lethal in some
+cases (Li and Wang 1998).
+Once this elementary relaxing function was in place,
+duplication, fusion with an helicase domain, and recruitment of a new function (generation of positive supercoils) could have resulted in reverse gyrase and allowed
+hyperthermophily. Since reverse gyrase is found in both
+hyperthermophilic bacteria and archaea, it may have
+been present in their common ancestor. However, the
+possibility remains for a horizontal transfer from archaea
+to bacteria (see below).
+Gyrase and Other Type II Topoisomerases
+Type II topoisomerases are more complex than type I
+enzymes, often being composed of two kinds of subunits
+and having ATP-dependent activity (Table 1). With the
+exception of gyrase, all type II enzymes can only relax
+positive and negative supercoils and are specifically involved in chromosome segregation and decatenation
+upon replication or recombination. That is the case for
+bacterial Topo IV, eukaryotic Topo II and, most likely,
+archaeal Topo VI (Luttinger 1995; Wang 1996; Bergerat
+et al. 1997). Chromosome segregation is an essential
+function in increasingly larger genomes, and despite the
+possible involvement of Topo III enzymes, this role
+seems to be carried out essentially by type II topoisomerases (Wang 1996). The primary function of type II
+enzymes may thus have been chromosome disentangling
+upon replication, although their evolution could have
+provided for a better efficiency for the removal of supercoils as well.
+As in the case of type I enzymes, one may hypothesize that once the primary function (chromosome decatenation/segregation) was in place, duplication and specialization in a second function, such as the active
+introduction of negative supercoils (gyrase), were allowed. Indeed, gyrase is a complex enzyme with at least
+four functions including maintenance of supercoiling, facilitation of replication and transcription by generating
+negative supercoils in front of the respective complexes,
+removal of knots, and DNA bending and folding (Drlica
+and Zhao 1997). In the absence of ATP, gyrase relaxes
+negative supercoils. This adds regulatory possibilities to
+the intracellular control of supercoiling levels as a response to environmental changes such as substrate depletion, osmolarity or temperature shifts (Jensen et al. 1995;
+Workum et al. 1996). Gyrase can also decatenate, but E.
+coli Topo IV is more than 100 times active for this function and is more likely to carry out this role in vivo
+(Zechiedrich and Cozzarelli 1995). The gyration activity,
+which constitutes its major difference from Topo IV, is
+due to its ability to wrap DNA around itself. As a matter
+of fact, the removal of the C-terminal end of the GyrA
+subunit converts the gyrase to a relaxing Topo IV-like
+enzyme (Kampranis and Maxwell 1996).
+Most studies on gyrase and Topo IV have been performed using E. coli as a model. However, complete
+genome sequencing is revealing striking differences in
+type II topoisomerase gene contents in bacteria. Topo IV
+genes (parE and parC, homologous to gyrB and gyrA,
+respectively) are not detected in T. maritima (Guipaud et
+al. 1997; http://www.tigr.org). Only one set of genes is
+present in Aquifex aeolicus (Deckert et al. 1998), although based on gene similarity it is not clear whether
+they code for a Topo IV or a gyrase (Guipaud, personal
+communication). Also, only one set of genes can be retrieved from the genome sequence of Deinococcus radiodurans (http://www.tigr.org). In these organisms gyrase must be the decatenase as well. The absence of Topo
+IV in many bacteria could well explain the failure to
+amplify gyrA-like sequences in the radioresistant micrococci and Thermus, green sulfur, green nonsulfur, and
+Planctomyces (Huang 1996). These organisms appear to
+branch slightly earlier in the bacterial bush (Fig. 2) (Pace
+1997). An interesting case is the cyanobacterium Synechocystis sp., whose genome carries two gyrA sequences (one more similar to its Topo IV homologue
+parC) but only one gyrB (Kaneko and Tabata 1997). This
+suggests that a duplication event took place just before,
+or during, the differentiation of cyanobacteria and that in
+these organisms, GyrB could interact with both GyrAand ParC-like proteins to perform two already individualized functions (GyrB + GyrA, a gyrase to control
+overall levels of supercoiling, and GyrB + ParC-like, to
+decatenate chromosomes). Later in the bacterial branch, a
+second duplication event, involving gyrB, could have led
+to the complete independence of both enzymatic functions and to a higher versatility for the colonization of
+meso- and psychrophilic environments. GyrA is indeed a
+cold-shock protein (Jones et al. 1992). Interestingly,
+many of the bacteria with only one putative complete set
+of type II topoisomerases can be quite thermophilic.
+Thermus spp. can grow at up to 85°C, and cyanobacteria
+and photosynthetic bacteria at up to 73°C (Brock 1986).
+Another interesting feature on topoisomerase distribution is that the type II enzymes present in earlybranching bacteria and archaea belong to different phy
+logenetic families. Topo VI is the only type II
+topoisomerase detected so far in hyperthermophilic crenarchaea and most hyperthermophilic euryarchaea (Fig.
+1). However, the respective B subunits of Topo VI and
+gyrase still exhibit some homology (Bergerat et al.
+1997). This could indicate that at the time of the prokaryotic ancestor, a primitive type II topoisomerase activity existed, involving the interaction of a proto-B subunit with other DNA-interacting proteins able to cut and/
+or ligate DNA. The speciation of the domains Archaea
+and Bacteria implied also the speciation of both topoisomerase families (IIA and IIB; Table 1). This hypothesis would be in agreement with a primitive DNA replication system at the time of the cenancestor (Edgell and
+Doolittle 1997; Olsen and Woese 1997).
+In the euryarchaeal branch, halophiles have most
+probably imported a gyrase from bacteria (likely Gram
+positive). Indeed, horizontal transfer seems to have had a
+profound impact in archaeal evolution (Hilario and
+Gogarten 1993; Gogarten 1994, 1995; Doolittle 1998).
+Haloarchaeal gyrase genes branch in the middle of bacterial ones (Forterre et al. 1994), and these organisms
+seem to have acquired other bacterial genes in this way,
+possibly from Gram-positive bacteria and cyanobacteria
+(Home et al. 1988; Altekar and Rajopalan 1990; Gogarten 1995; Doolittle 1998). Communities integrated by
+cyanobacteria and halophiles are widespread, and close
+feeding interactions between them were shown to occur
+in cyanobacterial mats (Zviagintseva et al. 1995). Gyrase
+import might have taken place earlier in euryarchaea,
+since Archaeoglobus fulgidus already contains gyr homologues, although the great similarity to the Thermotoga gyrase (Guipaud 1998) would rather suggest an independent horizontal transfer. Also, the key enzyme for
+its unique bacterial-like capacity to reduce sulfate seems
+to have been imported from sulfate-reducing bacteria
+(Doolittle 1998). Archaeoglobus, Thermotoga, and sulfate-reducing bacterial genera are found extensively in
+the same biotopes and frequently coisolated (L’Haridon
+et al. 1995; Hugenholtz et al. 1998).
+Histone Wrapping: On the Way to Eukaryal Chromatin
+As mentioned previously, a second way to generate extensive negative supercoiling is DNA wrapping around
+histone cores. This system is typically used by eukaryotes, which possess only relaxing type I and II DNA
+topoisomerases (Table 1).
+Eukaryotic nucleosomes are formed by an octamer
+built upon a (H3–H4)2 tetramer plus two H2A–H2B
+dimers. The roles of the tetramer and dimers in today’s
+nucleosome are very different. Whereas the tetramer is
+critical for the first interaction with DNA and to determine nucleosome positioning, the H2A–H2B dimers assemble later, having a likely role in transcriptional regulation. H2A and H2B probably evolved later than H3–
+H4, allowing further condensation of nucleosomal DNA
+(Ramakrishnan 1995). The tetramer (H3–H4)2 can harbor positive and negative supercoils without affecting
+DNA twist (Hamiche et al. 1996). The transition between
+both states occurs rapidly, can be triggered by thermal
+fluctuations, and is due to a conformational change of the
+tetramer to accommodate the sense of DNA coiling (Fig.
+3). This change takes place only in the absence of H2A–
+H2B dimers (their assemblage would block the lefthanded structure), and a role in transcriptional regulation
+for these highly dynamic transitions has been proposed
+(Hamiche et al. 1996).
+Although archaeal histones were initially reported to
+form “reverse nucleosomes” by positive DNA wrapping
+(Musgrave et al. 1991), they apparently constrain nega
+tive supercoils under physiological conditions (Musgrave et al. 1999). With the exception of Methanopyrus,
+where two histone folds are fused in the same polypeptide (Slesarev et al. 1998), a shift from negative to positive wrapping can also be observed in archaeal nucleosomes depending on salt concentration (Musgrave et al.
+1999). Therefore, sequence homology, structure, and
+nucleosomal dynamics point out to a common origin for
+archaeal and eukaryal nucleosomes. In addition to the
+essential packaging function of eukaryotic nucleosomes,
+support for a more dynamic role via modification of local
+supercoiling in transcriptional regulation is increasing
+(Wolffe and Pruss 1996; Luger et al. 1997; Luger and
+Richmond 1998). The same may be true for archaeal
+nucleosomes (Musgrave et al. 1999). In fact, based on
+the similarity of archaeal and eukaryotic histones to the
+CBF family of eukaryotic transcription factors, a parallel
+origin of the nucleosome core and eukaryotic transcription from archaea has already been proposed (Ouzounis
+and Kyrpides 1996).
+From the beginning, the physical interconversion
+from right- to left-handedness may have had a significant
+role in transcriptional regulation in archaeal and eukaryal
+nucleosomes. Yet nucleosome formation may have also
+been exploited to colonize mesophilic environments in
+archaea devoid of gyrase, because it offers sufficiently
+powerful machinery capable of generating melting potential at lower temperatures. In fact, looking at presentday mesophiles, they must have one of the two described
+systems to generate extensive negative supercoiling, either a gyrase (in bacteria and some archaea) or a histonewrapping system (eukaryotes and some euryarchaea)
+(Figs. 1 and 2). The occurrence of these two systems
+strongly suggests an independent adaptation to mesophily, i.e., mesophily appeared at least twice in evolution.
+A second important conclusion is that the histonebased system used by a restricted range of methanogenic
+euryarchaea possibly to package DNA, regulate transcription, and generate negative supercoiling may have
+preceded the eukaryotic system. This constitutes a strong
+argument favoring recently published symbiotic hypotheses for the origin of eukaryotes in which an archaeal
+methanogenic partner is involved (Martin and Mu¨ller
+1998; Moreira and Lo´pez-Garcı´a 1998), in particular, a
+histone-carrying methanogen having already lost reverse
+gyrase (Fig. 2).
+An evolutionary pathway in the euryarchaeal branch
+can be hypothesized as follows. A gradient from hyperthermophily to mesophily (and mesophilic halophily)
+can be traced along this phylogenetic lineage (Fig. 3).
+Hyperthermophiles possess a reverse gyrase required for
+preventing general denaturation, whereas negative supercoiling (required for DNA transcription and other processes) is provided by nucleosome formation. Some
+methanogens lost reverse gyrase and occupied less thermophilic niches. That may be the case for mesophiles
+from the orders Methanococcales and Methanobacteriales. The closely related halophilic methanogens (Methanomicrobiales) and halophiles, which are mesophiles,
+may have imported gyrase from bacteria. Since gyrase
+seems to be strongly advantageous for mesophilic adaptation, these organisms may have lost histones and substituted them with histone-like proteins (like MC1 proteins) conferring more dynamic interactions. The
+genome as a whole would work much more in a bacterial-like fashion. This could also be the case for Thermoplasma, possessing the HU-like HTa. This protein
+may have a bacterial origin, and although the topoisomerase content of Thermoplasmales is still unknown, a
+gyrase could exist, since they are sensitive to novobiocin
+(Yasuda et al. 1995). Thermoplasma acidophilum was
+isolated from acid coal piles, but Thermoplasma relatives
+have recently been found to be much more widespread
+than thought, sharing the same environments as Methanomicrobiales and halophiles, for instance, in coastal salt
+marshes (Munson et al. 1997). The related Methanomicrobiales and halophiles generally thrive in salty biotopes of this kind. Interestingly, high osmolarity and high
+salt shocks are related to an increase in negative supercoiling (Hsieh et al. 1991b; Mojica et al. 1994), which
+could constitute an additional need to gain a gyrase.
+A Thermophilic Ancestor
+The generation of linking excess or deficit at general or
+local levels in DNA genomes may be essential for temperature adaptation. Hyperthermophiles utilize reverse
+gyrase to prevent denaturation, whereas mesophiles use
+gyrase or histone-mediated mechanisms. In this sense,
+mesophily appears to be an adaptation at least as complex as hyperthermophily, having appeared at least
+twice. Reverse gyrase likely evolved earlier (or at the
+latest at the same time) than gyrase or histone-wrapping
+mechanisms to control global supercoiling. One appealing possibility is that the ancestor was a thermophile, still
+devoid of important supercoil-introducing activities,
+thriving around 60–80°C, in which the optimal DNA
+structure for function was generated spontaneously (Fig.
+4). This configuration would be the most energetically
+favored at those temperatures, corresponding to a compromise between stability and melting capability. Thermophilic conditions would be necessary to provide the
+energy of activation supplied by an excess of negative
+supercoiling in mesophiles, while sufficient to prevent
+the risk of denaturation that higher temperatures would
+induce. Small DNA-binding proteins likely played an
+important role at this stage. They possibly stabilized the
+genome, but also helped its biological activity due to
+their bending/unwinding properties.
+Two theoretical possibilities can be envisionned for
+the further evolution of this thermophile (Fig. 4). The
+first would imply the evolution of reverse gyrase in the
+archaeal lineage, leading to a hyperthermophilic archaeal
+ancestor and a subsequent horizontal transfer to bacteria.
+The cenancestor would then be a thermophile. In the
+second possibility, reverse gyrase would have evolved
+prior to the diversification of the prokaryotic domains,
+and the cenancestor would already be a hyperthermophile. In this case, bacterial reverse gyrase would be a
+remnant of early prokaryotic history.
+In the hyperthermophilic lineage leading to archaea,
+the euryarchaeal branch developed histones serving initially as stabilizing and bending/unwinding proteins,
+similar to crenarchaeal and bacterial histone-like proteins. The capacity of histones to interact and form
+higher-order structures that wrap DNA was further exploited for adaptation to less thermophilic environments,
+being the origin of the eukaryotic-like genome lifestyle.
+Conclusions
+Temperature and other physical parameters affect DNA
+conformation, which must be under homeostatic control
+to allow the correct interaction with all proteins involved
+in DNA-based processes. The basic components of systems to regulate DNA topology in all organisms are
+DNA topoisomerases and DNA-binding proteins. Therefore, their phylogenetic distribution and particular functions are a worthy source of information about early
+evolution and temperature adaptation, especially concerning a putative hyperthermophilic cenancestor.
+Hyperthermophilic life (optimal temperatures above
+80°C) requires the possession of reverse gyrase, which is
+probably essential only at critical regions, since hyperthermophilic bacteria appear to have general levels of
+gyrase-induced negative supercoiling. This would be in
+agreement with the requirement of a certain degree of
+negative supercoiling to initiate transcription and other
+processes. In hyperthermophilic archaea lacking gyrase,
+relaxing to positively supercoiled DNA would prevent
+global denaturation, but should then provide negative
+supercoiling at local regions, at least when the environmental temperature decreases (Bell et al. 1998). This
+could be done in crenarchaea with the help of unwinding
+proteins such as the Sac/Sso7 proteins (Lo´pez-Garcı´a et
+al. 1998; Mai et al. 1998; Robinson et al. 1998) and in
+euryarchaea by histones, which generate negative supercoiling at physiological conditions (Musgrave et al.
+1999). This suggests that histones originally evolved to
+perform a similar function as actual histone-like proteins,
+i.e., general stabilization, bending, and unwinding, being
+used later for more complex functions.
+Mesophilic life requires general levels of negative
+DNA supercoiling, despite an additional local unwinding
+to initiate DNA activity. Those levels are generated either by gyrase (all bacteria and some archaea) or by DNA
+wrapping around a histone core (eukaryotes and some
+euryarchaea), implying independent adaptations to lower
+temperatures.
+In this report, I have speculated on the existence of a
+thermophilic ancestor thriving under thermophilic conditions (60–80°C), which was already endowed with relaxing type I and primitive type II topoisomerases. Thermophilic temperatures supplied the energy of activation
+required for opening DNA strands without inducing excessive denaturation. Hyperthermophily would have appeared first as reverse gyrase evolved, and the cenancestor would have been a thermophile or already a
+hyperthermophile. On the bacterial branch, duplication
+of gyrase genes and functional specialization (decatenation—control of supercoiling) led to an increased adaptability to mesophilic conditions. Consistent with a hyperthermophilic archaeal ancestor devoid of gyrase,
+hyperthermophilic archaea seem to use proteins to aid
+DNA unwinding in a general context of linking excess.
+The DNA-binding proteins that developed in the euryarchaeal branch, i.e., histones, turned out to be very efficient in generating negative supercoiling. Later, as they
+had to face less thermophilic environments, this histone
+potential was exploited to create high general levels of
+negative supercoiling, which could be at the very origin
+of the eukaryotic nucleosomal dynamics. Halophilic
+methanogens and halophiles, well adapted to mesophily
+and high salt, have probably acquired a gyrase from bacteria living in the same environments, and they replaced
+nucleosomes by a bacterial-like system of expression and
+general chromosomal dynamics.
+These hypothetical pathways of evolution can be at
+least partially tested, since several predictions can be
+made for present-day organisms. Some of them have
+already been formulated, such as the presence of a putative gyrase in Thermoplasmales acquired by horizontal
+transfer. An interesting case to study is that of Archaeoglobus fulgidus, where reverse gyrase, gyrase, and histone genes occur simultaneously (Klenk et al. 1997). In
+this case, gyrase would have been acquired by horizontal
+transfer from hyperthermophilic bacteria, but histones
+have not yet been lost. This would be a good candidate to
+verify if gyrase is the determinant of negative supercoiling whenever it occurs in addition to reverse gyrase. It
+would be equally interesting to analyze whether the occurrence of two reverse gyrase genes affects the level of
+DNA supercoiling in Aquifex aeolicus (Deckert et al.
+1998) and whether its type II topoisomerase acts like a
+gyrase or a Topo IV.
+This hypothesis would also predict the existence of
+negative levels of DNA supercoiling in the meso/
+psychrophilic crenarchaea and euryarchaea detected by
+rRNA sequencing directly from the environment (Barns
+et al. 1996; Pace 1997; DeLong 1998). Group I psychrophiles, branching deeply into the otherwise hyperthermophilic crenarchaeota, are probably the result of a secondary adaptation to meso/psychrophily, as suggested by the
+long branch length in the rRNA phylogenetic tree, likely
+the result of a higher evolutionary rate (Preston et al.
+1996; Barns et al. 1996). It would now be interesting to
+test whether they have lost reverse gyrase and acquired
+gyrase or whether they have developed an alternative
+mechanism to maintain general levels of negative DNA
+supercoiling.
+At present, molecular ecology, which now permits the
+identification of many unculturable bacteria and archaea,
+in combination with comparative genomics and biochemical analysis, should help to refine the topoisomerase map in the living world. The role of these enzymes in
+temperature adaptation and evolution could then begin to
+be better understood.

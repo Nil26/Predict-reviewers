@@ -1,0 +1,13 @@
+Reviewer Comments:
+
+The paper reports analysis of hypersensitive sites (HSs), comparing HSs containing transposable elements (TEs) and HSs in general. Given that HSs are likely to correspond to regulatory regions and tend to be conserved, the large fraction of TE-containing HSs is surprising. Still, even the latter are shown to be functionally relevant. This leads to an important conclusion about the role of TEs in the evolution of regulation.
+
+A main problem of this study is the deficit of controls. Basically, only two samples are analyzed, TE-HS and nonTE-HS. For instance: 23% HSs contain TEs and 11% HS positions are covered by TEs (page 7) – is it a lot or not? What would be expected if there were no correlation? (given that >50% of the human genome is TE-derived, I suspect that, not surprisingly, HS tend to avoid HS – but what about other classes of functional regions?)
+
+There is no difference in gene expression between TE-HS and nonTE-HS sites (page 9) – this is nice, but, again, what about other classes of genes, e.g. dependent on the degree of conservation in their upstream regions.
+
+Section "Gene function": what genes were subject to clustering in order to find over-represented GO annotations – all HS genes? TE-HS and nonTE-HS genes separately? Further, in the last paragraph of this section, it should be explicitly mentioned that it describes just an example, not an exhaustive list.
+
+Section "Comparative genomics": missing controls are genes without HS in the same GO categories and just genes without HS: without it, it is difficult to appreciate the difference between the TE-HS and nonTE-HS genes. On the other hand, the results of this paragraph are quite interesting: assuming that TE-HS genes recently experienced a change in regulation (resulting in change in expression), one could expect positive selection towards a new role. It might be interesting to apply the McDonald-Kreitman test to check this hypothesis. But again, more controls with other classes of genes are needed.
+
+Overall, I think that, although the obtained results are interesting, they are somewhat preliminary. To make the emerging picture much less shallow and enhance the authors' main point about the contribution of TEs to the evolution of regulation in the human genome, they should consider, where appropriate, the following control groups of genes: genes without HS, genes with non-conserved (but not TE-derived) HS, non-HS genes in the same GO categories as identified in the "Gene function" section.

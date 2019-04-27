@@ -1,0 +1,9 @@
+The authors present a very comprehensive analysis of the HPEN domain. I appreciate the range of the conclusions that the authors arrive at, from molecular function to evolutionary patterns. The multiplicity of observations and predictions make it very hard to come up with any constructive criticism. Most of the predictions are short stories that may well be true, but about which I do not have enough knowledge to comment upon. So I will only make some short, specific remarks.
+
+Methodological: I cannot really find how the authors decided whether genes are in the same operon, e.g. for the operons depicted in Figure 5. Is there operon information available for all these species? If the operons are inferred based on gene proximity, maybe that should be stated.
+References: References 64 and 65 are not original references to genes occurring with conserved gene order, or in operons, having related functions.
+Figures: showing both Figure 3A and B appears redundant.
+If the authors want the reader to see the circular permutation in the KEN domain they may have to show it better. To me it is not obvious.
+
+“The conserved acidic residue” (page 9) is, I take it, part of the second motif mentioned earlier. Please repeat the name of that motif so that the reader knows what is meant”
+All other editorial changes which were suggested were made.        

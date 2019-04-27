@@ -1,0 +1,10 @@
+In this work, the authors developed a web server for predicting ligand binding sites in proteins. They have analyzed the binding propensity of more than 700 ligands and the topmost ones are presented in the manuscript. Further, the ligands/amino acid residues have been clustered to understand the preference of binding. The details about the binding sites and other details are provided in the Additional file 1 and on the web. It is an interesting manuscript with several ligands together.
+
+The manuscript could be improved by incorporating the following suggestions.
+
+1. Propensity analysis has been carried out based on high, moderate and low. The plausible reasons could be discussed.
+2. Analysis on statistical significance would validate the specific preference of residues/ligands.
+3. Several examples are given on the binding site prediction of ligands using example proteins and ligands produced no binding site results. It is better to provide examples with binding site residues. Also, these results should be checked.
+4. In the Additional file 1 prediction performance of specific ligands are given. It will be beneficial if the data for all ligands are given although some of them would be poor due to their less occurrence in proteins-ligand complexes.
+5. Several methods are available for ligand binding site prediction. A comparison with other existing prediction methods could be useful.
+

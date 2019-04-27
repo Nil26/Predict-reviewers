@@ -1,0 +1,558 @@
+The use of structural profiles and parametric sequence comparison in the rational design of polypeptides
+
+Introduction
+
+"Protein engineering," i.e., the design and construction of novel or
+mutated proteins, may involve different levels of structural information.
+In the case of well-studied proteins the design can rely on a wealth of Xray, NMR, and chemical modification data. On the other hand, mutations
+often have to be designed in cases when the amino acid sequence is the
+only structural information available. For example, some proteins are not
+readily available in quantities sufficient for structural analysis, and some
+short peptides have no characteristic structures in solution. Mutated proteins, on the other hand, can now be obtained more and more readily due
+to advances in recombinant DNA techniques, which make it possible to
+test structural hypotheses in practice. If the goal is the exchange of a
+single amino acid residue then the problem can be attacked by replacing
+the residue in question with all the 19 remaining amino acids in parallel
+mutagenesis experiments. On the other hand, this approach would be
+clearly too expensive and time consuming if several residues of a region
+have to be changed. The number of possibilities can be narrowed down if
+a potentially important structural pattern, such as an amphiphilic a-helix,
+can be recognized in the given region. In this case the mutations can be
+rationally designed based on the hypothesis that those amino acid replacements leaving the original structural pattern intact are likely to be accepted. There are two generally used methods available for the recognition of local structures in amino acid sequences: (1) the use of symbolic
+diagrams such as the Schiffer-Edmundson 1 "helical wheels" or the "helical nets," 2 and (2) the use of structural profiles.
+This chapter briefly describes how the structural profiles are constructed and used. A particular goal of this chapter is to review the numeric and graphic methods developed for the comparative evaluation of
+structural profiles. 3,4 The advantage of comparing structural profiles
+rather than primary sequences originates from the simple fact that proM. Schiffer and A. B. Edmundson, Biophys. J. 7, 121 (1967).
+
+files, unlike primary sequences, can be subjected to arithmetic operations
+(averaging, subtraction, etc.) and their similarities can be characterized in
+quantitative terms such as correlation coefficients and standard deviation.
+This is essentially a parametric approach of sequence comparison which
+makes it possible, e.g., to compare groups of sequences, to carry out a
+semiquantitative comparison (ranking) of sequences in structural terms,
+etc. These operations which are not feasible with primary sequences can
+be easily programed on laboratory microcomputers and allow quantitative
+characterization of the mutations planned. The molecular biologist can
+use these techniques in two closely related areas: (1) comparison of mutated or "designed" sequences to their wild-type counterparts; (2) comparison of newly determined amino acid sequences to their known
+homologs.
+Principle and Scope
+Structural profiles make it possible to compare wild-type and designed
+sequences in quantitative terms. Average profiles and standard deviation
+profiles calculated from homologous sequences allow identification of
+conserved structural features that can help to formulate a structural hypothesis for the design of engineered analogs. The present chapter contains a compilation of the most important parameter sets used to construct
+structural profiles from primary sequence data. Numeric and graphic
+methods designed for the comparative evaluation of structural profiles are
+described. The methods can be used for the simple quantitative evaluation (ranking) of sequences containing multiple amino acid replacements.
+Definitions
+The structural profile is one of the simplest representations of a protein structure. It is constructed by plotting a structural parameter Pi
+against the sequential position i. The Pi structural parameters are obtained
+either statistically, such as the Chou-Fasman parameters, 5 or by physical
+measurement, such as the various hydrophobicity parameters. (Profile
+representations of three-dimensional structures are not discussed here).
+In the computational sense it is useful to divide the structural profiles
+into two groups, single residue and multiple residue methods. In the single residue methods each of the 20 amino acids is characterized by a
+constant structural parameter which is independent from the sequence. In
+this case the profile is constructed simply by plotting these constant val5 p. y . Chou and G. M. Fasman, Adv. Enzymol. 47, 45 (1978).
+
+
+ues against the sequential position. In the multiple residue methods the P/
+parameters of the ith amino acid depends both on the ith amino acid and
+on the sequential neighbors, and is calculated separately for every position in the sequence. For example, the algorithm of Garnier et al. 6 uses
+contributions of the eight preceding and the eight subsequent sequential
+neighbors for the calculation of the secondary structure propensity parameter of the ith amino acid [Eq. (3)].
+For the presentation of the data, the plotted Pi parameters have to be
+processed by curve smoothing that visualizes trends within the profiles by
+removing dispersion. For our purposes basically any smoothing technique
+is acceptable, and commercially available softwares usually contain such
+options. In these procedures each Pi parameter is replaced by a new P'/
+value which is an average calculated within a window, i.e., a sequential
+environment of the ith residue. Usually, the window width is an optional
+odd number (2k + 1) and the resulting average value is assigned to the
+central position of the window. In the simplest case, P'i can be an arithmetic average [Eq. (la)] or a weighted arithmetic average [e.g., Eqs. (lb)
+and (c)]:
+j=i+k
+
+P'i = [1/(2k + 1)] ~
+
+ej
+
+(la)
+
+j=i-k
+
+P'i = [17Pi + 12(Pi+l + Pi-O - 3(Pi+2 + Pi-2)]/35
+
+(lb)
+
+P'i = {7Pi + 312(Pi-1 + Pi+O + Pi-2 + Pi+2] - 2(Pi-3 + Pi+3)}/21 (lc)
+
+More advanced methods can produce continuously differentiable
+c u r v e s . 7-9 While the latter procedures more efficiently remove dispersion
+than arithmetic averaging [Eq. (la)], they also distort the values numerically and may give rise to chain-end artifacts at the first and last residues.
+Repeated use of the same algorithm also improves smoothing efficiency.
+We note that (1) if the profiles are to be used for prediction, then the
+optimized procedures recommended by the original papers have to be
+employed (see below). (2) The unprocessed Pi parameters should be used
+for numeric and graphic comparison of profiles as well as for the calculation of average and standard deviation profiles.
+The different structural parameters (Table I) are usually scaled so as to
+meet some statistical or other requirement. For better comparison and
+6 F. Gamier, D. J. Osguthorpe, and B. Robson, J. Mol. Biol. 120, 97 (1978).
+7 p. R. Bevington, " D a t a Reduction and Error Analysis for the Physical Sciences."
+McGraw-Hill, New York, 1969.
+s A. Savitzky and M. Golay, Anal. Chem. 36, 1627 (1974).
+9 G. D. Rose, Nature (London) 272, 586 (1978).
+
+
+uniformity, we have normalized the single residue amino acid parameter
+sets to a mean 0 and a standard deviation 1 (Table II).
+Description of Structural Profiles
+
+Secondary Structure Propensity Profiles. The most widely used parameter set, that of Chou and Fasman, 5 is statistically derived from protein structures determined by X-ray crystallography. The parameters represent the propensity of each amino acid to form an a-helix, fl-sheet, or
+turn (Table I). For example, the a-helix propensity parameter of an amino
+acid a, Pa,~ is calculated by dividing the frequency of the amino acid a in
+a-helix, f~,~ by the average frequency of residues in the helix conformation:
+Pa,,~ = fa,,~/(f,~)
+
+(2)
+
+In their original paper Chou and Fasman used structural data on 15 proteins for the calculation of the conformational parameters. The ChouFasman parameters in Table I were calculated from a database containing
+29 proteins. In the original method the profiles are smoothed with a fourresidue window, and the average value is assigned to the first position
+within the window. Levitt 1° has published a Chou-Fasman type parameter set derived from a database of 60 protein structures.
+The method of Chou and Fasman is a single residue method, in which
+neighbor interactions are not included. Robson and co-workers developed
+the so-called directional information algorithm, 6 a statistically based multiple residue method in which contributions from eight preceding and
+eight subsequent sequential neighbors are included. For example, the
+propensity of the ith amino acid to be in an a-helix, Pi,~ is calculated by
+the following equation:
+i+8
+
+Pi,a --- Z IJ,a i-8
+
+D~
+
+(3)
+
+where/j values are the contributions of the neighbors as well as of the ith
+residue to the propensity value, taken from Table III for a-helix. There
+are 20 x 17 P values for each of the four conformational states (a-helix,
+fl-sheet, fl-turn, and coil, Tables III to VI). D~ is the so-called decision
+constant which is selected from Table VII if the secondary structure
+content of the protein is known from independent measurement. For
+comparative purposes, unbiased profiles (D~ = 0, etc.) can be used.
+Strongly predicted segments have P~ values of several hundred centinats.
+ao M. Levitt, Biochemistry 18, 4277 (1978).
+
+Structural parameters normalized to a mean 0 and a standard deviation 1.
+b Key to column heads: (a) Chou-Fasman helical propensityS; (b) Chou-Fasman fl-sheet propensityS; (c) Chou-Fasman turn propensityS; (d) hydrophobicity according to Kyte and Doolittle~6;
+(e) consensus hydrophobicity scale according to Eisenberg et al.22; (f) membrane-buried helical
+potential according to Argos and PalautS; (g) membrane propensity scale according to Kuhn and
+Leigh~9; (h) hydrophilicity scale according to Hopp and Woods22; (i) signal sequence helical
+potential scale according to Von Heinje24; (j) signal sequence propensity scale according to Argos
+and Palau~8; (k) side-chain bulkiness; (1) polarity.
+
+Both the Chou-Fasman and the Robson profiles were originally designed for secondary structure prediction; for the details of prediction
+methodology the reader is referred to the original papers. In addition,
+both methods can be used for the predictive recognition of supersecondary structures as suggested by Taylor and Thornton.~l,I2 Super-secondary structures are sequentially linked pieces of secondary structures that
+are in contact in three dimensions. The simple supersecondary structures
+include the /3cq3 unit (found in the /3/c~ protein family), the /3-hairpin
+
+a According to Gamier et al. 6
+b These values have to be substituted into
+Eq. (3). Decision constants for the turn and
+coil conformations are equal to 0.
+
+(/3-turn-/3 or/3 x t , frequently found in the all-/3 family), and the a x a
+hairpin. An examination of 31 proteins showed that two-thirds of the
+identified pieces of secondary structures were parts of such units, t3 The
+principle is illustrated in Fig. I. For example, the fla/3 structure can be
+recognized from a peak in the a-helix propensity profile flanked on both
+sides by peaks in the/3-sheet profile. Naturally, not all supersecondary
+structures may be clearly detectable from structural profiles; their importance lies in the fact that they represent interpretation of predictive data
+(structural profiles) at a higher level of complexity (supersecondary structures).
+Membrane Preference Profiles. Transmembrane segments in proteins
+are characterized by a large number of nonpolar residues. Based on the
+experimental data of Nazaki and Tanford TMand Wolfenden et al., 15 Kyte
+and Doolittle ~6 developed a hydropathy scale that characterizes the hydrophobicity of the amino acid side chains. Nonpolar side chains have
+large positive hydropathy parameters (Ile = 4.50), and polar ones are
+assigned negative values (Arg = -4.50). Hydropathy profiles constructed
+with these parameters and smoothed with a 19-residue window [Eq. (1),
+k = 9], will display large positive peaks at membrane-bound segments.
+Proteins located within the membranes are frequently characterized by a
+series of transmembrane regions that appear in the graphs as positive
+1~M. Levitt and C. Chotia, Nature (London) 261, 552 (1976).
+14 T. Nozaki and C. Tanford, J. Biol. Chem. 246, 2211 (1971).
+15 R. Wolfenden, L. Anderson, P. M. Cullis, and C. C. B. Southgate, Biochemistry 20, 849.
+16j. Kyte and R. F. Doolitfle, J. Mol. Biol. 157, 105 (1982).
+
+i.
+FIG. 1. Schematic structural profiles representing two simple supersecondary structures,
+the/3a/3 (A) and the fl-turn-fl units (B). A conserved/3-turn-/3 unit can be tentatively identified in Fig. 2 at the C-terminus of the ribulose 1,5-bisphosphate carboxylase small subunit
+polypeptide.
+
+peaks interspersed by negative valleys corresponding to regions located
+outside the membrane.
+Several other hydrophobicity scales were developed. Tables I and II
+include that of Eisenberg et al., ~7the "consensus hydrophobicity scale,"
+which incorporates features of several other scales. We note that in our
+applications differences between the various scales are negligible and that
+the scale of Kyte and Doolittle 16 seems to have the widest acceptance by
+molecular biologists.
+Transmembrane segments are frequently helical. Argos and Palau developed a membrane-buried helix propensity scale, using statistical data
+on 1125 residues) 8 Kuhn and Leigh developed another statistical membrane propensity scale, using structural data on 24 known transmembrane
+segments, t9 The parameters range from - 2 . 8 (His) to 5.0 (Leu) and are
+scaled so that a protein of average composition will have an average
+membrane propensity of 0. The profiles are smoothed with a running
+average algorithm [Eq. (la)], using a window width of 7. Eisenberg et al.
+used a combination of hydrophobic moment profiles and hydrophobicity
+profiles for the identification of transmembrane helices 2°-23 (see below).
+
+Signal Sequence Helical Potential Profiles. Signal sequences are characterized by a stretch of nonpolar residues of high helix-forming propensity, and their amino acid composition significantly differs from the average protein composition. Von Heinje developed a helix hydrophobicity
+scale based on the free energy required to transfer a membrane-bound
+helix into solution. 24The parameters range from - 14.42 kJ/mol for Phe to
+47.3 kJ/mol for Arg. In the profiles the helical part of the signal sequence
+displays a negative trough. ,Argos et al. developed a signal sequence
+helical propensity parameter set from a 705-residue database compiled
+from signal sequences using Eq. (2). zs
+The Hydrophilicity Profile: Prediction of Antigenic Determinants. Antigenic determinants of proteins are located on the surface of the molecule
+and are frequently found in regions highly exposed to the solvent. This,
+together with the fact that charged, hydrophilic amino acids are common
+features of antigenic determinants led Hopp and Woods to use a hydrophilicity profile to locate antigenic determinants in a number of proteins. 26 Their hydrophilicity parameters are derived from the solvent parameters of Levitt. 27 These parameters are based on the same
+experimental data as the hydrophobicity scales and indeed contain the
+same information. In this scale hydrophilic amino acids have large positive parameters (Arg = 3.0) whereas hydrophobic residues have negative
+ones (Trp = -3.4) (Table III). The hydrophilicity profiles are smoothed
+by simple arithmetic averaging using a window width of 6 residues, and
+the tentative antigenic regions are identified as those displaying the highest positive peaks. As peptide chain turns are often hydrophilic, 8 this
+technique is likely to select turns as potential epitopes.
+The Hydrophobic Moment Profile. Amphiphilic structures in proteins
+and peptides are those in which hydrophobic and hydrophilic side chains
+are separated on opposite sides. Amphiphilic structures are "surface
+seeking"; i.e., they bind to membrane-solution surface boundaries. Amphiphilic segments of soluble proteins are frequently located on the protein surface with the hydrophilic side chains pointing toward the solution.
+Amphiphilic structures in peptides can be easily recognized by diagramatic representations such as the Schiffer-Edmundson wheel diagrams l
+(see Chap. [25], this volume). Graphic analysis of long sequences would
+be cumbersome, however, so Eisenberg and co-workers developed a numeric method. 2°-23 The method is based on the concept of hydrophobic
+24 G. Von Heinje, Eur. J. Biochem. 116, 419 (1981).
+P. Argos, J. K. Mohana Rao, and P. A. Hargrave, Eur. J. Biochem. 128, 565 (1982).
+26 T. Hopp and K. R. Woods, Proc. Natl. Acad. Sci. U.S.A. 78, 3824.
+27 M. Levitt, J. Mol. Biol. 104, 59 (1976).
+
+moment, a numeric index of amphiphilicity defined by the following
+equation:
+~n =
+
+/-/j sin(Sj)
+
++
+
+Hj cos(Sj)
+
+(4)
+
+/-/j. is the hydrophobicity (Table I, column e) of the jth amino acid, 8 the
+periodicity parameter (100 ° for a-helix and 180° for fl-sheet, expressed in
+radians), and n is the total number of residues. ~n is a Fourier transform
+type expression that has large values if residues of adverse hydrophobicity are clustered on opposite sides of the helix. Membrane-seeking amphiphilic helices can be located in protein sequences according to their
+hydrophobic moment txn and average hydrophobicity, (/-/). IXn of amphiphilic helices is greater than 0.47 and (H) is in the range of -0.22 to
+0.34. Transmembrane regions on the other hand have greater hydrophobicity values ((H) -> 0.68 for a 21-residue segment or ->1.10 for two
+adjacent segments) and lower hydrophobic moments (~n < 0.3). 21
+For the construction of the hydrophobic moment profile, the value of
+I.Lnis calculated for a window of 21 residues, and its value is plotted at the
+central position of the window:
+([ i+,0
+
+= .Lj:E ° m
+
+sin(Sj)]2
+
+[i~0
+
+12,,/2
+
++ j+10 m cos(Sj)J )
+
+(5)
+
+The profile calculated with 8 = 100° gives maxima at amphiphilic helices;
+amphiphilic r-sheets give peaks at 8 = 180°. A simple analysis of amphiphilicity can be carried out by plotting hydrophobicity (smoothed by
+arithmetic averaging over a 21-residue window) and the hydrophobic moments for a-helix (8 = 100°) and B-sheet (8 = 180°) in the same coordinate
+system. Finer-Moore and Stroud introduced a two-dimensional hydrophobic moment plot in which the sequential position i and 8 are the two
+dimensions38 In this representation the amphiphilic segments appear as
+"hills" at their respective 6 values.
+Physical Parameters. Basically any physical parameter of the amino
+acids could be used to construct a structural profile. The available softwares usually contain three of these, electric charge, side-chain bulkiness, and the polarity index (Tables I and II). The bulkiness parameter is
+defined as the ratio of side-chain volume to length (in A2). 29 The polarity
+index is proportional to the electric force (originating from charge and
+dipole effects) due to an amino acid side chain acting on its immediate
+28 j. Finer-Moore and R. M. Stroud, Proc. Natl. Acad. Sci. U.S.A. 81, 155 (1984).
+z9 j. M. Zirnmerman, N. Eliezer, and R. Simha, J. Theor. Biol. 21, 170 (1968).
+
+
+surroundings. 29 These parameter sets can be useful if a newly derived
+sequence is compared to its known homologs.
+Average Profiles and Standard Deviation Profiles: Identification of
+Structurally Conserved and Variable Regions 4
+Average profiles can be used to identify structurally conserved regions
+in homologous sequences such as members of a gene family. This feature
+is especially useful when the degree of primary sequence homology is low
+between the proteins in question. For the calculation of an average profile, the homologous sequences have to be aligned for maximum homology. The average profile of n aligned sequences is defined as
+
+(Pi) = (~.~
+
+(6)
+
+The structural variability that exists among the sequences at a given sequential position can be characterized by standard deviation of the mean
+
+(Pi)"
+=
+
+-
+
+Pid)/n]
+
+/ ( n - I)
+
+(7)
+
+The number n is not constant throughout the sequence; it includes only
+those sequences in which the P; value is not missing because of an alignment gap. The (Pi) and the (r; profiles, defined by Eqs. (6) and (7), respectively, can be shown in the same coordinate system by one of the following methods: (I) The o-i profile is drawn symmetric to 0 as a shaded area
+(---+triprofile). This makes it easy to identify regions where the (P;) profile is
+significantly different from 0 (i.e., it is outside the shaded area, see Fig. 2).
+(2) The tr; profile can be added symmetrically to the (Pi) profile as a
+shaded area ((P;) - tr;profile). This makes it possible to compare an additional sequence to those included in the average. For example, a structural profile of a newly determined sequence can be visually compared to
+a group of homologous sequences (presented as an average -+ standard
+deviation profile) and segments identified where the new sequence is expected to be different from those already known (i.e., the profile is outside
+the shaded area). Since the secondary structures are stabilized by shortrange interactions, regions displaying no conserved structural propensity
+(P; < (r;) may be those stabilized by long-range interactions. These regions are likely to " a c c e p t " modifications without affecting biological
+activity of the protein.
+The use of average profiles is illustrated on the ribulose 1,5-bisphosphate carboxylase small subunit (Rubisco SSU) gene family. 4 Figure 2
+shows averaged a-helix, fl-sheet, and turn propensity profiles calculated
+
+Fro. 2. Averaged a-helix (A), turn (B), and B-structure (C) propensity profiles calculated
+from ribulose 1,5-bisphosphate carboxylase small subunit sequences of five higher plants
+(tobacco, spinach, petunia, soybean, and pea).4 Shaded areas indicate the standard deviation
+(+Gi) of the respective structural parameter.
+
+
+for six ribulose 1,5-bisphosphate carboxylase small subunit proteins from
+different higher plants. It follows from the probabilistic definition of the Pi
+values that only those regions for which Pi > tri (i.e., the structure forming propensity is substantially different from 0) can be considered conserved in the structural sense. It appears that there are only a few regions
+in which this condition is fulfilled; the rest of the protein has no characteristic structure forming potential. There are two plausible explanations for
+this finding. First, the structurally determined regions, serving as folding
+nuclei, may be sufficient for the formation of the native conformation. For
+example, a conserved (Pi > o'i) fl-turn-fl supersecondary structure can be
+tentatively identified in the C-terminal region. Second, external factors,
+such as the large subunit of the enzyme, or long-range interactions may
+contribute to the formation of the native conformation, so there may be
+no rigid selectional constraints on the secondary structure forming propensity of the small subunit. Region 54-66 displays a pronounced fl-turn
+forming propensity which is conserved in all the six sequences. However,
+this region is entirely missing in two homologous proteins isolated from
+prokaryotic organisms (the cyanobacteria Synechococcus R2 and Anabaena variabilis). In the higher plant genes this region is located near an
+intron-exon junction. A comparison of the three-dimensional structures
+of homologous eukaryotic and prokaryotic proteins has shown that intron-exon junctions in eukaryotic genes frequently coincide with loop
+structures present on the surface of these proteins. 3° These "variable
+surface loop" structures were implied to account for functional differences among prokaryotic and eukaryotic members of a gene family. The
+strong turn forming potential of region 54-66 is in fact consistent with a
+surface loop structure, which may explain functional differences between
+higher plant and cyanobacterial Rubisco SSUs.
+Comparison of Structural Profiles 3,4
+Homology of proteins has been studied at various levels of structural
+organization. Comparison of gene sequences at the DNA or amino acid
+level provides quantitative measures of homology which is essential for
+establishing phylogenetic relationships. Comparison of three:dimensional
+structures makes it possible to reveal similarities between proteins that
+are not demonstrably homologous in their primary structure. Comparison
+of structural profiles is essentially a parametric approach to the analysis of
+sequence homology that has several advantages over the comparison of
+3o C. S. Craik, W. J. Rutter, and R. Fletterick, Science 220, 1125 (1983).
+3t R. M. Sweet and D. Eisenberg, J. Mol. Biol. 171, 479 (1983).
+
+
+primary sequences. First, it makes it possible to describe sequence differences in terms of protein structure. For example one can rank homologous sequences according to a structural parameter (average helicity,
+hydrophobicity, hydrophobic moment, etc.) and then correlate biological
+activity with the structural parameter in question. Second, the use of
+average and standard deviation profiles makes it possible to compare
+groups of sequences, which is not possible through primary sequence
+comparison. For example, one can answer questions whether a newly
+determined protein sequence is within the range of the known homologous sequences in terms of secondary structure, hydrophobicity, etc.
+Also, the expected structural differences can be located and characterized. Third, the numeric indices described below allow optimization of
+sequence alignment in equivocal cases.
+Before structural profiles are compared, the two sequences have to be
+aligned for maximum homology by introducing gaps at appropriate positions. Similarly, gaps should be introduced into the calculated structural
+profiles at the same positions so as to maintain homology. As a rule,
+positions where one of the residues is missing due to an alignment gap are
+omitted from the further calculations.
+Graphic Comparison. If Pi, l and Pi,2 denote structural parameters of
+the ith residue in sequences 1 and 2, respectively, then the difference
+profile can be written as
+APi = Pi.2 -- Pi,l
+
+(8)
+
+and plotted against the sequential position i. Difference plots give a zero
+baseline for completely homologous regions. Regions that are different in
+the two sequences will give peaks or valleys, depending on the sign of the
+difference. The difference profiles are usually scattered graphs that need
+to be smoothed for data presentation. Quantitative evaluation of APi is
+meaningful only on a comparative basis. Such an evaluation is possible if
+a profile (Pi,2) is compared to an average profile (Pi, O calculated from
+known homologs with a standard deviation o-i. In this case cri can be
+considered as a measure of "acceptable" variability and Ap~ should substantially exceed cri for structural differences to be predicted in a given
+region.
+The difference plots shown in Fig. 3 were calculated between c~-helix
+and/3-sheet propensity profiles of Rubisco SSU from the prokaryote Synechococcus R2 (Pi, l), with the average of six higher plant Rubisco SSU
+proteins (Pi,2). 3 The figure shows the N-terminal part of the APi profile and
+the +_tr~profile which characterizes the variability of the plant sequences.
+In this region, the Synechococcus R2 protein seems to have a higher
+t~-helix forming potential (Ap~,~ > 0) whereas the higher plant proteins
+
+FIG. 3. a-Helix and B-structure propensity difference profiles comparing the N-terminal
+region of the Synechococcus R2 ribulose 1,5-bisphosphate carboxylase small subunit [Pi.2 in
+Eq. (8)] to the average profile [Pjj in Eq. (8)] of five membrane-translocated ribulose 1,5-bisphosphate carboxylase small subunit sequences (from tobacco, spinach, petunia, soybean,
+and pea).
+
+seem to have a greater tendency to form fl-structures at the N-terminus
+(APi, a < 0). Rubisco SSU is a membrane-translocated protein in higher
+plants that is synthesized with a transit peptide whereas its prokaryotic
+counterparts are cytoplasmic proteins. The finding is thus in accordance
+with the known propensity of membrane-translocated proteins to form/3structures at their N-termini.
+Numeric Comparison. The concept of using correlation coefficients to
+compare structural profiles was developed overall similarities in hydrophobicity 3° and secondary structure. 3,4 With the terminology introduced
+at Eq. (8) the correlation coefficient calculated between two structural
+profiles can be written as follows:
+
+E Pi,tPi,z
+R = (~ Pi, 2Pia2),/2
+
+(9)
+
+R is equal to I for two identical sequences, R approximates for two
+unrelated sequences, and R approaches - 1 if the structural profiles are
+anticorrelated. The z-test of Fisher can be used as a test of significance, n
+i.e., to establish if R is significantly different from 0. To meet the criteria
+of the z-test, the structural parameters were normalized to mean 0 and
+32 C. M. Goulden, "Methods in Statistical Analysis," 2nd Ed., p. 122. Wiley, New York,
+1952.
+
+standard deviation 1. The rescaled structural parameters are summarized
+in Table I. If the original (not normalized) structural parameters are used
+to calculate correlation coefficients, the results can be erroneous. For
+example, the average of the Chou-Fasman parameters is 1 (i.e., >0), so
+sequences of similar composition are likely to give high correlation coefficients in the absence of any structural similarity if these parameters are
+used for the calculation of Eq. (9) without normalization. Several authors
+use the following formula for calculating correlation coefficients from
+nonnormalized parameters:
+R =
+
+Y. ([P/,1
+
+-
+
+(Pi,I)][ei,2
+
+-
+
+(ei,2)])
+
+(10)
+
+( E [Pi, I - (Pi,1)]2[P,,2 - (Pi,2)]2) ''z
+
+where (Pi, t) and (Pi,2) are mean values calculated in the sequential region
+included in the summation.
+The correlation coefficient can be used as an indicator of structural
+similarity. The procedure is illustrated on synthetic peptide analogs that
+have known differences in secondary structure as compared to their natural counterparts. 33 The synthetic peptides were designed so as to have the
+following characteristics relative to the corresponding natural peptides:
+(1) equal or increased helix content; (2) conserved charged residues and
+hydrophobic/hydrophilic balance; (3) low (20-50%) primary sequence
+homology.
+Melittin is a 26-residue hemolytic peptide with a segment that has the
+potential to form an amphiphilic helix. When the sequence of the amphiphilic segment was rearranged according to the above criteria, a biologically active analog was obtained that was higher in a-helix content
+(35%) than the native melittin (18%) as determined by circular dichroism. 34 Structural correlation values listed in Table VIII reflect the differences in a-helix formation: The value of the a-helix correlation R~ is the
+lowest among all values compared. The correlation coefficient can also be
+used to rank sequences according to their expected structural similarity.
+For example, analogs of fl-endorphin representing a range of a-helix content were correctly ranked using R~ alone. 35 The correlation coefficient is
+an index of variability and gives no information about the direction of the
+difference (this can be established from a difference plot). Finally we
+mention that the structural correlation coefficient can also be used to
+describe evolutionary changes in protein secondary structure. 3
+There are two other numeric indices that allow quick evaluation of
+
+" Sequences~4: Melittin, G I G A V L K V L
+T T G L P A L I S W I K R K R Q Q: Synthetic analog, L L Q S L L S L L Q S L L S L L L
+QWLKRKRQQ.
+b R values given were calculated by using Eq.
+(9) (P1, melittin; P:, synthetic analog). R values above 0.40 are significant at the 99.99%
+level.
+
+multiple amino acid replacements in shorter segments: (1) (AP;) is the
+average difference (sum of the APi values calculated between the two
+sequences divided by the number of residues in the segment and (2)
+<laP/l>, the average absolute difference (APi) is the average value of the
+difference profile, i.e., it contains the same information. (lAP/l) is an
+indicator of variability. The use of these indices is illustrated in Ref. 4.
+Computer Programs
+Sequence management programs used in most molecular biology laboratories (for reviews, see Ref. 36 and F. Lewitter and W. Rindone, Vol.
+155 [36]) are generally capable of drawing structural profiles from primary
+sequence data, even though they may not contain all parameter sets summarized in this chapter. Averaging of profiles is feasible in some computer
+programs (e.g., Ref. 37), but the features crucial for engineering applications (standard deviation profiles and the numeric indices of structural
+
+comparison) are not standard options in the generally used molecular
+biology softwares. These capabilities can be either incorporated into separate programs (such as the protein sequence evaluation package developed by the author4), or integrated into available sequence management
+programs. The design of the programs should make it possible to carry out
+any combination of the numeric and graphic procedures outlined above. It
+is also recommended that segments of sequences could be separately
+analyzed. Curve smoothing and graphic output can be performed by commercially available microcomputer software.
+Comments: Evaluation of the Results
+Since engineering of a protein segment can have a variety of goals
+(e.g., reinforcement or disruption of structural elements, removal of sites
+for enzymatic or chemical attack), there are no generally applicable rules
+for the evaluation of the results. In most cases the problem itself defines
+the solution, and the experimenter can simply select the most promising
+replacement alternatives, using the numeric and graphic methods outlined
+here. General guidelines can be given, however, for two experimental
+situations: (1) The sequence to be redesigned has no known homologs. In
+this case it is recommended to carry out secondary structure prediction
+and to draw helical wheel and helical net diagrams for the segment of
+interest. On this basis one might be able to recognize a structural motif
+(e.g., Fig. 1) which makes it possible to formulate a structural hypothesis
+for amino acid replacements. Then the sequences containing the proposed
+alterations can be ranked in computer experiments using the methods
+presented here. (2) If the sequence to be redesigned has several known
+homologs (with differences in their primary sequence) then average profiles and standard deviation profiles can be constructed with the parameters thought to be important in protein folding, i.e., secondary structure
+propensities, hydrophobicity, polarity, and side-chain bulkiness. Through
+visual comparison of the profiles it can then be established which of these
+properties is the most conserved within the group. (For the comparison
+between the parameters, the normalized parameter sets summarized in
+Table II have to be used.)
+Additional information can be obtained from the predicted secondary
+structure of the individual sequences as well as from averaged predictions. 6'36 As an example, Fig. 4A shows the primary sequence of transit
+peptides that mediate passage into the chloroplasts of proteins synthesized in the cytoplasm. Although chloroplasts of higher plants reciprocally recognize each other's transit peptides, the primary sequences show
+little homology. On the other hand, the predicted secondary structures
+
+
+FIG. 4. Amino acid sequence (A) and predicted secondary structure (B) of transit peptides that mediate the posttranslational transport of precursor proteins into the chloroplast. 4
+Chl ABS0, chlorophyll a/b binding polypeptide; SS, ribulose 1,5-bisphosphate carboxylase
+small subunit transit peptide. Method was by Gamier et al. (unbiased prediction). 6
+
+
+FIG. 5. Helical wheel representation of the N-termini of two chloroplast transit peptides.
+The hydroxyamino acids are boxed (abbreviations are as in Fig. 4).
+
+
+show a distinct similarity: they all contain an a-helix at the N-terminus
+followed by a repetitive pattern of fl-strands (Fig. 4B). In addition, the
+helical wheel diagrams shown in Fig. 5 show that the hydroxyamino
+acids, serine and threonine, seem to form asymmetric clusters on the Nterminal helices. Naturally, these and similar findings are only hypothetical and need experimental confirmation. On the other hand, they can
+provide a rational framework for experimental design and thereby reduce
+the number of directed mutagenesis experiments necessary for obtaining
+biologically active protein analogs.
+
+By JOHN W. TAYLOR and E, T. KAISER
+In recent years, a large number of intermediate-sized biologically active peptides have been identified and their amino acid sequences determined. Unless they contain multiple disulfide linkages, these peptides
+usually do not form very stable secondary or tertiary structures in aqueous solution. However, they often have the potential to form segments of
+amphiphilic secondary structures that might be induced on binding to a
+matching amphiphilic environment provided by the biological interfaces
+at which their activities are expressed. 1,2 Understanding structure-function relationships in such peptides requires the identification of these
+potential structures and rigorous testing of their importance.
+A variety of peptides, including serum apolipoproteins,3,4 toxins, 5-7
+chemotactic factors,8 and peptide hormones,9-~2 contain segments of their

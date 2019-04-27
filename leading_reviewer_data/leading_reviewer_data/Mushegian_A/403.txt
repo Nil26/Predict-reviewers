@@ -1,0 +1,7 @@
+The manuscript by Lyubetsky et al. examines the conservation of promoters in the choroplast genes of Streptophyta. The evidence is presented that, across large evolutionary distances (i.e., larger than the flowering plants clade) only a handful of promoter sequences contains conserved regions. This is an interesting observation suitable for publication in the Discovery Notes section of Biology Direct.
+
+1) 1st paragraph: the authors assert that there is no published evidence on searching for promoters at the genome scale. This is not true and needs to be qualified: there are many papers about eukaryotes and several about either methods to detect or databases of detected promotors in various groups of bacteria, some of which have been obtained using intergenomic conservation as one of the criteria. Citing the research behind J.Collado-Vides databases or RegulonDB might be in order.
+
+2) Methods: references 4 and 5 are links to the authors' website with the documentation of their software. Why the reliance on the original code instead of the established methods of motif search and sequence alignment? Please explain crucial differences in the algorithms and how the homegrown ones were tested.
+
+3) A suggestion that may help to provide a more complete picture of the evolutionary trends in chloroplast promoter conservation: A. thaliana chloroplast has 85 protein-coding genes. Can we have a table that shows, for each gene, how broadly its promoter is conserved?

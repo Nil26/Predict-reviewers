@@ -1,0 +1,9 @@
+The authors discuss the compelling evidence for the complex evolutionary history of eukaryotic Family B DNA polymerases. Observations and their analysis are technically sound, and I have only minor questions.
+
+1. Abstract: "of archaeal, eukaryotic, and bacterial B-family DNA polymerases, the main replicative polymerases in archaea and eukaryotes" is awkward.
+
+2. Ibid. "eukaryotic B-family polymerases, most likely, originate from two distinct archaeal ancestors" – perhaps change to "there are two subgroups of eukaryotic B-family polymerases, each most likely originating from its own archaeal B-family ancestor". Otherwise. "two distinct archaeal ancestors" can be mistaken for the description of B+D chimera in the following sentence.
+
+3. "As proposed previously, inactivated polymerase subunits are likely to perform essential functions in the assembly of replicative complexes" (also Conclusions) – a bolder suggestion may be that these proteins still facilitate a subset of catalytic reactions, if the maintainance of a proper conformation of subsrates/ligands is sufficient for catalysis – processive synthesis may not work well that way, but perhaps some sort of proofreading or ejection of abortive products might – discuss?
+
+4. Evolutionary scenario and Fig. ​Fig.5:5: Why proteobacterial-type PolB, the source of the C-terminal domain tandem in eukaryotic Pol epsilon, has to be the symbiogenetic/mitochondrial acquisition – can it be a phage contribution instead?

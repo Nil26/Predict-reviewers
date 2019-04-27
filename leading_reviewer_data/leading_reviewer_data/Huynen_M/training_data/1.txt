@@ -1,0 +1,209 @@
+Exploring phenotype space through neutral evolution
+Abstract
+RNA secondary-structure folding algorithms predict the existence of connected networks of RNA sequences with identical secondary structures. Fitness landscapes that are based on the mapping between RNA sequence and RNA secondary structure hence have many neutral paths. A neutral walk on these fitness landscapes gives access to a virtually unlimited number of secondary structures that are a single point mutation from the neutral path. This shows that neutral evolution explores phenotype space and can play a role in adaptation.
+
+Key words
+RNA secondary structure Neutral Evolution Adaptive evolution Genotype-phenotype relation Sequence space Fitness landscape
+
+Introduction
+Ever since Sewall Wright introduced the metaphor of an
+‘‘adaptive landscape’’ (Wright 1932) the view on adaptive evolution has been dominated by the image of an
+uphill walk of a population on a mountainous fitness
+landscape in which it can get stuck on suboptimal peaks.
+The neutralist perspective that evolution at the molecular
+level is dominated by nonadaptive, neutral changes
+(Kimura 1983) has hardly changed this picture. A notable exception is Maynard-Smith’s argument that the
+distribution of functional proteins in (neutral) networks
+in sequence space could facilitate adaptive evolution
+(Maynard-Smith 1970). In a letter to Kimura, SewallWright addressed the question, to what extent can adaptive evolution benefit from neutral evolution? ‘‘Changes
+in wholly nonfunctional parts of the molecule would be
+the most frequent ones but would be unimportant, unless
+they occasionally give a basis for later changes which
+improve function in the species in question which would
+then become established by selection’’ (Provine 1986).
+Here we study the potential for Wright’s scenario: Can
+neutral evolution facilitate adaptive evolution by increasing the number of phenotypes that can be reached with a
+point mutation from an original phenotype?
+An answer to this question requires detailed knowledge of genotype–phenotype relations. We use the mapping from RNA sequence to RNA secondary structure as
+a paradigm for such a relation. The secondary structure
+of a single-stranded RNA sequence is its pattern of
+complementary base pairings (Watson-Crick and G-U
+pairs). As opposed to the protein case, the secondary
+structure of RNA sequences is relatively well defined; it
+provides the major set of distance constraints that guide
+the formation of tertiary structure and covers the dominant energy contribution to the 3D structure. RNA secondary structure represents a qualitatively important description of RNA, as is reflected in its conservation in
+evolution and in the independent generation of ribozymes that share both secondary structure and function
+(Ekland et al. 1995). This is not to say that secondary
+structure is the only determinant of function; it is, however, often essential.
+For relatively short RNA sequences the secondary
+structure can be predicted using algorithms that minimize free energy of the base pairing and of a number of
+other structural elements like hairpin loops and internal
+loops (Zuker and Stiegler 1981). Using these algorithms
+one can analyze how the secondary structures are dis
+tributed over sequence space. The distribution of secondary structures over sequence space shows some remarkable features: There is a large redundancy in the mapping
+from RNA sequences to RNA secondary structures: For
+a sequence of length N, there are 4N sequences, whereas
+there are about 1.8N structures (Waterman 1978; Schuster
+et al. 1994). Furthermore, within the total set of secondary structures, only a small fraction dominates sequence
+space. These relatively frequent secondary structures
+form networks in sequence space, where a network is
+defined as a set of sequences that fold into the same
+structure and that are connected in sequence space
+through point mutations (Schuster et al. 1994). On the
+other hand, RNA landscapes are extremely rugged; randomly changing only 15% of the nucleotides gives rise to
+a change in secondary structure that is no less than the
+difference between the secondary structures of random
+sequences (Fontana et al. 1993; Huynen et al. 1993). The
+whole picture can be captured in the term ‘‘smoothness
+within ruggedness’’; on average the landscape is very
+rugged, but there exist paths that percolate through sequence space on which the secondary structure remains
+unaltered. These properties of RNA landscapes are insensitive to whether the folding algorithm is thermodynamic, kinetic, or maximum matching (Tacker et al.
+1996).
+Perpetual Innovation Along the Neutral Net
+We use the mapping between RNA sequence and RNA
+secondary structure as a toy model for the mapping between genotype and phenotype. Within this model, point
+mutations that leave the secondary structure unaltered
+are called neutral mutations. A network of identical secondary structures in sequence space is called a neutral
+net. Neutral evolution within this model is the process
+where a population moves, due to mutations, genetic
+drift, and selection, through sequence space over the neutral net of a specific secondary structure. To answer the
+question of whether neutral evolution can change the
+potential for adaptive evolution, it is essential to know
+whether the secondary structures that neighbor the neutral net are different for various positions on the net. That
+is to say: Does neutral evolution give access to new,
+previously unencountered structures? We performed a
+walk on the neutral net for a tRNAphe clover-leaf secondary structure and recorded all the different secondary
+structures that were encountered as one-point mutants of
+the net (Fig. 1). The total number of structures encountered increased linearly in time, with every neutral mutation giving access to, on average, 18.1 new structures.
+The number of new accessible structures per mutation
+we call the ‘‘rate of innovation.’’ One can compare the
+rate of innovation along the neutral net with the number
+of new structures observed along a purely random walk
+through sequence space, where the secondary structure is
+not conserved. For sequences of the length of tRNAphe
+(76 nucleotides), we observed an average of 39 new accessible structures per step in the random walk. Hence,
+restricting the walk to the neutral net reduces the rate of
+innovation by a factor of two to three. The reduction in
+the rate of innovation, however, is insignificant in comparison to the fraction of sequence space that can be
+accessed from the neutral net. An upper bound to the
+number of sequences that fold into a tRNAphe secondary
+structure is the number of sequences that are compatible
+with a tRNAphe secondary structure; i.e., the number of
+sequences that have the potential for base pairing at the
+positions at which the tRNAphe secondary structure has
+base pairs. A tRNAphe secondary structure has 20 base
+pairs and 36 unpaired positions. Given that there are 6
+different base pairs (G–C, C–G, A–U, U–A, G–U, U–G),
+there are 620 × 436 4 1.7 × 1037 sequences compatible
+with a tRNAphe secondary structure. In a set of randomly
+generated tRNAphe compatible sequences we observed
+that less than one in 10,000 had a tRNAphe minimum free
+energy structure (P < 0.001). The fraction of sequence
+space that folds into a tRNAphe secondary structure can
+then be estimated to be less than 0.0001 × 1.7 × 1037/476
+4 3 × 10−13. Hence the reduction in the rate of innovation that is caused by restricting the random walk to
+sequences with a tRNAphe secondary structures is negligible compared to the reduction in accessible sequences.
+These results show that Wright’s scenario is plausible;
+neutral changes can ‘‘set the stage’’ for a mutation that
+leads to a better-adapted structure. Moreover, for any
+reasonable time scale we do not observe a saturation in
+the number of secondary structures that can be observed
+along the neutral walk. This is the main point of this
+article.
+Besides depending on secondary structure, RNA
+function also relies on primary (e.g., the anticodon in
+tRNAs) and tertiary structure. Analyzing a rate of innovation with respect to other properties goes beyond the
+scope of this paper, and is, as far as tertiary structure is
+concerned, computationally not feasible. We can analyze
+to some extent, however, how extra constraints on the
+primary and tertiary structure will affect the innovation
+rate at the level of the secondary structure. Extra constraints on the structure will in general lower the rate of
+innovation: Less potential for neutral mutations reduces
+the rate at which the walk progresses through sequence
+space and encounters new structures. We observed that
+conserving nucleotides at the anticodon positions led to
+rates of innovation of 17.7 (GGG) and 16.6 (AAA). The
+tertiary base-pair interactions that can be simulated to
+some extent are pseudoknots. Conserving two or three
+pair of complementary bases between the first and third
+hairpin-loop of the clover-leaf led to innovation rates of
+19.2 and 19.1, respectively. Finally, the simultaneous
+conservation of both a GGG in the anticodon loop and
+three complementary bases between the first and third
+hairpin-loop led to an innovation rate of 19.7. These
+results show that extra constraints do not always reduce the rate of innovation. Constraints on the single-stranded
+regions force the neutral walk to accept more mutations
+in double-stranded regions, which increases the rate of
+innovation. What is more important than the actual rates
+of innovation, however, is that they remained linear under all the constraints that were tested.
+Our model of neutrality only concerns the minimum
+free energy structure. Biologically functional secondary
+structures are often ‘‘well-defined’’: base pairs in their
+minimum free energy structure have, compared to the
+base pairs in the secondary structures of random sequences, a relatively high probability of occurring within
+the entire Boltzmann ensemble (Huynen et al. 1996b).
+Since only a subset of the sequences with a specific
+minimum free energy structure fold into that structure
+with a relatively high probability, constraints on this
+probability would reduce the neutrality and are expected
+to reduce the rate of innovation.
+Correlations in Structure Space
+One might argue that the existence of a rate of innovation
+is no more than a logical result of the fact that neutral
+networks percolate sequence space. Although the presence of percolating networks is certainly a necessary
+condition for the above, it is not sufficient. One could
+envision a scenario in which the secondary structures
+that neighbor the net are part of a relatively small subset
+of all the secondary structures. Evolution then could get
+stuck on a neutral ridge instead of a neutral peak. To
+assess whether there is something like a small subset of
+secondary structures that neighbors tRNAphe secondary
+structures, we performed the same neutral walk experiment as above, but now, instead of counting new, unobserved structures, we counted structures that had been
+observed before. We determined how the number of
+equal structures that neighbor the net depends on the
+number of neutral mutations between the sequences on
+the net. In Fig. 2 we show that the number of neighboring
+secondary structures that two sequences that fold into a
+tRNAphe structure have in common depends strongly on
+the distance between those two sequences in sequence
+space and saturates to a low level of about six common
+neighboring secondary structures as the sequences approach the distance between random sequences. Hence
+there appear indeed to be some structures that are often
+close to tRNAphe structures. We generated 1,000 independent sequences that fold into a tRNAphe secondary
+structure using a reverse folding algorithm (Hofacker et
+al. a). In Fig. 3 we plot the frequency distribution for
+secondary structures that neighbor these sequences.
+Some structures are nearly always neighboring the
+tRNAphe secondary structures (in more than 80% of the
+sequences). Not surprisingly, these structures turn out to
+be relatively similar to the tRNAphe secondary structure;
+the most frequent ones are at a distance of one base pair
+to the tRNAphe structure. However, most of the structures
+that neighbor tRNAphe structures are unique; out of the
+total of 6 × 104 different secondary structures that neighbor the 1,000 independent tRNAphe structures, only
+3,099 occurred more than once. The recurrence of structures that are similar to the structure on the neutral net is
+in accordance with earlier results where it was shown
+that most of the secondary structures that neighbor a
+single sequence/secondary structure are relatively similar
+to that structure (Huynen et al. 1993; Fontana et al.
+1993).
+
+The structures that occur relatively often near a
+tRNAphe secondary structure complement the picture that
+was sketched in the first part of this article, where we
+observed perpetual innovation along the neutral net. Here
+we observe that besides the innovation, there is also conservation. The tRNAphe secondary-structure neutral net
+casts a shadow in structure space of a set of relatively
+similar secondary structures. This type of correlation in
+structure space shows that the phenomenon of perpetual
+innovation is not trivial. If the correlation were too high,
+neutral evolution would only be able to reach a very
+limited subset of structures from any single neutral net.
+As it turns out this is not the case; neutral evolution at the
+level of secondary structure gives access to a virtually
+unlimited number of structures and can thus play an important role in adaptive evolution. A scenario of adaptive
+evolution where a population evolves over a (suboptimal) neutral net until it encounters another net with a
+better secondary structure, after which it relocalizes to
+this new net, was observed in simulations of adaptive
+evolution on a fitness landscape that was based on RNA
+secondary structure (Huynen et al. 1996a).

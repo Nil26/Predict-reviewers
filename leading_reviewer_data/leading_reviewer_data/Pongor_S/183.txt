@@ -1,0 +1,7 @@
+In this work, the authors have analyzed the binding specificity of 18 sets of homologous protein-RNA complexes belonging to different organisms. This is a different approach from the traditional analysis with non-redundant datasets. The investigations have been carried out on various sequence and structure based features as well as molecular dynamics simulations. The results showed the similarities and differences between different organisms in the same complex. Further, distinct modes of recognition have been revealed with a typical example using MD simulations and energy calculations. The work would have further implications on understanding the recognition mechanism of protein-RNA complexes from different organisms.
+
+1. It has been mentioned that the potentials for amino acid-nucleotide pairs derived for different sets of organisms would be helpful for predicting the binding specificity. However, the data are not shown. The potentials should be given in supplementary information.
+
+2. The stability of aspartyl tRNA synthetase from E. coli, T. thermophiles and S.cerevisiae could be discussed with stabilizing residues in these complexes.
+
+3. The cutoff used to select the preferred and avoided residues in Table ​

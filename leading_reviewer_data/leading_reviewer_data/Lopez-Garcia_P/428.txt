@@ -1,0 +1,15 @@
+Review of the article "Low level of polymorphism in two putative orthologs of NPR1 genes in the Vitaceae family by Bergeault et al., submitted to Biology Direct. Bergeault et al. identify two homologues of Arabidopsis NPR1 genes, known to be involved in general systemic resistance against pathogens or herbivores, in the genome of the grapevine Vitis vinifera. They subsequently design specific primers and amplify the corresponding genes from various grapevine cultivars. The analysis of those genes show a low level of polymorphism and, based on a ratio of synonymous versus non-synonymous substitutions lower than 1, the authors conclude that these genes are under purifying selection. Overall, the work is clear and appears well conducted. However, I think that the structure and writing of the manuscript may be improved. A few suggestions follow.
+
+In particular, there are many figures, some of which could be eliminated without loss of essential information. This is the case of figure 6 showing the stop codon region in NPR1.1. As an additional suggestion, figure 1 and 4 could be merged together in a composite figure showing as an inset the NPR1.1 BTB/POZ domain region with the polymorphisms identified. I also believe that figure 8, showing the different cultivars analyzed, should appear as figure 1 at the beginning of the results section, since these are the cultivars subsequent work is about. Otherwise, placing it at the end of the manuscript with only a brief mention in the Methods section would make it dispensable.
+
+The long discussion about the potential functions of NPR1 genes in V. vinifera is rather speculative in the absence of actual functional data and could be significantly shortened.
+
+Bergeault et al. observed that "in six V. vinifera cultivars SNP rate to introns was not significantly different to exons". Why? Could this suggest that the low SNP observed is not (at least totally) due to purifying selection but to other kind of constraint acting on that particular genomic region?
+
+Minor comments:
+
+- First paragraph of Background. Some references should be added. Readers may be not familiar with V. vinifera and their general genomic characteristics.
+
+- Page 12, last line before "Functional hypothesis...". Sexual instead of sexuel.
+
+- Page 15, "high homology values". This expression is incorrect. Homology is an all-or-nothing quality. Either two genes are homologous (derive from a common ancestor) or they are not. "High similarity or identity values" would be more appropriate.

@@ -1,0 +1,235 @@
+Primitive anaerobic
+protozoa: the wrong host
+for mitochondria and
+hydrogenosomes?
+
+Since Mereschkowsky (22), thoughts on the
+nature of the most primitive kinds of cells that
+we now call eukaryotes have entailed the
+notion that some cytoplasmic organelles
+arose from free-living bacteria through
+endosymbiosis. Endosymbiotic hypotheses
+have fared extremely well when it comes
+to pinpointing the similarities between
+organelles and free-living bacteria as evidence
+in favour of their endosymbiotic origin, both
+in the case of chloroplasts (22) and mitochondria (30). But for organelles to take up
+residence in a cytoplasm, there had to be a
+host. Endosymbiotic hypotheses for the
+origin of mitochondria have had much more
+success explaining the origins of the organelle
+than they have had with explaining the origin
+of the host. So what was the host?
+Anaerobic protists play an important role
+in this issue because the host for the origin of
+mitochondria has traditionally been envisaged, either explicitly or implicitly, as a
+heterotrophic cell with a glycolytic pathway
+that did not depend on molecular oxygen for
+ATP synthesis, like contemporary protists
+that have such a lifestyle. In some versions of
+the endosymbiont hypothesis, the host is
+envisaged as a prokaryote, but in most versions
+it is envisaged as a eukaryote that either arose
+autogenously (without symbiosis) or as the
+result of a symbiosis of cells that occurred
+prior to the origin of mitochondria (for a
+random sample see 3, 6, 9, 11, 12, 15, 18, 19,
+22). But in all versions of the ‘classical’
+endosymbiont hypothesis that make a statement on the issue (e.g. 3, 9, 15), the host that
+acquired the mitochondrion is envisaged as a
+heterotroph, one that satisfied its ATP needs
+with the help of the glycolytic pathway.
+At present, the endosymbiont hypothesis
+has three problems. First, it no longer has a
+host. This is because available data indicate
+that contemporary amitochondriate protists
+investigated thus far – organisms which were
+thought to be descendants of the host –
+possessed a mitochondrion in their evolutionary past, but subsequently lost the
+organelle through reduction (summarized in
+9, 10, 12, 20, 25). These findings indicate that
+such cells can therefore hardly be descendants
+of the host in the endosymbiont hypothesis
+and they furthermore intertwine the issues of
+the origin of mitochondria and the origin of
+eukaryotes even more tightly than before (9,
+10, 12). Second, there is no clear evidence to
+suggest that the host was even a heterotroph.
+This is because nuclear genes for enzymes of
+the glycolytic pathway in the eukaryotic
+cytosol – the backbone of heterotrophy in
+eukaryotes and the pathway that feeds mitochondria – appear themselves to be acquisitions from the ancestors of organelles, also in
+amitochondriate protists (5, 8, 20, 21).
+Eukaryotes thus seem to have acquired the
+heterotrophic lifestyle that they now use,
+raising the question of how they synthesized
+their ATP prior to that acquisition. Third,
+formulations of the endosymbiont hypothesis
+that focus on the role of oxygen in the origin
+of mitochondria (e.g. 2) cannot directly
+account for data indicating a common
+ancestry of mitochondria and hydrogenosomes – the double-membrane-bound, ATPproducing organelles of many protists that
+shun oxygen-containing habitats (23, 24).
+Indeed, hydrogenosomes (and ATP synthesis
+in anaerobic mitochondria in general) have
+been a thorn in the side of the endosymbiont
+hypothesis, having been difficult to incorporate into traditional views (16, 23, 27) or
+having been disregarded (19). Given these
+newer findings, it is not unreasonable to
+question the view that the host may have been
+a hypothetical, heterotrophic, primitively
+amitochondriate eukaryote, and to pursue
+alternative avenues of thought.
+The hydrogen hypothesis (20) is such an
+alternative, one that specifically addresses the
+compartmentalization and the ancestral state
+of eukaryotic ATP synthesis. It avoids
+the need to assume that primitively amitochondriate protists ever existed, because it
+entails the premise that the host was an
+Archaebacterium, not a eukaryote. It avoids
+the need to assume that the host was a
+heterotroph because it posits that the host was
+an autotroph, one that was strictly dependent
+upon molecular hydrogen as an energy and
+electron source. Through explicitly formulated selective pressures for gene transfer from
+symbiont to host chromosomes, it directly
+accounts for the finding that eukaryotes
+studied to date tend to possess a eubacterial
+rather than an archaebacterial glycolytic
+pathway. It also directly accounts for findings
+that indicate a common ancestry of mitochondria and hydrogenosomes, because it
+posits that the symbiont was a facultatively
+anaerobic α-proteobacterium, one that was
+able to synthesize ATP either through oxygenconsuming electron transport like mitochondria or through hydrogen-producing fermentations like hydrogenosomes, dependent upon
+environmental conditions. The hydrogen
+hypothesis thus differs from previous views
+both on the origins of mitochondria and on the
+nature of the host. It generates some of the
+same predictions as the endosymbiont hypothesis does, for example that the respiratory
+pathways of oxygen-consuming mitochondria
+and α-proteobacteria should be homologous,
+but it generates different predictions about
+the origins of pathways of ATP synthesis
+in hydrogenosomes than the endosymbiont
+hypothesis does. It furthermore generates
+very different predictions about the host, for
+example that the host ultimately should
+descend from the lineage of Archaebacteria
+that today contains methanogens, the only
+prokaryotes currently known to contain
+histones (26).
+Is the view that hydrogenosomes are a
+‘secondary modification’ of mitochondria at
+odds with the hydrogen hypothesis? No,
+because this is just a roundabout way of
+saying that hydrogenosomes and mitochondria share a common ancestor, since, obviously, no contemporary hydrogenosomes can
+have arisen through modification of contemporary mitochondria. Rather, they must have
+arisen from mitochondria that existed in the
+past. So what were those ancient mitochondria like in terms of biochemical properties?
+Were they like the mitochondria of the fungus
+Fusarium that perform nitrate and nitrite
+respiration, just as many facultatively anaerobic bacteria do (16)? Were they like
+plathelminth mitochondria that perform
+fumarate respiration as many facultatively
+anaerobic bacteria do (27)? Were they like the
+mitochondria of the ciliate Nyctotherus that
+produce H2 with the help of a hydrogenase
+like hydrogenosomes do (1)? Were they like
+kinetoplastid mitochondria, which use
+acetate:succinate CoA transferase to regenerate CoASH like hydrogenosomes do (29)?
+Or were they like the mitochondria of
+Euglena that, instead of the pyruvate
+dehydrogenase complex, use ferredoxindependent pyruvate:NADP oxidoreductase
+in a reaction that is very similar to that of
+pyruvate:ferredoxin oxidoreductase (PFO) in
+hydrogenosomes (14)?
+These questions are intended to make the
+point that there are a number of anaerobic (but
+not necessarily strictly anaerobic) mitochondria known that possess and use enzymes
+and/or pathways that are common to facultatively anaerobic bacteria and/or hydrogenosomes. As the simplest alternatives to explain
+this observation, either (a) mitochondria arose
+from strictly aerobic bacteria that did not
+possess genes for enzymes of anaerobic ATPproducing pathways as found in hydrogenosomes, in which case the enzymes germane to
+hydrogenosomal metabolism in the various
+eukaryotic lineages that possess hydrogenosomes can be predicted to have been acquired
+through independent lateral gene transfers, or
+(b) the genetic starting material for this
+biochemical diversity was present in a facultatively anaerobic bacterium that was the
+common ancestor of mitochondria and
+hydrogenosomes (20). Under the first alternative, the homologous enzymes in hydrogenosomes of different eukaryotic lineages should
+be shown to stem from independent lateral
+transfers involving different prokaryotic
+donors. Under the second alternative, the
+homologous enzymes in hydrogenosomes of
+different eukaryotic lineages should be shown
+to stem from a single eubacterial source (13).
+More molecular data from eukaryotes that
+possess hydrogenosomes and ‘atypical’ mitochondria are needed.
+
+None of this is to detract from the importance of the observation that many eukaryotes commonly designated as ‘anaerobic’
+do grow more prolifically when a bit of
+oxygen is present and can be designated as
+microaerophilic. In the example of the kinetoplastids, this appears to have to do with the
+maintenance of redox balance, i.e. the regeneration of NAD+ (7). When oxygen is present,
+bloodstream forms of trypanosomes can
+regenerate additional NAD+ from glycolytic
+NADH with the help of a glycerol-3-phosphate oxidase, such that one mole of water
+and two moles pyruvate per mole of glucose
+are produced as waste products. When no
+oxygen is available, one mole each of glycerol
+and pyruvate are excreted as end products
+to maintain redox balance (7). In other
+‘anaerobic’ or ‘microaerophilic’ protists such
+as trichomonads and diplomonads, which
+generate ATP solely through extended glycolysis (24), oxygen-consuming systems to
+regenerate NAD+ for glycolysis, hence to
+maintain redox balance, have also been
+reported (4, 17). Of course, oxygen also has
+important roles in eukaryotic fatty acid and
+sterol biosynthesis, but traditional formulations of the endosymbiont hypothesis are at a
+loss to explain why eukaryotes (also amitochondriate ones) possess eubacterial rather
+than archaebacterial lipids in the first place,
+whereas the hydrogen hypothesis directly
+accounts for this finding as well (20). Clearly,
+more work is needed on the evolution and
+metabolism of eukaryotes that can grow with
+little or no oxygen.
+The hydrogen hypothesis invokes the
+observable phenomenon of anaerobic
+syntrophy (one organism gleaning a living
+from the waste products of the fermentations
+of another) to infer how the patterns
+of compartmentalized energy metabolism
+observed among contemporary eukaryotes
+might have come to be. It can readily account
+for a number of observations, including the
+mitochondrial remnant recently described in
+Entamoeba histolytica (28), an organism that
+uses a homologue of hydrogenosomal PFO in
+its cytosol (13) for ATP synthesis (24). The
+syntrophy hypothesis (18) also invokes the
+principle of anaerobic syntrophy, but derives a
+heterotrophic, primitively amitochondriate
+eukaryotic host and does not address the origin
+of hydrogenosomes or their relationship to
+mitochondria. That the hydrogenosomes of
+the ciliate Nyctotherus (1) possess a remnant
+of a hydrogenosomal genome bears out one of
+the predictions of the hydrogen hypothesis,
+rather than refuting it (in part or otherwise).
+A vision of the host as a primitive eukaryote
+that never possessed mitochondria is perhaps
+too tantalizing for evolutionists to ignore when
+dealing with the origin of this ATP-producing
+organelle in its various aerobic and anaerobic
+manifestations (20, 23–25, 27). The hydrogen
+hypothesis predicts that upon closer examination of aerobic as well as anaerobic protozoa,
+none will be found that are primitively amitochondriate. Indeed, if eukaryotes are ever
+found that can be conclusively shown to have
+never possessed a mitochondrial symbiont in
+their evolutionary history, the hydrogen
+hypothesis would be falsified. The endosymbiont hypothesis is currently in search of a
+formulation that is sufficiently explicit as to
+generate similarly falsifiable predictions about
+the host that acquired mitochondria. That
+search may or may not be fruitful.

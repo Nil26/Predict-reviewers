@@ -1,0 +1,289 @@
+Getting from an RNA world to modern cells just got a little easier
+
+Abstract
+Our understanding of the early steps in the evolution of life is hampered by a Catch‐22: Darwinian selection leading to longer genomes requires as prerequisite increased replicative fidelity. Yet a genome at capacity cannot increase in size; it will be catastrophically mutated out of existence if fidelity has not already increased. Traditionally the problem has been considered for genotypes but can be downsized if multiple genotypes specify the same phenotype. Kun and colleagues1 put empirical meat on theoretical bone by analysing ribozyme mutagenesis data, concluding that modest replication fidelities could permit a primordial genome with up to 100 genes. 
+
+
+RNA making RNA
+The idea of an RNA world is central to our understanding of the
+evolution of life on earth, and the key point is well understood:
+RNA viruses and viroids demonstrate that RNA can act as
+genetic material,(2,3) and the discovery of ribozymes demonstrate RNA can act as a biological catalyst.(4,5) Hence, it is
+considered likely that an RNA world preceded the advent of
+DNA and proteins.(6) In vitro selection studies have greatly
+expanded the catalogue of molecules that RNA can bind to as
+well as the repertoire of catalytic reactions that RNA can
+perform. While the staggering array of new functionalities is
+not yet sufficient to account for all hypothesised aspects of an
+RNA-based metabolism, functions, such as nucleoside synthesis, carbon–carbon bond formation, modulation of membrane permeability, aminoacylation and peptide synthesis(7,8)
+indicate the ever-growing support for an RNA world; dreams of
+an RNA-based cell may soon migrate from a twinkle in the
+theoretician’s eye to fledgling life in the experimentalist’s test
+tube.
+
+One of the major obstacles that must be negotiated before
+claiming that a ‘riboorganism’ is feasible is to demonstrate that
+RNA can replicate RNA. Despite the power of in vitro selection
+and the valiant attempts of the best in the business, artificially
+selected replicases are not yet as good as they need to be.
+In 2001 Johnston et al(9) reported successful selection of a
+ribozyme with RNA-dependent RNA polymerase activity. Their
+ribozyme polymerises sequence-independent extension of a
+primer bound to a template, demonstrating that RNA is
+capable of template-guided RNA polymerisation. Furthermore, it has a high fidelity of nucleotide addition (96.7%,
+reaching 98.5% if the concentration of GTP is reduced tenfold
+relative to the other ribonucleotides). However, the ribozyme is
+only capable of extending primers at most an additional 14
+nucleotides. This turns out not to be a consequence of low
+processivity, as initially thought (surprisingly the ribozyme is
+highly processive), but is instead due to the low affinity of the
+enzyme for the primer–template complex.(10) Since sequence-independent binding of primer–template complexes
+is a feature of the ribozyme, a refined enzyme with higher
+substrate affinity, and which operates in conditions that do not
+lead to rapid product (and ribozyme) degradation (high pH and
+magnesium) may well enable longer extensions off a primer–
+template complex.(10,11)
+Additional RNAs with RNA polymerase activity have
+recently been isolated,(11) and it does not seem unreasonable
+that a ribozyme RNA polymerase capable of extending a full
+copy of itself (200nt), a self-replicating RNA in other words,
+will be reported in the near future. In practical terms, in vitro
+selection experiments of this type will be the acid test of the
+RNA world hypothesis, but in order to understand the evolution
+of life from a hypothetical RNA world through to full-blown cells
+with protein catalysts and DNA, this is but one step in the
+process. Addressing this larger question requires an understanding of how systems with sufficient copying fidelity to be
+capable of self-replication have evolved.
+Evading error catastrophe
+Replication fidelity is key to our understanding of the evolution
+of complex life, and at the heart of the problem is the error
+threshold. In Eigen’s original formulation,(12) there are three
+terms, genome length (L), the replication fidelity (q) and the
+selective superiority of the fittest sequence (commonly called
+the master) over the average fitness of the population of
+mutants (s):
+L  lnðsÞ=ð1  qÞ
+
+ð1Þ
+
+For a sequence of length, L, the master sequence can only
+be retained if L is some value less than the terms to the right; in
+other words, below that dictated by the error threshold. Two
+points are worth noting here. First, the major restriction on
+length will come from the replication fidelity. Secondly, this
+description of the error threshold is defined in terms of
+genotype, meaning that any sequence that deviates from the
+exact sequence of the master is defined as a mutant with lower
+fitness than the master. For a given length L, one approaches
+the error threshold as mutation rate is increased, and bridging
+it will result in the loss of the master sequence as it can no
+longer be maintained by selection; all possible sequences will
+become equally probable, leading to complete loss of information: ‘error catastrophe’. As Kun and colleagues succinctly
+put it, Eigen’s work reveals a paradox: ‘no enzymes without a
+large genome and no large genome without enzymes’.(1)
+We know that early replicative systems overcame this
+hurdle, but there is devil in the detail. A naı̈ve picture of the
+process by which systems became more complex is a positive
+feedback loop:(13) selection of individuals with improved fidelity
+result in a larger genome size, thereby allowing additional
+increases in fidelity to appear and be selected. The problem
+however is that the fidelity of replication places a limit on how
+much genetic information can be maintained. If this limit has
+been reached, and coding capacity is at a maximum, there is a
+risk that such a feedback loop will come to a halt. Hence,
+excluding refinements in a replicase via point mutation (which
+do not require a larger genome), any increase in genome size
+must be preceded by an improvement in fidelity prior to
+reaching the error threshold.(14)
+Drawing inspiration from Shannon’s theory of information,
+Reanney(15,16) pointed to a number of ways in which genome
+architecture could help alleviate the problem of the error
+threshold, notably, redundancy and recombination. These
+aspects of genome architecture are seen in contemporary
+systems such as RNA viruses, whose genomes provide a
+good model for the problems of information storage with RNA
+as genetic material.
+Redundancy is straightforward. Maintaining only a single
+copy of a message means that any error that occurs during
+copying cannot be corrected with reference to another copy of
+the information. If there are two or more copies, the effects of
+mutation of one of the copies can be buffered by the presence
+of additional copies. Haploidy is thus less informationally
+robust, the result being that a higher fidelity of replication is
+necessary for maintenance of a single copy. It is worth pointing
+out that polyploidy would be expected in a system without
+regulation of copy number, and that variants with improved
+Figure 1. Downsizing errors in an RNA world. Experimental
+data have bolstered expectations from theory regarding how
+early genomes would have coped with the threat of information
+decay. As discussed in the main text, all the general features
+shown here (genomes in multiple copies, neutral sequence
+variation, recombination, and repair-capacity of RNA polymerases) are seen in modern RNA viruses. In vitro selection
+experiments have demonstrated that RNA is capable of
+catalysing recombination, allowing construction of an undamaged genomic RNA from two mutant copies (mutations
+indicated by stars). Likewise a general RNA-dependent RNA
+polymerase has been isolated via the same general methodology. Repair of RNA by modern viral and cellular RNA
+polymerases is a bona fide process, the chemistry of repair
+being essentially a reversal of polymerisation, and thus well
+within the known capacity of catalytic RNA. Theoretical studies
+have previously argued for a phenotypic error threshold, with
+neutral variation at the sequence level not affecting fitness. This
+has now been tested for two ribozymes, revealing the average
+fraction of neutral single substitutions to be around 0.24.
+
+function can be subject to selection even where there is
+high copy number.(17,18) It is therefore likely that early
+genetic systems with low fidelity would have been polyploid
+(Fig. 1).(13,15)
+Recombination between copies potentially permits restoration of wild-type from two damaged genomes, and this
+situation is achieved in some RNA viruses via template
+switching.(19) That is, in replicating the RNA genome, the
+polymerase can switch templates, the result being production
+of a recombinant genome sequence. Recently Riley &
+Lehman(20) selected for group I intron derivatives capable of
+general recombination, and demonstrated construction of a
+functional hammerhead ribozyme via recombination of two
+non-functional RNAs. This shows that modern protein-based
+RNA polymerases are not a prerequisite for the evolution of
+RNA recombination;(13,15,21) ribozymes can do it too (Fig. 1.).
+Building on this work, Santos and colleagues tested the
+effect of recombination on information transmission.(22) Their
+work shows that, within a moderate window of redundancy
+(3- to 4-fold), informational content could increase by around
+25% compared to a population with the same error rate but
+without recombination.
+Perhaps more fundamental than the above mechanisms is
+neutrality at the sequence level. Length is only a rough proxy
+for the amount of information stored within a sequence, and an
+all-too-often-overlooked cure for the mutational meltdown
+consequent in Eigen’s definition of the error threshold is to take
+into account neutral mutations.(23)
+One phenotype, many genotypes
+Indeed, the problem with the error threshold, as originally
+described, is that it is defined in terms of genotype. That is to
+say, the model defines one genotype as the fittest (the master
+sequence) and the fitness of mutants is defined relative to their
+deviation (in number of mutational changes) from the master.
+Rather than stating that any mutations to the master sequence
+reduce fitness, it has been pointed out that many mutations are
+likely to be neutral (i.e. have no effect) and hence what we
+should be worrying about is fitness defined in terms of
+phenotype, not maintenance of one exact sequence: that is,
+a phenotypic error threshold.(23–25) Qualitatively, this makes
+perfect sense: we are all aware that some sequence changes
+will have no effect on RNA function, partly because not all
+nucleotides are important for catalysis, and partly because in
+many regions of a ribozyme, structure, not sequence, is
+important. Takeuchi and colleagues recently provided a
+formalised expression for the phenotypic error threshold that
+includes a term for the proportion of single mutants that are
+selectively neutral (l):
+L  lnðsÞ=lnðq þ l  qlÞ
+
+ð2Þ
+
+Kun et al. put this knowledge to exceptionally good use by
+gathering empirical data to glean values for l, and hence
+assess the impact of neutrality on the error threshold. They
+trawled the published literature for the effects of specific
+mutations on enzymatic activity for the Neurospora VS
+and hairpin ribozymes. For the VS ribozyme, this consisted
+of 183 mutants spanning 83 of 144 nucleotide positions, and
+142 mutants at 39 of 50 positions in the hairpin ribozyme, plus
+documented critical residues in both RNAs.
+To generate fitness landscapes from this empirical data,
+the activity of all possible (4L) sequences for the VS (L ¼ 144)
+and hairpin ribozymes (L ¼ 50) was calculated by multiplying
+activity values for four different parameters (structural compatibility with reference to wild type, degree of mispairing,
+presence of critical sites and the minimum free-energy structure), to give an overall activity value for each sequence. These
+values serve as a proxy for sequence fitness relative to wildtype. From these landscapes, it is possible to estimate the
+maximum tolerable mutation rate per nucleotide per round of
+
+replication (m*), and l. Taking the length of the two ribozymes
+into account, it is therefore possible to estimate the copying
+fidelity at the error threshold.
+Kun et al. achieved this by examining the average time that it
+took (in generations) for a fixed population of 10,000 ribozymes (either VS or hairpin) to go extinct under a range of
+mutation rates. They ran simulations of three types: (1) with a
+single fittest master genotype and a single lower fitness for
+mutants, representing the average activity for all single pointmutations (Eigen’s error threshold), (2) with empirical activity
+data for point mutations combined with fixed relative activity
+values for sites where no data was available, and (3) with both
+functional and secondary structural data included in inferring
+the fitness landscapes. As expected, including secondary
+structure and point mutations lifts the error threshold considerably over that for the simple case where there is only one
+optimal sequence.
+Kun and co. go on to argue that the hairpin and VS
+ribozymes suggest a solution to Eigen’s original paradox. To
+maintain the Hairpin and VS ribozymes, they estimate that the
+replication fidelity at the error threshold (q ¼ 1 m*) is
+respectively 85.6% and 94.7%. Under Eigen’s original
+formulation, to maintain ribozymes at these lengths, and with
+the same value of ln(s), would have required greater accuracy:
+95.8% and 98.6% respectively. This is of course expected from
+theory, but the result is not trivial. On the contrary, Kun et al.
+show for the first time that real RNAs display a phenotypic error
+threshold, and that a relaxed threshold should be a general
+feature of an RNA-based system, enabling a significant
+increase in the maximum maintainable sequence length even
+at modest replication fidelity.
+Daring extrapolations
+The authors go out on a limb at this point, and try to generalise
+their result. By taking the lower (and hence conservative) value
+of l obtained for the hairpin ribozyme and the average s
+suggested from both ribozymes, they have a stab at what
+effect this would have on the coding capacity of a genome with
+Johnston et al.’s in vitro selected RNA replicase ribozyme.(9)
+Estimating L using equation (2), their educated guess is a
+‘genome’ of &250 nucleotides in length, above the size of the
+reported sequence (189nt), and therefore sufficient to copy
+itself. If one plugs the same values of q and s into equation (1)
+for comparison, one comes up with &177nt. So under Eigen’s
+original formulation, the Johnston et al. replicase would
+collapse into mutational meltdown before it even got started
+(the above issues concerning low primer–template affinity and
+rapid degradation notwithstanding), but under a phenotypic
+error threshold a self-replicating ribozyme evades Eigen’s
+paradox.
+Emboldened, they then do the same in order to get a
+rough number for a hypothetical RNA-based cell. Based on
+very rough and ready guestimates of the genome size of
+such a cell,(26) and q ¼ 0.999 (equivalent to a ‘sloppy’ viral
+RNA replicase), they estimate that coding capacity under a
+phenotypic error threshold extrapolated from VS and hairpin
+data would be sufficient to maintain a complex riboorganism,
+with 100 genes, each 70–80 nt in length (the size of natural
+RNAs like tRNAs or C/D family snoRNAs). One could certainly
+claim that even doing these calculations is pushing things a
+bit, but it will not be possible to get numbers for l from a
+complex riboorganism until someone actually makes one in
+the laboratory (and this requires a replicase superior to the
+Johnston ribozyme), and besides, a bit of optimistic extrapolation never hurt anyone. In fact, one could milk these numbers
+even further by including the approximate benefit of recombination, as indicated by Santos and colleagues’ study (see
+above),(22) giving a genome length of something like 9000–
+10000 nt.
+Problem solved?
+This new analysis does not eliminate the error threshold, but it
+does take away some of its sting. Early life was constantly
+faced with the challenge of maintaining information in the face
+of low fidelity copying. It is encouraging to note that Eigen’s
+original formulation gave us the worst possible scenario, and
+we now know that a whole host of mitigating mechanisms
+(recombination, redundancy and the presence of selectively
+neutral sites in RNA) would have been important in keeping
+error catastrophe at bay. Indeed, while modern viral genome
+replication is probably optimally accurate, the trade-off
+between replication and repair can be tweaked, and higher
+fidelity polymerases can be readily selected in response to
+mutational stress.(27)
+And there is further cause to be optimistic: RNA repair. It
+turns out that both cellular and viral RNA polymerases engage
+in proofreading and repair.(28) A common two-metal mechanism accounts for both polymerisation and the intrinsic ability of
+polymerases to excise nucleotides and hence perform
+repair.(29) Tantalisingly, the two metal-ion chemistry of polymerisation and excision by modern nucleotide polymerases is
+chemically feasible for ribozyme polymerases (Fig. 1),(30) so it
+would not be outlandish to suggest repair was a feature of early
+ribozyme replicases. Adding this possibility to the eclectic mix
+of strategies for avoiding error catastrophe, one cannot help
+but be optimistic that Eigen’s paradox will soon be consigned to
+the pages of history.

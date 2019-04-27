@@ -1,0 +1,38 @@
+Editorial
+Proteins perform diverse functions in living organisms. The functions of proteins are mainly dictated by their structures.
+Elucidating the structure-function relationship in proteins, understanding the mechanism of protein folding and stability as well
+as the recognition of proteins with other molecules are intriguing and challenging tasks in protein science. The problem of
+protein folding, stability and interactions has been viewed through several perspectives using experimental and computational
+approaches [1]. The study has also been extended for predicting protein-protein interaction networks, annotation of genomes
+and proteomics analysis.
+ The special issue on “Structure and function of proteins” is aimed at providing a recent update on the experimental and
+computational analysis of proteins based on their folding, stability and interactions as well as the analysis on genomes and
+proteomes. It addressed various issues such as structure and functions of different types of proteins, protein folding rates and
+stability. Further, it covered protein-protein, protein-carbohydrate and protein-ligand interactions, structure based drug design
+and analysis of genomes and proteomes. The special issue is broadly classified into four parts; the first part is focused on the
+aspects of protein structure and function with three articles, second part with three papers emphasizes new methods for
+understanding protein folding and stability, third part is devoted to protein interactions, which has six papers and the last part is
+dealing with disease genes and mass spectrometry based proteomics analysis with three papers.
+ The opening article by Moin and Omar [2] discussed the purification and catalytic mechanism of laccase enzymes using
+experimental techniques for understanding of their structure-function relationship. In the subsequent papers, the structurefunction relationships of serpins and hypothetical proteins identical to ADP-ribosylation superfamily have been delineated
+using computational approaches [3,4]. Suresh and Parthasarathy [5] developed a support vector machines based method for
+predicting protein blocks using sequence profiles and secondary structures. Huang [6] framed a set of rules for discriminating
+protein mutants, which accelerate or decelerate protein folding process using statistical and machine learning methods. The
+thermodynamic stability and flexibility of antibody fragments complexes has been tackled by Li et al. [7].
+ Ohue et al. [8] developed a prediction system, MEGADOCK for elucidating protein-protein interactions using tertiary
+structure data. Sowmya and Ranganathan [9] discussed the structural basis of protein-protein interactions and compiled
+different prediction servers. Matsusaki et al. [10] used rigid-body docking tools for predicting protein-protein interaction
+networks with an application to chemotaxis. Gromiha et al. [11] proposed an energy based approach for understanding the
+recognition mechanism of protein-carbohydrate complexes from the analysis of binding site residues. Oak and Jayaraman [12]
+utilized machine learning methods for identifying the ligand binding pockets on nuclear receptors. Further, docking studies
+have been performed to identify potential antiviral drugs for dengue virus [13].
+ Ishida et al. [14] developed bioinformatics approaches for screening autoimmune diseases of genes. The mapping and
+annotation of obesity related genes in a couple of genomes have been carried out by Martelli et al. [15]. Petric et al. [16] used
+text mining and gene prioritization methods for generating biomedical hypothesis. Reiz et al. [17] discussed the filtering of
+mass spectra for proteome analysis based on precursor mass.
+ In essence, this special issue comprehends the exciting developments in the area of protein structure and function as well as
+screening of disease genes and mass spectrometry based proteomics analysis. It will be a valuable resource for computational
+biologists, biochemists, biophysicists, bioinformaticians and researchers working in the field of proteins.
+ I would like to thank all the authors for their outstanding contributions and cooperation to complete the task. The guest
+editor thanks the Editor-in-Chief Professor Ben Dunn for his invitation and encouragement, and Mr. Rukhshanda for his help
+and support for the successful completion of editing the special issue. 

@@ -1,0 +1,321 @@
+Computer prediction of the exon-intron structure of mammalian pre-mRNAs.
+ABSTRACT
+A novel approach to the problem of prediction of
+protein-coding regions is suggested. This approach
+combines the site prediction methods to predict
+splicing sites and the global coding region prediction
+methods to choose the best variant of spliced mRNA.
+One of the advantages of the suggested algorithm is
+that the resulting mRNA or protein sequence may then
+be immediately analyzed further. The true mRNA either
+coincides with the predicted one or ranks high in the
+list of variants. In the latter situation the predicted
+mRNA usually differs from the true one in only one or
+two of several exons.
+The combined approach allows the use of a priori
+information (e.g. the putative protein length or the
+number of exons). It is possible to use additional
+parameters not considered here, such as the preferred
+lengths of exons and introns, and particularly the
+preferred position of introns in the reading frame and
+the preferred codon position of exon termini.
+
+INTRODUCTION
+The prediction of protein-coding regions is the first and perhaps
+the most important step in the computer analysis of a newly
+sequenced DNA. Currently two approaches to this problem exist.
+The global approach uses the fact that the coding function puts
+statistical constraints on a nucleotide sequence. Thus one may
+use patterns of the codon usage [1-5], positional mono- and
+oligonucleotide frequencies and weak 3-periodicity [6-9] to
+distinguish between protein-coding and non-coding regions
+(review and some other references see in [10]. Usually the sliding
+windows technique is employed. We invent a function that
+evaluates some of those characteristics and then, moving a
+window of a fixed length along the analyzed sequence, plot the
+protein-coding potential of sequence regions. If the function is
+good, then peaks and high plateaus of the plot would correspond
+to the coding regions, while deeps and low plateaus coincide with
+the non-coding regions. The other possibility is to evaluate the
+coding potential of open reading frames. Unfortunately this
+approach performs poorly in analysis of the sequences interrupted
+by introns. In these cases we cannot define an open reading frame.
+On the other hand, exons often are shorter than the window
+length, which cannot be too small due to the ever-present
+statistical noise.
+
+The local methods predict start codons and splicing sites using
+the non-uniformity of nucleotide distribution in certain positions
+near these points ([11-22], reviewed in [23]). However, none
+of the existing methods of functional sites prediction is reliable
+enough. We either get a lot of false positives, or lose some true
+sites. In both cases the resulting set of predicted sites cannot be
+used immediately to predict the spliced mRNA. Shapiro and
+Senapathy tried to overcome this obstacle by using the information
+about open reading frames [15]. They developed scoring functions
+for donor and for acceptor sites based on the positional nucleotides
+frequencies and (for acceptor sites) on the length of the
+polypyrimidine tract. Ten sites of both types with the highest
+scores were considered (it should be noted, that in all examples
+given in [15] some sites are missed by this procedure). The region
+between an acceptor site and the nearest downstream donor site
+was marked as a possible exon if at least one of reading frames
+in this region was open. Then the regions with consistent open
+reading frames were chosen. Nothing is said about prediction
+of the first (starting not at the acceptor site) and the last (closing
+the reading frame) exons. In any case, almost all exons were
+found, but several additional exons were predicted.
+
+This procedure is a serious improvement over the previously
+known ones, which result in a uninterpretable set of predicted
+sites. However it has some serious drawbacks. First, as noted
+previously, we cannot guarantee that all true sites, both donor
+and acceptor, are among the ten, and even hundred, highest
+scoring ones. The exon corresponding to the missed acceptor site
+will be missed also, while the exon corresponding to the missed
+donor site either will be missed or will have a spurious right
+border. This latter situation will also happen if there is a falsely
+predicted donor site between the acceptor site and the
+corresponding true donor site (some examples, albeit with another
+scoring function, can be seen in [21]). If the length of the missed
+exon, or the distance between the true exon-intron border and
+the predicted one is not divisible by 3, then the consequences
+of such an error may be fatal for the prediction of the downstream
+exons, because in this case the reading frame of these exons would
+be misidentified.
+
+Trifonov delineated regions, where intron borders are expected,
+using global approach, and then tried to choose pairs of
+corresponding donor and acceptor sites from two sets of predicted
+sites presuming base-pairing of 5' and 3' ends of an intron [ 13].
+However, it seemes, that this assumption has no biological
+justification.
+
+Nakata, Kanehisa, and DeLisi predicted splice sites using both
+local (perceptron value and energy of base-pairing with Ul and
+U2 snRNA) and global (nucleotide distribution and 3-periodicity
+measured by a Fourier transform-like procedure) parameters [ 14]. While the perceptron value was essential, the use of the global
+parameters improved results of the classification.
+Finally we should mention the paper by Stormo, in which an
+informal combination of global and local approaches is described
+[24].
+
+Thus both approaches fail when used independently. The global
+approach cannot deal with the DNA possessing an exon-intron
+structure since it misses short exons and does not predict the
+required sharply defined boundaries of the coding regions, while
+the local approach finds most sites and some false sites but offers
+no means for further analysis.
+
+These difficulties can be overcome by the combined technique
+described below. The main idea of the method is as follows. First
+we use a functional site-prediction function to find all possible
+sites. The conditions to which the putative site should satisfy are
+deliberately made rather weak, so as not to miss any true site,
+
+while many false positives are allowed and will be dealt with
+on the next stage. All possible variants of spliced mRNA are
+considered and for each of these its coding potential (in the global
+approach sense) is evaluated and combined with the mean score
+of the donor and of the acceptor sites of this variant. The
+combined scoring function is used to choose the best variant.
+METHODS
+Donor and acceptor splicing sites were predicted using the Bergvon Hippel discrimination energy [25] with the previously
+obtained parameters (general results see in [21]; parameters are
+given in [22] or available upon request). Protein-coding potential
+was evaluated using the TestCode algorithm by Fickett [6] with
+the parameters given there, which happened to be the best
+algorithm for classification of mammalian exon and intron
+sequences among the several tested ones (mentioned in the
+Introduction; results of comparing are described in detail in [10]).
+It should be noted, that the discrimination energies D and A
+of donor and acceptor sites respectively are low for the sites
+predicted to be strong, while TestCode values C for the proteincoding sequences generally are higher than for the non-coding
+ones.
+The following calculated previously parameters will be used:
+mean discrimination energy of donor sites MD = 3.86, its
+standard deviation SD = 2.39, mean discrimination energy of
+acceptor sites MA = 6.17, its standard deviation SA = 2.62,
+mean TestCode value for exon sequences MC = 105.6, its
+standard deviation DC = 18.0 [10, 21 ].
+All programs were written in the C programming language
+using the Microsoft QuickC Compiler version 1.0 and Microsoft
+C Optimizing Compiler version 5.0, and run under MS-DOS on
+an IBM-compatible personal computer Commodore PC 10-HI.
+ALGORITHM
+All sites containing the invariant dinucleotides GU (for donor
+sites) and AG (for acceptor sites) are considered and their
+strengths D and A are evaluated (we have used the functions that
+have low values for the strong sites). The sites satisfying the
+conditions D c Dn.. and A c A. together with their scoring
+functions are retained (the choice of the parameters Dx and
+Amax is discussed below). In this study we have also used the
+condition that the energy of the base-pairing of the donor site
+with the U1 snRNA (calculated by the rules described in [21])
+should not exceed the observed maximum value -6.9 kcal/mole.
+In what follows we presume the knowledge of the start codon.
+If this is not the case (as in most of the real situations), we should
+also score all possible start codons. To do it, it is necessary to
+develop a prediction function for these sites. It falls outside the
+scope of this paper.
+
+Thus the two sets of putative sites are formed. Then all possible
+variants of splicing are considered. This search is governed by
+the following parameters: minimum exon length (Lin = 1
+throughout), minimum intron length (LI n = 80 unless stated
+otherwise), and minimum protein-coding mRNA length Lmin.
+For each variant we evaluate its coding potential RC and mean
+scores of its donor sites RD and its acceptor sites RA. Here we
+used the simplest way to combine these values, which is to express
+them in the standard deviation units and sum:
+R = (RC-MC)/SC + (MD-RD)ISD + (MA-RA)ISA.
+
+The variants with the highest combined score are retained and
+may be used for further analysis (usually they do not differ much).
+RESULTS
+We have tested the algorithm on the several sequences taken from
+the GenBank release 48.0. We have ranked splicing variants
+according to their combined scores and evaluated the result of
+the prediction by the two parameters: (1) how much the variant
+with the higher score R. coincides with the true spliced
+mRNA, and (2) the rank of the true mRNA, i.e. the number
+of the variants that satisfy the condition R 2 Rtrue. The results
+are given on fig. 1 and in tab. 1.
+Splicing of the human metallothionein (HUMMET2 [26],
+fig. la) and beta-globin (HUMBGL3, fig. Ib) genes was predicted
+correctly.
+
+Two exons were lost and additional minor errors made in the
+mouse interleukin gene (MUSIL3B [27], fig.ic). The correct
+version was ranked 12th. However, it was the best one among
+the 5-exon variants.
+
+The last exon of the rat gamma-crystalline gene (RATCRYG
+[28], fig. 1d) was lost because of its low-ranking acceptor site
+(A = 8.97, ranked 12th). The correct mRNA is ranked 5th. The
+highest ranking 3-exon variant (ranked 2) uses for the last exon
+an acceptor site with A = 7.63 (ranked 4th), that is situated 87
+nucleotides downstream of the true one, so that the reading frame
+of this exon is not changed.
+
+Two exons with the lengths divisible by 3 were lost in the rat
+myeline gene (RATMYL2G [29], fig. le). The correctly spliced
+mRNA is ranked 4th and is the best 7-exon variant. The
+comparison of several best variants shows that the inclusion of
+the 2nd exon lowers the coding potential, while the 4th exon is
+lost because of its rather bad acceptor site (A = 9.30, ranked
+11th).
+
+The terminal 6th and 7th exons of the rat chemotrypsin gene
+(RATCTPRB [30], fig. If) were lost due to their unfavorable
+influence on the coding potential. The correct version is ranked
+15th. The best 7-exon variant uses a spurious donor site with
+D = 5.75 instead of the correct one (D = 6.15) for the 4th exon,
+that thus is 18 nucleotides shorter than in reality.
+We have also studied some sequences for which bad results
+could be expected. We believe that careful analysis of the failures
+might show the direction for further development of the
+algorithm.
+
+The rat skeletal muscle actin gene (RATACSKA [31], fig. ig)
+has a donor site that had the worst score in the learning set
+(D = 11.69, ranked 21th) [21]. As expected, the corresponding
+4th exon has been lost, as well as the following exon, which has
+a rather poor acceptor site (A = 9.97, ranked 13th).
+Consequently the last exon was read in the shifted reading frame.
+Two spurious donor sites were used instead of weaker correct
+ones (the length of the fragments added to the 1st exon and
+missing from the 4th one are both divisible by 3). The correct
+version is ranked 168th, that is rather low. However, there are
+only 6 6-exon variants with higher ranks. Studying this gene we
+used L I = 70 because the length of the 5th intron is 76 bp.
+If the usual L I = 80 threshold is used, there are 211648
+variants, 133 of which have R > Rme
+
+The human HLA class I gene (HUMMH [32], fig. lh) has an
+abnormally bad acceptor site in the 3rd exon (same is true for
+the homologous genes [15, 21]). We studied this sequence using
+the condition A.. = 9 that leaves this site out of consideration.
+As expected, the 3rd exon was not discovered. The two relatively
+short 3'-terminal exons have been lost also, seemingly because
+they influence unfavorably the coding potential. However, the
+major part of the coding region has been found.
+
+Finally, we have studied the sequence RATMT12C that
+contains two rat metallothionein genes ([33], fig. Ii). As in several
+previous cases, the highest ranked variant misses the last intron.
+The true variant is ranked 9th. However, the variant ranked 2nd
+consists of the 1st exon of the first gene joined with the consequent
+introns of the second gene. Moreover, the variants with
+R > Rtemostly consist of the true exons of the two genes in
+different combinations.
+DISCUSSION
+We believe that the performance of the described algorithm may
+be considered as satisfactory (though definitely not excellent).
+While the highest scoring (i.e. predicted) variant often misses
+one or several exons, the true variant is usually among the several
+best ones.
+
+It seems that the method tends to miss fragments of the coding
+sequence rather than to mark as coding those regions that in reality
+do not encode a protein fragment. The errors are predominantly
+of three types. First a spurious site may be used if its score is
+significantly better than the score of the true site, and moreover
+the distance between the two sites is a multiple of 3. Secondly,
+a whole exon may be missed if it has a low-scoring site at one
+of its boundaries or if positional nucleotide preferences in it differ
+from these in the rest of the gene, while the length of the missed
+exon as before is a multiple of 3. Thirdly, major errors can occur
+in the terminal exons, including even a shifting of a reading frame
+in the last exon (though in a small region) or a spurious last exon
+(also small).
+
+Some of these problems seem to be hopeless. Unless we devise
+an extremely powerful methods for prediction of splicing sites
+and/or coding regions, it would be impossible to predict a small,
+or even medium-sized, exon of the length divisible by 3 bounded
+by weak sites, or to discriminate between two nearby sites.
+The more powerful site prediction methods are also necessary
+to reduce the number of the suspect sites and thus to reduce the
+number of considered variants. The number of variants depends
+not only on the number of sites, but also on the relative positions
+of these and the stop codons (compare, for example, these
+numbers for RATACSKA and RATMT12C). We sometimes had
+to use more severe conditions than the conditions D c 12 and
+A c 13, that describe all donor and virtually all acceptor sites
+in the learning set [21]. We believe that this has not influenced
+the ranks of the best variants (indeed, the transition to the used
+conditions from the even more strict ones brought virtually no
+changes to the set of the higher scoring variants, data not shown).
+However, to study longer sequences with no a priori information
+it is desirable to use weak conditions, while it may be necessary
+to decrease the number of the putative sites so that to make the
+search possible. It may be useful to put additional restrictions
+on the putative acceptor sites, as we have done to the donor sites.
+For example, we may require the absence of the upstream AG
+dinucleotides [15, 16, 21].
+
+The search may be accelerated by not considering the variants
+with the hopelessly bad mean donor and mean acceptor sites
+scores RD and RA. Furthermore, it may be convenient to use
+pre-calculated coding potentials (or the required statistical
+characteristics) of all possible exons, so that the combined score
+of each variant would be evaluated more quickly.
+The other direction of improvement lies in the use of other
+parameters. We believe that the information of the preferred exon
+and intron length [34-36] and of the preferred position of the
+exon-intron boundaries relative to the reading frames [37] would
+be helpful. The start codon should be predicted using the rules
+that describe the region surrounding it [38]. All these parameters
+may be easily incorporated into the combined predictor R
+following the usual scheme.
+
+All sorts of the a priori information are welcome, especially
+the information of the protein length and the number of the exons.
+As it can be easily seen from the above analysis, the knowledge
+of the number of the exons greatly improves the prediction results.
+Estimates of the coding sequence length may be incorporated into
+the combined score using the Gaussian term, that depends on
+the variant length. The parameters of this function should depend
+on the estimate (the mean) and on the certainty of the estimate
+(the standard deviation).

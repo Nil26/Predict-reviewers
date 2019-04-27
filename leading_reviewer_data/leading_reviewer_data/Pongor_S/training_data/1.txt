@@ -1,0 +1,76 @@
+Novel databases for molecular biology
+
+SrR-Pabd has highlighted the need for
+second-generation databases for molecular biology. One important task would
+be to organize non-structural data into
+accessible databases, which in itself would
+justify a major collaborative effore.
+Furthermore, structural information
+should be accessible in the same conceptual framework as non-structural data.
+Development of a uniform and coherent
+conceptual framework could be based on
+a systematic study of terms, concepts and
+cognitive structures we use to perceive, to
+interpret and to memorize macromolecular data.
+The approach suggested here is based
+on the analysis of scientific communications and statements pertinent to structural data. A preliminary- and by no means
+impartial - survey of current papers on
+protein and DNA structure suggests that
+the conceptual machinery we use to
+describe macromolecular data is in fact
+simple and uniform.
+For example, macromolecular structures, which are too complex to be
+memorized, are recoded as a simplified set
+of substructures related to each other by a
+few relationships. The constituent elements are in turn characterized in terms of
+size, composition and similarity to other
+known substructures. The relationships of
+elements are usually described as symmetries and vectorial distances. Primary
+protein and DNA structures, for example,
+seem to be translated into higher-order
+sequences of complex elements (such as
+cleavage sites or ligand-binding sites).
+These segments can be described in different ways, as there are several symbolic
+and parametric methods to represent
+sequences.
+Structures of DNA and protein can best
+be visualized as hierarchical and colinear
+data-structures (represented by sequences
+of symbols, numbers or sub-files), on
+which the same types of operations (such
+as insertion, deletion, exchange, symmetry operations) can be defined.
+Primary sequence similarity is by far the
+most frequent tool for detecting and
+characterizing structural similarities, even
+though it is becoming apparent that distant homologies are more easily understood in terms of parametric representations'.
+Even these simple concepts can be
+highly efficient if used in a generalized
+sense. For example, notions like a repetitive pattern of beta strands or
+amphiphilic helices can both be described
+as translational symmetries (in secondary
+structure and in hydrophobicity, respectively). Similarly, the statement 'a hydrophobic helix flanked by ionic residues' can
+be considered as a specific sequence of
+three elements which are defined in terms
+of composition. 
+A generalized framework of concepts
+and relationships abstracted from human
+thinking could enormously increase the
+performance of molecular-biology software. New categories identified by
+computer-based methods could be introduced to complement the known substructures. For example, linguistic
+methods have been used for the automatic
+definition of characteristic subwords and
+syntactic rules in DNA4
+• Moreover, artificial intelligence methods could be built
+up using these extended concepts, for
+automatic analysis of the available structural data and for building up new structural databases. Novel database structures
+could thus be the final result, rather than
+the beginning of this process.
+Interpretation of macromolecular data
+seems to be ripe for artificial intelligence
+methods. Highly accurate data are available in abundance; concepts and terms
+used to describe these data are efficient
+and can be unequivocally defined in
+scientific terms; and our obvious inability
+to obtain an adequate overview of the ever
+growing body of information leaves us no
+other alternative.  

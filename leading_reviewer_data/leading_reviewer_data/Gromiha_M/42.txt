@@ -1,0 +1,5 @@
+Reviewer comments: In this work, the authors provided a structural basis of Gcn1-Gcn2 association using homology detection and fold recognition methods. They have identified the interacting domain and the residues involved in the binding of Gcn2 RWD domain. The work is interesting and the analysis deepens our knowledge for understanding the general amino acid control signal transduction pathway in Gcn1. The following suggestions may be carried out for improvements.
+
+Comment 1. It has been stated that no domain assignment was made by Pfam for the region containing Arg-2259. The agreement using other well performing methods could be presented.
+Comment 2. Mutational analysis of Arg2259 could be reported on the basis of structure, folding and function.
+Comment 3. Several abbreviations are used in the abstract, which requires explanations.

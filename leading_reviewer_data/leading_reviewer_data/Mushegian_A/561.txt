@@ -1,0 +1,15 @@
+Throughout the paper, consider changing "hits" to "matches" in the context of BLAST searches: "hit" used to have a special technical meaning, e.g. "using the two-hit method to trigger ungapped extensions".
+
+Pg 5 of the pdf, 4th ln from the bottom: what is "topological similarity search"? It is not defined in M&M.
+
+Pg 6, par 2, ln 8. What is "congruence to the unique topological template", how such congruence was evaluated, and what if something is "incongruent"?
+
+Pg 7 ln 5–6. Conserved pattern of hydrophobic interactions in the core is said to strongly support its monophyletic origin. I am wondering what is the null hypothesis and the burden of proof here: surely, there are also some weakly conserved and non-conserved hydrophobic interactions – are there more of them than the conserved ones? If so, do they reject the hypothesis of the monophyletic origin? Is there any test that can reject such a hypothesis for proteins with a shared fold?
+
+Pg 12 par 3: "The strong conservation of this unique structural feature as well as the exclusive grouping of these versions in structure similarity-based clustering": are those indeed two independent lines of evidence, or is the latter a direct consequence of the former?
+
+Pg 15 par 2: What is "principle of phylogenetic bracketing"? If it is the same as "Extant Phylogenetic Bracket" attributed to L. Witmer, then this is not a suitable method for inferring ancestral function, in particular when it is distributed sporadically in the extant lineages.
+
+Text and Fig. ​Fig.3:3: it is perhaps unadvisable to call POZ, IGB and BofC "basal versions"
+
+Pg 31 ln 6 of M&M: it is "compositionally biased" not "computationally biased".

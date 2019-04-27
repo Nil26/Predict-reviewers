@@ -1,0 +1,5 @@
+In this work, the authors carry out a predictive analysis of the "2009 H1N1" (swine or Mexican flu) influenza A virus strain, based on phylogenetic analysis and 3D homology modelling. The results show that this strain is phylogenetically more closely related to European H1N1 swine flu and H5N1 avian flu rather than to the H1N1 counterparts in the Americas.
+
+Homology-modeling of the neuraminidase reveals that the novel mutations are not likely to interfere with the active site so the currently used neuraminidase inhibitors (oseltamivir, zanamivir and peramivir) will be effective against the new virus strain.
+
+The subject is very timely and the approach is adequate. The authors may want to include analysis of more patient data that were published since the analysis was completed. More and more sequences are being published from all over the world that might be worthwhile to include into this analysis. The authors may consider establishing a periodically updated homepage, if appropriate. In summary, the analysis is careful and carried out in a commendable fashion, and the findings are highly significant.

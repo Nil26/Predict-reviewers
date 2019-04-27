@@ -1,0 +1,31 @@
+On "Method of predicting splice sites based on signal interactions" by A.Tchourbanov et al., submitted to "Biology Direct"
+
+The problem of identification of donor and acceptor splicing sites is not new, but far from solved, whereas identification of sites regulating splicing (exonic/intronic splicing enhancers/silencers) has emerged relatively recently. Given the importance of both these problems for gene recognition and understanding alternative splicing, any progress in this area is most welcome.
+
+The authors attempt to address both problems in one framework of Bayesian analysis. They apply Bayesian sensors to detection of donor and acceptor splicing sites. The exposition in this part (section 2, pp. 2–3) contains several gaps. It is not clear how well the described approach of 7-mer counting with subsequent Bayesian weighting generalizes; in particular, it seems that the sensors will not accept a completely new 7-mer as a site. If the authors implicitly claim that all possible 7-mers have already been observed in the training set, and the only problem is proper weighting, this needs to be substantiated. A helpful piece of data would be the rank distribution of 7-mers in the positive and negative sets. How many 7-mers have been observed only once in the positive set (and would be missed if only half of that set were used for training)?
+Another missing part of exposition is a formula for combining several sensors for acceptor site analysis. Is the final score (probability) obtained by multiplying probabilities assigned by the sensors?
+Given the possibility of over-fitting, the testing procedure should be designed very carefully. Description in section 2.1 (pp. 3–4) does not address several issues, the most important of which is the influence of homologous sites in the training and testing data. The authors mention that they have removed homologs from the human sets, but it is not clear whether only human paralogs have been considered, or mouse homologs as well. It is not clear also whether the rat set has been purged from homologs to sites used in training. A minor note is that the text (end of p.3) mentions two datasets, whereas three sets are listed.
+
+The authors completely ignore the problem of alternative splicing.
+
+The behavior of ROC curves (Fig. ​(Fig.3)3) seems to be somewhat erratic. In particular, they are not even monotonic. Probably that means that the distribution of scores on positive and negative sets is not unimodal. Anyhow, these distributions should be presented in addition to the ROC curve data. On a technical side, it would be most helpful if the data were plotted using uniform scales; otherwise it is difficult to compare curves on different plots. The authors should also explain how they produced ROC curves for other methods: whether they had been re-programmed or some existing programs (stand- alone or internet servers) were used, what versions, etc. Otherwise these pieces of data are not easily reproducible.
+The last sections of the manuscript are somewhat fuzzy. The authors identify a number of likely splicing enhancers/silencers, and then use these signals to improve site detection (section 4). However, is absolutely is not clear, how this improvement is implemented, nor whether the results become stronger: the entire "Results" section (4.1) consists of two short paragraphs and a huge figure featuring the ROC curves. The test sets are not described: what portions of adjacent exons and/or introns were considered? Again, the behavior of the ROC curves in many cases looks absolutely erratic: they are convex, concave, and even zigzagging. The reasons for that are not discussed.
+Minor remarks.
+
+" P. 2. Splicing silencers are mentioned in the introduction, but not addressed during analysis. At that, it is not clear how do the authors assign activation/repression function to their identified motifs: they could well function as silencers.
+
+" P. 7. The claim that ISEs have never been systematically analyzed (section 3.2) is not correct.
+
+" P. 7. What are the definitions of parameters in the formula (conserved/non-conserved)?
+
+" P. 9. The first sentence in the last paragraph on this page is obscure. What are "SS of different strengths"? That is, what groups of sites, or what strength intervals, or whatever have been used?
+
+" P. 9. Definition of D: is it a competing SS or a splicing enhancer?
+
+" Ref. 9 = Ref. 11.
+
+" Use of capitals in the reference list is erratic. "DNA", "Markov", "Bayesian" need consistent capitals.
+
+Overall, I believe that, although the study has produced some interesting observations, and the authors' approach seems promising, the manuscript in the present form is rather raw and badly structured (it really looks like several independent papers half-written and stitched together), and several important points are not addressed at all.
+
+I declare that I have no competing interests.

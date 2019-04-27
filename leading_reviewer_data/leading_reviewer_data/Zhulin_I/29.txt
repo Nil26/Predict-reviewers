@@ -1,0 +1,19 @@
+In this paper, Krupovic and Koonin report that major shell proteins that form bacterial microcompartments (BMC) are structurally similar to ubiquitous cellular proteins, such as PII and IF-1, and in some cases can be linked to those by sequence similarity as well. They propose that BMC-H and BMC-P proteins originated from cellular proteins with ancient folds - ferredoxin-like (PII) and OB. This is an interesting observation and supporting evidence (structural similarity revealed by DALI and sequence similarity revealed by HHpred) is fairly convincing.
+
+1. Line 52: Should be “domains”
+
+2. Lines 65, 68, 79, 86, 89: it seems that “initiated” and “query” would be better word choices than “seeded” and “seed”, although it is a matter of taste, I suppose.
+
+3. Line 71: should be “6–11% identity” unless something else was meant.
+
+4. Lines 73–76: Perhaps, it would be worthwhile mentioning that PII proteins function as homotrimers (Llacer et al., PNAS 2007, 104: 17,644). Thus, tendency to higher-order oligomerization is a feature common to both BMC-H and PII.
+
+5. Line 88: indicate that PF16669.4 is a Pfam accession number.
+
+6. Lines 89 and 119: should be “SCOPe”.
+
+7. Line 103. This observation is “in line with” the authors’ previous conclusion (Reference 1), but “supports” seems to be an overstatement in the absence of a hardcore evidence directly linking BMC and viral capsid proteins (other than a unique, complex geometrical shape of protein complexes). The authors do use the expression “in line with” in the abstract (line 32) and I suggest using the same wording here.
+
+8. Line 119: should be “Pfam”.
+
+9. Line 119: delete the second instance of the word “databases”.

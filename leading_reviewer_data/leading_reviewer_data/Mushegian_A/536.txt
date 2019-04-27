@@ -1,0 +1,7 @@
+The note reports several observations that are of interest. I recommend the following modifications.
+
+1. As it is currently written, the report is mostly chronological: it starts with the observations were made first, follows with other observations they led to, etc. I suppose that the notes on computational prediction may benefit from following a different plan, which is a bit more formal: first state all predictions that you are making, then show what is the evidence supporting these predictions, and then tell why alternative explanations of the same evidence are less likely than the initial hypothesis. This will make the logic much easier to follow.
+
+2. This work: Lobanov AV, Hatfield DL, Gladyshev VN. Selenoproteinless animals: Selenophosphate synthetase SPS1 functions in a pathway unrelated to selenocysteine biosynthesis. Protein Sci. 2008 Jan;17(1):176–82. – appears to be directly relevant. Please consider discussing it.
+
+3. YgfJ is quite clearly a nucleotidyltransferase of dinucleotide sugar transferase Rossmanoid fold (verify by PSIBLAST or HHPred). This can be worked into the pathway reconstruction.

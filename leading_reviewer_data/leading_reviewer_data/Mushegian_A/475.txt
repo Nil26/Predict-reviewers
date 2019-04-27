@@ -1,0 +1,13 @@
+I think this is a Discovery Note, not a full paper, its length notwithstanding.
+
+"Results" section of the "Abstract": "proteic" must be a typo.
+
+p. 4. "One of the basic characteristics of biological organisation is that everything in an organism can be regarded as a part of a complex network [8,9]." – I am not sure what this means or whether this even is true (why 'everything' and not 'some things'? why Basic characteristic and not a conjecture?). Also, what do references 8 and 9 have to do with establishing this?
+
+p. 5 "Proteins that participate in more interactions are phenotypically (ionising-radiation resistance, in this case) more important [20] and evolutionarily more conserved [21,22]" – be careful with these generalizations, trends there are subtle. See, for example, Hurst LD, Smith NG. Do essential genes evolve slowly? Curr. Biol. (1999) 9:747–750 and Hirsh AE, Fraser HB. Protein dispensability and rate of evolution. Nature (2001) 411:1046–1049. In any case, is this correlation even needed for the authors' argument?
+
+p. 6 top line and several other places. Avoid the slang – replace "blasted against" with "compared to". Ibid, line 3: what is "correct score"?
+
+p. 6 par. 2 and further. Essentially, there was no explicit assessment of the reliability of predicted interaction, i.e., all interactions recorded in DIP or PSIMAP, whether observed in any species or inferred, were treated as true, correct? Moreover, in the case of DIP, the interaction information was transferred from the orthologs in other species, but in the case of fold recognition and PSIMAP, also from paralogs?
+
+p. 6–7: there is some biological rationalization of the observed interactions (calling them "networks" is a bit gratuitous; they are clusters of interacting proteins, but the network structure of these clusters is never explored), but, despite the section title, I do not see any comparison to the IRSB and how they get by without these clusters.

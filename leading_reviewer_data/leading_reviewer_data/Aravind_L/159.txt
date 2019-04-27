@@ -1,0 +1,16 @@
+The paper develops a concept worked out by the authors that the “dissection” of positions into fold critical versus non-globular contributions improves judgement of homology and thereby function prediction. In conceptual terms this proposal might be viewed in two potentially opposing ways: On one hand, the separation of the fold-critical and non-globular parts in the domain model is expected to reduce “false signal” of homology that tends to arise from non-globular regions. This is favorably reflected in the benchmarking experiments presented here by the authors. Indeed, the directed use of the fold-critical parts of the model seem to enhance recognition of correct structural relationship. On the other hand it should be kept in mind that natural selection does not entirely respect the fold-critical-non-globular dichotomy with potentially functionally critical constellations of residues being lodged in regions deemed non-globular. These can provide specific functional information that goes over and beyond the basic fold-recognition, and in some cases tend to be strongly conserved. Hence, the removal of such can potentially hamper function inference. The authors might hence want to clearly specify how this might affect their approach.
+The second aspect of this work pertains to functional inference from fold recognition. Here the key process followed by the authors is the stratification of hits in clusters of related domains. The biological evidence can be of two types:
+
+1) a biochemical function which can have differing levels of precision, like “methylase” or “methylase catalyzing methylation of particular substrate”, etc. and
+
+2) general biological function like “epigenetic modification”. It is not clear how these are distinguished in during the creation of cohorts during analysis of the hits. The former tends to be much more informative in terms of function prediction:
+Minor:
+
+-The results in the abstract are presented in the past tense: it might be stylistically better to use the present tense to distinguish current work from previously published work.
+
+-Several figures were invisible in the PDF version for review making some of the statements hard to visualize
+
+-Regretfully - > “Regrettably” would make better sense
+
+-DUF819 is called PF05684.7 but in Pfam it is just PF05684.
+-DUF819 belongs in “Clan” with several other transported which could be used for functional inference though by itself it is a DUF.

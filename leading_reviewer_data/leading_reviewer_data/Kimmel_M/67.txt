@@ -1,0 +1,11 @@
+Reviewer summary –
+
+I find this paper very interesting and important. Without an attempt to re-state the abstract, the authors show that while multi-step and global optimization of cancer strategies provide no significant average survival benefit, cure rates are significantly increased by global optimization. I think that the paper is very well-written and it is essentially suitable for publication in Biology Direct.
+I find this paper very interesting and important. Without an attempt to re-state the abstract, the authors show that while multi-step and global optimization of cancer strategies provide no significant average survival benefit, cure rates are significantly increased by global optimization. I think that the paper is very well-written and it is essentially suitable for publication in Biology Direct. I list several items, which may be considered in a revision.
+
+Line 121. “A situation was simulated in which two non-cross resistant drugs are available for treatment.” I would like to learn the authors’ opinion concerning how it can be determined that two anti-cancer drugs are non-cross resistant. I think this point is important, since it is conceivable that some types of resistance will not be limited to a single agent.
+Reviewer comment: Line 150. “In the simulation, each patient started with a burden of 109 cells (a single 1 cm3 lesion), and only if the total cell number increased to 1011 or more cells would strategy 2.2 choose the treatment that focused on minimizing the total cell number.” What will change in the conclusions of the paper if these numbers were varied, due to geometry of tumor, or other considerations?
+
+Reviewer comment: Line 289. “Survival time is defined as the time the tumor burden is maintained at less than 1013 cells.” This may be realistic in the cancers in which it is the primary tumor that kills the patient. However in many cancers, these are metastases that lead to terminal disease. Could you clarify this point?
+
+Reviewer comment: Line 309. “In the two drug system, global monotherapy gave shorter median survival but higher cure rates.” This does not appear clear to me. What is the relationship between these two measures of outcome?”

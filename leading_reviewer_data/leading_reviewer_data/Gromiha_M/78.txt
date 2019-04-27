@@ -1,0 +1,7 @@
+In this work, the authors systematically analyzed structural disorder in a set of minimal organisms and showed that few characteristic functions are linked with conformational disorder. Further, they suggested that these functions correspond to the most essential ones fulfilled by structural disorder in cellular organisms. The analysis has been carried out extensively with specific examples to RNA polymerase, chaperone protein, single stranded DNA binding proteins, DnaK and so on. The work is interesting and the data provide new insights.
+
+The following comments may be addressed for improvements.
+
+1. The results obtained with negative dataset may be discussed.
+2. The threshold value of 580 proteins for selecting the proteins with extreme genome reduction may be justified.
+

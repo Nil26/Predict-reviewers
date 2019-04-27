@@ -1,0 +1,11 @@
+Reviewer summary
+
+This is a very interesting paper reporting Fe-Fe hydrogenases from alphaproteobacterial genomes that branch as sisters to eukaryotic sequences. This further supports the view that the mitochondrial ancestor was a facultative anaerobe that was capable of mitochondrial type respiration and hydrogenosomal type fermentations. People will reinvestigate the topologies, but the findings reported here are of substantial importance for understanding the evolution of eukaryote physiology. The paper should be published as is.
+
+Reviewer recommendations to authors
+
+I don't see a lot that needs to be done. If people use different models with this data they will get different trees, probably, but the overall message sent by the paper is clear: gene diversity, gene transfer and pangenomes in prokaryotes are at least as important in the eukaryote gene origin issue as hair-splitting and often highly overparameterized single gene phylogenies. There was a nice paper by Ku et al. in PNAS last year talking about how pangenomes figure into the eukaryote gene origin issue. There was also a nice paper by Ku et al. in Nature last year that bears on these issues. Ettema and Gabaldon, the recent Nature papers cited the authors here, apparently still do not understand how LGT affects eukaryote gene origin issues. It is indeed complicated, as Martin Embley and I pointed out in 1998 (Nature) ans as I explained in some detail in 1999 (BioEssays). It is gratifying that microbiologists who understand some physiology, like Mauro Degli Esposti and colleagues, understand the issues that affect the origin of eukaryotic genes from organelle ancestors that live in a world of mosaic prokaryotic chromosomes.
+
+Minor issues
+
+The other referees will surely have a lot to complain about, I am very happy to see these findings.

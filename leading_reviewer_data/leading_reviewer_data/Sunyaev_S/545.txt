@@ -1,0 +1,11 @@
+This manuscript contributes to the problem of accurate annotation of sequenced genomes. The authors argue that inaccurate determination of transcription starts may lead to false annotation of translation starts. Using analysis of EST sequences they identified translation start sites located 5' of the annotated sites for a few percent of zebrafish genes. They experimentally prove the existence of these larger transcripts for three zebrafish genes.
+
+I have a few comments on this version of the manuscript:
+
+1) Eukaryotic transcription start sites are known to be frequently wobbly and sometimes there are alternative sites which may be tissue or developmental stage specific. Is it possible that the authors detect alternative starting sites rather than 5' artifacts? The manuscript would greatly benefit from a discussion of this point.
+
+2) The authors use 97% sequence identity threshold for EST alignments (it seems without constraining alignment length). Is this sufficient to avoid aligning EST belonging to paralogous genes? In other words, is it possible that ESTs used by the authors correspond to transcripts of different genes?
+
+3) It is unclear why the software is currently limited to plus/plus alignments and why so many manual steps are needed. Are there any serious hurdles for development of a fully functioning software?
+
+4) I would recommend omitting straightforward computational details of the procedure from the manuscript.

@@ -1,0 +1,9 @@
+I have very little comments on this article, which thoroughly examines the phylogenetic distribution and genomic context of the RecJ clade of the DHH family among the Archaea. The results presented support the conclusions.
+
+Nevertheless:
+
+The title is a bit of a stretch, after all the authors I) only show (new) results with respect to the DHH family, and II) no results that arCOOG00427 are a component of the DNA replication system.
+In a sense, the article, and specifically Figure ​Figure1c,1c, questions the validity of the arCOG database, or at least shows that it is, at least for the protein family studied here, too narrowly in its definition of orthologous groups. We have once defined a strategy to merge orthologous groups based on profile-profile hits and complementarity of phylogenetic distribution (Dutilh et al, Signature Genes as a Phylogenomic Tool, Mol. Biol. Evol. 2008) and similar implementations of this idea may have been published. It would be nice to refer to those.
+
+I do not see how the results reported in Figure ​Figure1c1c support the triplication of the recJ family in the Euryarchaea. Please show some more detail here, also regarding how the family was split in arCOOG00427_I and arCOOG00427_II and why the Thermococci lost a paralog instead of the duplication (triplication?) happened after the branching off of the Thermococcali.
+Editorial: phosphoestarase, not "phosphoesterase"

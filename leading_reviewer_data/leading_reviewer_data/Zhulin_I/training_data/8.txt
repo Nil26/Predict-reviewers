@@ -1,0 +1,529 @@
+The Superfamily of Chemotaxis Transducers: From Physiology to Genomics and Back 
+
+ABSTRACT
+Chemotaxis transducers are specialized receptors that microorganisms
+use in order to sense the environment in directing their motility to
+favorable niches. The Escherichia coli transducers are models for
+studying the sensory and signaling events at the molecular level.
+Extensive studies in other organisms and the arrival of genomics has
+resulted in the accumulation of sequences of many transducer genes,
+but they are not fully understood. In silico analysis provides some
+assistance in classification of various transducers from different
+species and in predicting their function. All transducers contain two
+structural modules: a conserved C-terminal multidomain module,
+which is a signature element of the transducer superfamily, and a
+variable N-terminal module, which is responsible for the diversity
+within the superfamily. These structural modules have two distinct
+functions: the conserved C-terminal module is involved in signaling
+and adaptation, and the N-terminal module is involved in sensing
+various stimuli. Both C-terminal and N-terminal modules appear to be
+mobile genetic elements and subjects of duplication and lateral
+transfer. Although chemotaxis transducers are found exclusively in
+prokaryotic organisms that have some type of motility (flagellar,
+gliding or pili-based), several types of domains that are found in their
+N-terminal modules are also present in signal transduction proteins
+from eukaryotes, including humans. This indicates that basic principles
+of sensory transduction are conserved throughout the phylogenetic tree
+and that the chemotaxis transducer superfamily is a valuable source of
+novel sensory elements yet to be discovered. 
+
+1. INTRODUCTION
+All living organisms monitor their environment in order to adapt better to constant changes in physical parameters, such as light, temperature, availability of nutrients, etc. Microorganisms employ two major strategies for such adaptation: regulation of gene expression and active motility. Both processes are
+governed by so called two-component regulatory systems consisting of sensor
+histidine kinases and cognate response regulators (for a recent review, see
+Hoch, 2000). The major difference between the two adaptive strategies at the
+molecular level is that in regulating active motility (usually referred to as
+chemotaxis) the response regulator lacks the DNA-binding domain and binds
+to flagellar motors, and the histidine kinase lacks a sensor module and utilizes
+upstream sensor proteins. These are known as chemoreceptors or chemotaxis
+transducers.
+During more than three decades of genetic and biochemical investigations,
+four chemotaxis transducers from Escherichia coli were identified and extensively studied (reviewed by Stock and Surette, 1996). The fifth transducer
+(Bibikov et al., 1997; Rebbapragada et al., 1997) has been identified only
+with the arrival of the genomic era, when the corresponding gene was
+sequenced and deposited to the public database during the E. coli genome
+sequencing project (Blattner et al., 1997). The whole genome sequencing of
+twelve microbial species, where chemotaxis genes are present, resulted in
+accumulation of more than 100 sequences of chemotaxis transducers in the
+non-redundant protein database (June 2000). The ongoing microbial
+sequence projects, including large-scale gapped genome sequencing (Selkov
+et al., 2000), may result in more than 100 chemotactic species being
+sequenced by the time this review is published. This may bring the total
+number of chemotaxis transducer sequences in public and private databases
+to more than 1000.
+In this review, I will try to put together information that may assist
+researchers in their 'wet bench' work with signal transducers in the postgenomic era. I include only selected references taken from the genomics point
+of view. No attempts have been made to produce a comprehensive review on
+the structure and function of microbial chemotaxis transducers. For more
+detailed structural and functional information, I refer the reader to reviews by
+Hazelbauer et al. (1990), Kim (1994), Stock and Surette (1996), Levit et al.
+(1998), Mowbray and Sandgren (1998), Mowbray (1999) and Stock and Levit
+(2000). General views on bacterial motility and chemotaxis can be found in
+reviews by Manson (1992), Parkinson (1993), Blair (1995), Eisenbach (1996),
+Stock and Surette (1996), Falke et al. (1997), Armitage (1997a,b, 1999),
+Macnab (1999), Taylor et al. (1999). I will also try to show the advantage of in
+silico analysis as a useful tool for microbial physiologists. As for any tool, it
+has its limits, whereas microbial physiology, as a field of knowledge, does not
+have any. 
+
+2. HISTORY AND TERMINOLOGY
+Studies on bacterial locomotion and mechanisms of its control were initiated
+in the last century. I refer the reader to the excellent review on the history of
+investigations into bacterial chemotaxis by Berg (1975) and, for more recent
+interpretations of some important historical events, to the series of reviews by
+Armitage (1997a,b, 1999).
+The reader outside the field of bacterial signal transduction may be easily
+confused by the variety of terms and names in the literature with respect to bacterial and archaeal chemotaxis transducers. The terms 'chemoreceptors',
+'methyl-accepting chemotaxis proteins (MCPs)', 'chemotaxis transducers',
+'transducer-like proteins (TLPs)' describe essentially the same functional superfamily of signal transduction proteins. Similarly, genes encoding these proteins
+are usually annotated by sequencing terms as McpA (B, C, D, etc.), Mcpl (2,
+3, 4, etc.), TIpA (B, C, D, etc.). More specific names, such as Tsr (taxis to serine
+and repellents (Springer et al., 1977)), Aer (aerotaxis and energy responses
+(Bibikov et al., 1997; Rebbapragada et al., 1997)), HemAT (heine-based aerotaxis transducer (Hou et al., 2000)) or Ctp (chemotaxis transducer for phosphate
+(Wu et al., 2000)) are usually given by wet bench scientists. Real confusion in
+naming is observed when two or more laboratories identify and name differently the same transducer. For example, chemotaxis transducers from
+Halobacterium salinarum, HtH (Zhang et al., 1996a), HtrXI (Brooun et al.,
+1997) and Car (Storch et al., 1999) stand for essentially the same protein.
+Julius Adler pioneered the modern era in microbial signal transduction and
+introduced the term 'receptors' to define sensor proteins that govern the
+chemotactic response (see Table 1 for some important historic developments in
+transducer research and appropriate references). Then, the terms 'primary
+receptors' and 'transducers' appeared in order to distinguish between sugarbinding proteins and methyl-accepting chemotaxis proteins. Sugar-binding
+proteins are involved in both chemotaxis and transport and do not have the specific features of a chemotaxis transducer (Mowbray and Sandgren, 1998;
+Mowbray, 1999; ). The term 'chemotactic signal transducer' was introduced to
+define a common component, the Trg protein of E. coli, which interacts
+directly with two independent receptor proteins and transmits information to
+the central chemotactic machinery (Harayama et al., 1979; Kondoh et al.,
+1979). The word 'chemoreceptor' often used in the current literature essentially
+means 'chemotaxis transducer', not 'primary receptor'.
+The Tsr protein of E. coli was the first chemotaxis transducer identified as
+a methyl-accepting chemotaxis protein (Kort et al., 1975). The term 'MCP'
+was successfully launched by Adler and then used by many researchers studying chemotaxis transducers. Putative chemotaxis transducers that have been
+identified in Bacillus subtilis, but for which no chemotaxis function and 
+methylation/demethylation were found, have been termed 'TLPs' (transducerlike proteins) (Hanlon and Ordal, 1994). Thus, the use of 'MCP' should
+probably be limited to cases where methylation/demethylation of the transducers has been experimentally proven.
+The terms 'chemotaxis transducers' and 'chemoreceptors' are used equally
+often in the modem literature, although 'transducer' defines the superfamily in a
+more precise way. A common function for the members of the superfamily is
+transduction of a signal to the CheA/CheY two-component system, and their
+common structural feature is a conserved cytoplasmic module in the C-terminus.
+3. BRIEF OVERVIEW OF SIGNAL TRANSDUCTION IN
+CHEMOTAXIS
+Chemotaxis is a rather generic term describing active movement of microorganisms in response to various chemical and physical stimuli. The ability to
+actively search for conditions that promote growth and development and to
+avoid harmful environments is obviously important for survival. Chemotaxis
+may play an important role in relationships (including pathogenic and symbiotic) of microorganisms between themselves and with other organisms.
+In isotropic environments, bacterial cells move in a three-dimensional
+random walk (Berg and Brown, 1972) resulting from alternating the direction
+of flagellar rotation. Rotation of flagella in one direction propels the cell forward, whereas the change in the direction of rotation (or a very brief stop in
+rotation) allows re-orientation. Different species have different types of flagellation, but the basic principle of swimming/re-orientation seems to be the
+same. Microorganisms have a temporal sensing mechanism, where they compare the intensity of a stimulus (for example, concentration of a chemical)
+during the past second with the previous few seconds (Block et al., 1982).
+The first step in recognition of a stimulus is its interaction with the receptor.
+As mentioned above, there are some primary receptors that interact with transducers, or a transducer itself performs the function of a receptor by interacting
+with the stimulus directly. Transducers have two distinct modules, one for
+sensing and another for signaling. In most transducers, the sensing module is
+located in the periplasm, where it detects concentration of various small molecules, such as sugars and amino acids. The signaling module is always located
+in the cytoplasm, where it communicates with the flagellar motor via the
+CheA/CheY two-component system (Fig. 1). CheA is a histidine kinase that
+autophosphorylates by using ATP and then transfers the phosphate to the CheY
+response regulator (reviewed by Bourret et al., 1991; Armitage, 1999).
+Phosphorylated CheY binds to the switch proteins in the flagellar motor, which
+causes a change in the direction of flagellar rotation (reviewed by Eisenbach, 
+1996, and Silversmith and Bourret, 1999). Chemotaxis transducers form stable
+ternary complexes with CheA and the docking protein CheW (Gegner et al.,
+1992) and modulate the kinase autophosphorylation in response to interaction
+with a stimulus or to changes in their methylation state. Changes in the methylation of transducers promote sensory adaptation (Springer et al., 1979).
+Covalent modification, methylation and demethylation of chemotaxis transducers is due to the activity of specific enzymes, the CheR methyltransferase
+(Springer and Koshland, 1977) and the CheB methylesterase (Stock and
+Koshland, 1978). CheR activity is unregulated, whereas CheB has a conserved
+response regulator domain and, like CheY, is phosphorylated by CheA.
+Although chemotaxis transducers are predominantly dimeric, in the complex
+with CheA and CheW, structures of much higher order have been observed.
+Recent results indicate that transmembrane signaling occurs within transducer
+clusters rather than through isolated dimers (Liu et al., 1997; Levit et al., 1998).
+The clustering of transducers appears to be a mechanism for increasing the sensitivity of the chemotactic response (Bray, 1998; Bray et al., 1998; Levit et al., 
+1999). Recent study by Li and Weis (2000) provided evidence that covalent modification of the transducers regulates ligand binding to their sensing domains. This
+regulation is observed only in the complexes of transducers with CheA/CheW.
+These results, taken together with the finding that transducers exist in clusters,
+suggest that signaling in chemotaxis occurs via transducer arrays that are dynamic
+with respect to assembly and disassembly (Li and Weis, 2000).
+4. CLASSICAL TRANSDUCERS (Escherichia coli and
+Salmonella) IN THE PREGENOMIC ERA
+4.1. Specificity
+Five chemotaxis transducers are found in E. coli K-12, whose genome is completely sequenced: Tar, Tsr (Springer et al., 1977), Trg (Kondoh et al., 1979;
+Hazelbauer et al., 1981), Tap (Manson et al., 1986) and Aer (Bibikov et al.,
+1997; Rebbapragada et al., 1997). Six transducers have been found so far in its
+close relative Salmonella enterica ser. typhimurium (formerly, S.
+typhimurium), whose genome sequencing was still in progress at the time this
+review was completed: Tar, Tsr, Trg and Aer (which are E. coli homologs), Tip
+(Russo and Koshland, 1986) and Tcp (Yamamoto and Imae, 1993).
+Chemotaxis transducers in E. coli detect very different stimuli (for an overview
+and complete list of references, see Stock and Surette, 1996; Taylor et al., 1999).
+The Tar protein responds to the attractants aspartate, glutamate (directly) and
+maltose (via the maltose-binding protein), and divalent cations as repellents. The
+Tsr transducer responds to the attractants serine, alanine, glycine, aminoisobutyrate, pH (directly), oxygen and protonmotive force (indirectly). Trg responds to
+ribose (via ribose-binding protein), galactose and glucose (via the galactose-binding protein). Tap is the sensor of dipeptides (via dipeptide-binding proteins) and
+Aer is the sensor of redox potential of the electron transport system. The Tcp
+transducer of Salmonella is the sensor of the attractant citrate and repellent phenol.
+4.2. Domain Organization
+The domain organization and membrane topology of all transducers except for
+Aer is the same and they are closely related in sequence (see Stock and Surette,
+1996, and Falke et al., 1997, for an overview). The first comparative analysis of
+the amino acid sequences of the chemotaxis transducers of E. coli and
+Salmonella showed that the C-terminal cytoplasmic regions of these proteins are
+much more conserved than the N-terminal periplasmic regions. The conservation
+was especially strong in the central part of the C-terminal region called highly
+conserved domain (HCD) and, to a lesser extent, in the two segments flanking
+HCD that contained methylation sites (Krikos et al., 1983; Dahl et al., 1989).
+Each chemotaxis transducer consists of a short N-terminal sequence within the
+cytoplasm, the TM1 transmembrane region, a large periplasmic ligand-binding
+(sensing) domain, the TM2 region, a linker, a methylated domain MD1, a highly
+conserved (signaling) domain (HCD), MD2 and a short variable C-terminal
+segment (Fig. 2). Chemotaxis transducers with this domain organization and
+membrane topology are referred to as 'classical' throughout this review. The Aer
+protein lacks a periplasmic ligand-binding domain and has a cytoplasmic sensing domain followed by an extended (40 residues) TM region, a linker, MD 1,
+HCD and MD2 (Bibikov et al., 1997; Rebbapragada et al., 1997). 
+4.2.1. The Periplasmic Ligand-binding Domain
+Sequence variation in the N-terminal sensing domain of the transducers from
+enteric bacteria was noticed a long time ago (Krikos et al., 1983). Until
+now, the common view was that there is little sequence similarity between
+the sensing modules of the four chemotaxis transducers of E. coli (Tar, Tsr,
+Trg and Tap), which reflects the different stimuli they recognize. However, it
+was suggested that the basic structure of the periplasmic domain in classical
+chemotaxis transducers from E. coli and S. typhimurium should be similar
+(Mowbray and Sandgren, 1998). The three-dimensional structure of the
+periplasmic ligand-binding domain of the Tar protein has been solved
+(Milburn et al., 1991; Bowie et al., 1995; Yeh et al., 1996) and shown to be
+an antiparallel four-helix bundle. Tar exists in the membrane as a stable
+homodimer (Milligan and Koshland, 1988), and only one binding site per
+dimer has been detected for the attractant aspartate (Biemann and Koshland,
+1994). The E. coli Tar protein (but not the one from Salmonella) also binds
+a liganded maltose-binding protein (Kossman et al., 1988). Maltose-binding
+protein interacts with both subunits of the dimer, binding at one of the two
+possible sites, which is different from the aspartate-binding site (Gardina et
+al., 1997).
+The mechanisms of serine binding to the Tsr transducer (Lin et al., 1994)
+and citrate binding to the Tcp transducer (Iwama et al., 2000) were suggested
+to be similar to that of aspartate binding to Tar.
+4.2.2. Transmembrane Regions
+Transmembrane (TM) regions in the chemotaxis transducers of E. coli and
+Salmonella were the subjects of extensive biochemical studies in order to discover the mechanism of the transmembrane signaling (Danielson et al., 1994;
+Chervitz and Falke, 1995). Various models for transmembrane signaling have
+been proposed (Kim, 1994; Chervitz and Falke, 1996; Ottemann et al., 1999),
+and the sequence specificity of the TM regions was found to be important
+(Jeffery and Koshland, 1999). However, even without transmembrane regions,
+the classical-type chemotaxis transducer appeared to be at least partially functional (Ottemann and Koshland, 1997).
+4.2.3. Linker
+The cytoplasmic portion of the chemotaxis transducers between the TM2 and
+MD1 regions (212-263, Tar) was designated as a 'linker' in order to avoid
+undue functional connotations at that time (Ames and Parkinson, 1988). It was 
+known, however, that the linker might play an important role in the signaling
+process (Oosawa and Simon, 1986).
+Weak sequence similarity between the linkers that follow the second transmembrane region in chemotaxis transducers Tar and Tsr and in the histidine
+kinase EnvZ was noticed early (Matsuyama et al., 1986). Later, a common
+transmembrane signaling mechanism for chemotaxis transducers and histidine kinases was proposed based on experiments with chimeric receptors
+(Utsumi et al., 1989; Baumgartner et al., 1994). Parkinson and Kofoid (1992)
+proposed that the linker might play a role in propagating conformational
+changes between the sensing and the signaling domains during transmembrane signaling in bacteria. As in chemotaxis transducers, mutations in the
+linker region of various histidine kinases affected signal transduction (reviewed
+by Williams and Stewart, 1999). Biochemical and computerized sequence
+analyses revealed that the linker region contains two amphiphilic o~-helices
+(Butler and Falke, 1998); these are identified as coiled coil-like motifs by
+newly available computer algorithms (Singh et al., 1998). Previously, coiled
+coils were predicted only for methylation helices of the C-terminal domain
+(Lupas et al., 1991; Stock et al., 1991). More recently, the linker region was
+convincingly implicated in transmembrane signal transduction in the E. coli
+chemotaxis transducers (Ames and Parkinson, 1988; Gardina and Manson,
+1996; Tatsuno et al., 1996; Butler and Falke, 1998; Bibikov et al., 2000).
+4.2.4. Methylation Domains
+The C-terminal module contains two regions where methylation has been
+shown to occur. They were initially termed K1 and R1 regions because of the
+lysine and arginine tryptic fragments used in methylation experiments (Kehry
+and Dahlquist, 1982). In the current literature, these regions are usually
+referred to as methylation domains (or helices), MD1 and MD2 (Stock and
+Surette, 1996; Surette and Stock, 1996; Danielson et al., 1997). The methylation domains were predicted to form tx-helical coiled coil structures (Lupas et
+al., 1991; Stock et al., 1991). They contain several specific glutamine and
+glutamate residues that are subject to deamidation and reversible methylation
+(Kehry and Dahlquist, 1982; Terwilliger and Koshland, 1984). In Tar, Tsr and
+Trg transducers, MD1 contains three to four sites of glutamate modification
+and MD2 contains one or two sites (reviewed by Stock and Surette, 1996).
+Signaling activity of the transducers is regulated by the level of methylation/amidation (Springer et al., 1979; Ninfa et al., 1991; Borkovich et al.,
+1992).
+Comparative sequence analysis predicted (Le Moual and Koshland, 1996),
+and the structural studies demonstrated (Kim et al., 1999), a distinct ct-helical
+structure for these regions (Figs 3 and 4). Methylation domains (MD) flank the 
+signaling domain, and it is suggested that the MD1 of the transducer monomers
+come together in a coiled coil to position properly the signaling domain and
+their associated CheW protein for formation of a complex with CheA (Surette
+and Stock, 1996). Both MD1 and MD2 in E. coli and Salmonella transducers
+contain a 14-amino acid residue deletion in comparison to those from Archaea
+and B. subtilis, which corresponds to two seven-residue repeats found throughout the C-terminal module (Le Moual and Koshland, 1996). 
+4.2.5. Signaling Domain
+The region between MD 1 and MD2 is usually termed the signaling domain or
+the highly conserved domain (HCD) (Fig. 3), depending on whether the function or the structure is considered (Le Moual and Koshland, 1996; Stock and
+Surette, 1996). Genetic (Liu and Parkinson, 1991) and biochemical (Surette 
+and Stock, 1996) studies provided evidence that the signaling domain is a site
+of interaction with the CheW protein, i.e. a link between the transducer and the
+two-component chemotaxis system. Important proof that the proposed signaling portion of the chemotaxis transducers comprises a distinct domain came
+from the observation that it can fold independently (Surette and Stock, 1996).
+The early sequence analysis revealed a very high degree of similarity in this
+region between the transducers from enteric bacteria (Krikos et al., 1983;
+Dahl et al., 1989). Analysis that involved transducers from other species
+strengthened this point and allowed the authors to conclude that the HCD-containing proteins constitute a superfamily (Le Moual and Koshland, 1996). This
+finding had a major impact on the development of this field of study in the
+postgenomic era.
+4.2.6. Variable C-terminal Segment
+The C-terminal segment following MD2 in the chemotaxis transducer of E.
+coli is variable. At the very end of the C-terminus, three transducers, Tar, Tsr
+and Tcp, have a pentapeptide N-W-E-T/S-F, which has been identified as a site
+for CheR methyltransferase binding (Wu et al., 1996; Djordjevic and Stock,
+1998). Altering the site severely affects adaptation, which can be corrected by
+overproduction of CheR (Okumura et al., 1998). Furthermore, overproduction
+of CheR also enhanced adaptive methylation of wild-type Trg, which does not
+contain the pentapeptide, in the absence of any other chemoreceptor. Trg with
+an engineered pentapeptide had significantly enhanced methylation activity
+(Feng et al., 1999). This suggests that the pentapeptide facilitates effective
+adaptation and methylation by recruiting the methyltransferase. Transducers
+that lack the pentapeptide are present in lower (10-fold) amounts in the cell and
+are termed low-abundance transducers (Feng et al., 1997; Barnakov et al.,
+1998). The difference in the abundance of the transducers may be due to the
+level of methyl-accepting activity conferred by the methyltransferase-docking
+site (Feng et al., 1999). In a later study, it was shown that the methylesterase
+CheB uses the same pentapeptide as a docking site (Barnakov et al., 1999).
+Hydrophobic residues W and F of the pentapeptide were found to be most
+important for the interaction with CheR, and the presence of the pentapeptide
+in transducers from other species has been noticed (Shiomi et al., 2000).
+5. TRANSDUCERS IN OTHER BACTERIA
+Although chemotaxis transducers in other microbial species have not been
+studied as extensively as those in E. coli and Salmonella, they are the 
+subjects of many recent investigations. These studies provide valuable information on the diversity of signal transduction in microorganisms, as well as
+on the mechanisms of adaptation of microorganisms to their, environments,
+both subjects being at the forefront of microbial physiology, ecology and
+evolution.
+An elegant study by Hazelbauer's group demonstrated that chemotaxis
+transducers are widespread in the microbial world (Morgan et al., 1993). The
+antibody raised against the Trg transducer of E. coli revealed the presence of
+antigenically related proteins in over 20 species from different phylogenetic
+groups and allowed the authors to predict that chemotaxis transducers would
+be found in all flagellated microbial species. Time has proved the authors
+right; we now know that even microorganisms that have other than flagellar
+types of motility possess chemotaxis transducers belonging to the same superfamily.
+5.1. Bacillus subtilis
+Six chemotaxis transducers in B. subtilis, namely McpA, McpB, TlpA, TlpB,
+McpC and TlpC, have been identified experimentally by using DNA probes to
+the HCD of E. coli (Hanlon and Ordal, 1994; Hanlon et al., 1994; MUller et al.,
+1997). All of them have a classical domain organization and membrane topology. McpB mediates taxis to asparagine, aspartate, glutamate, glutamine and
+histidine (Hanlon and Ordal, 1994), McpC mediates taxis to all other amino
+acids (Mtiller et al., 1997) and some carbohydrates (Garrity et al., 1998), and
+McpA mediates taxis to glucose (Hanlon and Ordal, 1994). Signals recognized
+by TlpA and TIpB are unknown and mutations in these genes did not produce
+obvious defects in chemotaxis (Hanlon and Ordal, 1994). The current hypothesis is that these proteins are involved in cell-cell communication, similar to the
+role of transducers in the development of Myxococcus xanthus (see below).
+Although both CheR-dependent methylation and CheB-dependent demethylation (Goldman and Ordal, 1984) of transducers takes place in B. subtilis, there
+is a deviation from the known E. coli paradigm. Both attractants and repellents
+cause net demethylation of the McpB transducer, and each demethylation event
+is followed by re-methylation (Kirby et al., 1999). Methylation occurs sequentially for three different sites on McpB, and one of these sites must be
+methylated to preset the transducer for a response to negative stimuli (Zimmer
+et al., 2000).
+Most recently, a homolog of the novel halobacterial heme-containing transducer has been found in B. subtilis (Hou et al., 2000). As in halobacteria (see
+section 5.2), the transducer, termed HemAT, is a soluble cytoplasmic protein
+that mediates the chemotactic response to oxygen. 
+5.2. Halobacterium salinarum
+Halobacterium salinarum, a member of the Archaea, utilizes a large number
+of chemotaxis transducers. An experimental approach, where transducers
+were revealed by hybridization with a DNA probe (Rudolph et al., 1996) or
+MAP antibody (Zhang et al., 1996a) to the highly conserved signaling
+domain of the halobacterial transducer, HtrI, was successful in identifying up
+to 13 chemotaxis transducers in H. salinarum. The relatedness of halobacterial transducers to those of E. coli was demonstrated by immunological
+cross-reaction (Alam and Hazelbauer, 1991). The systematic physiological
+and biochemical analysis of halobacterial transducers yielded informative
+results. Two proteins, HtrI and HtrII are utilized for transducing a phototaxis
+signal from sensory rhodopsins, SRI and SRII, respectively (Yao and
+Spudich, 1992; Krah et al., 1994; Zhang et al., 1996b). In addition, the HtrII
+transducer was found to mediate chemotaxis to serine (Hou et al., 1998),
+with both light and chemical stimuli producing changes in the methylation
+pattern. The membrane-bound BasT transducer, which has an extensive
+periplasmic sensing domain, has been shown to govern chemotaxis to five
+amino acids: leucine, isoleucine, valine, methionine and cysteine (Kokoeva
+and Oesterhelt, 2000). Analyses of one of the soluble transducers, termed
+HtrXI (Brooun et al., 1997) or Car (Storch et al., 1999) yielded almost contradictory results. Alam's group (Brooun et al., 1997), reported that the
+transducer is involved in taxis toward aspartate, glutamate and histidine,
+whereas Oesterhelt's group (Storch et al., 1999) later described the transducer as a specific sensor for arginine.
+Two transducers in H. salinarum were found to govern the aerotactic
+response. First, the HtrVIII transducer was implicated in aerotaxis. This protein
+was reported to have an N-terminal domain similar to subunit I core structures
+of the eukaryotic cytochrome c oxidase (Brooun et al., 1998). A later detailed
+biochemical investigation resulted in the identification of a novel aerotaxis
+transducer in H. salinarum, the HemAT protein (Hou et al., 2000). A homologous protein was also identified in B. subtilis. In its N-terminal sensing
+module, HemAT contains a sequence resembling the entire-length myoglobin
+from eukaryotes, which is different from a heme-binding motif found in the
+DcrA redox-responsive transducer from Desulfovibrio vulgaris (see section
+5.3). The HemAT represents a new class of heme-based oxygen sensors in
+microorganisms.
+5.3. Desulfovibrio vulgaris
+An unusual methyl-accepting protein was found in an anaerobic bacterium D.
+vulgaris. In its N-terminal sensor region, the transducer contained a c-type
+heme (Fu et al., 1994). Methylation of DcrA decreased upon addition of
+oxygen and increased upon subsequent addition of dithionite, indicating that
+DcrA may serve as a sensor of oxygen concentration and/or redox potential. In
+addition to the N-terminal heme-binding domain, another redox-responsive
+domain, PAS, has been identified in the DcrA protein sequence (Taylor and
+Zhulin, 1999). The PAS domain in DcrA is located between the second transmembrane region and the C-terminal signaling module. Therefore, two
+putative redox-sensing modules are present in DcrA. The aerotactic response
+in D. vttlgaris was described (Johnson et al., 1997) and found to be present in
+the dcrA mutant (R. Fu, G. Voordouw, M.S. Johnson, I.B. Zhulin and B.L.
+Taylor, unpublished results). This, however, does not rule out the involvement
+of the DcrA protein in aerotaxis. More than one transducer may be involved in
+governing the aerotaxis response in D. vulgaris, as it is in E. coli
+(Rebbapragada et al., 1997).
+A family of genes coding for putative methyl-accepting chemotaxis proteins
+has been found in D. vulgaris by using a DNA probe to a highly conserved
+domain (Deckers and Voordouw, 1996). One of these genes, dcrH, was completely sequenced and its deduced amino acid sequence was analyzed. Deckers
+and Voordouw (1996) and Le Moual and Koshland (1996) reported an unusual
+deviation of the DcrH C-terminal module from those in enteric bacteria. More
+recently, a hemerythrin signature motif was identified in the very C-terminus
+of the 1-)crH protein, and the biochemical analysis revealed the presence of an
+oxo-bridged diiron(m) site very similar to that found in hemerythrin (Xiong et
+al., 2000). Hemerythrin is an oxygen carder in invertebrates and had never
+been found in any microorganism prior to that report. The uniqueness of the
+DcrH transducer is also in the localization of this unusual domain: so far, this
+is the only example of any domain found C-terminal to the signaling module.
+As in many other species where transducer genes were found, chemotaxis in D.
+vulgaris has never been studied.
+5.4. Myxococcus xanthus
+Two chemotaxis transducers have been identified in M. xanthus, a gliding
+bacterium that undergoes a complex multicellular developmental program.
+Both transducers are located within two putative chemotaxis operons, frz and
+dif. No transmembrane regions were predicted for the FrzCD transducer, but it
+was shown to be methylated in vivo upon changes in the environmental conditions (McCleary et al., 1990; McBride and Zusman, 1993). The DifA
+transducer is involved in the social (S) motility of M. xanthus, and also has
+non-classical membrane topology (Yang et al., 1998). More recently, four new
+chemotaxis transducers have been found in M. xanthus by using a probe to the
+highly conserved domain of FrzCD and DifA (J.R. Kirby, H.C. Vlamakis and 
+D.R. Zusman, unpublished results). Stimuli recognized by chemotaxis
+transducers in M. xanthus are unknown, although mutations in the transducer
+genes produce unique developmental phenotypes.
+5.5. Caulobacter crescentus
+Caulobacter crescentus was the first t~-proteobacterium in which a chemotaxis
+transducer was identified (Alley et al., 1991). The McpA protein was shown to
+be specifically localized to the flagellated pole of the predivisional cell (Alley
+et al., 1992). This was long before polar localization of chemotaxis transducers was demonstrated in other species and appeared to be a universal
+phenomenon. Unlike in other microorganisms, the chemoreceptors in C.
+crescentus are degraded during its life cycle, and proteolysis plays an important part in the asymmetric distribution of the polarly localized
+chemoreceptors (Alley et al., 1993). Eighteen genes coding for chemotaxis
+transducers have been identified during the Caulobacter genome-sequencing
+project; 12 of them are predicted as membrane proteins, and the other six
+appear to be soluble cytoplasmic proteins (I. Potocka and M.R.K. Alley, personal communication).
+5.6. Rhodobacter sphaeroides
+A membrane-bound chemotaxis transducer without any periplasmic domain
+has been identified in R. sphaeroides (Ward et al., 1995). This protein, designated McpA, apparently responds to a wide array of stimuli, but only under
+aerobic conditions; the mcpA mutant did show chemotaxis under anaerobic/
+photosynthetic conditions (Ward et al., 1995). This raised a question on the
+environmental regulation of chemotaxis transducers in this organism. In a
+more recent study from Armitage's laboratory, two groups of chemotaxis
+transducers have been identified: membrane-bound proteins localized at the
+cell poles in clusters and also clustered cytoplasmic proteins (Harrison et al.,
+1999). Environmental conditions dramatically alter both expression and localization of the transducers. As many as 12 genes coding for putative
+chemotaxis transducers are found in R. sphaeroides (G. Wadhams and J.
+Armitage, unpublished data). One of the transducers, McpG, which had a
+classical membrane topology, was recently identified (Wadhams et al., 2000).
+In contrast to McpA, the McpG protein was expressed under all growth conditions tested, but the stimuli that are recognized by the transducer are still
+unknown. The polar localization of McpG depends on the chemotaxis proteins
+encoded by the second chemotaxis operon in R. sphaeroides (Wadhams et al.,
+2000), indicating that certain transducers may require a particular set of 
+homologs of the chemotaxis proteins in this organism. The deletion analysis
+of several other membrane-bound transducers did not produce any clear phenotype, but deletion of a gene coding for one of the cytoplasmic transducers
+resulted in a complete loss of all chemotactic responses (J.P. Armitage, unpublished data).
+Negative phototaxis to an increase in blue- and a decrease in infrared-light
+intensity was shown to coincide with methanol release (receptor demethylation) in R. sphaeroides (Kort et al., 2000). Thus, in this organism, not only
+chemotaxis, but also phototaxis, may be processed via methyl-accepting
+chemotaxis proteins.
+5.7. Sinorhizobium meliloti and Rhizobium leguminosarum
+Several research groups have studied chemotaxis in rhizobia, since it is thought
+to play an important role in the interaction of these root-nodule-forming nitrogen-fixing bacteria with their legume hosts. Armitage et al. (1988)
+demonstrated protein methylation in Rhizobium leguminosarum upon stimulation with the attractant serine, which suggested the presence of
+methyl-accepting chemotaxis proteins in rhizobia. Open reading frames coding
+for putative chemotaxis transducers were later found in the major chemotaxis
+operon of Sinorhizobium meliloti, another agronomically important rhizobial
+species (Greck et al., 1995), but their role has not been established. Later,
+genes with significant similarity to chemotaxis transducers were reported in R.
+leguminosarum (Brito et al., 1996) and in Rhizobium sp. NGR234 (Freiberg et
+al., 1997). In both cases, the genes were located on one of the symbiotic plasmids. More recently, several genes encoding chemotaxis transducers in R.
+leguminosarum have been identified (Yost et al., 1998). Inactivation of the
+mcpB gene resulted in impairment of chemotaxis to a wide range of chemicals,
+whereas no changes in chemotaxis were observed upon inactivation of three
+other genes coding for putative chemotaxis transducers. The mcpB and mcpC
+mutants were also impaired in the nodule formation, indicating that the chemotactic response via corresponding transducers may be important in the
+plant-microbe interaction.
+5.8. Pseudomonas aeruginosa and Pseudomonas putida
+A classical type methyl-accepting chemotaxis protein, PctA has been described
+in P. aeruginosa. The transducer responded to several amino acids, and methylation of the PctA protein in vivo was demonstrated (Kuroda et al., 1995). The
+follow-up studies revealed another two chemotaxis transducer genes in the
+pctA-flankJng region, pctB and pctC. Deletion of all three transducers resulted
+in a complete loss of chemotaxis to all 20 amino acids (Taguchi et al., 1997).
+Deletion analysis of the individual transducer genes revealed that PctA is the
+major sensor of amino acids (up to 18), whereas PctB and PctC respond to
+seven and two amino acids, respectively. More recently, another two transducers have been identified and their function established by Ohtake's group
+(Wu et al., 2000); the CtpH and CtpL transducers were shown to govern
+chemotactic responses of P. aeruginosa to inorganic phosphate. Interestingly,
+the sensing of phosphate by CtpL, but not CtpH, appears to be posttranscriptionally controlled by the PhoU protein.
+The NahY protein of P. putida (Grimm and Harwood, 1999) is a typical
+chemotaxis receptor with a membrane topology similar to those of E. coli. It
+was found to govern chemotaxis of P. putida to naphthalene. Interestingly,
+the nahY gene is co-transcribed with the meta cleavage pathway genes on the
+catabolic plasmid for naphthalene degradation. In a recent study, the
+homolog of the E. coli Aer sensor was identified in P. putida and its role in
+governing the aerotactic response was established (Nichols and Harwood,
+2000).
+5.9. Spirochaeta
+Methyl-accepting chemotaxis proteins have been identified by sequence
+analysis, in vitro methylation experiments and anti-MCP antibody in the
+syphilis spirochete Treponema pallidum (Hagman et al., 1997; Greene and
+Stamm, 1998) and in the oral spirochete T. denticola (Greene and Stamm,
+1997; Kataoka et al., 1997; Li et al., 1999). A classical membrane topology
+was predicted only for the DmcA transducer of T. denticola (Kataoka et al.,
+1997). No transmembrane regions were predicted in the Mcp2 protein from
+T. pallidum (Greene and Stamm, 1998), only one transmembrane region was
+predicted in the DmcB protein of T. denticola (Li et al., 1999) and six transmembrane regions were predicted for the Mcpl protein of T. pallidum
+(Hagman et al., 1997). Although the dmcA and dmcB mutants of T. denticola were described as impaired in chemotaxis to nutrients (Kataoka et al.,
+1997; Li et al., 1999), the exact stimuli detected by these transducers are
+unknown.
+5.10. More Species to Come
+A classical-type chemotaxis transducer has been identified in a chemolithoautotrophic acidophilic bacterium Leptospirillum ferrooxidans (Delgado et
+al., 1998). The spectrum of stimuli recognized by this sensor remains
+unknown. Similarly, a classical-type transducer TlpA from Campylobacter 
+coli has been identified, but the tlpA mutant showed chemotaxis to all chemoattractants tested (Gonzalez et al., 1998). Hybridization with the DNA probe to
+a consensus sequence of highly conserved domain and with the antibody raised
+against the C-terminal sequence of Tsr from E. coli revealed multiple putative
+chemotaxis transducers in Azospirillum brasilense (S. Greer and G. Alexandre,
+unpublished observation). Energy taxis is the dominant behavior in A.
+brasilense (Alexandre et al., 2000), and some of the transducers in this organism may represent new types of energy sensors.
+6. EVOLUTIONARY CONSIDERATIONS
+Earlier comparisons of transducer amino acid sequences from several
+enteric bacteria revealed that some of the transducers (Tar, Tsr and Tap of E.
+coli) probably evolved from a single gene (Boyd et al., 1983; Krikos et al.,
+1983; Dahl et al., 1989). The sequence of the Trg transducer was diverged
+enough to suggest that it may represent the fusion of a membrane transport
+protein with a conserved C-terminal cytoplasmic region (Bollinger et al.,
+1984).
+Remarkably, Le Moual and Koshland (1996) had carded out an in-depth
+evolutionary analysis of the superfamily of bacterial chemotaxis receptors
+even before the first genome of a chemotactic microorganism was sequenced.
+First, they recognized that the C-terminal region of the transducers, the only
+common element for all of them, could be used as a phylogenetic marker.
+Although only 29 protein sequences were available at that time, the major
+conclusions of their analysis do not seem to have been changed by the
+increasing number of transducer sequences from various phylogenetic groups
+of organisms. The same monophyletic clusters of y-proteobacteria, Grampositive bacteria and Archaea found with the first 29 sequences are observed
+in a phylogenetic tree constructed by alignment of the C-terminal region of
+more than 120 chemotaxis transducers (S. Bulloch, S. Greer, G. Alexandre
+and I.B. Zhulin, unpublished results), as it was found with only 29
+sequences. The phylogenetic analysis by Le Moual and Koshland (1996)
+suggested that methylation of chemotaxis transducers occurred in the
+common ancestor of Bacteria and Archaea and that transducers were also the
+subject of a lateral gene transfer. There was a distinct evolutionary trend to
+make a transducer molecule 'shorter'. Transducers from y-proteobacteria
+have four 14-residue deletions in the cytoplasmic C-terminal module and
+transducers from most oc-proteobacteria have two such deletions, in comparison with transducers from Archaea and Gram-positive bacteria (Le
+Moual and Koshland, 1996). 

@@ -1,0 +1,13 @@
+This article describes the phylogenetic analysis of three gene families involved in the same pathway. The robustness of the phylogenetic analysis is proper, however I disagree with the title of the article that do not reflect exactly the work carried out. Indeed the authors performed only a classification. However I think that this classification of protein families is helpful for the scientific community and thus I recommend the paper to be published.
+
+General remark
+The paper is difficult to understand and should be clarified, in particular the fact that some duplications are lineage-specific and other are older. The authors should use terms such as in paralog or co-orthologs to make the information clearer. I think that the paper should be reworked and the concept and result clarified. I wonder also if the authors should propose a new nomenclature, take as example this article: "Nme protein family evolutionary history, a vertebrate perspective by Desvignes et al 2009". This will clarify the issue.
+
+In several instances, the phylogeny based only on bases substitution could not be informative, therefore other characters should be taken into an account, for example exon intron organization (see for example page 10, third paragraph).
+
+My major problem concerned the figure ​figure66 in which the author indicate that for example that B Floridae is the vertebrate ancestor. The entire lineage evolved, some show, of course, more apomorphism or plesiomorphism than other, However none of the present day specie is the ancestor of another present day specie.
+
+The sentence page 11: "during the transition from invertebrate to vertebrate" is also misleading. The authors should write a second gene duplication occurred in the RB family in the vertebrate lineage after their separation with the amphioxus ancestor.
+
+Other comments
+Lot of misspellings are present in this report. This start with the first line of the paper where the word background is misspelled. In general vocabulary and grammar should be checked by a native English speaker. Please ask to a native Anglophone to review the article All the phylogenetic trees presented in the figures show problems with the species branching For example; figure ​figure11 E2F1 of Xenopus and Tetraodon form a monophylogenetic group; instead Xenopus should branch with Gallus and mammalian. Moreover, the authors have to check all the phylogenetic incongruence and comment them.

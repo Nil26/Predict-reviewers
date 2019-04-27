@@ -1,0 +1,9 @@
+In this manuscript Dobson et al. present a new method for predicting the topologies of transmembrane proteins and the application of this approach on the human proteome. Transmembrane proteins play important roles in human body and are the target of half of the drugs currently available on the market; meanwhile there are only hundred TMP structures solved. Therefore, the computational approaches and curated databases, like the one presented in this manuscript, are highly needed. According to the authors, there method has the highest accuracy among the dozen or so currently available programs designed for the purpose. However, some issues need to be addressed:
+
+Is the use of CCTOP for filtering of membrane proteins significantly better than individual methods? The authors need to describe how methods were chosen for evaluation their consensus method.
+
+Combined signal peptide and topology prediction methods show better performance than applying them individually. However, CCTOP algorithm separates these two predictions. It would have resulted in better performance, if CCTOP had used a hidden Markov architecture similar to Phobius or SPOctopus.
+
+Are the prediction performances of the applied single methods reliable or do they only show the similarity between the training set used during their development and the benchmark sets used in this manuscript?
+
+The used topology prediction methods are apparently not cross-validated on the current experimental and structure benchmark set. In this case, how can the reliability of the performance of a consensus predictor be estimated?

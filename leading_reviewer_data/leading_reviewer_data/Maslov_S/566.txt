@@ -1,0 +1,11 @@
+The manuscript contains an exhaustive analytical and numerical study of the stochastic dynamics of a multistep phosphorylation/dephosphorylation of a single substrate in the presence of a positive feedback. From the mathematical standpoint the results are as complete as they could ever be: even the multi-variable generating function was computed (albeit in the mean-field limit). Expectedly, under favorable conditions the positive feedback generates bistability which is also analyzed by the authors in great detail.
+
+However, in my opinion authors should make a better case for the biological meaningfulness of these results.
+
+Is there any evidence that the (possibly indirect) feedback in real-life systems of this type has a positive sign? Could authors name at least one concrete example where bistability of phosphorylation/dephosphorylation of a single substrate is at least suspected?
+
+Since the case of infinite J has no biological meaning I would recommend removing the discussion of its peculiar mathematical properties from the manuscript.
+
+What are the advantages and disadvantages of different values of J with respect to signal to noise ratio. In other words, are there any biological lessons to be learned from Figure 6?
+
+Since the "average residence time" t is a very important characteristic of any bistable switch used as a memory device could authors attempt to estimate it for some biologically realistic microscopic parameters? For example, in Figure 7 for, say, N = 100 molecules would t be of order of minutes, seconds, milliseconds?

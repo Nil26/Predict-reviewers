@@ -1,0 +1,13 @@
+The idea of comparing of evolutionary substitution patterns of modified and non-modified residues in proteins is good, and the approach proposed by the authors, i.e., to reconstruct, using an ML model, the point at which the target of modification first emerged and then to see what it mutates to, is probably the only computational approach plausible at the moment.
+
+I trust the authors that their implementation of this approach is technically sound, but, unfortunately, this is hard to ascertain from the submitted version of the manuscript, which reads as a preliminary draft devoid of the quantitative details. This has to change - please provide at least the following:
+
+1. The collection of phosphorylated and acetylated sites: how many sites of each type in each organism are there?
+
+2. The phosphorylation sites at least (also acetylated sites?) are said to occur more often in the intrinsically disorded regions. Taking the non-globular regions in the proteins (which can be identified, e.g., using Wootton and Federhen's SEG program) as a proxy for "intrinsic disorder", can it be said that the actual sample of modified residues that the authors were working with is indeed more commonly occurring in such regions? And how does this sit with the ability to align the proteins in these regions?
+
+3. The "control sets" of non-modified serines (more accurately, not-observed-to-be-modified serines): are these found in the disordered/non-globular regions to the same extent as the modified ones? If not, the controls may be biased with regard to amino acid composition and to the regions of the protein molecules (e.g., buried vs exposed) - test this directly please.
+
+4. The trends that the authors discuss are interesting but weak - to what extent this may be explained by the small sample sizes? What was the statistical test for which the P-values are reported?
+
+5. In vertebrates, the "neighboring" serines from control set 2 seem to be faithfully following the trend towards change into D or E, with some separation from the control set 1. If this trend withstands the possible correction proposed in #2, perhaps this means that, in a "disordered" region that has several serines, any or all of them may targets of phosphorylation. Perhaps then it would be interesting to sum the substitution vectors over the region that has several serines, at least one of which is phosphorylated (i.e., how likely is it that at least one serine in this region is substituted by amino acid X?)

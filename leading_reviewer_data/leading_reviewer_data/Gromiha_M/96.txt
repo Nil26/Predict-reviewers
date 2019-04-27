@@ -1,0 +1,10 @@
+Reviewer comments: In this work, the authors analyzed the sequence and structural features of class III nucleotide cyclases and an uncharacterized set of bacterial proteins and identified a motif in the uncharacterized proteins. Further, they analyzed the conservation of gene clusters and localization of such proteins to understand their participation in cell signaling events. The work is interesting and it provides insights about uncharacterized proteins. The manuscript could be improved with the following suggestions.
+
+Comment: 1. Initially 83 proteins were considered and only 53 were used in the final set by comparing with sequence identity. The details about other 31 proteins could be given.
+Comment: 2. It is mentioned that the alignment coverage of 60 % was used. It is not clear about the sequence identity.
+Comment: 3. Later it has been mentioned that blastclust was used with a sequence identity of 60 %. The cutoff may be justified.
+Comment: 4. It is better to provide the details about functional annotation, structural classes/folds etc. for the set of proteins used in the study in Table 1.
+Comment: 5. It is assumed that the authors used conservation if all residues are the same in a sequence position. It could be mentioned clearly. Otherwise, the program used to compute the score and the score may be given.
+Comment: 6. The conservation details of key residue shown in Figure 1 may be included in Figures 2 and 3.
+Comment: 7. The significance of conserved residues shown in Figures 2 and 3, which are not in a part of metal binding, substrate binding and transition state stabilizing residues may be discussed.
+Comment: 8. It is recommended to proofread for English corrections. For example, page 4, lines 82–83, the sentence, “Absence of …” is not clear; Page 2, Findings may be replaced with “Background”. Page 5, line 98, “cues”; page 13, line 394, The updated, space is missing etc.

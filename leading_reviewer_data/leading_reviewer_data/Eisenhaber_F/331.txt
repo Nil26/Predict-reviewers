@@ -1,0 +1,9 @@
+This work describes an exhaustive sequence analysis of the protein components of the CRISPR-Cas modules in the framework of the sequence homology concept. The strength of this article is the finally derived, highly plausible evolutionary scenario of the protein modules that is of striking simplicity. This is a very strong biological argument supporting the conclusion chain of this work.
+
+The latter helps to moderate the awkward impression from sometimes very lousy significances of alignments that would not be worth being mentioned outside of this context (the worst case being 0.42 for the match of the profiles of Cas8a2 and Cas8a1, msp 15).
+It is not good to present such data as strong findings; some self-critical, moderating comments with regard to such cases would enhance the article.
+Minor points
+1)Reference style in Figure 4 does not fit the style of the reference list. Please add the reference number.
+2)Msp 5 (line 91) has an obvious typo ("revealed = distant").
+
+ 

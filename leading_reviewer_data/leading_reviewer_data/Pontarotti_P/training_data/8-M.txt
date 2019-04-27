@@ -1,0 +1,193 @@
+A Proposed Terminology of Convergent Evolution
+
+Abstract In this paper, we propose a unified terminology of convergence, in which
+the phenomenon of convergent evolution is the set, and the types of convergent
+evolution are subsets of that phenomenon. The set of the convergence phenomenon
+contains all of the same or very similar traits that have evolved independently in
+different lineages of organisms. This set contains three subsets that specify the three
+pathways by which evolution may produce convergence: allo-convergent evolution,
+iso-convergent evolution, and retro-convergent evolution. Allo-convergent evolution
+is the independent evolution of the same or very similar new trait from different
+precursor traits in different lineages, iso-convergent evolution is the independent
+evolution of the same or very similar new trait from the same precursor trait in
+different lineages, and retro-convergent evolution is the independent re-evolution
+of the same or very similar trait to an ancestral trait in different lineages. This
+unified convergence terminology is proposed to replace the older and confusing
+terms parallel evolution, reverse evolution, and convergent evolution sensu stricto.
+
+1 Introduction
+Convergence is the evolution of the same or very similar traits independently in
+different lineages of organisms. The analysis of the evolutionary phenomenon of
+convergence has been hampered in the past by a confusing terminology concerning
+the mechanisms and directionality of that phenomenon, specifically usage of the
+terms parallel evolution, reverse evolution, and convergent evolution sensu stricto.
+“Parallel evolution” is a particularly unfortunate term in that this evolutionary process
+in the past has been considered not only to be different from convergent evolution, but
+in some cases has been considered to be the actual disproof of convergent evolution
+(see discussion in McGhee 2011, pp. 5–7). Likewise, the term “reverse evolution”
+has been used to describe both an evolutionary direction and/or an evolutionary
+mechanism such as devolution.
+In this paper, we propose a unified terminology of convergence, in which the
+phenomenon of convergent evolution is the set, and the types of convergent evolution
+are subsets of that phenomenon. In this terminology, the phenomenon of convergence
+is the suffix of the term, and the type of convergent evolution is the prefix of the term.
+This terminology was first proposed by McGhee et al. (2017) at the 21st Evolutionary
+Biology Meeting at Marseilles (France), discussed in a review of convergence in
+McGhee (2018), and now proposed in full form in this paper
+
+2 Proposed Terminology
+Our proposed convergence terminology is outlined in Table 1. The set of the convergence phenomenon contains all of the same or very similar traits that have evolved
+independently in different lineages of organisms. This set contains three subsets
+that specify the three pathways by which evolution may produce convergence:
+allo-convergent evolution, iso-convergent evolution, and retro-convergent evolution
+(Table 1).
+Allo-convergent evolution is the independent evolution of the same or very similar
+new trait from different precursor traits in different lineages (the prefix “allo” for
+different). Iso-convergent evolution is the independent evolution of the same or very
+similar new trait from the same precursor trait in different lineages (the prefix “iso”
+for same). Retro-convergent evolution is the independent re-evolution of the same
+or very similar trait to an ancestral trait in different lineages (the prefix “retro” for
+reverse).
+The subset of retro-convergent evolution itself contains two subsets that specify
+the type of retro-convergence: retro-alloconvergent evolution and retro-isoconvergent
+evolution. Retro-alloconvergent evolution is the independentre-evolution of the same
+or very similar trait to an ancestral trait from different precursor traits in different
+lineages. Retro-isoconvergent evolution is the independent re-evolution of the same
+or very similar trait to an ancestral trait from the same precursor trait in different
+lineages.
+
+3 Examples of Allo-convergent, Iso-convergent,
+and Retro-convergent Evolution
+A classic example of allo-convergence is the independent evolution of wings in bats
+and dragonflies (Table 2). The evolutionary lineage of a bat (Bilateria: Deuterostomia: Chordata: Vertebrata) is very different and divergent from that of a dragonfly
+(Bilateria: Protostomia: Ecdysozoa: Arthropoda), yet both have evolved wings—but
+from radically different precursor traits. The bat’s wings are modified vertebrate
+forelimbs, whereas the dragonfly’s wings are modifications of gill branches originally present in the larval stage of development of the animal (the pleural origin
+hypothesis; Averof and Cohen 1997), or a combination of gill branch segments and
+dorsal body-wall segments (the dual origin hypothesis; Linz and Tomoyasu 2018).
+A classic example of iso-convergence is the independent evolution of wings in
+bats, birds, and the extinct pterodactyls of the Mesozoic (Table 2). A bat is a member
+of the clade of the mammals, a bird is a member of the clade of the dinosaurs,
+and a pterodactyl is a member of the clade of the pterosaurs—yet all three animals
+are members of the larger inclusive clade of the vertebrates. And the same precursor
+trait—the vertebrate forelimb—was independently modified to form wing structures
+iso-convergently in bats, birds, and pterodactyls.
+A classic example of retro-convergence is the independent re-evolution of ancestral fusiform-bodied fish forms in porpoises and the extinct ichthyosaurs (Table 3).
+Fast-swimming, fusiform-bodied fish forms were independently, iso-convergently
+evolved both in the clade of the chondrichthyan cartilaginous fishes, such as the
+great white shark, and the osteichthyan bony fishes, such as the swordfish (Table 3,
+Fig. 1), from the same ancestral swimming-fish forms. However, the porpoises and
+the ichthyosaurs are descendants of land-dwelling mammals and reptiles, respectively, that once possessed four walking limbs, no fins, and no fish-like fusiform
+bodies. Both the mammalian porpoise and the reptilian ichthyosaur independently,
+retro-convergently, re-evolved fast-swimming, fusiform-bodied fish forms like their
+osteichthyan ancestors (Fig. 1) when species in their respective lineages made the
+evolutionary habitat shift from the land back into the oceans.
+A porpoise fin is not inherited from a fish ancestor but is an independently derived
+retro-convergent mammalian fin that is similar in form to an ancestral sarcopterygianosteichthyan fish fin. Likewise for the ichthyosaur fin—it is an independently derived
+retro-convergent reptilian fin, not a fish fin. When we examine the retro-convergent
+evolution of fins in these two lineages, we see that the evolution of mammalian and
+reptilian fins followed both iso-convergent and allo-convergent pathways (Table 3).
+The pectoral fins of both the porpoises and ichthyosaurs are retro-isoconvergently
+evolved from the same precursor structure: tetrapod pentadactylus forelimbs (Benton
+2015). In contrast, the dorsal fins in the porpoises and ichthyosaurs were retroalloconvergently evolved from two different precursor tissue structures to produce
+a rope-like structure of fine filaments in the dorsal fin of the extinct ichthyosaurs
+(Smithwick et al. 2017), and a dorsal fin of soft tissue with core placements of the
+blood vessels in living porpoises (Felts 1966).
+
+4 Replacement of Confusing Older Terminology
+by the New Terminology of Convergence
+In the older terminology of evolutionary convergence, iso-convergent evolution
+replaces the term parallel evolution, retro-convergent evolution replaces the term
+reverse evolution, and allo-convergent evolution is equivalent to the term convergent evolution sensu stricto. The problem with the term “parallel” evolution is that
+it generated confusion in that it is often misunderstood not only to be different from
+convergent evolution but in some cases the actual disproof of convergent evolution.
+For example, the molecular discovery that the same regulatory gene (Pax-6) was
+independently, in parallel, modified in the convergent evolution of eyes was mistakenly taken by Rey et al. (1998, p. 6212) to be a disproof of convergent evolution:
+“An oft invoked example of convergent evolution has been compound eyes of insects
+versus singular eyes of vertebrates. This proved to be a wrong example, however,
+because development of all metazoan eyes recently has been shown to be under
+control of the same regulatory gene that encodes Pax-6 protein.” In contrast, phylogenetic systematists consider parallel evolution to be a phenomenon that is “a special
+case of convergence” in which the same trait has independently evolved “from the
+same ancestral character in different taxa” (Lecointre and Le Guyader 2006, p. 541).
+The term “parallel” evolution has created even greater confusion in that this same
+term has been used to describe different evolutionary phenomena. For example, in
+some molecular analyses Pontarotti and Hue (2016, p. 4) point out that the term
+parallel evolution has been used to describe molecular convergence from the same
+ancestral amino acid in different taxa and convergent evolution only used to describe
+molecular convergence from different ancestral amino acids in different taxa, whereas
+in other molecular analyses “the distinction between parallel and convergent evolution is not based on the evolutionary history of the characters, but on the similarity
+of the genetic mechanisms that are involved in the repeated phenotype” such that
+“if the molecular mechanisms are the same, the evolution is said to be parallel; if
+the genetic mechanisms are different, the evolution is said to be convergent.” Even
+more confusing, in phenotypic analyses the concept of “phylogenetic proximity”
+(however defined) has been used to differentiate parallel and convergent evolution,
+where the independent evolution of the same trait in phylogenetically close species is
+described as parallel evolution, whereas the independent evolution of the same trait
+in phylogenetically distant species is described as convergent evolution (Pontarotti
+and Hue 2016).
+Likewise, the term “reverse” evolution has generated confusion as it has been used
+to describe both an evolutionary direction and/or an evolutionary mechanism such as
+devolution. A term “retroconvergence” has been introduced by Krassilov (1995) but it
+is not the same as the term “retro-convergence” used in this paper. Krassilov (1995,
+2004) proposed the terms “cyclic evolution (retroconvergence)” (Krassilov 2004,
+p. 265) for a process in which “retroconvergent morphological trends seem to indicate
+gradual reversal of a modified genetic program to the original Gestalt inbuilt in the
+genomic memory” (Krassilov 1995, p. 70). Krassilov (2004, p. 280) further stated
+that “[a]n adaptive meaning of such cyclic transformations is scarcely conceivable.
+Rather, the meaning is related to the nature of genomic memory retaining images
+of lost basic structures, which can be conferred upon their derivative organs.” Thus
+Krassilov’s proposed “cyclic evolution (retroconvergence)” is a process of devolution
+of a descendant structure backwards into an ancestral structure.
+In contrast, our term retro-convergent extends the same logic as the term isoconvergence for “parallel” convergent evolution to the case of “reverse” convergent
+evolution, where the evolutionary pathway producing that convergence involves the
+re-evolution of a trait very similar to an ancestral trait. That process involves modifying different precursor traits (retro-alloconvergence) or the same precursor traits
+(retro-isoconvergence) in independent lineages to produce a descendant trait that
+has the same or very similar form to that of an ancestral trait. That process is not
+Krassilov’s (1995, 2004) devolution or backwards evolution. Using our terminology, Krassilov’s (1995, 2004) devolutionary “cyclic evolution (retroconvergence)”
+process would represent an extreme case in which a descendant species is retroisoconvergent on its own ancestor.
+For example, the pectoral fins of the ichthyosaurs and porpoises (Table 3) both
+resemble the ancestral pectoral fins of their sarcopterygian-osteichthyan ancestors,
+both in form and function. Yet the pectoral fin of an ichthyosaur is a reptile fin and the
+pectoral fin of a porpoise is a mammalian fin—neither is a sarcopterygian fish fin.
+The pentadactylus-manus bone structures of land-dwelling tetrapod forelimbs are
+still present, although highly modified, in the pectoral fins of both the ichthyosaurs
+and porpoises (Benton 2015). In contrast, in the “cyclic evolution (retroconvergence)”
+scenario of Krassilov (1995, 2004), the pectoral fins of both the ichthyosaurs and porpoises would have to have been produced by a devolutionary process that would have
+reversed the development of pentadactyly in the manus of the forelimbs of the reptilian and mammalian ancestors of the ichthyosaurs and porpoises, backwards to the
+original non-pentadactylus bone arrangement in the pectoral fins of sarcopterygian
+fish.
+The new terminology is based on the analysis of phylogeny (Pontarotti and Hue
+2016; McGhee 2018) and is strictly empirical, avoiding any terminological linkage
+with the causation or development of the convergent phenomena described (contra
+Gould 2002; Hall 2003). The analysis of the underlying causation of the empirical phenomena of allo-convergent, iso-convergent, retro-alloconvergent, and retroisoconvergent evolution is a separate process from the demonstration of the existence of the phenomena. Once convergent evolution at the phenotypic level has been
+identified, co-convergent evolution at other levels can be tested: from the coding
+level (DNA, genes) to gene-regulatory network levels, to the non-coding (epigenetic, transcriptional) and molecular levels (proteins, enzymes), to the physiological
+(biochemical, organ systems) and phenotypic levels (single trait versus multivariate
+convergence).
+The new terminology also avoids any linkage with the interminable debate as
+to what Gould (1989, 2002) meant by the term “contingent,” and how it relates
+to “convergent” evolution versus “parallel” evolution (Pearce 2012; Powell 2012).
+Beatty (2006, 2016), Sapp (2012), and McGhee (2016) have argued that Gould (1989,
+2002) misused the term “contingent” throughout his work, confusing the distinction
+between contingent per se and contingent upon (Beatty 2006, 2016) and creating a
+false dichotomy between truly contingent evolution and teleological evolution that
+continues to generate confusion in the analysis of convergence (Sapp 2012; McGhee
+2016).
+
+5 Summary and Proposed Future Research
+In this paper, we have proposed a unified terminology of convergence, in which
+the phenomenon of convergent evolution is the set, and the types of convergent
+evolution are subsets of that phenomenon. In this terminology, the phenomenon of
+convergence is the suffix of the term, and the type of convergent evolution is the
+prefix of the term. The unified terminology of allo-convergence, iso-convergence,
+retro-alloconvergence, and retro-isoconvergence covers the conceptual spectrum of
+the types of convergent evolution.
+In conclusion, we propose the following future research pathway in the analysis of the evolutionary phenomenon of convergence: First, the re-analysis of all
+cases of convergent evolution that are described in the scientific literature at the
+phenotypic level. The goal here is to sort out those that are iso-convergent and retroisoconvergent. Iso-convergence and retro-isoconvergence at the phenotypic level
+could be linked to similar mechanisms at other biological levels (see detailed discussion in Pontarotti and Hue 2016, pp. 10–17), thus the causative mechanism for the
+known cases of phenotypic convergences may be analyzed at this research step. Second, the documentation of new and previously unrecognized cases of iso-convergent
+and retro-isoconvergent evolution, particularly those that may have been reported as
+parallel or reverse and not convergent. And third, the creation of an internationally
+accessible database that integrates the different cases of iso-convergent and retroisoconvergent evolution at all different biological levels that were documented in the
+first and second steps of the proposed research pathway.

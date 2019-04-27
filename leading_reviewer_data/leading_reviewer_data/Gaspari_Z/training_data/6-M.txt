@@ -1,0 +1,103 @@
+Consensus Prediction of Charged Single Alpha-Helices with CSAHserver
+Abstract
+Charged single alpha-helices (CSAHs) constitute a rare structural motif. CSAH is characterized by a high density of regularly alternating residues with positively and negatively charged side chains. Such segments exhibit unique structural properties; however, there are only a handful of proteins where its existence is experimentally verified. Therefore, establishing a pipeline that is capable of predicting the presence of CSAH segments with a low false positive rate is of considerable importance. Here we describe a consensus-based approach that relies on two conceptually different CSAH detection methods and a final filter based on the estimated helix-forming capabilities of the segments. This pipeline was shown to be capable of identifying previously uncharacterized CSAH segments that could be verified experimentally. The method is available as a web server at http://csahserver.itk.ppke.hu and also a downloadable standalone program suitable to scan larger sequence collections.
+
+Key words
+Charged single alpha-helix Charged residues Consensus prediction Ion pairs Fourier transform Helicity Coiled coil
+
+1 Introduction
+The charged single alpha-helix (CSAH) is a relatively recently identified protein structural motif. Its main feature is its stability as a single helix in solution. CSAH segments are characterized by a high number of regularly alternating charged residues, mainly Glu, Arg, and Lys [1, 2, 3]. There are only a handful of such segments that are characterized experimentally; thus, their identification by prediction methods is of high importance. CSAH segments provide flexible extensions to proteins and are acting as lever arms in some myosins [4], spacers in caldesmon [5], and inner centromere protein [6] and presumably rulers in paraspeckle assembly [7]. CSAHs represent a rare structural motif; about 0.2 % of human proteins were predicted to contain such a segment [8].
+
+The basis of the stability of CSAH segments is not yet fully understood, although it is believed to be primarily of electrostatic nature. A recent detailed study highlighted that K i → E i+4 pairs are favored over E i → K i+4 salt bridges in synthetic single helical segments containing Glu and Lys residues [9].
+
+CSAHs have been shown to be located in segments predicted to form coiled coils and/or disordered regions [1, 2, 6, 8]. The latter can be rationalized by the abundance of charged residues in CSAH segments and the former with their periodicity. CSAHs can be regarded as special, “single-stranded coiled-coils” and are in a possible evolutionary relationship with them [10, 11].
+
+In characterizing structural features of protein sequences, it is important to obtain the best prediction as it will offer the most specific information about the protein. In our view, more specific predictions should have precedence over general ones. In our special case it is important to emphasize that coiled coil segments are often predicted as disordered ones and CSAHs as coiled coils and/or disordered ones. Thus, we suggest CSAH > coiled coil > disorder precedence when evaluating the results of structural predictions for a given sequence. In other words, a segment predicted to form a CSAH and also predicted to be disordered is most likely a CSAH, as the latter feature was predicted by a much more specialized method.
+
+There are currently three described CSAH prediction methods: SCAN4CSAH and FT_CHARGE are integrated to a consensus method as described in this chapter, whereas Waggawagga offers an integrated analysis with coiled coil prediction [12]. As the number of experimentally verified CSAH segments is still very low, it is not yet possible to give a comprehensive analysis of the performance of these methods. Therefore, when designing CSAHserver, our primary aim was to yield a conservative estimate of potential CSAH segments and minimize the number of false positive hits.
+
+2 Materials
+Our consensus CSAH detection method is available as a web service at http://csahserver.itk.ppke.hu. The standalone version, offering more options for parametrization and with the capability of processing multiple sequences, can be downloaded from http://csahserver.itk.ppke.hu/csah/download/csahdetect.zip. The package contains three Perl executables and two parameter files along with an installer script INSTALL.PL and a README.TXT file, as well as sample input/output files. The program is designed to run under Linux but is expected to work on all architectures where Perl 5 can be installed. The only other external requirement is the Math:FFT Perl module, available from the CPAN archive (www.cpan.org). Normally the installer script will check the presence of the module and will guide the user through its installation. To install the programs, unpack the zip archive in a suitable directory and invoke the installer with “perl INSTALL.PL” and follow the instructions (see also Note 1 ).
+
+The installed package contains three Perl scripts:
+1.
+A wrapper script csahdetect.pl which is designed to provide a single interface for the two CSAH prediction algorithms. This script handles the input FASTA file which might contain multiple protein sequences, passes them to scan4csah.pl and ft_charge.pl, reads their output, prepares their consensus, and filters out potential non-helical false positive hits.
+
+ 
+2.
+The program scan4csah.pl predicts CSAHs using an optimized scoring scheme based on the presence of potential stabilizing and destabilizing interactions between charged residues in the sequence. It uses a file with precomputed extreme value distribution (EVD) parameters (scan4csah_evdtable.txt). This program can also be used without csahdetect.pl although invoking it through csahdetect.pl will yield a more readable simplified output.
+
+ 
+3.
+The program ft_charge.pl implements a CSAH prediction method based on the regular periodicity in the pattern of charged residues. Similarly to scan4csah.pl, it uses a file with precomputed EVD parameters and can be invoked directly, although invoking it through csahdetect.pl will yield a more readable simplified output.
+
+ 
+3 Methods
+3.1 Input File
+The input sequence can be in FASTA format or just a plain sequence. FASTA format sequences with headers conforming to the UniProt convention (e.g., >sp|Q9NQS7|INCE_HUMAN [free text]) are preferred. To apply the methods on a large number of protein sequences, e.g., a full proteome, we advise the use of the standalone version which is capable of handling FASTA files with multiple sequences.
+
+3.2 The SCAN4CSAH Method
+The SCAN4CSAH method is based on a scoring scheme developed to discriminate between stabilizing and destabilizing patterns of charged residues as listed in Table 1. The segment should contain a continuous run of charged residues with an uncharged segment of maximum 5 residues long as default. The scores are normalized with respect to the length of the segment analyzed.
+
+The scoring scheme of SCAN4CSAH was optimized by an exhaustive grid search of the parameter space to yield high scores for known (or highly likely candidates of) CSAH segments at the time of its development (caldesmon, myosin IV and myosin X proteins). The scores were to fit to an extreme value distribution (EVD) curve to turn them into P-values [2]. The most important adjustable parameter of the method is the minimum length of the predicted CSAH segments, default (from version 2.0) is 30 residues (see Note 2 ).
+
+3.3 The FT_CHARGE Method
+The FT_CHARGE method relies on the identification of repeating charge patterns in protein sequences. In its default mode it first calculates the charge correlation function for a given sequence window as:
+𝑅(𝑛)=𝛴𝑚−𝑛𝑖=1𝑐(𝑖)𝑐(𝑖+𝑛)
+where c(i) is the charge of the residue at the ith position, m is the length of the segment examined, and n is the sequential distance between residues.
+As a next step, Fourier transformation is applied to R(n). The position of the maximum of the obtained frequency spectrum should be between 1/6 and 1/9 corresponding to approximately 2 turns in an alpha-helix [2]. The maximum value is converted to a P-score obtained from an EVD distribution fitted to maximum values (regardless of frequency) calculated from sets of 5000 sequences of different lengths (16, 32, 64, 128 residues) and amino acid compositions (composed of Ala, Glu, Lys residues with Glu and Lys contents varied at 10 % steps). The main adjustable parameter is the segment length for FFT analysis, default is 32–64, meaning that all possible 32-residue and 64-residue segments will be analyzed (see Note 3 ). While this methodology is time-consuming, it ensures that the precise boundaries of putative CSAH segments can be found. The effect of the different window lengths on the predictions was analyzed and we found that there are segments with relatively low charge density but regularly alternating charge pattern that can only be detected using longer (e.g., 64-residue) window. In contrast, there are also regions that exhibit the regular pattern characteristic for CSAHs only over a shorter stretch of residues that is only effectively recognized using the shorter window length [8].
+
+3.4 Getting the Consensus and Omitting Sequences with Low Helicity
+It should be noted that the two conceptually different methods predict a different number of CSAHs with FT_CHARGE being much more restrictive, recognizing less than 10 % of the CSAHs predicted by SCAN4CSAH [8]. In an analysis of SwissProt 54.2, we found that previously uncharacterized predicted CSAH segments that obtained a high score by both methods indeed form single alpha-helices in solution as verified by CD spectroscopy [2]. However, as the number of experimentally verified CSAH segments is still very low and a comprehensive analysis of prediction methods is still not feasible, we aimed at a highly conservative approach to minimize the number of false positive hits. This is achieved by taking the consensus of the two methods and introducing a filter that rejects sequences that are not expected to be helical, e.g., segments with high proline content. This is important as neither of the methods checks for the amino acid composition of the segments, which was, on the other hand, an important design feature at the development of the methods to avoid any artificially introduced biases in charged amino acid types.
+
+The filter is based on the Chou-Fasman helicity scale Pα [13] calculated for helices longer than 15 residues as assigned by DSSP (available from ftp://ftp.cmbi.ru.nl/pub/molbio/data/dssp/) in protein chains listed in PDB Select [14] (2012 October release, 25 % list, sigma 3.0). Per-residue average Pα was calculated for these helices and the scores were converted to P-values by fitting an EVD curve. After inspection of CSAHs predicted in SwissProt (release 201508), the P-value threshold was set to 0.5, i.e., sequences with higher P-values are discarded as probable non-helical ones. We note that we deliberately refrained from using the currently best-performing secondary structure prediction methods as these are based on the identification of homologous sequences and CSAHs are of low complexity and probably also fast evolving, rendering such methods inappropriate.
+
+3.5 Using the CSAHserver Web Service
+The usage of the CSAHserver website is straightforward. Go to csahserver.itk.ppke.hu and either copy-paste your sequence into the sequence input field or upload a FASTA format file (Fig. 1a). If you use the default parameter settings as recommended, simply click on the “Predict CSAHs” button and you will obtain the results typically in a few seconds. Running with default parameters will yield a consensus-based conservative estimate of CSAH occurrences. For more detailed analysis of the input sequence, the user can select one of the methods, SCAN4CSAH or FT_CHARGE and their parameters such as minimum length and window size (see Notes 2 and 3 ). The web server automatically sets the minimum length for the consensus CSAH segments to the lower of the SCAN4CSAH minimum length and FT_CHARGE lowest window length.
+
+As output, the server displays the input sequence (in lowercase letters) with the CSAH regions highlighted (CSAH segment in bold capital letters with positively charged residues, Arg and Lys colored in blue, negatively charged ones, Glu and Asp colored red) and a tabular summary of the identified CSAHs (Fig. 1b). By default, consensus regions are shown that are detected both by SCAN4CSAH and FT_CHARGE, along with the corresponding segments predicted by these two methods (see Note 4 ).
+
+In addition, a csv file containing the tabular output and two FASTA format files are available for download: one containing the input sequence with the CSAH regions masked (by “x” characters) and another with the sequence(s) of the identified CSAH region(s).
+
+3.6 CSAH Prediction with the Locally Installed Standalone Version
+The standalone version can be used for a FASTA formatted file with one or multiple protein sequences and offers more parametrization than the web service. Because ft_charge.pl runs much slower than scan4csah.pl, in the consensus mode scan4csah.pl is invoked first and ft_charge.pl is run only on sequences where scan4csah.pl predicted the presence of CSAHs (see Note 5 ). The script csahdetect.pl is also capable of invoking only one of the prediction programs or reading their precomputed output files (see Note 6 for further options).
+
+Normally, the script can be invoked as
+
+csahdetect.pl --infasta = input.fst
+
+to run with default parameters (consensus mode, minimum consensus CSAH length of 30 residues, nonhelicity filtering above P = 0.5).
+
+The default output is a tab-separated CSAH table with each detected CSAH displayed in a separate line:
+
+In addition, the two FASTA files, with the masked full and CSAH sequences, can be generated using the --maskedfasta and --csahfasta options. The masked fasta file contains only those sequences for which CSAHs were predicted.
+
+4 Notes
+1.
+After unpacking the zip archive, type “perl INSTALL.PL” from that directory. The install script will check the availability of Math::FFT and offer to install it using cpan (invoking “sudo cpan Math::FFT”); the user can skip this but will have to install Math::FFT manually later to use the FT_CHARGE method. The script will also ask where to put the scan4csah.pl and ft_charge.pl executables and the EVD parameter files, as well as the csahdetect.pl executable.
+
+ 
+2.
+In the most recent version the default minimum CSAH length for SCAN4CSAH is set to 30 residues according to our analysis of paraspeckle proteins [7] where this setting yielded the most consistent results. Generally, we do not advise to use shorter lengths in order to avoid the possible increase of false positive hits.
+
+ 
+3.
+Other possible options include a 16 residue-long window and its combination with longer windows. The use of multiple window sizes is based on our experience that some CSAHs might be missed with longer and others with shorter windows. The reason behind is that the charge periodicity is tested for the full window length and some sequences might not be regular enough over a longer span and others might have relatively low charge density (for a CSAH) and regularity is only evident in a longer segment.
+
+ 
+4.
+In the consensus mode only those segments are shown that were predicted by both of the methods. Thus, regions detected by either SCAN4CSAH or FT_CHARGE only will not appear in the consensus-mode output in any form. To obtain this information, the web service can be run with only one of the methods chosen.
+
+ 
+5.
+In practice, a filtered version of the input FASTA file is generated based on the SCAN4CSAH output and this is used as input for FT_CHARGE. While this reduces computing time (an ft_charge.pl run on the full SwissProt release 201508 containing 594008 sequences took ~4 days on a single Intel Core i5 2.4 GHz processor), it requires more disk space (comparable to the size of the original input FASTA file) which can be substantial when analyzing large proteomes or even full SwissProt. Thus, analysis of a large sequence databases with the present version requires extra care and some tricks like running scan4csah.pl first, generating the filtered file manually, splitting the filtered file and invoking ft_charge on them separately, then merging the outputs. Please also note that in such a case the unprocessed output files of SCAN4CSAH and FT_CHARGE can also be relatively large.
+
+ 
+6.
+The most important additional option is --minconslen, with which the minimum consensus length can be set. In contrast to the web server, where this is set automatically, the standalone version uses 30 residues as default minimum consensus CSAH length and this can only be changed by explicitly setting the --minconslen option to a different value. Another important option is --helicalP; this can be used for nonhelicity filtering. The default value is 0.5; to turn this filtering off, this can be set to 1. Note that this is a “negative filter” to avoid false positives; thus, P-values lower than 0.5 might result in too stringent rejection of possible CSAH candidates. Example of a predicted CSAH segment with P-value 1.0, unlikely to form a helical structure based on its amino acid composition: >Q9LR47 254–316 RPSDYSRRPSDYSRRPSDYSRRPSDYSRRPSDSRPSDYSRPSDYYSRPSDYSRPSDFSRS SDD The csahdetect.pl script allows the parametrization of the invoked methods using the --scan4csah and --ft_charge options by providing a full (parametrized) command to be invoked for these methods. This is meant for expert usage. For example, it is possible for FT_CHARGE to set the step size between sequence windows. This results in faster scan at the expense of lower precision in CSAH boundaries. The default step size is 1; thus, each possible window of a given length is analyzed for each sequence.
+
+In addition, by setting the -f option for FT_CHARGE, it can be used to detect regularly alternating charge patterns in non-helical sequence motifs as well.
+
+Detailed usage and a full list of options can be obtained by invoking scan4csah.pl --help and ft_charge.pl -h.
+
+ 

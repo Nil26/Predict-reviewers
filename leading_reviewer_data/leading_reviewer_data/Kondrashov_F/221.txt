@@ -1,0 +1,10 @@
+This is straightforward but broad analysis that aims to make some of the usual observations on the evolutionary properties of duplicated genes. There are several advantages for this paper, which includes the breadth of data obtained for the analysis, a good selection of genes for the paralog-orthologue comparison and what I thought was a good statistical analysis of rate asymmetries.
+A potential weakness, but not a flaw, of the paper is that it does not formally relate the observations to mathematical models of the expected time to pseudogenization. I understand, however, that the authors may feel that this is possibly beyond the present analysis.
+Perhaps the most substantial weakness is the lack of a clear demonstration of the use of synonymous rates of evolution. It is mentioned that previously used estimates across the phylogeny are used. However, the difference between Ka/Ks and relKa are not apparent from a first read of the manuscript. Furthermore, I think a figure on which types of topologies for duplicated genes were included for the analysis would greatly simplify the current description. Examples of used and discarded topologies would be a useful figure (perhaps more useful than the present Figure 1).
+A similar analysis done in mammals before should be cited:
+Pegueroles C, Laurie S, Albà MM. Accelerated evolution after gene duplication: a time-dependent process affecting just one copy. Mol Biol Evol. 2013 Aug;30(8):1830–42.
+Minor errors to correct.
+Page 2: “eliminate this confounding is to compare”
+Table 1 new – in several places.
+Yampolsky and Stoltzfus, 2005 - right before the Results section.
+First paragraph of Discussion: “observation has been made many times in the past faster [6, 18, 19]”.

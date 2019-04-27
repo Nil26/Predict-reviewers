@@ -1,0 +1,7 @@
+This is an interesting work, starting to trace the unusual path of evolution of malate synthase and isocitrate lyase in animal kingdom, with additional discussion of what might have been going on with these genes in bacteria.
+
+I suggest that the authors do the following:
+
+1. Due diligence with the databases of unfinished genomes: I did a quick tblastn against the environmental sequence genomes at NCBI and saw at least one entry that codes for the same domain tandem as the two-domain nematode protein: is it one ORF or two, from a nematode or perhaps from a bacterium? The unfinished bacterial genomes – perhaps the donor of two genes to the nematode lineage can be identified among them?
+
+When the authors say 'gene transfer into the nematode lineage', how do they know it is not an earlier event (search Schmidtea genome traces perhaps, also Coelenterata)? The same databases, plus ESTs, are needed to account for additional ICLs (I think I can see some in corals).

@@ -1,0 +1,68 @@
+This is an exceptional paper. While those who think in categories of branches as the key to understanding eukaryote origin are in a traffic jam of stagnation, those focusing on the origin of mitochondria as the key to the issue find themselves in the fast-lane with good visibility, dry asphalt, and no cars in sight. This paper spearheads progress in understanding what the prokaryote-eukaryote divide is all about, makes progress with tempo, and in exquisite style to boot. I offer a few thought that the author might wish to consider.
+
+The origin of the eukaryotic cell was a unique event
+Para 3: Prokaryotic extinctions. The SOS responses of prokaryotes, like the more facile incorporation of foreign DNA in E. coli (MutS down-regulation) or gene transfer agents in proteobacteria exemplify the difference between dinosaurs and prokaryotes in terms of reacting to potential individual-or species-terminating threats. In other words, animals do not have the option of getting foreign genes or mating with new species as a means to avoid extinction. Prokaryotes do.
+
+Para 4: the assumed existence of a diverse ....the group was seen
+
+Para 4: however later revealed that all ..... evolution to specialized organelles
+
+Eukaryotes originated in an endosymbiosis between prokaryotes
+Para 2: ... [47] whatever we would have called an alphaproteobacterium 1.5-2 billion years ago...
+
+Para 3: maybe... albeit different studies suggesting affinities with modern archaebacterial groups. [why cite [46] twice?]
+
+Cell fusions best explain the accumulation of eukaryotic traits
+Para 3: ...occupied the Archezoan niche. What does that mean? What is an Archezoan niche as opposed to a eukaryotic niche?
+
+Energy per gene
+Para 7: Entamoeba has about 9938 genes (typo 1000)
+
+The issue of scaling
+Para 2: Somewhere in this paragraph you could use terms like "concentrations of DNA, ribosomes, proteins" etc. to make it clear what volume is doing. Explain that you adjust the volume first, then worry about chromosome and ribosome copy numbers to compensate. That is the point in scaling, no?
+
+Para 3: why is cell division a problem? Explain, not clear to me.
+
+Para 6: ...given that cell division
+
+It seems prudent to consider how giant bacteria actually do divide and some of the incisive thoughts of HP Erickson [79] on this aspect. There are bioenergetic constraints here, too, as Z rings never get bigger than about 1 micron.
+
+Only endosymbiosis can fashion giant nuclear genomes
+Para 5: This is a beautiful, a spectacular paragraph, maybe split it into two or more, and maybe prime the reader a bit better for what is coming. Maybe make it a section with subheader. The 5% genes for metabolites is one entry to the topic. Maybe a good one, maybe. What you are into is the energetic consequences of specialization of the endosymbiont. If we just transfer genes, but need the proteins in the organelle (requires invention of TIM & TOM) then there is no real savings, because the cost of making the proteins is the same whether made in cytosol or organelle. The genes transferred to the host can also be expressed (at a cost) in the host cytosol, regardless of where the proteins end up. So the real energetic benefit comes from specialization of the organelle towards energetic ends (not reduction in general). Energetic specialization requires the AAC. Reduction is not so much the issue as specialization. Some other numbers come to mind, for E. coli.
+
+http://redpoll.pharmacy.ualberta.ca/CCDB/cgi-bin/STAT_NEW.cgi
+
+10 Number ATP to make 1 cell 55 billion ATP
+
+11 Number Glucose molecules consumed 1.4 billion molecules
+
+12 Cell division rate 1 division/30 minutes
+
+They stack up well against your 50 trillion ATPs, or 2 trillion per hour or 1 trillion per 30 minute E. coli division. How many endosymbionts are you assuming here??? (ahh, 1000 proteins copies, OK). These are very interesting calculations possibly worth further fleshing out. This is a uniquely original approach to the problem, one that textbooks could use to illustrate what mitochondria have done for us lately.
+
+Para 5: It is about specialization. Specialization. But specialization via selection. That meshes well with CoRR, too.
+
+Genome outposts are required for major expansion of oxidative phosphorylation
+Para 1: People always focus on the retention of genomes, and it is just as much about the retention of ribosomes (for the same reasons as CoRR states), and that might be worth mentioning. And do we see plasmids with rrn (ribosomal RNA) operons????? Interesting.
+
+Para 2: Regardless... I would delete that clause, it sounds as if you doubt the strengths of CoRR, which I do not think you do.
+
+Paras 4-5: Excellent and exquisitely important text.
+
+Endosymbiotic gene transfer, mutagenesis and the origin of sex
+Para 2: Endosymbiotic gene flow is also backed by comparative genomics, for example plants-cyanobacteria.
+
+Para 4: Yes, that is exactly right. Excellent points.
+
+Paras 4-6: This is interesting.
+
+Para 6: First principles. Hmm. I'm not so sure that we are really back to first principles in this paper. We clearly have a set of very explicit premises about the nature of the host and the symbiont, some processes and some logical consequences from which complexity is permitted (but not prescribed, to lift your prescient abstract text). But when Harold Morowitz goes to first principles, he is in quantum mechanics, the Pauli exclusion principle, the periodic table and so forth. So maybe something a bit more modest here would fit, too.
+
+Conclusions
+Para 2: "are predicted from first principles"
+
+I disagree. The paper contains logical inferences, not a set of predictions. The inferences unfold in an effortless manner to be sure, and they are all tightly interlocked via the same kind of hard-nosed reasoning (energetic, biochemical, made of molecules, and mechanistic). But first principles? If first principles stays, then please explain in a list what the first principles are, and I think what that will uncover is more accurately described as a set of premises (something assumed or proved as a basis for argument or inference).
+
+Maybe "unfold in effortless inference".
+
+It was a pleasure to read this paper.

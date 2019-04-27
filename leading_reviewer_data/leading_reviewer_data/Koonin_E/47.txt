@@ -1,0 +1,11 @@
+Reviewer summary
+This is a very interesting, timely, perceptive and easy to read presentation of new ideas on presentation of fitness landscapes, the key metaphor and heuristic tool of evolutionary biology. Although, much like Wright’s original effort, the paper, to a large extent focuses on representation, the ideas discussed in the paper have the potential to stimulate research in the field. Overall, I expect this to be quite a useful, widely read (and, hopefully, cited) publication.
+
+To the best of my understanding, the authors accurately even if largely informally present the problems in the current landscape representation and possible solutions. I will make three small points. First, I find it quite interesting and to the point that the authors include discussion of Waddington’s work on canalization and assimilation. However, as far as I know, Waddington primarily attributed assimilation to recombination that brings together pre-existing mutations, and this indeed seems to be the primary explanation.
+
+Second, I am wondering how is the previously observed clustering evolutionary trajectories reflected in the multilayer landscapes considered here; see: Lobkovsky AE, Wolf YI, Koonin EV. Predictability of evolutionary trajectories in fitness landscapes. PLoS Comput Biol. 2011 Dec;7(12):e1002302 and Lobkovsky AE, Wolf YI, Koonin EV. Quantifying the similarity of monotonic trajectories in rough and smooth fitness landscapes. Mol Biosyst. 2013 Jul;9(7):1627-31
+
+Finally, I would be interested to read what do the authors have to say about the look ahead effect: Whitehead DJ, Wilke CO, Vernazobres D, Bornberg-Bauer E. The look-ahead effect of phenotypic mutations. Biol Direct. 2008 May 14;3:18
+
+Minor issues
+This paper has been submitted as a Research article. However, as far as I can see, there is formally no new analysis reported. I wonder whether it would be more appropriate to reclassify this as a Review or Opinion, in which case some restructuring would required.

@@ -1,0 +1,10 @@
+The manuscript by Makarova and co-workers provides a compelling argument for the functional link between Bacterial and Archaeal Argonaute proteins and proteins that are involved in defense against "foreign" DNA.
+
+I only have a few comments:
+
+Studies on the value of the genomic association of genes for the prediction of functional links between proteins have gone to a great length to actually benchmark at which level of genomic association it not only becomes statistically significant, but also functionally meaningful in terms of predicting that proteins are actually involved in the same pathway. I cannot judge the level of "functional relevance" of the P-values provided in table ​table11.
+
+Along the same lines: can the authors give simple numbers of how often the four protein families were discovered in the vicinity of the 100 pAgos genes.
+
+I take it that all genomes that were included in the significance study were phylogenetically distant enough to assure that gene order conservation was not trivial?
+"This analysis resulted" I cannot find how this analysis was done, Fisher Ombnibus test mentioned in the methods does not require genes to be part of the same potential operon, and "predicted to be co-expressed" can thus not be concluded from it.

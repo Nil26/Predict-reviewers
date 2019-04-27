@@ -1,0 +1,74 @@
+The putative movement domain encoded by nepovirus RNA-2 is conserved in all sequenced nepoviruses 
+
+Nepoviruses are isometric, two-component, positive-strand plant RNA viruses
+which belong to the lineage of picorna-like viruses [5, 10]. Each of the two
+genomic RNAs of nepoviruses codes for a single polyprotein that is processed
+upon infection by the protease encoded by RNA-1 [8, 12]. The virus genome
+is presumably replicated by RNA polymerase and RNA helicase provided by
+RNA-1 [10]. The C-terminal domain of the RNA-2 polyprotein encodes the
+capsid protein (Mr ca. 55 kDa); the rest of the polyprotein differs in size in
+different nepoviruses [8] and its function is unknown.
+By analogy with related comoviruses, it has been proposed that a portion
+of the RNA-2 polyprotein adjacent to the capsid protein controls virus cell-tocell movement [6]. In cowpea mosaic comovirus, the corresponding domain
+(58/48 kDa protein) is essential for cell-to-cell movement [19] and also for
+assembly of tubular structures in vivo that are believed to be the routes for virus
+trafficking from cell to celt [18]. Similar tubules have been observed in plants
+infected by tomato ringspot nepovirus (TomRSV; [20]). Antibodies raised
+against a TomRSV-encoded peptide adjacent to coat protein cistron have
+revealed that this virus-specific epitope was present an the surface of the tubules,
+similarly to comovirus movement protein [20].
+Despite overall close relatedness of comovirus and nepovirus groups, the
+putative movement domains of the two groups are poorly conserved. It has
+been shown [9, 13] that comovirus movement domains are related to movement
+proteins of caulimoviruses and putative movement proteins of capilloviruses;
+in contrast, putative movement domains of tobacco black ring nepovirus 
+(TBRV) and Hungarian grapevine chrome mosaic nepovirus (GCMV) were
+distantly related to caulimovirus movement proteins, but could not be directly
+aligned to comovirus 58 kDa/48 kDa proteins [9].
+Sequences of four other nepovirus RNA-2 have been reported. In TomRSV,
+a segment of RNA-2 encoded polyprotein corresponding to the 48 kDa in vivo
+product [20] has been aligned to the similarly located sequence encoded by
+grapevine fanleaf virus (GFLV) [15], but similarity to TBRV or GCMV proteins
+has not been found. The putative movement domain in GFLV has been proposed to resemble TBRV and GCMV sequences mainly at the level of protein
+secondary structure [17]. The sequence of raspberry ringspot virus (RRV) has
+been proposed to resemble TBRV and GCMV sequences, but not TomRSV
+or GFLV sequences I-2]; actual alignment has not been shown in that study. 
+Finally, the sequence of substantial part of arabis mosaic (ArMV) RNA-2
+polyprotein has been reported but not analyzed [1].
+To investigate the relationship between non-structural domains encoded by
+nepovirus RNA-2, we first performed pairwise comparisons using the ALIGN-2
+program [11]; this program automatically delineates segments with the lowest
+probability of the chance occurrence of the observed similarity. Only segments
+adjacent to coat protein cistrons were significantly similar. After delineating
+these similar segments, we employed a progressive alignment strategy [4] to
+create a multiple alignment of nepovirus putative movement domains, first
+aligning the most similar sequences and then incorporating more distant ones.
+Closely related TBRV and GCMV sequences were aligned first; then a very
+similar RRV sequence was added. Related CFLV and ArMV sequences were
+aligned separately, and similar segment of TomRSV was added to this alignment.
+The two alignments were then aligned to each other. The adjusted alignment
+score that is calculated by OPTAL is expressed as the number of standard
+deviations (SD) by which the observed score exceeds an average of 25 independent simulations of the alignment procedure with scrambled sequences; the
+adjusted scores above 6-7 SD are generally considered to be indicative of
+genuine relationship [3, 4, 7]. The alignment of six nepovirus movement
+domains (Fig. 1) is characterized by a reliable score of 7.4 SD, although the
+number of invariant residues is not high. 
+In our previous work, we have identified several highly conserved residues
+in the putative movement proteins from many virus groups [9, 13]. A proline
+residue in hydrophobic surrounding has been delineated in caulimovirus, comovirus and capillovirus movement proteins and TBRV and GCMV sequences.
+This motif is conserved in all nepovirus sequences known so far ("P" motif,
+Fig. 1). On the other hand, the "30kDa" motif identified by us in movement
+proteins from 17 virus groups [13], which consists of a putative hydrophobic
+helix terminated by a highly conserved aspartic acid residue, was not found in
+the alignment of nepovirus proteins. Thus, the relationship of nepovirus putative
+movement domains to the "30kDa superfamily" of plant virus movement
+proteins is uncertain. However, the movement domain in TomRSV is associated
+with tubular structures in vivo [20], similarly to movement proteins of comoviruses [19] and caulimoviruses [14] which may imply functional similarity.
+Noteworthy in particular is that the "P" motif has been also shared by caulimovirus movement proteins with remotely related cellular chaperones from the
+90 K heat shock protein family [9]. In a broad analogy with the chaperone
+function, the aligned domain in the nepovirus RNA-2 movement protein,
+including the "P" motif, might be involved in assembly or turnover of
+virus-induced tubular structures that enable virus cell-to-cell movement. It is
+hoped that alignment presented here will be helpful as a guide for site-directed
+mutagenesis and for design of diagnostic probes aimed at better understanding
+of nepovirus cell-to-cell movement. 

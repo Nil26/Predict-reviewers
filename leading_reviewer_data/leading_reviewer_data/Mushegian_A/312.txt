@@ -1,0 +1,37 @@
+The manuscript of Wong et al. presents good evidence that the transmembrane segments in proteins, which were thought to be compositionally biased and, because of this bias, not very useful in probabilistic sequence similarity searches, are in fact a heterogeneous group of sequences. Some TM segments are indeed "simple" and had better be masked before scanning the databases for homologs, whereas others are more complex, have family-specific distinguishing features and can be used for homology searches. These observations are useful and, I believe, largely correct, but I have three concerns.
+
+First, I suggest a vigorous editing of all discussion of homology. It is not until the second paragraph on page 20 that the authors get to defining homology, and do it with a whiff of ambiguity: "Though homology has the precise meaning of "having a common evolutionary origin", it also carries the loose meaning of "possessing sequence similarity or being matched" when translated into computerized homology searches." I think that we should insist on the precise meaning of this word, and do not feed the troll of the loose meaning.
+
+this notion already covers all types of proteins.
+
+What may be needed is the improvement of our skills in distinguishing common ancestry from convergent or parallel evolution in the case of compositionally biased proteins.
+
+This brings me to the second concern, and it is that the authors leave the reader without any practical guidance. Yes, we are told to mask simple TMs and not to mask complex TMs, but is there a program or a server that would help one to do it? Can one collect the TM segments using their favorite prediction engine and run these segments through an R script, for example?
+
+Speaking of this, are the efforts from Altschul and Yu groups at NCBI on compositional bias and adjustment of scoring matrices of any relevance. Will these approaches treat different kinds of TM segments appropriately?
+
+It appears to us that both approaches have their right for existence. And they have their own advantages and deficiencies. Whereas the compositional bias score corrections are applicable for all types of sequences, they run into difficulties over which part of the sequence to determine the amino acid composition (and using the whole sequence is not a good choice in multi-segment proteins). Usually, using prior knowledge is more robust for suppressing compositionally biased segments; yet, this is less convenient if existing software pipelines do not include all programs required.
+
+My third concern is the manuscript style, reminiscent of a personal memoir or an oral presentation. I do believe that the quirks and idiosyncrasies of style have their place in scientific literature, but in this case the text is way too verbose. I suggest that the authors revise the whole manuscript and suspect that the main text and Figure Legends may become twice as short as they are now, to the benefit of the reader.
+
+Several random examples, in no way exhaustive:
+
+p. 2: < <The work presented in this article has essentially emerged in response to an important comment by one of the reviewers of our previous publications [1]; namely, the complete exclusion of TMs from domain models in libraries such as Pfam [12,13] "would be a huge disservice to the community" and certain domain models involving TM regions have proven instrumental in protein family classification as, for example, in the cataloging of membrane transporters by Saier and coworkers [14-16].> >
+
+--consider replacing everything before "certain domain models" by "On the other hand,"
+
+p.3: "For sequence similarity applications within the sequence homology concept (i.e., for the extension of the homology concept to membrane proteins), a quantitative criterion for distinction between complex and simple TMs would be very helpful, not only in the context of automated annotation pipelines."--consider deleting completely and see whether the logic of the narrative suffers at all.
+
+p.4: "Figure ​"Figure1A1A shows a three-dimensional fin-shaped histogram of all TM helices spanning diagonally across the sequence complexity and hydrophobicity space. The cross-section of the skewed histogram (Figure ​(Figure1B)1B) shows a tear shaped scatter plot."
+
+--describes exactly what is in the figure; appropriate in an oral presentation, not so much in a written article.
+
+In the Legend to Figure ​Figure1,1, the exact same sentences are repeated, and more along the same lines is seen, e.g. "The trace of the complexity and hydrophobicity from the single-spanning set to the four-TM spanning set indicates a progressive shift towards high complexity and low hydrophobicity. The medians converge to almost a singular cloud beyond the five-transmembrane-spanning set."
+
+--again, this is a literal description of what is in the figure -redundant!
+
+p. 5: "The data shows that there are a sizeable number of outliers not following the trends and we can reconcile this seemingly contradictory observation by acknowledging that simple and complex TMs can occur in proteins regardless of the total number of TMs."
+
+--consider replacing with "The data suggests that simple and complex TMs can occur in proteins regardless of the total number of TMs."
+
+p. 7:"Our general observation that complex TM helices are enriched with charged and structural residues" --tautology? "Complex TM" is by definition a TM that is enriched in these residues, no?

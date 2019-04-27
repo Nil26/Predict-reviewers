@@ -1,0 +1,9 @@
+Reviewer summary
+
+-The manuscript by Tice et al on "Expansion of the Acanthamoebidae (Centramoebida, Amoebozoa)" reports a new phylogeny that adds a variety of diverse protists to this important group. major corollaries of the findings are that the life cycle of some Acanthamoeba includes spore-forming stages and that the overall dominant trend in the evolution of Acanthamoeba involves loss of complexity. The phylogenetic analysis in the paper is state of the art and of high quality.
+
+Reviewer recommendations to authors
+
+-I have no major criticisms. I may note that the title of the paper is somewhat drab. It might be better to indicate that this is a major expansion, and expansion that reveals major biological trends or some such, to more immediately draw attention to the paper.
+
+Also, with regard to the evolutionary trend from complex ancestors to simplified descendants, it might be useful to note the higher generality of this pattern, far beyond Amoebozoa: Wolf YI, Koonin EV. Genome reduction as the dominant mode of evolution. Bioessays. 2013 Sep;35(9):829-37

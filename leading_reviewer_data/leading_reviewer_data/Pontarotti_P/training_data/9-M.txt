@@ -1,0 +1,135 @@
+An Overview of Evolutionary Biology Concepts for Functional Annotation: Advances and Challenges
+
+Abstract Numerous genome sequencing projects have yielded more and more data
+to help analyze and gain a better understanding of genetic diversity in the living
+world. Genome annotation enables us to decipher raw data and identify proteincoding genes and their function. After structural annotation, the next step is predicting protein function (functional annotation). All the genes currently available in the
+sequenced genomes will never be studied experimentally, and so the most reliable
+and accurate theoretical approaches need to be considered for function prediction.
+Different approaches have already been developed for functional annotation. Here
+we emphasize the use of evolutionary biology concepts as an improved and sensitive
+method for predicting protein function. In the future, functional annotation based on
+evolutionary biology could be included in a more general approach to study the impact of the environment on the genome at the community scale.
+
+13.1 Improving Functional Annotation Using Evolutionary
+Biology
+Typically, functional annotation uses sequence-based methods to make direct
+sequence-to-sequence comparison and predict a putative function to match the best
+database hit. This approach, based on the search for similarity, implies that the
+proteins can be homologous, i.e., descended from a common ancestral gene. There
+are two different types of homologous genes; orthologs and paralogs. They evolve
+by vertical descent from a single ancestral gene (speciation event) or by duplication,
+respectively. In evolutionary history, homologous genes undergo different events,
+such as mutations, leading in some cases to a functional shift. These functional
+shifts (or co-option events) are the result of a protein modification at the sequence
+level (e.g., changes of active-site or ligand recognition) or at the transcriptional
+level (e.g., changes in the expression pattern) (Ganfornina and Sanchez 1999). The
+distinction between orthologs and paralogs is critical for reliable functional annotation. It is generally assumed that one-to-one orthologs are functionally equivalent.
+This is not so for the paralogs, since after a duplication event the two duplicates can
+be subfunctionalized, or one of the copies can be lost or evolve without functional
+constraint towards some new function (neofunctionalization). Paralogy is therefore closely associated with functional diversification and specialization. These
+important events can be deciphered by a phylogenetic study, and information can
+be integrated for functional annotation. By superimposition of the gene tree and
+the function tree, some nodes can be annotated for a specific function and hold
+throughout the lineages. Compared with the methods based on the similarity search,
+this approach, based on evolutionary biology concepts, is more informative and
+can enhance the accuracy and reliability of the functional inference. Software for
+this purpose (based on a Bayesian approach) was developed by Engelhardt et al
+(2005). It makes it possible to improve functional prediction. A software platform
+(FIGENIX) has been developed that provides a straightforward, accelerated phylogenetic tree construction using automatic pipelines and propagates the annotation
+from one ortholog to another (Gouret et al. 2005).
+In addition to the orthology/paralogy relationship, functional annotation can be
+further enhanced by integrating further information from modern evolutionary biology concepts (Gaucher et al. 2002; Sjolander 2004). Other essential information can
+be automatically added to the phylogenomic approach to extend the threshold of the
+functional prediction. Some additional methods of interest are proposed in the next
+section.
+13.2 Considering the Evolutionary Shift
+The neutral theory of evolution states that the sites of greatest functional significance come under the strongest selective constraint (Fitch and Markowitz 1970).
+This implicitly means that functional constraint among amino acids changes when
+a change in protein function (functional shift) occurs during evolutionary history.
+One way to improve functional annotation would be automatically and consistently
+to identify functional shifts in the phylogenetic tree, and their effect on the subsequent functional annotation. Thus, in addition to the well-known phylogenomic
+approach, systematic integration of the functional shift in new software could be
+valuable for functional annotation. For instance, functional shift could be confined
+to a specific branch, and so the modification of function could be inferred for all the
+descending lineages (Fig. 13.1). Functional shift occurs by relaxed functional constraint or by positive selection, and can be detected by computational methods that
+take into account the patterns of replacement. Currently, original approaches have
+emerged that consider (1) amino acid replacements (nonsynonymous substitution)
+alone or (2) the ratio of nonsynonymous to synonymous substitution.
+The method based on amino acid replacements uses two types of gamma models
+that consider how the evolutionary rates of amino acid replacement differ among
+sites in a protein sequence. In the homogeneous gamma model, rapid, moderate
+and slow positions conserved their respective rates throughout the evolutionary tree
+(Yang 1996). However, in the case of functional shift, evolutionary rates of sites will
+be different along the branches of the tree (heterotachy) owing to altered functional
+constraints. Accordingly, a nonhomogeneous gamma model allowing a slow site to
+become a fast one (or vice versa) was developed. This model can thereby locate
+sites that are probably involved in functional divergence (potential targets for sitedirected mutagenesis).
+Another informative approach for functional annotation consists in detecting
+positive selection using a comparison of the relative ratio of nonsynonymous to
+synonymous substitutions (Miyata and Yasunaga 1980). The nonsynonymous to
+synonymous substitution rate ratio (denoted ω) is used as a measure of selective
+pressure at the protein level. A value of ω greater than 1 indicates that nonsynonymous substitutions offer an advantage and are set at a higher rate than synonymous
+ones, whereas ω = 1 and ω < 1 indicate neutral evolution or purifying selection, respectively. Most amino acids are under strong structural and functional
+constraints, and positive selection usually acts on a few sites for a short period
+of time. Thus, detection of significant positive selection between homologous sequences is usually unsuccessful if ω is calculated over all sequences and over all
+the time separating them. A great deal of effort has been devoted to implementing
+models and testing positive selection on an individual branch (or a set of branches)
+of a phylogenetic tree (branch methods) or on individual codon sites (site methods) (Yu and Irwin 1996; Messier and Stewart 1997; Zhang et al. 1997, 1998,
+2005; Yang 1998; Nielsen and Yang 1998; Suzuki and Gojobori 1999; Yang and
+Bielawski 2000). Recently, a branch-site method for testing positive selection on
+individual codons along specific lineages was developed (Yang and Nielsen 2002).
+The branch-site method considers branches in the phylogenetic tree as foreground
+and background lineages and constructs a likelihood ratio test by comparing a model
+that allows positive selection in the foreground with a model that refuses it.
+The power of the functional annotation can be improved by systematically considering these methods of evolutionary shift detection. For instance, a specific
+branch can be targeted during a period of functional divergence on the basis of
+the ω value and the functional inference can be improved (Fig. 13.1). Recently, we
+correlated positive selection to functional divergence in the fungal lipase/feruloyl
+esterase A family (Levasseur et al. 2006). This example illustrates how evolutionary
+shift can be used for functional annotation as the branch leading to the functional
+diversification evolved under positive selection. However, the use of positive selection is not strictly an indicator of functional shift per se and must be carefully
+integrated with other information. Few published examples of relaxed or positive
+selection have been linked to actual functional shifts (Levasseur et al. 2007).
+Another interesting variable to be taken into account is the relation between
+branch length and expression pattern. Previous work hypothesized that long
+branches were correlated with specific and restricted gene expression. By contrast, genes with short branches seem to be extensively or ubiquitously expressed
+(Paillisson et al. 2006; Balandraud et al. 2005). A detailed, exhaustive study is still
+required to evaluate the general trend of this correlation. This information could
+potentially be exploited for functional annotation.
+13.3 Evolutionary Biology Concepts in the Genomic Era
+To extend the scope of analysis, concepts should be considered at a level higher
+than that of a single gene, i.e., at a community genomic scale. Functional annotation based on evolutionary biology would be much more informative applied to a
+total gene data set from complete genomes. This genomic approach makes it possible to investigate specific features of genome evolution in greater depth and can
+connect evolutionary events with specific aspects of physiological function or environment (especially extreme environment). Hence, the main step consists in placing
+evolutionary history in its environmental context. A better understanding of the role
+of the environment in genome evolution could be achieved by studying overall gene
+diversity through a comparative genomic approach between organisms or more generally at the community level (“the community as a whole organism”).
+13.3.1 Comparative Genomic Approach
+The comparative genomic approach through various genomes of different biotopes
+is an interesting method to study genome/environment relationships. Functional annotation at the genome scale enables us to extend our knowledge of the role of
+the environment in genome evolution. For instance, a growing number of fungal
+genomes are currently available, and comparative genomic approaches should advance our knowledge of the mechanisms of adaptation whereby fungi persist in the
+environment (Galagan et al. 2005). Fundamental questions could be addressed, for
+instance: How can we explain the enzymatic divergence between white rot, brown
+and mold fungi in the light of genome evolution with a special focus on the genic
+repertory discrepancies? Identifying the part of the genome content that has evolved
+under positive selection would be highly relevant to the understanding of the functional repertories of different fungi, and could be correlated to their lifestyle and
+degrader behavior.
+13.3.2 Towards a Functional Annotation on the Community Scale
+In addition to the genome-to-genome comparison, a large-scale study could be
+achieved by a metagenomic approach. The genomic repertoire analysis of different communities from various biotopes is an informative means to unravel the
+genome/environment relation. Metagenomic approaches enable us to bypass technical bottlenecks such as the difficulties of microorganism cultivation and the reproducibility of natural conditions in an artificial environment. For instance, the
+distributional patterns of genes from planktonic microbial communities from the
+ocean surface to near the sea floor allows the identification of depth-variable trends
+in gene content and metabolic pathway components (DeLong et al. 2006). Combined with a competitive functional annotation, a metagenomic approach based on
+microbial communities from different biotopes (e.g., from various geographic samplings or from extremely polluted sites) will offer new ways to evaluate the impact
+of environment on genome content.
+13.4 Conclusion
+Today, evolutionary approaches can advance functional annotation, but they are not
+yet routinely used. The integration of evolutionary biology concepts for functional
+annotation leads to a better inference and a better understanding of the “functional
+plasticity” of proteins. Considering branch lengths and positive selection, new parameters could be included to balance functional prediction and decipher evolutionary
+events that shape the history of genes. In addition to the gene-to-gene analysis, the
+integration of evolutionary biology concepts for global genome comparisons will
+be a fundamental step in elucidating the relationship between organisms and their
+environment. In the future these evolutionary concepts could be integrated into competitive software dedicated to functional annotation.

@@ -1,0 +1,9 @@
+The authors have analyzed the proviruses integrated in 48 strains of the Mycobacterium abscessus complex. Interestingly, this analysis allowed detecting six new families of mycobacterioviruses, in addition to the previously described virus Araucaria. The authors observe that these viruses roughly co-evolved with their hosts since they can be divided in three clusters corresponding to the three Mycobacterium abscessus sub-complexes. However, they also noticed many incongruence between various tree topologies that are interpreted as horizontal gene transfer (HGT). It is unclear for me which of these transfer correspond to independent gain and/or loss of proviruses in different lineages of M. absessus and which ones are due to real transfer of viruses from one lineage to the other. It is also not clear why the authors concluded that viral infection contributes to the differentiation of the M. abscessus complex.
+
+The presentation of Figures and Table could be improved. The Tables 1 and ​and22 could be placed in supplementary material and important information about the proviruses summarized in Figure (diagram) and/or Table (how many genomes have 0, 1, 2….7,8 integrated elements, size distribution, main features of the four classes proposed). The trees/networks are also difficult to interpret.
+There are several minor points Lane 123; define prophage region homology.
+Lane 128: 242,067 proteins (which proteins?) in general be more precise
+Lane 140 and elsewhere, gram-positive bacteria is no more a valid taxonomic grouping, better to indicate Firmicutes
+Lane 168: Auracaria should be Araucaria
+Lane 193: gram-negative and gram positive bacteria! i.e. all bacteria except mycobacteria?? So environmental bacteria is sufficient.
+

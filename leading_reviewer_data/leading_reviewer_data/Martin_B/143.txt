@@ -1,0 +1,28 @@
+This is a very well written and interesting paper. I like it a lot. Few papers deal with species concepts among bacteria in such a relaxed and readable manner. Clearly, for clinical reasons we have to have species so that doctors can tell us what infection we have and how to treat it. Pragmatic approaches to the problem are useful, and this paper makes progress in that direction.line 83. "clear leap". In the vernacular of traditional systematics, this leap is called "discontinuous variation", so the principle has precedent. One might have a read of some classical systematic s papers for other kinds of organisms, following the keyword lead "discontinuous variation" in the lierature, and maybe rethink the title accordingly. Basically this paper suggests using a very traditional criterion with very modern data (pangenomes).
+
+l. 111, define cpb
+
+clustering techniques could also be used here instead of blast score ratios.
+
+
+l. 261, worse than the clock issue is that rDNA does not clearly predict what the rest of the genome harbours, as pangenomes and this paper show.
+
+l. 271 "could not transform into one another" is not a very useful criterion because it makes untestable assumptions about what might happen in the future …
+
+l. 271 "could not transform into one another" is not a very useful criterion because it makes untestable assumptions about what might happen in the future …
+
+l. 283, here we are getting to the main course of the apper. Maybe explain in more detail what Fig. 7 shows and perhaps find a mathematical decription for the dip ("discontinuous variation") in the c/p ratio that is independent of the value "10 %", which some might think is the sugestion for a pangenome defined species boundary, more studies on other species would be needed to get a better feel.
+
+l. 286, break — > discontinuity
+
+l. 287, nut orbitals are different, because sampling of further atoms will not uncover transitional orbitals, but sampleing of other srains will uncover transitional genomes, probably. But one gets the idea.
+
+l. 287, nut orbitals are different, because sampling of further atoms will not uncover transitional orbitals, but sampleing of other srains will uncover transitional genomes, probably. But one gets the idea.
+
+l. 302 f, what we see here is not a clear recommendation of the type that Stackebrandt would issue, but a pleas for the use of pangenomic data for the species question, which is unquestionalby reasonable and likely a fruitful avenue of pursuit.
+
+l. 314 … demonstrated that these are distinct species of Klebsiella genus at a level of
+
+pangenomic discontinuity that would go undetected in a system rDN-based species definitions. Microbial systematics has always adapted to new technologies as it regards species boundaries, perhaps the next generation of adaptation is upon us now with the availability and utility of pangenomes, at least in the clinical context.
+
+In summary, this is a very fine paper, I enjoyed it a lot.Quality of written English: Acceptable

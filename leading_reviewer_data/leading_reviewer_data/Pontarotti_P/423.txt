@@ -1,0 +1,81 @@
+This article proposes hypothesis that could explained "why" sexual reproduction occurred and its role in the evolution of the multicellular species
+
+General comments
+
+I consider that if a scientist proposes a hypothesis he should clearly depict it and present significant clue to test this hypothesis. In my mind, I think that the article should be rework in these two directions to be understood by the community.
+
+Specific comments
+
+You write "simple organism like bacteria". How do you define simplicity and why do you think that bacteria are simple organisms? (I know that it is written in a repetitive manner but we need some explanations here)
+
+How do you deal with the fact that some unicellular organisms have also sexual reproduction (for example paramecium, yeast...?)
+
+Please, specify that HGT is also present in asexual species (and in some cases in sexual species) and therefore allow them to create genetic diversity. Please add a comment on that point.
+
+"Malthusian..." Please provide a reference
+
+I you write "I declare..." I do not think that such a word can be used in a scientific paper. You should write instead that your analyses allow you to put forward the following hypothesis .....
+
+What do you mean by "the intermediate configuration being volatile?"
+
+"biological evolution cannot retain everything that randomly emerges." This is statement please explain better and give references.
+
+You state that non multicellular organism cannot be organized in species (in different places in the article). I convince that the word species could have different meanings. You should clearly explain the concept (or at least your own concept of species) and explain why the non multicellular species cannot fit your definition. Any way for example bacteria (even with metazoan) is capable of forming highly "complex" community.
+
+Lane 6: please provide reference
+
+Lane 20 you write "means to persist" Please provide a reference
+
+In fact all the lineage dies (coalescence) and a species can be seen as a given lineage
+
+"Are far from the maximum entropy ". Please, develop and explain what entropy is and how entropy could be related to biological work (even if it is evident for you).
+
+Page 7 Lane 3, Please explain
+
+Lane 8, from: "I would like to explain ...survival" I do not understand how this paragraph is related to the present discussion; Please, clarify.
+
+"Natural selection is traditionally construed as selection of novelties". I do not agree with this statement, most evolutionary biologists think that natural selection correspond also to counter selection. If you think that scientists mix the two concepts (natural selection and apparition of novelties) please provide examples from the literature)
+
+"The function of natural selection is largely conservative:" please provide a reference
+
+How do you define higher organisms? Again in this paragraph, we still have the problem of the definition of species. Please, see my comments above.
+
+Note that communities of bacteria, archea are higher orders than individual. I really would like to have a comment on this.
+
+Lane 18
+Please note that for example bacteria evolve also, by gene substitutions, HGT, gene loss...
+see for example [137].
+
+Lane 5: How do you deal with hybrid species (allopolyploid species for example?)
+
+Lane 8: I do not think that in science we can ask why? The only question that one can ask is how?
+
+What do you mean by nature? In your manuscript, nature looks like an entity?
+
+I would change the wording by: "what is the evolutionary process that gives rise to the complex way of multiplication "
+
+Still in this paragraph, it is not true that each asexual transmits its entire gene to the offspring's, see above.
+
+Please note that the environment is not constant, therefore even if a species is perfectly adapted in a specific environment, it would not be strictly the same case in other environment (please have a look on the SJ Gould book: Wonderful life [138].
+
+"Since most of the mutations are harmful..." First table brings to mind that different kinds of mutations exist: punctual deletion recombination (leading to gene loss end exon shuffling...). In the case of punctual mutations many of the mutations are neutral: for example synonymous mutation. In any cases, if you think that most of the mutations are harmful, you should provide references.
+
+"A clear anti evolutionary consequence..." Please note that positive selection exists also in sexual species, a given allele under positive selection will take longer to be fixed in sexual species than in asexual one, but it can be fixed.
+
+"Being captivated with the idea of progressive evolution": who believes that evolution is progressive? If you have scientific references stating that, please provide them.
+
+What do you mean by "lower animal"?
+
+"Asexual organisms reproduce their exact copies..." This is not true, see above, many genetic events occur such as HGT, gene loss ...
+
+Please note that the monkeys are not our ancestor, we share a common ancestor, and this ancestor gave rise to different species including human.
+
+"the rate of the visible evolution asymptotically moves to zero": please provide a reference
+
+" For higher organisms the answer is not so evident". Please note that mutation rate has been published many times in the case of metazoans.
+
+"This means that the species are more longevous that the genes." How do you deal with transspecific polymorphisms, allele sorting...?
+
+"Evolution creates like an artist". Do you really think that evolution could be regarded as an entity?
+
+I think that you should publish your manuscript with my comments as they are all the best.

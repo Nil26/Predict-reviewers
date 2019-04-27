@@ -1,0 +1,21 @@
+This is an interesting analysis providing a physical explanation for the maintenance of bilateral symmetry in animal evolution. I find the paper well written, the arguments convincing, and only have a few comments to clarify the discussion.
+
+The authors refrain from discussing locomotion in the microscopic world. However, I think that they miss an opportunity here. We know that in the micro world many organisms can navigate very efficiently. They achieved this not by being bilaterally symmetrical, but by using helical swimming and the adjustment of the helical trajectories. This happens very often in diverse phototactic protist (e.g. Chlamydomonas, dinoflagellates) and in the close-to spherical ciliated larvae of bilaterians (e.g. annelids, hemichordates). One reason why this is an effective strategy for small organisms but not large ones is, as discussed in the paper, the different Reynolds numbers. This could imply that bilaterality only evolved once the early metazoans had attained a sufficiently large size. This interesting physical threshold could be discussed in more detail.
+The model implies that the first bilaterians were not burrowing but either freely swimming or crawling on the sediment. It would be interesting to see a discussion of this in the context of the earliest putatively bilaterian trace fossils. The interpretation that these are traces of burrowing animals may be slightly at odds with the hypothesis (e.g. Jensen Integr. Comp. Biol., 43:219–228).
+“Another potential question may emerge if one examines the earliest trace fossils from the Precambrian. These traces are retained horizontal burrowings in the upper layer of the sediment [23,24] and are also attributed to bilaterian animals [24]. However, this view has been challenged by the discovery of trace maker giant protists [25], put forward as candidates for the producers of those ancient trails. Now, according to our hypothesis, it seems easy to reconcile the putative burrowing behaviour and bilaterality in the precambrian animals mentioned above (if they really existed) considering that the upper layer of the sediment is likely to have a loose structure with low density, hence it does not necessarily require the body burrowing in it to be cylindrical.”
+
+Accordingly, the cited references also have been added to the paper.
+
+I suggest to also include in Figure 1. a bilaterian with a cylindrical body but with lateral appendages. A laterally flattened, fish-like body is not general for actively moving bilaterians. For example, errant annelid polychaetes have a body that is roughly cylindrical, but they have lateral appendages that can provide the necessary drag during active locomotion.
+
+Authors’ response: The figure has been added as Figure 1.C.
+The authors use the term ‘aerodynamic’ when writing about locomotion primarily in water. Using ‘drag’ or ‘resistance’ may be more fortunate.
+The sentences in question now read: “… where F is the drag force, ρ is the density of the medium, c is the dimensionless drag coefficient dependent on the body shape, A is the area of the maximal section of the body in the direction of motion, and v is the body’s velocity [9,10].”
+“A spherically symmetrical body cannot generate the pushing surface, being of equal shape and drag in every direction.”
+
+“Since it is streamlined only from the frontal view, its lateral (or vertical if the animal is dorsoventrally flattened) drag coefficient is very high compared to the frontal one.”
+
+“Compared to a bilateral body, the cylindrical form has lower resistance in sideways movement, so the cylindrical body “slides” laterally in changeovers, as we do when we try to change direction on ice.”
+
+The statement that “Bilateral symmetry with two body axes arose … in slow, flatworm-like organisms” together with Ref. [7] seems to imply that the first bilaterians were phylogenetically related to acoel flatworms. The latest careful phylogenetic analyses show that acoels are deuterostomes (Nature 470, 255–258), so they do not represent the earliest extant bilaterian metazoans. I suggest to write ‘worm-like organisms’.
+A reference to jellyfish navigation (e.g. Garm et al. The Journal of Experimental Biology 210, 3616–3623) would make the discussion about the medusa-type manoeuvering more convincing.

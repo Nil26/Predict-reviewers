@@ -1,0 +1,11 @@
+I liked the conceptual idea of this study according to which organisms are solving a dynamical optimization problem that in addition to static terms introduced in Ref.[25]also includes dynamic terms. These terms quantify energy and sequestration costs of operating ribosomes as well as other (smaller) costs associated with protein production and active degradation. I also liked the fact that authors confirmed their mathematical results with a dedicated experimental data.
+
+I found the application of this conceptual idea somewhat less convincing. Figure 2 shows an optimal enzyme profiles for different relative weights of static and dynamic terms. The biological relevance of the optimization problem solved in this study is not well explained. Indeed, why should an organism care to find the best E(t) for given <E> and S_f/S ? Should not it be that both S_f/S as well as E(t) need to be optimized to get the best fitness? I would be much more interested if authors ’formalism could quantify what they stated in the discussion section: “… enzymes for metabolic subsystems which are frequently used, such as glycolysis, tend to be maintained at high stable levels, compatible with a high usage of static resources, but minimal usage of dynamic ones. Conversely, subsystems which are less frequently used but must react quickly tend to have stable mRNA but unstable proteins, consistent with low sequestration of static resources but a high demand on dynamic resources.” To quantify this tradeoff authors need to apply their optimization formalism to multiple (periodic?) cycles of nutrient availability as opposed to a single cycle considered in this study.
+
+For a constant growth rate \mu maintaining E_dot =0 requires constant production to compensate for dilution term. Thus E_dot=0 is not the minimum and the minimum should be reached at E_dot=-\mu. Would that modify authors’conclusions?
+
+Dimensionality of Eq. ( 6 ) is confusing. Apparently E is made dimensionless so that E+E^2 makes sense and time is also made dimensionless. These normalizations should be better explained. Perhaps they contain some information on the typical value of alpha.
+
+For the sake of completeness the expression for K_M in terms of k_1 and k_{-1} and k_2 needs to be written.
+
+Use brackets under the integral in Eq. ( 6 ).

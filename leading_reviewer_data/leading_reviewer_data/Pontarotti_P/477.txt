@@ -1,0 +1,37 @@
+The authors carried out a comparative analysis between the phagosome of eukaryote from highly divergent phyla by using data from proteomic analyses and literature searches.
+
+Authors found that several proteins have been conserved inferring that the corresponding genes were present in the common ancestor of the present days living eukaryotes and were involved in the ancestral phagocytosis.
+
+To extend their analyses, they subsequently checked for the presence of these conserved eukaryote genes in archaea and bacteria.
+
+They found that the orthologues of one of such a gene are present in subset of archaea. This gene is orthologous to eukaryotic actins gene and share unusual structural features with actins related proteins (Arp) 2 and 3. The authors deduced that the presence of common structural features in Arp/23 and the archea actins, implies that the common ancestors between the archaea and eukaryotic actins were able to develop branch filaments.
+
+They further found that the orthologue of the Rho family appeared to be of bacterial origin.
+
+These two findings lead the authors to hypothesize than the ancestor of the eukaryotes was an archeon that had an actin-based-cytoskeleton allowing engulfment of one bacteria (that will become the mitochondrion), horizontal transfer then occurred leading to eukaryogenesis.
+
+I think that this hypothesis on the origin of the eukaryotic phyla is of great interest. However the authors' conclusion is only based on two genes (one from archea origin and the other from bacterial origin).
+
+My first recommendation is to change the title as follows: "the possible origins of phagocytosis and eukaryogenesis" that should better describe the works of authors.
+
+Other comments:
+
+Concerning the" lack of phylogenetic coherence", the authors argue logically, that this could be due to imperfect detection of phagosomal proteins with the applied proteomic methods or variability of the phagocytosis machinery. One way to go further is to check the presence of the apparently absent proteins at genome level.
+
+If the corresponding genes are found, then two explanations are possible
+
+1) Gene co-option
+
+2) The corresponding protein have been missed by the proteomic analysis
+
+The authors could then label the protein as "probably involved in phagocytosis"
+
+This approach will increase the number of conserved eukaryotic phagocytosis proteins. This enlarged set could be used to identify orthologues in bacteria and archea and could help to strengthen the author's hypothesis as suggested above.
+
+The authors wrote : "Crenarchaeota of the order of Thermoproteales and the only sequenced genome of Korarchaeum encode an actin homolog the eukaryotic actin"
+
+Here the authors have to explain why some of the Crenarchaeta do not have actin genes?
+
+If they hypothesize gene loss, did this loss happened several times, or did it happen once (the answer will be given by the tree topology)?
+
+The next question is why the Thermoproteales retain these genes and not the other phyla of Crenarchaeta. Some discussion is required here.

@@ -1,0 +1,6 @@
+In this work, the authors presented a novel method for identifying regions that are significantly enriched in somatic mutations and indels. The analysis on human proteome showed the presence of about around 500 protein regions linked with 27 distinct cancer types. It also identified novel genes and regions that have not yet been associated with cancer. The area of research is interesting and potential applications to cancer research. The manuscript is well written and analysis has been made in details.
+Following points may be considered for improvements and discussions.
+
+1. Recently, preferred amino acid mutations in cancer genes have been reported using COSMIC database with the location of mutations. A comparison of those results with the present work could be useful.
+2. The preferred localized regions may be discussed in terms of secondary structures and solvent accessibility (either experimental or predicted).
+3. COSMIC database provides the counts for the mutants. The number of counts used to define somatic mutations may be mentioned.

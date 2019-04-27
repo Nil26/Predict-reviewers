@@ -1,0 +1,305 @@
+Infinite Series of Exact Equations in the Bak-Sneppen Model of Biological Evolution
+
+We derive an infinite series of exact equations for the Bak-Sneppen (BS) model in arbitrary
+dimensions. These equations relate different moments of temporal duration and spatial size of
+avalanches. We prove that the exponents of the BS model are the same above and below the
+critical point, and express the universal amplitude ratio of the avalanche spatial size in terms of the
+critical exponents. The equations uniquely determine the shape of the scaling function of the avalanche
+distribution. It is shown that in the BS model in arbitrary dimensions there is only one independent
+critical exponent. [S0031-9007(96)00781-8]
+
+Recently Bak and Sneppen [1] introduced a particularly
+simple toy model of biological evolution (the BS model).
+It provides a coarse-grained description of the behavior of
+the ecosystem of interacting species driven by mutation
+and natural selection. The features of the real evolutionary process, which may be correctly reproduced by this
+model, include the intermittent behavior (punctuated equilibrium), the apparent scale invariance of large extinction
+events [2], and the power law probability distribution of
+the lifetimes of species. In the simplest variant of the BS
+model the ecosystem consisting of L species is characterized by L numbers fi arranged on a line. The number fi
+represents the effective barrier for a successful mutation
+of ith species. At every time step the smallest number in
+the system is located, and this species is selected for mutation. As a result of this mutation this number, as well
+as two of its nearest neighbors (representing the species
+that strongly interact with a mutated one), are replaced
+with new uncorrelated random numbers drawn from the
+uniform distribution between 0 and 1. The generalization
+of these rules to higher spatial dimensions is straightforward. The BS model may describe the evolution on the
+longest time scale, where, due to universality, the exact
+microscopic details are of no importance.
+In fact, there exists a whole class of models where the
+rules consist of selecting the site with the extremal (global
+maximal or minimal) value of some variable and then
+changing this variable and its nearest neighbors according to some stochastic rule. These models, referred to
+as extremal models, were extensively studied (for a recent review, see [3]). They were employed to describe
+a variety of physical phenomena such as fluid invasion
+in disordered porous media [4], low temperature creep
+[5], earthquake dynamics [6], etc. Among these models, the BS model occupies a special place similar to that
+of the Ising model in the equilibrium statistical mechanics, since many observations can be rigorously proven
+for the BS model and then applied to other extremal
+models based on numerical simulations and less rigorous
+arguments.
+
+The feature of interest in the BS model (as well as
+in other extremal models) is its ability to organize itself
+into a scale-free stationary state. The dynamics in this
+critical state is given in terms of bursts of activity or
+avalanches, which form a hierarchical structure [1,3] of
+subavalanches within bigger avalanches. In the biological
+context these avalanches represent big extinction events.
+In this work we introduce a “master” equation for the
+avalanche hierarchy. It describes the cascade process in
+which smaller avalanches merge together to form bigger
+ones as the critical parameter is changed. From this
+equation we derive an infinite series of exact equations,
+relating different moments of temporal duration S and
+spatial area R d of individual avalanches.
+The master equation connects undercritical and overcritical regions of parameters. Given the existence of the
+scaling, we rigorously prove that the exponents of the BS
+model are the same above and below the transition. From
+our results it follows that all terms of the Taylor series of
+the scaling function fsxd for the avalanche distribution are
+uniquely and explicitly determined by two critical exponents of the model. We expect that the usual restrictions
+on the shape of fsxd indirectly relate these two exponents
+and, therefore, reduce the number of independent critical
+exponents in the BS model to just one.
+As was described in [3], the avalanches in extremal
+models are defined from the value of the global minimal
+number fmin ssd as a function of time s. Then for any given
+value of the auxiliary parameter f0 , an f0 avalanche of size
+(temporal duration) S is defined as a sequence of S 2 1
+successive events with fmin ssd , f0 confined between two
+events with fmin ssd $ f0 , in other words, the time steps
+when fmin ssd $ f0 divide the time axis into a series of
+avalanches, following one another. It is easy to see that
+an avalanche defined by this rule is nothing but a stochastic
+process in which numbers fi , f0 play the role of active
+particles that are randomly created or annihilated. The
+avalanche is terminated (and the next one is immediately
+started) when there are no particles left in the system.
+As in any other creation-annihilation processes (such as
+directed percolation, for example) in the BS model there
+exists a critical value fc of the creation probability f0 ,
+for which the creation of particles is marginally balanced
+by their annihilation, and avalanches of all sizes can be
+realized. In the stationary state of the BS model on the
+infinite lattice, fmin ssd # fc for every s. Therefore, the
+overcritical s f0 . fc d region of the branching process
+parameters is not accessible, since there are no events
+starting or terminating such avalanches. However, if the
+system is artificially prepared in the overcritical state with
+fi $ f0 . fc everywhere, one can observe overcritical
+avalanches. Another way to look into the overcritical
+properties of the model is to use the BS branching process
+[7] in the simulations of the model. In this process one
+only keeps track of the numbers fi , f0 and at each time
+step activates the smallest one of them. It was shown in
+[7] that the undercritical avalanches in the BS model are
+exactly equivalent to the realizations of the BS branching
+process. However, in the latter case, one can select f0 .
+fc as well. Then there exists a nonzero probability P` s f0 d
+that the process will never stop (an infinite avalanche), but
+at the same time the size of finite avalanches acquires a
+finite cutoff.
+We characterize an avalanche by two principal numbers: (1) S —the avalanche size, equal to its temporal
+duration; (2) ncov — the number of sites covered ( fi was
+updated at least once) by the avalanche.
+In one-dimensional models the connected nature of the
+set of covered sites ensures its compactness (absence
+of holes) and, therefore, ncov is precisely equal to the
+avalanche spatial extent R. In higher dimensions (but
+below the upper critical dimension) it was conjectured
+in [3] that the set of covered sites is a nonfractal object
+of the same dimensionality d as the underlying lattice.
+This conjecture is based on the numerical observation that
+the mass dimension of the avalanche D, which relates the
+avalanche size S to its spatial extent R through
+S , RD ,
+
+is usually greater than the dimension of the “substrate”
+space d. Therefore, the set of covered sites, being
+the projection of all points in the avalanche along the
+temporal axis onto the substrate space, is likely to be a
+dense object, and the spatial size R of the avalanche can
+be defined by the relation ncov ­ R d .
+The quantity of primary interest in the BS model is
+the probability distribution PsS, f0 d of the avalanche sizes
+S at any given value of the auxiliary parameter f0 .
+The moments in time, when f0 # fmin ssd , f0 1 df0 ,
+serve as breaking points for f0 avalanches but not for
+f0 1 df0 avalanches. Therefore, when f0 is raised by
+an infinitesimal amount df0 some of f0 avalanches merge
+together to form bigger s f0 1 df0 d avalanches. In the
+rest of this paper we study in more detail the properties of
+this merging process and the avalanche hierarchy that it
+induces.
+
+The most important observation about f0 avalanches in
+the BS model (as well as in several other extremal models,
+such as the Sneppen model [8] or invasion percolation
+[4]) made by Paczuski, Maslov, and Bak in [3,7] is that
+when an f0 avalanche is terminated, the numbers fi on
+the set of ncov ­ R d updated sites are uncorrelated and
+uniformly distributed between f0 and 1.
+It was shown in [3,7] that the direct consequence of this
+observation is that the probability of an f0 avalanche of
+spatial size R d to merge with the subsequent one when the
+parameter f0 is raised by df0 is given by R d df0 ys1 2 f0 d.
+(The merging occurs if at least one of the changed numbers
+falls in f f0 , f0 1 df0 g.) For the following arguments to be
+true it is important that any two subsequent avalanches are
+mutually uncorrelated. That is, the probability distribution
+of f0 avalanches, starting immediately after the termination
+of an f0 avalanche of a given size S, is independent of S.
+That is true for the BS model since the dynamics within an
+f0 avalanche in the BS model is completely independent
+of the particular value of the numbers fi . f0 in the
+background that were left by the previous avalanches.
+This mutual independence may not be the case for other
+extremal models such as the Sneppen model or invasion
+percolation.
+Now we are in a position to write the exact master
+equation describing how the avalanche merging changes
+PsS, f0 d as f0 is raised. Let R d sS, f0 d be the average
+number of updated (covered) sites in an f0 avalanche of
+temporal size S. From our simulations of the BS model
+[3] we know that, for f0 close to fc , R d sS, f0 d scales
+with S as S dyD [see Eq. (1)]. However, for the following
+arguments any form of R d sS, f0 d will suffice. The master
+equation for PsS, f0 d can be written as
+
+Here the first term describes the loss of avalanches of
+size S due to the merging with the subsequent one, while
+the second term describes the gain in PsS, f0 d due to
+the merging of avalanches of size S1 with avalanches of
+size S 2 S1 . Unlike in a conventional master equation,
+the parameter f0 in our master equation is not time.
+It is convenient to change variables from f0 to g ­
+2 lns1 2 f0 d, so that f0 ­ 0 corresponds to g ­ 0, f0 ­
+1 corresponds to g ­ 1`, and dg ­ df0 ys1 2 f0 d. This
+change is due to the fact that, although traditionally new
+random numbers are drawn from the flat distribution
+P s f0 d ­ 1, the “natural” distribution for the BS model
+has the probability density P sgd ­ e2g . As usual, the
+critical properties of the model are independent of the
+particular shape of P . In the rest of the paper we will
+use the natural variable g instead of f0 .
+
+This exact equation is the central result of this paper. It has
+many interesting physical consequences. When g , gc all
+avalanchesP
+are finite sP` ­ 0d and normalization requires
+ps0, gd ­ `S­1 PsS, gd ­ 1. From the general properties
+of the Laplace transform one can write the Taylor series for
+psa, gd and rsa, gd at a ­ 0 as psa, gd ­ 1 2 kSlg a 1
+kS 2 lg a 2 y2 2 kS 3 lg a 3 y6 1 · · · and rsa, gd ­ kR d lg 2
+kR d Slg a 1 kR d S 2 lg a 2 y2 2 1 · · · . Substitution of these
+expressions into Eq. (3) results in ≠y≠g lnskSlg a 2
+kS 2 lg a 2 y2 1 · · ·d ­ kR d lg 2 kR d Slg a 1 kR d S 2 lg a 2 y2 1
+· · ·. Since Eq. (3) holds for arbitrary a, comparing the
+coefficients of different powers of a in the above Taylor
+series results in an infinite series of exact equations.
+Comparison of the coefficients of a 0 gives
+
+This is exactly the “gamma” equation derived in [9].
+Higher powers of a in Eq. (3) give new exact equations. Here we show just√the first
+
+The Taylor expansion changes slightly in the overcritical region, where there is a finite probability P` sgd
+to start an infinite avalanche. Since the avalanche distribution PsS, gd is limited to finite avalanches, it is
+naturally normalized to 1 2 P` s gd. Therefore, when
+g . gc the Fourier series for psa, gd can be written as psa, gd ­ 1 2 P` s gd 2 kSlg a 1 kS 2 lg a 2 y2 1
+· · · . Now the comparison of the coefficients at a 0 in
+Eq. (3) gives
+
+This new equation is the g . gc analog of the gamma
+equation (4). We will refer to it as “beta” equation [the
+exponent b is traditionally used for the scaling of P` s gd,
+while 2g is used for kSlg ].
+There is a more straightforward way to derive Eq. (7)
+from the average properties of the merging process.
+The merging of finite and infinite avalanches gives an
+infinite avalanche and, therefore, leads to an increase
+in P` s gd. The average probability of finite avalanche
+merging with the next one as g is increased by dg is
+kR d lg dg, and the probability that this next avalanche
+happens to be an infinite one is P` s gd. Therefore,
+dP` s gd ­ P` s gd kR d lg dg, which is just Eq. (7).
+As in the undercritical case, the Taylor expansion of
+Eq. (3) for g . gc determines an infinite series of exact
+1184
+
+equations. The first two of them are
+
+As in other creation-annihilation branching processes,
+the avalanche distribution PsS, gd in the BS model for
+g , gc is known to have a scaling form
+
+where t and s are some critical exponents and fsxd is
+a scaling function that rapidly decays to zero as x !
+2`. From (10) it follows that the average avalanche size
+diverges when g approaches gc from below as kSlg ,
+s gc 2 gd2g , where g ­ s2 2 tdys. Substitution of this
+expression into the gamma equation (4) results in
+for g , gc .
+
+The exponent relation derived from (11) connects s to
+D and t: s ­ 1 1 dyD 2 t [3]. It is easy to see that
+Eqs. (5)–(9) do not yield additional exponent relations but
+further restrict the exact form of the avalanche distribution
+scaling function fsxd.
+The scaling should work in the overcritical regime
+as well. However, unlike in the equilibrium statistical
+mechanics, the critical exponent s can a priori be
+different above and below the transition. In what follows
+we show that, at least for the BS model, this is not true.
+Substitution of the scaling form P` s gd , s g 2 gc db into
+the beta equation (7) results in
+
+From (12) it follows that the same exponent relation
+s ­ 1 1 dyD 2 t holds in the overcritical region, and,
+therefore. the exponent s is the same above and below
+the transition. The scaling form (10) can now be extended
+to include the overcritical region S s sg 2 gc d . 0. As in
+various percolation problems [10] the scaling form (10)
+for PsS, gd at g . gc results in the exponent relation
+b ­ st 2 1dys. An interesting consequence of exact
+Eqs. (11) and (12) is that the universal amplitude ratio
+for kR d lg is given by the ratio of two critical exponents
+This unusual relation between the universal amplitude
+ratio and critical exponents is, to our knowledge, unique
+for the BS model.
+There is a case when the master equation (3) can be
+written in a closed form. This is the extensively studied
+[11,12] mean field random neighbor version of the BS
+model, where, at each time step K 2 1, “neighbors” of
+the active site are selected in an annealed random fashion
+the thermodynamic limit of this model the number of
+updated sites in the avalanche of temporal duration S
+is given by ncov ­ sK 2 1dS 1 1. This is the quantity
+that should be used instead of R d sS, gd in our equations.
+The missing equation connecting rsa, gd and psa, gd
+is rsa, gd ­ 2sK 2 1d≠psa, gdy≠a 1 psa, gd, and the
+final form of Eq. (3) for the mean field BS model is
+
+derived in [12] using different methods, after the substitution of x ­ e2a and f0 ­ 1 2 e2g satisfies (14) and
+has the correct initial condition. That confirms the overall consistency of our approach.
+It can be shown [13] that for any given t and s, the
+Eq. (3) recursively defines all terms in the Taylor series of
+the scaling function fsxd at x ­ 0:
+
+where Gsxd is the Euler’s gamma function. We suspect
+that for any given dyD there exist unique t and s ­
+1 1 dyD 2 t such that the scaling function satisfies
+all usual Rrequirements, such as fsxd ! 0, when x !
+6`, and 0 x 2t f fs0d 2 fs2x 1yn dgdx ­ 0 (the absence
+of the infinite avalanche below gc ). Which of these
+constraints indirectly defines t as a function of dyD
+remains to be determined. The numerical solution of
+Eq. (2) with R d sS, f0 d ­ AS dyD indeed seems to give the
+correct value for t [13]. In Fig. 1 we present the results of
+the numerical solution of Eq. (2) with R d sS, f0 d ­ S 0.412 ,
+corresponding to the best numerical estimate of dyD
+in the one-dimensional BS model [3,14]. The solution
+indeed yields t ­ 1.1 6 0.1 which is consistent with
+t ­ 1.07 6 .01 determined by extensive Monte Carlo
+simulations [3,14].

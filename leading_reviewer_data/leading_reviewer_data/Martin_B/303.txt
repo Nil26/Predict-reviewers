@@ -1,0 +1,15 @@
+This is a thoughtful but narrowly focussed paper, that is possibly too far removed from real chemistry and real metabolism in general design to be suited to BD. Overall, though, I think that the authors have presented a contribution worth publishing. My main complaint would be that they overlook the possibility of prexisting inorganic catalysts that are not part of their reaction products and the possibility that things chemical fall into place more along the lines of thermodynamics than along the lines of mathematics.
+
+But the network concept is surely useful here. I cannot see how Oparin fits into this and I am not convinced that this paper really addresses coacervates in any way.
+
+One misses references to Mike Steel's papers on the mathematics of this topic.
+
+It is excessive to mention Kauffmann's name 20 times in the text, evoking the impression that what was written in the literature is a good deal less important than who wrote it.
+
+In the practical sense of actually talking about biochemical origins, the authors seem too concerned about polymerization in my view, they should be more concerned about the source of the monomers. In that respect, papers by Harold Morowitz should be consulted, for example (Morowitz, H. J., J. D. Kostelnik, J. Yang, and G. D. Cody. 2000. The origin of intermediary metabolism. Proc. Natl. Acad. Sci. USA 97:7704-7708),
+
+as should the chapter:
+
+Amend, J. P., and T. M. McCollom. 2009. Energetics of biomolecule synthesis on early Earth. In "Chemical Evolution II: From the Origins of Life to Modern Society" American Chemical Society, Chapter 4, pp 63-94.
+
+where they will be surprised to find much information that strongly supports portions of their case, if they can bear the thought of what geochemical environment is involved.

@@ -1,0 +1,13 @@
+Review of Veitia and Caburet, titled "Extensive turnover of the signal peptides of some members of the GDF/BMP family: whatever happened to these sequences?
+
+This is a beautiful story of the compensatory nature of signal peptide evolution and one of the few attempts out there to actually define the nature of fitness ridges in protein space. Figure 2C is a wonderful depiction of one of the most important questions in macroevolution – how different genotypes are connected in fitness space. The use of a consensus sequence as a rough representative of the ancestral state is one of my favorite ideas and, of course, has its biases, but they should be relatively small if used in a correct phylogenetic setting as has been done here. More works should replicate what Veitia and Caburet have done here.
+
+Specific critiques:
+
+1) I think that the title of the paper does not do justice to the content. I think that the most wonderful result is not the extensive turnover of sequence (we know this must be possible because we see many different highly divergent orthologs) but in the fact that the authors can reproduce the fitness landscape of an entire functional unit.
+
+2) The compensation of a deleterious allele by a neutral variant is known as a Dobzhansky-Muller incompatibility, and has been described in a molecular level as compensations of disease mutations.
+
+3) Overall the methodology is clear, but I think that it would be good to have a formal methods section that describes the approaches more generally. In particular, it is not clear to me why the specific 6 sites shown in Figure 2C are shown (or if these are the differences between consensus and mouse, why the mouse and not the horse?). In general, would it be possible to devise a scheme similar to that in Figure 2C that takes into account more species, and a greater number of sites and states in those sites? I realize that the number of possible combinations increases exponentially with the number of sites, but perhaps the authors could focus on actually defining the path that evolution may have traversed in these species: removing combinations that probably have not yet been observed in evolution may help simplify the schematics. I believe that these fitness ridges are the most exciting part of this research and expanding on this would give us wonderful insights into evolution.
+
+4) The question at the very end of the discussion I think is too simple. Surely, homology (orthology) is defined by common ancestry and not by the practical limitations of being able to identify it.

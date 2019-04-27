@@ -1,0 +1,50 @@
+The «easy to use» COG database has been especially useful for the biological community. It has helped to improve the quality of genome annotation and has been widely adopted by non bioinformatic experts to perform preliminary rounds of comparative genomic analysis. The main problem with such popular database is the delay in their updating, a daunting task considering the current avalanche of completely sequenced genomes. The present paper by Kira Makarova and colleagues reports a much welcome update of the COG database that focus on archaea (arCOGs). The number of completely sequenced archaeal genomes remains quite low (compared to the situation with bacteria) allowing an exhaustive analysis that remains to be done for bacteria and eukarya. The arCOGs database will be for sure an extremely important source of information for the community working on archaea and for all scientists interested in comparative genomics and microbial evolution. The new analysis corresponds to a substantial increase in information compared to previous one, since around 40% of arCOGs are new.
+
+In addition to the description of the arCOGs database, the paper by Kira Makarova and co-workers present several analyses that bring new (or update) data and raise several interesting evolutionary questions. In particular, they have built a gene-content tree based on the presence-absence of arCOGs in archaeal genome and estimated the evolution of the archaeal genome content along the evolutionary tree based on a gene loss and gain analysis. They reported several intriguing observations that are worth to be discussed in the framework of current debates on archaeal phylogeny and on the nature of the last universal archaeal ancestor.
+
+Makarova and co-workers noticed that the number of strictly specific euryarchaeal and crenarchaeal proteins is very low (one and three, respectively). This seems to strongly argue in favour of the monophyly of Archaea (against the «eocyte» hypothesis). However, it should be interesting to present a slightly «relaxed» version of these cores, by allowing for the possibility for a protein to be missing in a group of related archaea (something quite frequently observed, for instance the lack of the euryarchaeal histone in Thermoplasmatales). More generally, it could be interesting in the future to define a category of conserved arCOGs (carCOGs?) present in all members of at least two archaeal orders in order to discriminate between ORFans arCOGs that are only present in one order (probably «recently» introduced by lateral gene transfer) and arCOGs of probable ancient origin that can tell us something about the evolutionary relationships between the diverse archaeal orders. It should be then interesting to determine if the distribution of such carCOGs correlate with the archaeal phylogeny based on various evolutionary markers.
+
+The parasitic archaeon Nanoarchaeum equitans lacks the larger number (50) of universal arCOG, confirming that this archaeon probably evolved by «genome reduction». Some authors have suggested that N. equitans is a primitive organism. I suspect that there is a relatively high percentage of these 50 proteins that have homologues in Bacteria or Eukarya. This could be indicated as an argument in favour of the reduction scenario versus the "old nano" hypothesis! Interestingly, the gene content tree based on arCOGs groups N. equitans with Thermococcales among Euryarchaeota. Although gene-content trees can be sometimes highly biased by lateral gene transfer, this observation is in good agreement with a preliminary global analysis based on best BLAST-hits and refined phylogenies based on proteins of the small ribosomal subunits, reverse gyrase, Topo VI and elongation factors (Brochier et al.2005). This confirms that N. equitans should not be considered as a member of a new archaeal phylum (as already widely found in text-books!!) but as an odd member of the Euryarchaeota, probably, distantly related to Thermococcales.
+
+Another puzzling observation is the grouping of Cenarchaeum symbiosum with euryarchaea in the gene-content tree. Interestingly, the COG coverage is quite similar for all archaeal genomes (around 88%) except for C. symbiosum and N. equitans. This can be explained by genome reduction in the case of N. equitans, but not in the case of C. symbiosum whose genome has a «normal» size. Significantly, the authors reported that the coverage of C. symbiosum genome with the old COGs was greater than with the new arCOGs! This indicates that this genome contains COGs present in Bacteria or Saccharomyces cerevisiae but not in any other archaeon. The proposed explanation is that C. symbiosum is a symbiotic crenarchaeon that has acquired lots of bacterial genes. An alternative hypothesis is that C. symbiosum is not a crenarchaeon after all, but represents an early branching archaeal phylum that contains bacterial and archaeal homologues that have been lost in other archaea.
+
+From their reconstruction of gene loss and gain events, Makarova and co-workers suggest that the last Universal archaeal ancestor (LACA) was a hyperthermophile and a chemo-litoautotrophe with a minimal number of genes around 1000. They conclude that LACA might have been (nearly) as advanced as modern archaeal hyperthermophiles and found this conclusion quite «unexpected». I am not so surprised. It's a prejudice to think that ancestors are always simpler than present-day organisms and that ancient evolution always occurred toward more "complexity". There is no reason why reductive evolution, which has occurred so often in the evolution of modern cells, was not as pervasive in ancient time (Forterre and Philippe, 1999). In fact, an in-depth analysis of ribosomal protein distribution by Poch and co-workers already suggested a few years ago that the ribosome of LACA was probably more complex that the ribosome of any modern archaea (Lecompte et al., 2002).
+My only criticism of this paper is that the authors have taken a quite conservative view of archaeal phylogeny (only based on 16S rRNA) to analyse gene loss and gain along the archaeal history and to estimate the genome content of LUCA. Indeed, several features of their unresolved multifurcation tree are dubious.
+
+N. equitans appears as an isolated lineages (a third phylum)
+
+C. symbiosum is grouped with hyperthermophilic Crenarchaeota.
+
+Methanopyrus kandleri is shown as an isolated branch
+
+In all these cases, the authors have chosen to follow the 16S rRNA tree, whereas careful analyses based on ribosomal proteins have shown that Methanopyrus kandleri most likely groups with methanococcales and methanomicrobiales (Brochier et al. 2004) and that N. equitans is at least sister-group of euryarchaea (if not of Thermococcales). As previously indicated, the grouping of C. symbiosum with crenarchaea could be also highly misleading. It should have been interesting to compare the genome content of LACA based on the 16S rRNA phylogeny and the more robust phylogeny based on ribosomal proteins. My feeling is that the nature of LACA (chemo-litoautotroph or not, hyperthermophile or not?) is still a pending question.
+Finally, in the discussion of the gene-content tree, the authors wrote «methanogenesis which are spread both vertically and horizontally». In fact, a detailed phylogenetic analysis of genes involved in methanogenesis by Bapteste and co-workers has shown that, surprisingly, although these proteins can be considered as «operational» they have been only transmitted by vertical inheritance in the archaeal domain (Bapteste et al., 2005).
+Bapteste E, Brochier C, Boucher Y.
+
+Higher-level classification of the Archaea: evolution of methanogenesis and methanogens.
+
+Archaea.1, 353–363 (2005).
+
+Brochier, C. Forterre P. and Gribaldo S.
+
+Archaeal phylogeny based on proteins of the transcription and translation machineries: tackling the Methanopyrus kandleri paradox
+
+Genome Biology, 5, R17 (2004).
+
+Brochier, C., Gribaldo, S., Zivanovic, Y. Confalonieri, F. and Forterre, P.
+
+Nanoarchaea: representative of a novel archaeal phylum or a fast evolving euryarchaeal lineage related to Thermococcales?
+
+Genome Biology, 6:R42 (2005).
+
+Forterre, P. and Philippe, H
+
+Where is the root of the universal tree of life?
+
+Bioessays, 21, 871–879 (1999).
+
+Lecompte O, Ripp R, Thierry JC, Moras D, Poch O.
+
+Comparative analysis of ribosomal proteins in complete genomes: an example of reductive evolution at the domain scale.
+
+Nucleic Acids Res., 30, 5382–5390 (2002).

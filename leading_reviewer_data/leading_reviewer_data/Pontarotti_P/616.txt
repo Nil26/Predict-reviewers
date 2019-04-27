@@ -1,0 +1,13 @@
+This article hypothesizes that the Peptide Binding Region of the mouse, rat and human Class I b, that presents the leader peptide from the Class I a molecules to natural killer cells, evolved from a common ancestor while the non PBR part evolved via gene conversion.
+
+The arguments are based upon phylogenic analysis and upon the conserved location of these MHC class I b genes.
+
+This contrasts with another hypothesis: the MHC class I genes are lineage specific, they come from a common ancestor which is different in the human and mouse lineage, (in other word class I gene from mouse and human are paralogues), and HLA E and H2Qa1 PBR evolved via convergent evolution...
+
+In order to strengthen their hypothesis the authors should screen other mammalian lineages using ensembl data bases since some sequences of ensembl data base are not obligatory present in NCBI NR, especially those from canis, loxodanta, bos Taurus, canis Familirais and monodelphis (even if this species is out side of the eutherian group). If an "HLAE like" PBR orthologue is found in all these groups, the author hypothesis will be stronger supported.
+
+Second if the conversion of the non PBR HLA E like gene is an ongoing process, this could be seen at higher taxonomic level, for example at primate level by comparing human chimp and macaque MHC class I genes: more homogenization should be seen outside the "HLA E like" PBR than within the PBR.
+
+Other comments
+
+Concerning the sentence page 14 L 11: Among the classI B ...years ago. I do not understand why the results confirm that CD94L molecules are much more evolutionary conserved than Class I a molecules.

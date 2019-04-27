@@ -1,0 +1,8 @@
+The work by Burroughs et al. is a careful, virtually encyclopedically complete collection of β-GF protein segments in sequence databases and a meticulous analysis of the associated structural and functional knowledge in the literature. For the reviewer, it was especially interesting to follow the discussion of the authors how the splitting of evolutionary lines was associated with critical evolutionary events (pre- and post-LUCA distinction, emergence of kingdoms) and how the functional capabilities of the fold got realized during history of life and how they are associated with elaborations of the basic fold.
+
+The value of this work for the annotation of uncharacterized sequences could be enhanced if the authors made some of their results publicly available in electronic form (for example, protein segments annotated with the classification from this work or subfamily alignments) as supplement to this paper.
+
+Minor issues
+1) last sentence of last paragraph of section "Identification of β-GF domains"
+Some quantitative data illustrating the comparisons of distributions of previously characterized domains would be desirable. The statement that the majority of conserved lineages has been determined is very strong and depends on the upper level of allowed sequence and structural deviation.
+2) The reader might be offended to find the definition of domain architectural complexity only in the figure legend of Fig. ​Fig.5.5. It would be better placed into the main text.

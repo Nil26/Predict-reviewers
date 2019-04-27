@@ -1,0 +1,392 @@
+Time Directed Avalanches in Invasion Models
+
+We define forward and backward time-directed avalanches for a broad class of self-organized critical
+models including invasion percolation, interface depinning, and a simple model of evolution. Although
+the geometrical properties of the avalanches do not change under time reversal, their stationary state
+statistical distribution does. The overall distribution of forward avalanches P(s) —s ' is superuniversal
+in this class of models. The power-law exponent ~ for the distribution of distances between subsequent
+active sites is derived from the properties of backward avalanches.
+
+Since the introduction of the paradigm of self-organized
+criticality (SOC) [1], there has been great interest in
+and
+finding universal
+properties of SOC phenomena
+in describing the mechanism
+of self-organization [2].
+Typically the evolution of SOC phenomena happens
+through intermittent bursts of activity, or avalanches. The
+scale free, power-law distribution of these avalanches
+is a manifestation of the criticality of the process and
+one of the main fingerprints of SOC. The avalanches
+and their statistical properties in a broad class of SOC
+models is the focus of this work. Some of the models
+we consider (e.g. , invasion percolation [3]) are quite old
+and familiar, while others have been introduced only
+recently. The range of phenomena described by these
+models is very broad. Invasion percolation describes the
+displacement of immiscible f1uid in porous media. A
+model proposed by Zaitsev [4] deals with low-temperature
+The interface depinning model [5]
+creep phenomena.
+simulates the nonequilibrium
+dynamics of an interface
+in the presence of quenched disorder.
+Finally the BakSneppen (BS) evolution model [6] may be the simplest
+model of punctuated equilibrium in biological evolution.
+In spite of the breadth of applications, all of these
+models have similar rules of dynamics.
+The simplest
+version of these rules can be found in the Bak-Sneppen
+model of evolution.
+There, the random numbers f; are
+assigned to each site i of a d-dimensional lattice. At
+each time step the lowest random number in the system
+is located, then the numbers at that minimal site and at
+each of its 2D nearest neighbors are replaced with new
+from a uniform
+random numbers drawn independently
+distribution
+between zero and one. In the Sneppen
+interface model an interface is defined by its height
+h(r;) at each lattice site of the d-dimensional substrate.
+The interface obeys the solid-on-solid (SOS) condition,
+~h(r;) —h(r; + ek)~ ~ 1 for the heights of neighboring
+columns. The uncorrelated random numbers, representing
+the strength of the quenched disorder at this position of
+interface, are assigned to every site (r;, h(r;)). At each
+time step of the dynamics we select the minimal random
+number on the interface and increase the height at this
+site by one. Then the heights of neighboring sites are
+advanced to recover the SOS restriction. All the interface
+sites which were advanced get new uncorrelated random
+numbers.
+Finally, in the invasion percolation model we
+again have two phases, one of which is invading another.
+At each time step, one new site is connected to the cluster
+of already invaded sites, namely, the one with the smallest
+random number. The dynamic rules in all of these models
+consist of two principal steps: (i) select globally the
+current minimally stable site, which is the one with the
+smallest random number; (ii) replace the number at this
+site with a new random number and change the numbers
+at its nearest neighbors according to particular rules,
+which depend on the details of the model. We will call
+models of this class invasion models. Any of the invasion
+models, started in an arbitrary initial configuration, after
+some transient period will reach the unique critical
+stationary state. The exponents characterizing this critical
+attractor and the approach to it are determined by the
+exact rules of the nearest neighbor interaction. Still there
+are several exponent relationships which are valid for all
+of these SOC invasion models.
+Avalanches can be naturally defined in the invasion
+models. Their structure is slightly different from the
+more traditional SOC models like, for instance, the
+sandpile model [1], where the new avalanche was not
+started until the previous one died out. In the invasion
+models we start a new avalanche at every time step.
+They form a rich hierarchical structure of avalanches
+within avalanches.
+Suppose that at time s the smallest
+random number was fp Each of the ra. ndom numbers
+changed at this time step can become smaller than fp
+with probability fp
+One of those with f. ;
+fp must
+be the overall smallest now and will be changed at the
+next time step. This initiates the creation-annihilation
+branching process, where the sites with f;
+p play
+the role of particles. While the avalanche continues to
+run, there is at least one such "particle" and, therefore,
+the overall minimal random number is smaller than fp
+The avalanche stops when the last particle dies out.
+The minimal random number at this time step must be
+larger than fp. This shows how avalanches can be easily
+extracted from the temporal signal of the model f;„(s),
+which is the value of the selected minimal number as a
+function of time s. In terms of this signal, the avalanche
+of size s started at time s' is just the sequence of
+activity such that
+s —1) are all smaller than
+(s'), but
+„(s'). We will call the avalanches defined by this
+rule fp-forward avalanches, where fp = f;„(s') is the
+signal at the beginning of the avalanche. The branching
+process picture of the avalanches suggests some of their
+properties. The statistics of the avalanches depends on
+the value of the branching probability fp
+The . larger
+it is, the larger is the expected size of an avalanche.
+There must be some critical value
+of the branching
+probability such that the expected size of the avalanche
+becomes infinite. This means that in a thermodynamic
+~, and in the stationary state of the system,
+limit L
+there will always be at least one particle with f;
+and the signal will be smaller than
+at all times. In
+analogy with other branching processes such as directed
+percolation [7] or the propagation of the avalanche in the
+Bak-Tang-Wiesenfeld sandpile model [1], we can assume
+the following scaling form of the distribution P(s, fp) of
+the fp-forward avalanches:
+
+Here, r and o. are model dependent exponents and g~(x)
+is some scaling function, which decays rapidly when
+1 and goes to a constant when x
+0. This scaling
+form for invasion models has been confirmed by the
+numerical simulation in [6,8 —10].
+To study the properties of the signal under the time
+reversal it is useful to define backward avalanches by
+a similar rule. Now we look for the first f;„(s')
+„(s) at times s' s. The definitions oof b oth t ypes
+of avalanches are illustrated in Fig. 1. Because of the
+irreversibility of the process, it is possible to have different statistical properties for the forward and backThe scaling form of the backward
+ward avalanches.
+avalanche distribution is given by an expression similar
+to (1):
+
+We will prove later that the cutoff divergence exponent
+o. in this expression is the same as in (1), but the ri,
+is different from 7-. Forward and backward avalanches
+for the invasion percolation were first defined by Roux
+and Guyon in [8]. The distributions
+(1) and (2) give
+the conditional probability to have an avalanche of size
+valu off f~;„at its starting point was
+that the value
+s given
+g
+equal to fp To get the overall . distribution of forward or
+backward avalanches we need to integrate (1) or (2) over
+all fp in the interval [0, f, ]with a proper weig. ht, giving
+= fp
+the probability density to have
+
+forward avalanche
+backward avalanche
+forward avalanche
+backward avalanche
+
+f;„(s) vs time s in the one-dimensional
+Bak-Sneppen model. The arrows are drawn at some of the
+f
+biggest forward and backward avalanches in th
+thee process.
+Note the structure of subavalanches
+roc
+within the
+avalanches.
+FIG. 1. The si'g nal
+
+Our main results are summarized below.
+ow. Th e overa d istribution of both forward and backward avalanches
+all
+obeys a power law with a cutoff which depends only
+on system size. The overall distribution of the forward
+avalanches P~" = s
+is superuniversal in all SOC invasion models. The exponent ~q" of the overall distribuThe
+tion of backward avalanches is model dependent.
+exponent v. b" is related to the usual avalanche exponent
+r [Eq. (1)] through rl', = 3 —r. The exponent 7r of the
+power-law distribution of distances between subsequent
+active sites is given by 7r = 1 + (rb — 1)D = 1 + (2—
+r)D, where D is a fractal dimension of the avalanche.
+These relationships hold for any invasion model in any
+dimension. In Table I we summarize our predictions for
+the values of all exponents in three different models: twodimensional invasion percolation, (1 + 1)-dimensional inBS model of the
+terface model, and one-dimensional
+"evolution at the edge of chaos. "
+For the statistics of the events it is not important what
+was the value of f;„(s') at the initiation of the fp
+branching process as long as it was larger than fp
+how, this random number is immediately replaced with
+a new one. Therefore, the distribution of times separating the instances when f;„(s) fp has exactly the same
+The probabilstatistics as the forward fp avalanches.
+
+This result for the Sneppen
+
+interface
+
+model
+
+was first
+
+obtained in [11].
+Now we are able to get the overall distribution of
+forward avalanches P~ (s). Integration of Eq. (1) with
+
+of the two-dimensional invasion percolation (with and without self-trapping), (1 + 1)-dimensional
+Sneppen interface model, and one-dimensional Bak-Sneppen model, derived from the general exponent relations. Two numbers
+in the column for the invasion percolation with trapping correspond to the two definitions of the boundary of percolation cluster,
+giving different fractal dimensions Db.
+
+2D invasion
+percolation
+
+Exponents
+
+of the models
+
+2D invasion percolaton
+
+(1 + 1)D Sneppen
+
+with self-trapping
+
+interface model
+
+1D Bak-Sneppen model
+
+the proper weight gives
+
+The exponent of this distribution is superuniversal for this
+class of models in any dimension.
+The situation is slightly different in the case of backward avalanches. As we will show later, the distribution
+of fp-backward avalanches, Pb(s, fp), has an exPonent
+an additional normalization
+1 and thus contains
+rI,
+factor I/N = 1/ I, Pb(s, fp) ds = (f, —fp)(' "l~ . Integrating Eq. (2) gives
+
+For each SOC invasion model, there are two characteristic fractal dimensions. The first, D, is the fractal dimension of the avalanche.
+It relates the volume of the
+avalanche s to its characteristic spatial size r through
+s = r . The other exponent, Dq, is a fractal dimension of the active boundary n& of the avalanche, i.e. , the
+sites from the selection list that were changed as a reThe correlation length in these
+sult of the avalanche.
+models is defined as the cutoff
+in the spatial size
+of the fp avalanche. It diverges as fp approaches f,
+fp) ". The exponents D, v, and o. are related through vD = I/o. . The values of these exponents
+for the invasion models are listed in Table I.
+An fp-backward avalanche is by definition a sequence
+of events where f;„(s')
+p,
+p for 1
++ s) = fp As was hown earlier,
+for the statistics
+the value of f;„(s')
+p is not important
+
+We see that the exponent rq does not enter the final
+1. The exponent for
+expression for Pb' (s) as long as rb
+
+the overall distribution of the backward avalanches is not
+superuniversal and is related to the fp-forward avalanche
+exponent 7.
+In numerical simulations, the exponent r is usually
+measured directly form the distribution Py(s, fp) with
+the values of fp carefully fine-tuned to the threshold
+. Since the backward avalanche is defined at every
+time step, while Py(s, fp) gets contributions only when
+fp, after the same number of time steps the
+distribution Pb" has much better statistics than Py(s, fp).
+It is also very convenient that Pb" naturally has no cutoff,
+so one does not need to know f„ in order to measure
+The measurement of Pb (s) provides a
+its exponent.
+very accurate way to measure r. We illustrate this in
+Fig. 2 with the overall forward and backward avalanche
+distributions for the one-dimensional BS model, compared
+to the distribution Pf(s, fp) after the same number of
+time steps. The exponent r = 1.11 ~ 0.01 derived from
+the exponent rb" = 1.89 ~ 0.01 is in agreement with the
+predictions of the theory proposed by Paczuski, Maslov,
+and Bak [2].
+
+of backward and forward
+avalanches in the one-dimensional
+Bak-Sneppen model. The
+linear fits are 1.89 and 1.99, respectively.
+Also shown is
+P&(s, 0.644). After 4.5 X 10' time steps we have 4.5 x 10"
+avalanches in each of the overall distributions but only 500
+of them contribute to the P~(s, 0.644). The system size is
+FIG. 2. The overall distributions
+
+I = 1200.
+
+The only difference in the statistics of
+a given backward
+from the forward
+p
+p avalanche
+avalanche running from s' to s' + s is that value f;„(s' +
+s) at the end of the process is constrained to be exactly
+fp A. t the end of any forward fp avalanche of size s,
+r ' =s '
+sites have different random numbers than
+they had before the avalanche, and any of them has an
+equal chance to be equal to fp. Only the numbers at these
+sites can be equal to fp, since at the beginning of the
+avalanche every number was larger than fp. In terms of
+the avalanche distributions this means that
+Pb(s, fp) —s " Pf(s, fp).
+
+Therefore both distributions have the same cutoff, and
+their exponents obey the relation rb = r —Db/D.
+As has been argued by various authors, a universal
+exponent relation exists for 7- in terms of v, D, and Db..
+
+This expression was derived for invasion percolation
+models in [12], for the various interface models in
+[11,13, 14], and for the BS model in [15]. From Eq. (7)
+we get a particularly simple expression for 7-b..
+
+The exponent ~ can be related to the other exponents for
+a given model by considering the backward avalanches.
+For invasion percolation it was first done by Roux and
+Guyon in [8]. Consider a backward avalanche starting at
+s and ending at s —s' ~ s. The time s —s' is the closest
+moment back in time such that both r„,(s) and r„,(s —1)
+belong to the avalanche started at r„,(s —s'). The radius
+of this backward avalanche is r' = s"/o. It is reasonable
+to assume that the activities at times s and s —1 have
+equal probabilities to be anywhere within this radius from
+the starting point r(s —s'). Therefore, the probability
+P„„~(r rp) to have a jump bigger than r is proportional
+to the probability to have a backward avalanche of size
+These arguments giv. e P„„~(r„„,
+bigger than ro
+final expression for the exponent ~:
+with the result ~ = 1 +
+which was
+derived for the interface model using different methods
+in [14]. This expression as well as many of our previous
+exponent relations disagree with the corresponding results
+for invasion percolation derived by Roux and Guyon in
+[8). In our opinion, the mistakes of this work derive
+from several incorrect assumptions: (i) that forward and
+backward avalanches have the same statistical properties,
+which is not required because the process is irreversible;
+(ii) that the distribution P(
+fp) is uniform below
+[we prove otherwise in Eq. (3)]; and (iii) that the
+exponent ~ of the invasion percolation is equal to ~ —1 of
+ordinary percolation [the correct relation
+Eq. (7) was
+first derived in [12]]. However, our predictions agree well
+with the numerical simulations in [8]. For example, Roux
+and Guyon measured the exponent 7-b of the overall
+distribution of backward avalanches to be 1.50 ~ 0.04.
+It should be compared to our prediction 7.b ' = 1.47
+calculated for their version of invasion percolation.
+
+This expression is in agreement
+1 and
+Since o- must be positive, this shows that ~b
+confirms the validity of Eq. (5).
+Equation (5) enables us to derive an expression for
+another important exponent.
+One can record the space
+position of the current minimally stable site
+(s) as a
+function of time s. The distribution P, „~(r) of jumps r =
+~r„,(s) — (s —1) between subsequent active sites
+follows a power law,

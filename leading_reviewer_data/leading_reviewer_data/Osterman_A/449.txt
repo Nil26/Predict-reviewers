@@ -1,0 +1,3 @@
+A compact and insightful article of F. Blombach et al. proposes and provides a compelling genomic evidence for a very interesting evolutionary hypothesis shedding new light on the origin of the eukaryotic transcription machinery. Based on detailed comparative analysis of sequences, domain organization and genome context, the authors predicted a role of an uncharacterized archaeal protein in the transcription of noncoding RNAs, analogous to RPC34 subunit of the eukaryotic RNAPIII. In addition to important evolutionary implications, this bioinformatic analysis yielded a testable functional assignment that should and, due to this publication, most likely would soon be challenged by focused experiments.
+
+

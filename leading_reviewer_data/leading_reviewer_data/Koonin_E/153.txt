@@ -1,0 +1,7 @@
+Badyaev and colleagues explore a truly interesting evolutionary landscape where evolution of a metabolic network is intimately linked to the evolution of a highly visible phenotypic trait, the avian plumage coloration. The analysis is quite elaborate, and the conclusions, in particular, the explanation for convergent evolution of carotenoid pigmentation, seem important.
+
+Yet, I have to confess that, at least to me, the manuscript is difficult to read, and I was unable to follow all the steps that led the authors to these conclusions. I wonder whether it might be possible to explain the connection between metabolic robustness and elaboration in simpler terms and/or in greater detail, perhaps using some diagrams to facilitate understanding. Also, it is not immediately clear to me how and where does this paper address the (dis)connect between microevolution and macroevolution.
+
+Furthermore, would it be possible to explain, in specific terms, how do metabolic networks expand in birds. Given that birds do not appear to be prone to horizontal gene transfer, I suppose that this expansion involves gene duplication followed by neofunctionalization. Is this correct? Would it be possible to present specific cases? I think this would clarify the entire story. The situation with losses is more obvious but again, a specific description at the level of genes and enzymes would be helpful.
+
+In short this is quite a substantial paper on an interesting subject but I think it could gain a lot from a more complete and specific presentation.

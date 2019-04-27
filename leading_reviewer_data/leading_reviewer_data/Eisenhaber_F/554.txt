@@ -1,0 +1,41 @@
+Matching of measured MS/MS spectra with theoretically calculated spectra for database peptides is the standard procedure for interpreting mass spectrometric data from protein samples. Alves et al. propose an alternative procedure for calculating E-values for peptide matches based on the expansion of the central limit theorem up to the third moment (skewness; not new though but with an elegant analytical derivation) to better fit the score distribution of a query spectrum.
+
+General comments:
+
+1) It should be noted that all methods that calculate scores and e-values with the actual intensities (here: Ii in equation 1) suffer from the inaccuracies in the intensity measurements. The fragmentation and ionization efficiency for each peptide species given the same concentration can be very different from one another in terms of abundance in fragment ions. So it is difficult to decide whether the actual skewness in match scores' distribution is due to its natural form or due to insufficient sampling. To attempt to model skewness can be a double-edged sword in the sense that true hits for weaker spectra (for example, very incomplete b-y ion series) might be given higher p-values and marked as insignificant. As a result, one might lose true hits as false negatives though more noise spectra will also be thrown out. This effect should be examined more closely.
+
+2) The existing methods are generally well performing for the identification of peptide hits in the case of spectra with sufficient clear signals. New methods can gain recognition in the field only for their ability to find significant hits even in more noisy or scarce spectra, not just for analytical elegance. For example, it was shown by Mujezinovic et al. (2006 Proteomics 6, 5117) show that the scores of hits dramatically improve if the amount of noise is reduced. The authors of this work attempt to demonstrate the performance of RAId_DbS to be more superior to others in a comparison but fall short of proving his point. Figures ​Figures22 and ​and33 do not provide the necessary arguments
+
+3) In Fig. ​Fig.2,2, the E-values of the various programs are directly compared, although the authors have previously declared that the E-values have to be transformed for this purpose (page 3 second paragraph). Thus, the figure is misleading. Curve clustering suggests that all the older methods calculate one kind of E-value whereas RAId_DbS belongs to another class of methods. Further, it would be sensible to consider only the reasonable E-value range << 1. Instead of using the nr-CR as described on page 11, it would be more appropriate to use nr with 90% or 80% similarity thresholds since there are many different classes of sequentially similar entries.
+
+4) Figure ​Figure33 does not represent a true ROC curve. The absolute numbers of true and false positives appear to be calculated either with method-specific score or with method-specific E-value thresholds (note that SEQUEST does not provide E-values!!). One would expect the axes to show sensitivity (= TP/(TP + FN)) and specificity (= TN/(TN + FP)) instead. It should be possible to calculate and compare the area below the curves. For example at first glance, X!Tandem seems much inferior to RAId_DbS but when we look at Figure ​Figure3,3, their sensitivity and specificity performance appears quite similar. Especially in the practically important region of small false-positive assignments, the curves essentially overlay.
+
+Minor
+
+a) Will the newly derived pdf works better than other existing distributions (for example, the gamma distribution that can accommodate skewness)? With only a few measurements available, it is not clear how to decide what the naturally underlying distribution is in the far tail region. Understandably, the increase of the number of fitting parameters will improve the match with real score distributions.
+
+b) The authors say that Fig. ​Fig.11 was generated from a randomly picked spectrum. It appears rather that this spectrum is especially clean with large, almost complete b- and y-ion rows. To obtain an almost ideal fit of the score histogram and the fitted pdf is not a great surprise.
+
+c) Summary: It would be advisable to provide a WWW-site for download of data and programs.
+
+d) page 3, last paragraph: Please provide accession numbers instead of identifiers since only the latter are stable in time.
+
+e) page 5, second paragraph: The weighting factors are purely heuristic without any fundamental justification.
+
+f) page 5, penultimate paragraph: It is not good practice to refer to equation 17 after equation 1. This equation should be number 2.
+
+g) page 6, 1st paragraph, equation (2) : This equation appears derived from a binomial distribution. Its information value at this point is unclear?!
+
+h) page 14, reference list: It is not a good practice to refer to yet unpublished work; here, the authors have done it even twice.
+Please find attached the reply to your comments. Although we still have some reservations, we think that the MS has improved as a result of the revision, especially with regard to Figure ​Figure3.3. Therefore, we think that the MS might be published in Biology Direct given the comment on the "major challenge in MS" being reduced to E-value computation is removed. Other comments might be considered valuable by the authors, too.
+
+1) There is no way around that any value calculated as a function of intensities in the MS/MS spectrum depends on the accuracy of the intensity measurements. Therefore, the proposed method possibly results in more accurate expectation values for sequence hits but the information in the underlying spectrum might be not fully reliable.
+
+2) The authors claim that accurate E-value calculation is the major challenge in mass spectrometry. This is certainly not the case (see Hernandez et al. 2006 Mass. Spectrometry Rev. v. 25, 235–254), especially in the practically not relevant range of large E-values. At the same time, we acknowledge that the authors have provided an analytical method for calculating them. In our reply, we have discussed to which extent this specific finding might change the practice of protein mass spectrometry and we are in doubt.
+
+3) It is obvious that E-values have been derived for many methods with less fundamental considerations and they were never thought to be more than a rough guide for assessing false positive numbers; here, the authors have made progress. Nevertheless, it remains to be seen to which extent the type of MS data (profile versus centroid) puts some of the methods into an inferior position. It would also be of interest to analyze reasons for the non-linearity of the RAId_DbS curve in the range of E-values at about 1 and below.
+
+4) We appreciate that the authors have added true ROC plots. Again, the usage of profile data instead of centroid data might have put some algorithms into a difficult position since some operate only with a limited number of peaks for protein identification. Also, the great difference between the two plots (3c and 3d, which differ only in the data format and the size of the dataset) is not discussed. In the range of small scores, OMSSA is superior to RAId_DbS in 3d but much inferior in 3c.
+
+f) Nevertheless, you force the reader to lookup the end of the article when he just as started reading it.
+

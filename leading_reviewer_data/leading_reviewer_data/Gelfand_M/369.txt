@@ -1,0 +1,4 @@
+The authors present interesting, if straightforward, analysis, and the paper may be published more or less "as is", provided misprints and minor inaccuracies are corrected.
+
+The only serious problem is the use of PolyPhen for the identification of damaging mutations. The PolyPhen analysis is based to a large degree on distant comparisons. But as the authors themselves have shown in one of their recent papers, a mutation that is damaging in a protein may well be observed in a distant protein. Hence PolyPhen should underestimate the underestimate the number of damaging mutations.
+The other problem is that it is not obvious that it is correct to treat the African population as a homogeneous one. In fact, the non-African variation could be expected to be smaller simply because non-Africans are descendants of one branch of Africans.

@@ -1,0 +1,5 @@
+Reviewer 1. In this work, the authors developed a tool for structural annotation of a protein based on its similarity with known protein structures using standard BLASTP. It provides information on various factors such as secondary structure and binding sites. It will be useful for scientific community for obtaining structure based features along with alignment.
+
+Comment: 1. For several cases, there are no hits. In such cases, links could be given for predictions (or provide predicted results), for example binding sites.
+Comment: 2. Secondary structure and ASA can be simultaneously obtained from DSSP. ASA may be included in the list of features.
+Comment: 3. Table 1 shows the structural classification of proteins from PDB. If feasible, the data may be given for Uniprot sequences, i.e. number of sequences will have beta bulges, DNA binding etc. as per the present similarity search.

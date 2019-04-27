@@ -1,0 +1,311 @@
+An Introduction to High-Throughput Sequencing Experiments: Design and Bioinformatics Analysis
+
+Abstract
+The dramatic fall in the cost of DNA sequencing has revolutionized the experiments within reach in the life sciences. Here we provide an introduction for the domains of analyses possible using high-throughput sequencing, distinguishing between “counting” and “reading” applications. We discuss the steps in designing a high-throughput sequencing experiment, introduce the most widely used applications, and describe basic sequencing concepts. We review the various software programs available for many of the bioinformatics analysis required to make sense of the sequencing data. We hope that this introduction will be accessible to biologists with no previous background in bioinformatics, yet with a keen interest in applying the power of high-throughput sequencing in their research.
+
+1 Introduction
+High-throughput sequencing is the process of identifying the sequence of millions of short DNA fragments in parallel. In this chapter, we discuss applications and analyses of high-throughput sequencing done on the Illumina platform. The main advantage of this technology is that it allows a very high throughput; currently up to 1.6 billion DNA fragments can be sequenced in parallel in a single run, to produce a total of 320Gbp (HiSeq 2000, version three kits). One challenge with this technology, however, is that the sequenced fragments are relatively short—currently up to 250 bp (MiSeq instrument) or 150 bp (HiSeq 2500 instrument)—though double this can be produced using the paired-end option (see below).
+
+We operate a service unit in a university setting providing high-throughput sequencing (henceforth, HTS) sample preparation, sequencing, and initial bioinformatics analysis. Based upon our experiences over the past 2 years we provide the following notes. We do not aim to provide a complete picture of all of the innumerable resources available for any one of the described applications. Rather, our goal is to provide a basic overview of the opportunities and challenges that HTS represents. The field is clearly changing rapidly and so the details are to be taken with caution as they will surely need revision as new algorithms and technology emerge.
+
+While many applications are supported by HTS, the actual input to the instrument is the same: libraries comprising billions of DNA strands of roughly the same length (typically 300 bp) with particular sequences (linkers) on either end. “Sample preparation” is the process by which an initial sample arrives at this highly ordered state. When genomic DNA is the starting material, it is fragmented and then size-selected for the tight size distribution. If the starting material is RNA, often times it is polyA-selected to limit the sequencing to mRNA. The RNA is reverse transcribed to DNA and then also size-selected. Irrespective of the application, linker DNA molecules of particular sequences are ligated to the ends of the strands. These consist of two fragments: adaptors and indices. The adaptors hybridize the DNA fragments to the flowcell on which they are sequenced. The indices are 6–7 bp sequences tagging different samples within the same library that will be sequenced together. Importantly there is a PCR amplification step in many of the sample preparation protocols which has implications for the structure of the data: identical sequences may be a result of the amplification or reflect recurrence in the original sample of DNA.
+
+2 Materials
+2.1 Basic Concepts in High-Throughput Sequencing
+Figure 1 indicates the anatomy of an insert. The following are additional basic definitions important for HTS:
+
+Insert—The DNA fragment that is used for sequencing.
+
+ 
+2.
+Read—The part of the insert that is sequenced.
+
+ 
+3.
+Single Read (SR)—A sequencing procedure by which the insert is sequenced from one end only.
+
+ 
+4.
+Paired End (PE)—A sequencing procedure by which the insert is sequenced from both ends.
+
+ 
+5.
+Flowcell—A small glass chip on which the DNA fragments are attached and sequenced. The flowcell is covered by probes that allow hybridization of the adaptors that were ligated to the DNA fragments.
+
+ 
+6.
+Lane—The flowcell consists of eight physically separated channels called lanes. The sequencing is done in parallel on all lanes.
+
+ 
+7.
+Multiplexing/Demultiplexing—Sequencing a few samples on the same lane is called multiplexing. The separation of reads that were sequenced on one lane to different samples is called demultiplexing and is done by a script that recognizes the index of each read and compares it to the known indices of each sample.
+
+ 
+8.
+Pipeline—A series of computational processes.
+
+3 Methods
+3.1 High-Throughput Sequencing Applications
+HTS applications can be divided into two main categories: “reading” and “counting.” In reading applications the focus of the experiment is the sequence itself, for example, for finding genomic variants or assembling the sequence of an unknown genome. Counting applications are based on the ability to count amounts of reads and compare these counts, for example, to assess gene expression levels. Table 1 shows some of the main applications enabled by HTS. These represent but a sampling of the main HTS applications. It should be noted that one can invoke HTS in practically any experiment that produces DNA fragments. What should be considered and planned before the sequencing however is the method by which the analysis of the sequenced fragments will be done to extract the meaning from the experiment. As an example of a unique HTS experiment, chromatin interactions can be identified by PE sequencing [1]. This procedure includes capturing interacting loci in the genome by immune-precipitating cross-linked fragments of DNA and proteins from fixed cells. There are many others, published at a rate of about 1 per day.
+
+3.2 Sequence Coverage
+In reading applications, coverage corresponds to the number of reads that cover each base in the genome on average. Coverage can be calculated as
+Average coverage=read length×number of readsgenome size
+Note that only the number of mapped reads should be included in the above calculation. In general, 30× coverage is considered a minimum for identifying genomic variants, while de novo assembly usually requires a much higher coverage. Furthermore, the needed coverage depends on the experiment design. For example, if resequencing is done on a population and the sample includes pooling of heterogenic genomes, the coverage must be higher for the robust detection of rare variants.
+
+Contaminations may not pose a great difficulty for “reading” applications with a known reference genome, since they will not map to the reference genome. However contaminations “steal” coverage from the sample, and should be taken into account when estimating the expected coverage. If it is not possible to assess what percentage of contaminations the sample will contain, a pilot experiment may again prove useful: sequencing of just one or two samples in low coverage, and then assessing by mapping the percentage of contaminants. In de novo assembly, contaminations may be a lot more difficult to detect and thus attempts to eliminate contamination should be made when extracting the DNA, before sequencing and analysis.
+
+In counting applications, such as RNA-Seq, the notion of coverage is not straightforward since the number of reads along the genome is not expected to be uniform. For example, most RNA-Seq reads will correspond to highly expressed transcripts, whereas lowly expressed transcripts will be less represented. This notion presents the question of how many reads are required for a particular application. In general, this is a trial-and-error process, and consequently we have found it useful to begin with a pilot experiment of a few samples to provide an estimate of the transcriptomic complexity.
+
+An analysis that can help assess whether enough reads have been sequenced is a “saturation report” (Fig. 2, [2]). In this “jack-knifing” method, the expression levels are determined using all of the reads. The expression levels are then compared to those recalculated using only a fraction of the reads. Examining the expression levels at each cut of the data informs at which point the expression level remains unchanged despite additional data. As expected, additional data is most helpful in resolving the expression levels of the lowly expressed genes. After deciding how many reads are required per sample, the samples are divided into lanes according to the number of sequenced reads per lane, which is a fixed amount.
+Open image in new window
+
+3.3 Sequencing Recipe: Single-Read vs. Paired-End, Insert Size, and Read Length
+The sequencing recipe is influenced by several factors:
+
+3.3.1 The Repetitive Nature of the Genome
+Human and mouse genomes have ~20 % repetitive sequences [3]. Consequently, to uniquely score a read mapping to a repetitive region it must be longer than the repetitive region or border the neighboring non-repetitive sequence. Longer reads or PE reads allows “rescue” of the nonunique end and also mapping to nonunique regions in the genome (Fig. 3).
+
+3.3.2 Differentially Spliced Variants
+When assessing gene expression levels in RNA-Seq, it is potentially informative to discover the differential expression levels of different transcripts of the same gene. Reads that map to an exon shared by more than one transcript pose a difficulty in assessing the transcript of origin. PE reads may solve this problem if one end of the sequenced fragment maps to an exon that is unique to one of the transcripts. Figure 4 shows an example in which one cannot determine with certainty from which transcripts the SR originated. Sequencing it as PE resolves this problem.
+Open image in new window
+
+3.3.3 Genetic Distance of the Sequenced Sample from the Reference Genome
+If the sequenced samples are genetically distant from the reference genome, longer reads may be required to determine the origin of each read in the genome. The mappings of each read will contain more mismatches, thus making it difficult to unambiguously determine its correct location, thereby increasing the probability that more than one location may be possible. Thus, the longer the read, the more likely a unique mapping becomes.
+
+3.3.4 Finding Structural Variations
+Structural variations in the genome, such as long insertions or deletions, inversions, and translocations, can be found using PE information. For example, if a large deletion is present in the sequenced strain, the insert lengths will be longer than expected (Fig. 5).
+
+3.3.5 De Novo Assembly
+Assembling a new genome from short sequenced reads consists of overcoming many challenges, such as sequencing errors, low-complexity regions, and repetitive regions among others [5, 6]. De novo assembly remains a notoriously difficult problem and often the genome of a metazoan remains in thousands of contigs. Obviously, longer PE reads lead to better assemblies. It has also been shown that using a few sequencing libraries with different insert length may improve the assembly process [5].
+
+3.4 Number of Samples for Sequencing
+3.4.1 Resequencing
+If the reference genome to which the sequenced reads are mapped is genetically distant, sequencing the actual strain in its baseline state (before the mutagenesis, without the phenotypic change, etc.) will be beneficial for interpreting the data. This will help in distinguishing the variations that are due to evolutionary distance from those that cause the actual phenotypic trait under study.
+
+3.4.2 RNA-Seq
+It is highly recommended to sequence a few biological replicates to control for biological noise. Technical replicates will also inevitably show variation [7]. Some gene expression software programs, such as Cufflinks [8], can use the data from different replicates and merge it into one value with a higher statistical significance.
+
+3.4.3 ChIP-Seq
+A ChIP-Seq experiment should include the IP DNA and one more sample that will serve as a control. The control sample may be the input DNA, before the IP process, or an IP done on the same DNA with a nonspecific antibody, such as IgG [9, 10]. Sequencing a control sample enables detection of enriched regions that are also significantly enriched compared to the control sample, and not only enriched compared to the area surrounding them in the IP sample. This may reduce false-positive peaks detected solely because of areas in the genome that have a higher coverage due to better DNA fragmentation compared to the surrounding area.
+
+3.5 Analysis Pipelines
+Figure 6 shows the bioinformatics pipelines involved in four main applications: resequencing, de novo assembly, RNA-Seq, and ChIP-Seq. Several processes are common to all or multiple applications.
+
+3.5.1 Raw Data Handling
+Available software for this step: Illumina’s CASAVA software. The Illumina run produces “base-calling” files (*.bcl) which only become useful bioinformatically when converted to the general fastq format (see below). During this file conversion, the demultiplexing process is also carried out, which is the separation of reads from different samples that were sequenced on the same lane.
+
+3.5.2 Quality Control and Read Manipulation
+Available software for this step: CASAVA and FastQC (Babraham Bioinformatics). After a sequencing run is completed and before starting the analysis, the run’s quality should be checked for the following parameters which may be telling of the quality of the sample and run.
+1.
+Pass filter (PF) reads—The number and percentage of PF reads in each lane and for each sample should match the number of expected sequenced reads. If it is dramatically lower, this might indicate a low-quality run, and may reduce the expected coverage.
+
+ 
+2.
+Control reads—Apart from the DNA libraries, control DNA from the viral PhiX genome is spiked-in at 1 % concentration with the sample onto each lane of the flowcell. Reads are automatically mapped by the Illumina software to the PhiX genome. The percentage of reads from each lane mapping to this genome and the amount of mismatches in the mapping are used as control values for the lane’s quality. A good run typically has ~1 % sequencing errors, as detected by the mismatches to the PhiX genome.
+
+ 
+3.
+Quality scores of the reads—As will also be explained in the next section (“Diving into the technical details”) each base of each sequenced read is associated with a quality score providing the confidence in the particular base. In general, the quality scores drop toward the end of the sequenced read. These confidences should be assessed to check for the overall quality of the run. The quality scores may be automatically produced by the sequencing platform, and may also be created by programs like FastQC that provide other statistics on the sequenced reads, such as overrepresented sequences, per base GC content and more (Fig. 7).
+
+Based upon these parameters, we found it advantageous in particular instances to further manipulate the sequences. For example, sequences may be trimmed to reduce low-quality ends, filtering reads by quality, and removal of adaptors.
+
+3.5.3 Assembling Contigs and Scaffolds for De Novo Assembly
+Available software for this step: SOAPdenovo [11], ABySS [12], Velvet [13], and ALL-PATHS [14]. De novo assembly is the most challenging application and continues to be the subject of intense algorithmic research. The process generally consists of three basic steps (Fig. 8):
+
+Contig-ing—The first step in the assembly consists of detecting overlaps between single reads. Bundle of overlapping reads are merged into a consensus sequence, called a contig. Repetitive or low-complexity regions in the assembled genomic sequence often prevent the construction of one long sequence at this initial step. This step typically results in >10,000 contigs, depending of course on the size of the genome and the number and length of sequenced reads.
+
+ 
+2.
+Scaffolding—For de novo sequencing of complex genomes, it is crucial for the sequenced reads to be of paired-ends inserts. If so, the many contigs can then be merged onto longer segments called scaffolds by taking into account the paired-end information of the reads. Since the paired-end inserts contain an unknown sequence between the two reads, the scaffold may contain unknown sequence (represented as N’s) of a size that can be determined by the average insert length.
+
+ 
+3.
+Gap closing—After creating the scaffolds, the sequence of any remaining gaps within the scaffolds may be resolved by mapping the original paired-end reads to the scaffolds and searching for a read that informs the gap regions. This function may be an integrated process of some assemblers or a separate function may need to be run as in SOAPdenovo.
+
+ 
+It should be noted that de novo assembly projects may include a reference genome of a close strain, or sequences that are known to be included in the assembly, which may help with the assembly process. In this section we discuss the basic de novo assembly process that does not rely on additional reference sequences.
+
+In the assembly process the identification of sequencing errors is more difficult than it is when mapping reads to a reference genome. Detection of sequencing errors in the process of finding overlaps and merging them into a consensus sequence is possible if there is enough coverage. This is one of the reasons that a higher coverage is required for de novo assembly compared to application that consists of a known reference genome.
+
+3.5.4 Mapping
+Available software for this step: BWA [15], Bowtie [16], and TopHat [8]. The process of mapping is done in any application that includes a known reference genome. Each read is mapped to the reference genome separately under the conditions of the mapping software, as defined by the input parameters. PE reads are each mapped separately and only then the distance between their mappings is measured.
+
+The main parameters inputted for a mapping software deal with the measure of difference between the read and the reference genome. As in many other bioinformatics methods, deciding on the measure of similarity between reads and the reference genome raises the dilemma between sensitivity and specificity: Allowing too much difference may result in false-positive mappings, while allowing too little difference may lead to missing true positives. From our experience the best way to decide on the parameters is to try a few values and see how they affect the results.
+
+There are two main methods to control the measure of dissimilarity between reads and the reference genome:
+1.
+Number of differences per read—Apply the mapping software with a value that defines the maximum number of allowed differences (mismatches, insertions, and deletions) between the read and the reference genome.
+
+ 
+2.
+Seed mapping—In this method the software looks for a sequence of certain length inside the read that does not contain differences or contains a small amount of differences compared to the reference genome. The rest of the alignment is elongated without limiting the amount of differences. The parameters given to the software control the seed length, the amount of differences allowed in it, and sometimes also the intervals in the reads in which it is searched.
+
+ 
+In general, seed mapping is a more permissive approach and is suitable for sequence strains that are distant from the reference genomes they are mapped to. The first method is more strict and is suitable for strains that are known to be close to the reference genome and when trying to avoid false positives. It should be noted that when using the first method and allowing many differences per read, the results become similar to those that are received in the second method. The sensitivity and specificity can be tuned also by the parameters of each method.
+
+It is important to remember that the way the mapping step is done affects the rest of the analysis. Allowing a low amount of mismatches may cause regions in the reference genome that contain many variations compared to the sequenced strain to have little to no coverage. Regions in the genome with little to no coverage may be caused by a few reasons. First, region is not present in the sequenced strain—the zero coverage implies a deletion compared to the reference genome. Second, the region does exist in the sequenced strain but is not represented in the sequenced library because of a bias caused in the sample preparation process (for example, because of some regions in the genome that are not sonicated as well as others). Finally, the low coverage may also be caused by allowing too few differences per read to a region in the genome that contains many variations in the sequenced strain compared to the reference genome. Trying to map the reads again with a higher percentage of differences may cause these low-coverage regions to “fill-up.”
+
+After the mapping is done one can choose to use only a partial set of the mappings:
+1.
+Use only uniquely mapped reads: It is very common for initial analyses to use only reads that map to one unique location in the genome. Under the mapping conditions, defined by the parameters, reads may be mapped to more than one location in the genome. In this case, one cannot surely determine where the read has originated from. There are a few approaches to deal with such reads—map them randomly to one of the possible locations, map them to all locations, apply an even amount of coverage to every possible location, etc. Each of these approaches may cause a bias in the results, and can be ignored in the initial analysis by using only the uniquely mapped reads.
+
+ 
+2.
+Use mappings with a minimum mapping score: One can choose to use only mappings of higher quality in order to disregard low-quality mappings that may introduce false positives.
+
+ 
+3.
+Filter mappings with certain insert sizes: PE reads are first mapped separately and only then is the distance between them measured. Long insert sizes or reads that map to different chromosomes may imply structural variations such as large deletions, inversions, and translocations (Fig. 5). One can choose to use only mappings with irregular insert size to find such structural variations or use only mappings with normal insert size for initial variant analysis. BreakDancer is an example of a program that uses PE information to find structural variations [17].
+
+ 
+4.
+Removal of PCR duplicates: PCR amplification is part of the sample preparation, and may introduce bias. PCR duplicates may be identified as reads that map to the exact same location, and in PE reads have the same insert size.
+
+ 
+3.5.5 Variant Calling and Filtering
+Available software for this step: SAMtools [18], GATK [19], and MAQ [20]. Based on the mapping done in the previous step, variants can be called by finding the consensus sequence from the mapped reads. The first step in this process is to create a “pileup” file of the mapped reads. This file summarizes for each base in the reference genome the coverage of the reads that are mapped at the loci and the called bases of these reads. Depending on the software that creates the pileup file, more information can be obtained from it, such as genotype calling, mapping qualities, and p-values. The information in the pileup file can be used to detect and filter variants. The two basic parameters that help detect variants are the following:
+(a)
+Coverage at the loci—The detected variants should rely on a sufficient coverage. A minimum number of reads should be set as a threshold for initial filtering.
+
+ 
+(b)
+Frequency of the allele that was sequenced—The variant should have sufficient frequency out of the total reads covering the loci. If one read out of 15 reads covering a loci shows a base different from the reference genome, it may not imply a variant but rather a sequencing error. To find heterozygous variants the frequency should be ~0.5, and for homozygous variants the frequency should be ~1; if pooling was done then the frequency should match the expected percentage in the pooling. When filtering by allele frequency taking a margin of security is recommended, especially if the coverage is low. For example, for heterozygous variants filter by a frequency of 0.4 or 0.3.
+
+ 
+The above are two basic parameters for variant filtering, but other parameters can be used for variant filtering, for example, the mapping and base qualities in the variant locations.
+
+3.5.6 Assembling Transcripts
+In strains that do not have full or sufficient gene annotations, novel annotations can be found by HTS. The idea is to sequence mRNA, map the reads to the reference genome, and infer transcripts from the detected bundles of reads in a certain loci. Based on these annotations a gene expression analysis can then be done. In principle, one can assemble the whole genome before performing RNA-Seq experiment, or assemble the transcriptome only in an application called “de novo RNA” [21] (or a combination of both).
+
+3.5.7 Gene Expression Analysis
+Available software for this step: Cufflinks [8] and Myrna [22]. After mapping the reads to the reference genome an assessment of their abundance can be made by the gene annotations. In general, the amount of reads that overlap each gene is counted. The raw count must be normalized for further analysis. A common normalization method is called Fragments per Kilobase Million (FPKM) and is calculated as follows:
+FPKM=rawcountgenelength×numberofmappedreadsinmillions
+The normalization takes into account the gene’s length, to avoid a bias toward higher expression in longer genes. FPKM also takes into account the total number of mapped reads in each sample, to avoid a bias because of difference in number of reads in each sample.
+
+A basic approach to gene expression is to count all the reads that map to a gene’s annotation, normalize them, and set this value as the expression level of that gene. If a gene has more than one transcript due to alternative splicing, not separating the reads that map to it to each of the transcript can cause a great bias and change the results entirely (Fig. 9). Finding the expression levels of different transcripts of the same gene is challenging, since reads that map to exons that belong to more than one transcript cannot be unambiguously correlated to one transcript [8]. The software Cufflinks [8] attempts to assess transcript expression levels by using the reads that can be unambiguously correlated with certain exons to infer the expression of all the reads (Fig. 10). Cufflinks’ algorithm uses maximum likelihood to assess the abundances of each transcript.
+
+3.5.8 Peak Detection
+Available software for this step: MACS [23, 24] and SICER [25]. A ChIP-Seq experiment is done to detect enriched regions in the IP sample. These regions, called “peaks” or “islands,” should be significantly higher both from their surrounding in the IP sample and from the same loci in the control sample. The peaks are found by statistical modeling of the enriched regions compared to the control. There are two important parameters for peak detection: the abundance in the genome and the width of the binding sites. We introduce two programs for peak detection, each addressing binding sites with different abundance and width characteristics. MACS is more suitable for narrow peaks that represent short and specific binding sites, for example, of transcription factors. SICER is more suitable for wide peaks that extend over thousands of base pairs; these peaks are typical for histone modification experiments, in which many close binding across the genome. Their proximity to each other makes the peaks merge to wide enriched regions rather than short and sharp peaks.
+
+4 Notes
+4.1 Tuning Up the Pipelines
+The pipelines detailed above are general. It is crucial to examine each project specifically and decide what pipeline is best suited for it. Tuning up the parameters of each step in the pipeline may be vital for accurate results. Tuning up the pipeline and parameters can be done by following the general pipeline presented above and conducting quality control measurements after each step, to allow identifying a phenomenon that might infer some insight or require special action in the analysis.
+
+Quality control measurements should be done after each step in the analysis. After the raw data handling a quality control step is done as detailed above. After the mapping step the mapping statistics should be assessed. How many reads were not mapped, uniquely mapped, and multi-mapped? High values in the first and third parameters may infer a problem. How does the coverage profile look like? What percentage of the genome is covered with sufficient coverage, and what is the average coverage? For exome projects, what is the coverage over exons? It is highly recommended to look at the mappings in a genome viewer. Some phenomena can be detected easier visually (Fig. 11).
+
+Tuning up the parameters in each step of the analysis allows to control the balance between sensitivity and specificity. For example, if we allow one mismatch per 50 bp read in the mapping step, it will reduce the rate of incorrect mappings, but we will not be able to detect 2-base indel or areas in the genome that have more than one variant per 50 bp; the coverage in these regions will be low or zero due to incapability of mapping. Another example from gene expression analysis: when comparing gene expression between two samples one can choose to statistically test only genes that have a minimum amount of reads mapped to them in at least one sample [8]. Choosing a high threshold may cause missing interesting genes, but choosing a low threshold may include genes, the differential expression of which is not significant—a gene can be expressed in a fold change of 5 if the ration between the samples is 1 read vs. 5 reads or 1,000 reads vs. 5,000 reads.
+
+4.2 Diving into the Technical Details: File Formats
+In this section we overview the formats of some basic files used in HTS data analysis. Though not all useable formats are mentioned here, this section provides a general idea of how the files used in the analysis are constructed, as their structure is similar and the same concepts generally apply. All the files we present in this section and most of the files used for HTS analysis are plain text files and usually tab delimited, which enables easy management by various tools and scripts.
+
+4.2.1 Fastq: Raw Read Format (Fasta + Quality)
+A fastq file is constructed out of quadruplet lines (Fig. 12), each quadruplet representing a read and containing the following information:
+
+
+1.
+Read identifier—PE reads will have the same identifier. The read’s identifier is unique and is constructed in the following way (CASAVA 1.8.2): @<instrument>:<run number>:<flowcell ID>:<lane>:<tile>:<x-pos on tile>:<y-pos on tile>
+
+<read (1/2)>:<is filtered>:<control number>:<index sequence>
+
+ 
+2.
+Sequence.
+
+ 
+3.
+Read description (optional).
+
+ 
+4.
+Quality score per base. Each base is associated with a quality score that defines how reliable the base is. The score is called Phred quality score and defined as   𝑃(baseismiscalled)=110𝑄/10  where Q is the quality value. The quality values are typically between 2 and 50. For example, the quality scores 20, 30, and 40 refer to an error probability of 1/100, 1/1,000, and 1/10,000, respectively. In order to encode each quality score into one character in the fastq file the following procedure is done: A value is added to the quality score, either 33 or 64, and the new value is then encoded into a character using the ASCII table (Fig. 13). The number that is usually being added is 33, while some old CASAVA versions used to add 64 instead.
+Open image in new window
+
+4.2.2 SAM: Sequence Alignment/Mapping Format
+Each line in a SAM tab-delimited file contains information on a single read and its mapping as it was done on using a mapping software. A SAM file is well defined in the SAM specification document [18]; periodically this is updated. The following is a general overview of the SAM file structure (applicable for SAM specification v1.4-r985).
+
+Figure 14 shows an example of a SAM file. It is constructed of the following:
+Open image in new window
+
+Header lines: Appear in the beginning of the file; they begin with a “@” character and define general information regarding the mapping. Among the possible header lines are @SQ that details the reference genome’s chromosomes, and @PG which contains details about the mapping program.
+
+Read lines: One line per read, containing information about the read and its mapping.
+
+The reads’ lines are constructed with the attributes shown in Table 2.
+
+
+The flag is one number that contains answers to the following 11 YES/NO questions regarding the read’s mapping:
+1.
+Is the read paired?
+
+ 
+2.
+Is the read mapped in proper pair (in the expected insert length)?
+
+ 
+3.
+Is the read unmapped?
+
+ 
+4.
+Is the mate unmapped?
+
+ 
+5.
+Is the read mapped to the reverse strand?
+
+ 
+6.
+Is the mate mapped to the reverse strand?
+
+ 
+7.
+Is the read the first in the pair?
+
+ 
+8.
+Is the read the second in the pair?
+
+ 
+9.
+Is the mapping not a primary alignment?
+
+ 
+10.
+Did the read fail platform/vendor quality checks?
+
+ 
+11.
+Is the read a PCR or an optical duplicate?
+
+ 
+To encode the answers to these questions to one number, a NO answer is encoded as “0,” and a YES answer is encoded as “1”. The binary number resulting from the series of answers is then converted to a decimal number (see Fig. 15 for an example).
+
+CIGAR: Compact Idiosyncratic Gapped Alignment Report
+This details the mapping structure between the read and reference genome, according to a specific encoding. As an example, “M” corresponds to a matched alignment. Thus, 101 M means that there were 101 matches or mismatches without gaps opened, and 73M1I27M means that the first 73 bases were a match or a mismatch compared to the reference genome, then there was one base insertion, and then another 27 matches/mismatches.
+
+The optional attributes detail more information about the mapping. Some of the options are the edit distance in the mapping, mismatch positions, and number of gap openings. These attributes are tab delimited and will be of the form<Tag>:<Type>:<Details>
+
+Tag—identifies what kind of information is detailed, according to the SAM specification.
+
+Type—I for integer, Z for string.
+
+Details—the details themselves.
+
+For example, NM:i:3 means an edit distance of 3 and MD:Z:74G26 means that there is a mismatch in the 75th position of the reads, a “G” instead of the reference base.
+
+The SAM specification defines some of these options, and reserves attribute for program-specific needs; the reserved options start with an “X”. These attributes should be defined in the mapper’s documentations. SAMtools [18] is a program that enables manipulation, conversion, and data retrieval from SAM files.
+
+4.2.3 VCF: Variant Call Format
+A VCF file details information per base of the reference genome, accumulated from the mappings in a SAM file (Fig. 16). A VCF file is a tab-delimited file, also constructed from header lines and variant lines. The header lines begin with “#” character and detail general information on the file, such as the program used for the variant calling process, and the attributes that appear in each variant line. Each line in the rest of the document contains information about a specific base in the genome. Only bases that have a coverage of at least one appear in a VCF file. A “raw” VCF file contains information about every base with coverage in the genome. It can then be filtered to contain bases that define a variant compared to the reference genome. VCFtools [26] is a program package designed to working with VCF files.
+
+4.2.4 GFF: General Feature Format
+A GFF file contains details about annotations of a specific genome sequence (Fig. 17). A GFF file should be of the same build or version of the genome sequence it refers to. A GFF file is constructed of header lines that begin with a “#” character and feature lines. The feature lines are tab delimited and contain the attributes shown in Table 3.
+
+4.2.5 File Formats: Summary
+The file formats detailed above, similarly to other files used in HTS data analysis, enable easy retrieval of information using simple scripts or public programs. Knowing how the data is stored and where enables to ask questions such as the following:
+Which sequences were not mapped (look for lines with bit 4 in the flag equals to 0 in a SAM file)?
+
+What is the average coverage in a certain region in the genome (calculate the average of the DP values in a region in a VCF file)?
+
+What kind of annotations are known in a reference genome (find the possible options in column 3 in a GFF file)?

@@ -1,0 +1,9 @@
+This is a good paper reporting a combination of experimental results and theoretical modeling. I have only number of editorial comments.
+Abstract, Background. Claiming that CRISPR repeats are palindromic is an overstatement. Firstly, the repeats are only approximately palindromic. Secondly, not all repeats have palindromic structure.
+Abstract, Conclusions: “the extent of s gene activation” – it seems, “s” is all that was left from “casE”.
+The half-life sometimes is measured in “min”, and sometimes, in “1/min”.
+Results, Model definition. Points (i) and (iv) partially repeat each other.
+Results, Uninduced system parameters: it would be better to state at the very beginning that k depends on the concentration of CasE.
+Results, Overexpression of cas genes, para. 2: “10 transcripts lead to two orders of magnitude increase” – is not a clear sentence.
+Using primes (k’) is not good notation when kinetics is considered: at the first glance might get confused with the derivative.
+Discussion, para. 1: the possibility to use CRISPR sin synthetic circuits seems to be an overclaim.

@@ -1,0 +1,6 @@
+The authors review the ribosome profiling (ribo-seq) methodology as a tool for studying translation and the biological results obtained with it as reported in recent literature.
+1)The article is written as if all readers are well informed about the ribo-seq method and its possible applications. I suggest the authors to add another section at the beginning of the results where they describe the procedure in detail including the post-experimental data processing and conclusion chain (instead of just referring to the original articles. Along this description, the authors can critically remark where are issues of complications with regard to experimental or numerical inaccuracies, assumptions that are not fully supported by evidence, etc. In the later part of the MS, these issues can then be argued with the help of data taken from the 15 studies used.
+2)What is labelled “conclusions” in the MS, is rather an elongated discussion section.
+Minor issues: none.
+It appears to me that Dima Frishman has been labelled as reviewer two times in the answers. I guess that my name should appear as referee 3.
+ 

@@ -1,0 +1,40 @@
+Khan et al. report an extensive computational analysis of "moonlighting proteins". They correctly note that bioinformatic study of such proteins presents a difficult challenge. Much to my regret, I do not actually believe that the present manuscript meets the challenge to enhance the existing understanding of the moonlighting phenomenon. Moonlighting is not easy to define, it is one of the situations that are rather typical in biology where the "classic" examples are clear and compelling (see crystallins) but few and far between whereas away from the spotlight, matters become fuzzy. I am actually inclined to think that all proteins perform multiple roles in organisms and are at some level moonlighting. The reasons why we think of some but not other proteins as moonlighting have to do mostly with the level of our knowledge and the feasibility of defining discrete functional roles for a given protein. Consequently, I am deeply skeptical about the validity of the control set of "non-moonlighting" proteins and about any comparative analyses that attempt to contrast properties of moonlighting and non-moonlighting proteins.
+
+Indeed, the trends in protein-protein interactions reported in this paper are mostly weak and uninformative.
+
+Attempts to mine the GO database in order to identify new moonlighting proteins are of greater interest but then, again, what is the status of novelty here if this cases can be validated through the published literature?
+
+At best, this analysis can help to systematize the data on multiple protein functions. And, the authors do not do a careful job in this systematic survey as one can immediately see from Table ​Table11 that is supposed to present major results of the study. For instance, aspartokinase/homoserine dehydrogenase (for some reason, listed twice in the table) is not a moonlighting protein, it is simply a two-domain bifunctional proteins. There is a difference that the authors seem not to recognize.
+
+The activity of CysG as a methyltransferase and syroheme synthase are one and the same, this i simply a confusion about terms.
+
+Aconitases (aconitate hydratase in the article) seem to present a good example of moonlighting but this is by no account new, the dual role of these proteins had been studied for decades.
+
+For many proteins, e.g. transporters, involvement in stress response is hardly evidence of moonlighting because they employ their intrinsic activity. One could continue through the entire table as more or less every entry is confusing. One again, bioinformatic study of moonlighting is not at all easy. Unfortunately, I do not think the authors of this paper stand up to the challenge.
+
+Not for publication but important: the manuscript is sloppy. There are many non-grammatical sentences, typos, quite a few references are incomplete etc.
+
+The authors have provided reasonable and informative responses to the points made in my review, so i refrain from making further substantive points.
+
+However, I have spotted and corrected several typos in my review, and furthermore, for some reason, all the punctuation except for periods has disappeared from the text of the review. The corrected version is below.
+
+Corrected version of the review:
+
+Khan et al. report an extensive computational analysis of "moonlighting proteins". They correctly note that bioinformatic study of such proteins presents a difficult challenge. Much to my regret, I do not actually believe that the present manuscript meets the challenge to enhance the existing understanding of the moonlighting phenomenon. Moonlighting is not easy to define: it is one of the situations that are rather typical in biology where the "classic" examples are clear and compelling (see crystallins) but few and far between, whereas away from the spotlight matters become fuzzy. I am actually inclined to think that all proteins perform multiple roles in organisms and are at some level moonlighting. The reasons why we think of some but not other proteins as moonlighting have to do mostly with the level of our knowledge and the feasibility of defining discrete functional roles for a given protein. Consequently, I am deeply skeptical about the validity of the control set of "non-moonlighting" proteins and about any comparative analyses that attempt to contrast properties of moonlighting and non-moonlighting proteins.
+
+Indeed, the trends in protein-protein interactions reported in this paper are mostly weak and uninformative.
+
+Attempts to mine the GO database in order to identify new moonlighting proteins are of greater interest but then again, what is the status of novelty here if these cases can be validated through the published literature?
+
+At best this analysis can help to systematize the data on multiple protein functions.And the authors do not do a careful job in this systematic survey as one can immediately see from Table ​Table11 that is supposed to present major results of the study. For instance, aspartokinase/homoserine dehydrogenase (for some reason, listed twice in the table) is not a moonlighting protein, it is simply a two-domain, bifunctional protein. There is a difference that the authors seem not to recognize.
+
+The activity of CysG as a methyltransferase and syroheme synthase are one and the same, this is simply a confusion about terms.
+
+Aconitases (aconitate hydratase in the article) seem to present a good example of moonlighting but this is by no account new as the dual role of these proteins had been studied for decades.
+
+For many proteins e.g. transporters involvement in stress response is hardly evidence of moonlighting because they employ their intrinsic activity.
+
+One could continue through the entire table as more or less every entry is confusing.
+
+Once again, bioinformatic study of moonlighting is not at all easy. Unfortunately, I do not think the authors of this paper stand up to the challenge.
+

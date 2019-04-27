@@ -1,0 +1,274 @@
+A subsystems-based approach to the identification of drug targets in bacterial pathogens
+
+Abstract
+This chapter describes a three-stage approach to target identification based upon subsystem analysis. Subsystems analysis focuses on related metabolic pathways as a unit and is a biochemically-informed approach to target selection. The process involves three stages of analysis; the first stage, selection of the target subsystem, is guided by information about its essentiality and on the predicted vulnerability of the targeted pathway or enzyme to inhibition. The second stage involves analysis of the target subsystem by means of comparative genomics, including genome context analysis and metabolic reconstruction. The third stage evaluates the selection of the specific target genes within the subsystem by target prioritization and validation. The whole process allows for a careful consideration of spectrum, drugability, biological rationale and the metabolic role of the specific target within the context of an integrated circuit within a specific metabolic pathway.
+
+1 Introduction
+In this chapter we will outline the principles and the applications of comparative genomics for the identification of anti-infective drug targets. The
+approach described will use a collection of annotated subsystems projected
+across a variety of sequenced bacterial genomes. We use the term subsystem to refer to a compilation of functional roles (e.g., enzymes, transporters, etc.) that captures the existing knowledge of a biological process [1]. One may think of a subsystem as a generalization of the concept of a biochemical pathway, extended to include ancillary components
+and alternative reactions reflecting all functional variants [2] found in various species. The inclusive nature of subsystems allows us to capture a
+broader biological context and, most importantly, to cope with an emerging diversity of biological networks revealed by the growing body of sequenced genomes. Tools supporting subsystem annotation and a large
+collection of draft subsystems, reflecting upon many aspects of the central machinery of life, are provided within The SEED genomic platform
+(http://theseed.uchicago.edu/FIG/subsys.cgi and [1]).
+A subsystems-based approach to the identification and prioritization of
+drug targets consists of three major stages (see Fig. 1):
+
+1. Choosing target subsystems. The choice of target subsystem is
+dictated by the desired drug features (e.g., spectrum of target pathogens),
+and by various types of available implicating evidence (e.g., biochemical
+and functional genomics data).
+2. Analyzing target subsystems. Subsystem annotation and crossgenome comparative analysis provides a detailed picture of species-tospecies variations in the underlying biological process. This analysis usually reveals gaps in knowledge (e.g., missing genes), which may be addressed by genome context analysis followed by experimental validation of functional predictions.
+3. Selecting target genes. Classification and analysis of subsystem
+functional variants leads to the identification of critical modules (enzymes,
+pathways, interactions), which may comprise actual drug targets. Prioritization of candidate target genes includes a combination of established
+criteria, such as expected essentiality and conservation in a set of target
+pathogens, distinction from the human host, etc.
+The defining feature of this approach is that it begins with the selection
+and analysis of target subsystems instead of the direct selection of target
+genes (as in many described genomics-based strategies [3–9]). Therefore,
+the experimentally observed and computed characteristics of individual
+genes are used to implicate possible target subsystems. The dissection of
+the entire cellular network into quasi-independent sub-networks provides
+a viable strategy for the identification of novel targets and for the critical
+reevaluation of existing targets. Among the specific advantages of the
+subsystems-based approach are:
+• The generalization of experimentally or computationally derived features of individual genes in the form of target subsystems makes the
+identification of target genes more robust and better protected against
+the inevitable false positives and false negatives. Every target gene gets a
+‘second chance’.
+• Annotated subsystems provide a natural framework for the projection
+and comparative analysis of various types of data. Subsystems provide a
+functional context for Functional Genomics.
+• While less rigorous than whole-cellmodeling, the subsystems-based approach is more applicable to a large number of relatively poorly studied
+species. At the same time, it constitutes a significant step forward compared to the single-gene model for target identification. Subsystems pave
+the way towards systems biology.
+• The detailed analysis of variations in a subsystem facilitates the identification of alternative pathways, genes and resistance mechanisms.
+Subsystems contribute to the understanding of microbial physiology In the following sections, we will describe in more detail the three-stage
+approach to target identification and analysis using selected examples. We
+will focus mostly on the second stage, which involves encoding and crossgenome comparative analysis of target subsystems. This analysis often
+reveals problems with gene assignment and with the reconstruction of
+pathways, especially for divergent and poorly characterized species. Application of genome context analysis, most notably chromosomal clustering
+of functionally coupled genes, predicts gene candidates for missing functional roles identified by subsystem analysis [10]. Such missing genes often
+emerge due to nonorthologous gene displacements [11, 12], which precludes the possibility of finding them by straightforward homology-based
+searches. Gene candidates predicted by a combination of bioinformatics
+techniques then become the subject of direct experimental validation.
+Although this approach is, in principle, applicable to various types of
+biological processes, including those directly associated with virulence,
+here we will focus on universal metabolic subsystems, such as the biosynthesis of the essential cofactors. This focus will enable us to clearly describe
+target selection and unexplored opportunities for the development of new
+anti-infective therapies. The examples discussed will include several cases
+where ‘missing genes’ were predicted using genome context analysis and
+validated by biochemical and genetic experiments.
+2 Stage I: Choosing target subsystems.
+Genome-scale essentiality and conservation analysis
+Although the target-driven drug discovery paradigm is built around molecular targets (individual genes or proteins), the actual target of anti-infective
+therapy is, obviously, the whole organism. A subsystems-based approach
+is a first step towards target identification at the whole-organism scale. It
+is based on a hierarchical decomposition of the cellular machinery, which
+allows us to: (i) rationalize the possible impact of disrupting a subsystem
+at the whole-cell level, and (ii) evaluate the subsystem-level consequences
+of targeting its individual components. This approach efficiently supports
+application of comparative and functional genomics techniques. It provides a natural framework to analyze various types of implicating evidence generated by different techniques and in different species, and it allows us
+to project the accumulated knowledge across the whole spectrum of target
+pathogens.
+The choice of possible target subsystems strongly depends on the specific goals, priorities and constraints of a particular drug development
+project. For example, different types of implicating evidence would be
+used, and different subsystems would be considered for niche-specific versus broad-spectrum targets. Likewise, prodrug-activating targets and virulence targets are unlikely to come from the same set of subsystems. Nevertheless, certain types of evidence and considerations are equally useful
+for implicating target subsystems of different kinds.
+In general, we would expect a target subsystem to minimally meet
+the following criteria: (i) essentiality – it should play an essential role in
+pathogen survival and/or propagation in its natural niche; (ii) vulnerability
+– it should contain critical (non-redundant) components, whose inactivation would largely block this essential role, and (iii) conservation – at least
+some of these components should be present in the whole spectrum of
+target pathogens.
+2.1 Collecting the evidence
+The large body of biochemical, physiological, genetic, and functional genomics data on model bacteria is a rich source of information for the identification of candidate target subsystems. For example, in most bacteria,
+NAD(P) cannot be imported. This observation suggests that the NAD(P)
+biosynthetic subsystem is a potential source of anti-infective targets, without explicitly referring to any gene. Convincing evidence implicating a
+subsystem may also be deduced from the mechanism of action of an antibacterial agent (irrespective of its therapeutic value). For example, pyrazinamide and isoniazid manifest their anti-tuberculosis activity via interference with fatty acid biosynthesis [13]. This knowledge points to the
+possible target subsystem even if the exact protein target is unknown.
+2.1.1 Metabolic modeling
+The rapidly progressing techniques of metabolic modeling [14, 15] allow us
+to predict critical fluxes within the whole-cell network. This approach can be used for the tentative identification of essential genes, as was recently
+demonstrated in a number of model systems, including Escherichia coli [16],
+Helicobacter pylori [17], Staphylococcus aureus [18] and Saccharomyces cerevisiae [19]. It is important to emphasize the complementarity of the semiquantitative whole-cell modeling and the qualitative subsystems analysis. An insufficient knowledge of metabolism, beyond a handful of model
+organisms, currently limits our ability to accurately model multiple diverse species. However, individual predictions generated by the analysis of model species may be efficiently projected over a wide spectrum of
+pathogens via implicated subsystems. At the same time, the annotation of
+multiple metabolic subsystems (as recently launched by the SEED project
+[1]), along with other community efforts [20–23] contributes to improving
+the accuracy of genome-scale modeling technology.
+2.1.2 Comparative genomics: The minimal gene set
+The most abundant data that can be used to identify candidate target
+subsystems derive from comparative genome analysis and from genomescale gene inactivation studies. These data provide the initial evidence
+for conservation and essentiality, the key criteria for subsystem selection
+mentioned above. Each of these criteria has been broadly exploited by
+academic and industrial research groups for the direct identification and
+prioritization of drug targets (e.g., see [9, 24–28]).
+Attempts to use genome comparison to define the minimal gene set that
+is required to support a prokaryotic life style began immediately after the
+appearance of the first pair of complete genomes [29], both of bacterial
+pathogens, H. influenzae [30] and M. genitalium [31]. Although the fundamental scope of this effort is distinct from drug target identification, its
+methodology has obvious implications for the subject of this chapter. In
+line with early expectations, a subset of protein families, broadly conserved
+in diverse microbial genomes, are substantially enriched with indispensable components of the Central Machinery, most notably of DNA replication, transcription and translation, which may constitute potential drug
+targets. Various criteria were applied for further prioritization of universally conserved genes, the absence of eukaryotic (human) homologs being
+the most common. This criterion, however, is not undisputable. For example, successful antibiotics such as trimetoprim and quinolones display selectivity towards bacterial targets despite the existence of their human
+homologs (as discussed in [4]).
+2.1.3 Functional genomics: Essential genes
+The importance of gene essentiality data was recognized long before genome-scale studies became feasible. Various gene inactivation techniques
+(such as chemical and transposon mutagenesis) have been used in numerous single-gene studies, and, hundreds of gene essentiality assignments
+have been accumulated for model microorganisms. The genomic revolution has triggered the development of genome-scale essentiality technology. After the first groundbreaking efforts in Mycoplasma species [32] and
+in S. cerevisiae [33, 34], several genome-scale essentiality studies were accomplished. Comprehensive data sets were published for: H. influenzae
+[35], B. subtilis [36], E. coli [37], M. tuberculosis [28], and P. aeruginosa [38].
+For some of these and related species, the analysis of gene essentiality was
+also performed in the model of infection [39–41]. Although genome-scale
+essentiality studies of major clinical pathogens have been performed in
+many pharmaceutical and biotech companies, only partial data sets have
+been published for S. aureus [25, 27] and S. pneumoniae [26].
+The various techniques used in these studies may be divided into two
+groups: 1) targeted disruption or deletion, and 2) random transposon mutagenesis followed by the analysis of individual viable clones or of the
+whole population after competitive outgrowth. Among other methods
+are: complementation of temperature-sensitive mutant collections [42],
+and gene ‘knock-downs’ by antisense RNA (reviewed in [43]). Due to the
+substantial differences in gene inactivation techniques and growth conditions, the exact meaning of gene essentiality inferred by different studies
+varies from ‘strictly indispensable’ to ‘contributes to fitness’. Moreover,
+various pitfalls, as well as significant variations in sensitivity and accuracy of detection protocols, lead to technical failures, false positive and
+false negative essentiality assignments for a significant number of genes.
+Therefore, choosing drug targets directly from single-genome essentiality
+data, even if generated in one of the relevant pathogens, is a risky approach. In addition to technical limitations, lists of essential genes do not
+provide any indication of whether these genes should be essential or even
+present in other pathogens of the desired spectrum. The integration of essentiality data, acquired in different species, in a single database (such as
+[44]) provides us with a very useful resource for their comparative analysis.
+2.2 Integrating the evidence
+Combining essentiality data with gene conservation analysis is a powerful
+approach that helps to overcome some of the problems mentioned above.
+A strong correlation between essentiality and conservation, observed for a
+subset of core bacterial genes [36, 37, 45], leads to significant refinement
+of a list of potential targets. An early implementation of this approach
+was described for a small subset of essential and universally conserved
+genes with unknown functions [24]. Among more recent examples of
+large-scale integration of gene conservation and essentiality data are the
+minimal gene set surveys [46, 47]. A set of ∼60 genes, derived by combining
+cross-taxon gene conservation with essentiality data in bacteria, yeast and
+worm, represents mostly genes involved in translation, transcription and
+replication [46]. Such a small set is a likely result of a high frequency of
+nonorthologous gene displacements, and is insufficient to support life in
+any conceivable form. Another derived set of ∼206 conserved and essential
+bacterial genes was substantially refined via the reconstruction of minimal
+bacterial metabolism [47]. Although the latter analysis was geared more
+towards metabolic engineering, its methodology and some of the specific
+findings have implications for subsystems-based drug target analysis.
+2.2.1 Case study: Broad spectrum target subsystems
+A similar approach was applied to the analysis of ∼620 E. coli genes shown
+to be required for the robust competitive growth in rich medium by applying transposon mutagenesis combined with genetic footprinting [37].
+Here we use these data to illustrate the approach to selection of candidate
+subsystems expected to contain broad-spectrum antibacterial drug targets.
+This was accomplished by: (i) selection of a subset of essential E. coli genes
+conserved in a broad range of diverse bacterial genomes, and (ii) projection of this subset to a collection of annotated subsystems present in the
+first release of The SEED database [1]. Some of the results are illustrated in
+Table 1.
+
+ndrei L. Osterman and Tadhg P. Begley
+The original set of essential genes was supplemented by essentiality assignments from previous studies (http://www.shigen.nig.ac.jp/ecoli/pec/
+index.jsp) to minimize the effect of false negatives and to compensate for
+the ∼10 % technical failure in the genetic footprinting experiment [37].
+Gene conservation was approximated using the evolutionary retention
+index (ERI) as in [37]. A total of 250 genes with ERI >0.75 (e.g., having
+putative orthologs in >75 % of 32 bacterial genomes selected to represent
+maximum phylogenetic diversity) were further analyzed. Remarkably, orthologs of all but 15 genes in this set (94%) were found to be essential by
+at least one of the genome-scale studies in other bacteria as indicated in
+Table 1. Of no less importance, ∼95 % of these genes have well-defined
+functional roles (annotations), most of which (>85%) map to our collection of subsystems. Not surprisingly, a significant fraction of the mapped
+genes (total of 115, not shown) belong to non-metabolic subsystems related to replication, transcription, translation, protein folding, secretion
+and cell division. At the same time, a comparable fraction of ∼90 genes can
+be mapped to core metabolic subsystems, and 80 of them (implicated by
+an additional essentiality screen in at least one more organism) are listed
+in Table 1.
+2.2.2 Essential and conserved metabolic subsystems: An unexplored target
+landscape
+Altogether, these genes implicate a very limited number of metabolic subsystems (total of 22) with some remarkable features. From this list, 16
+subsystems are implicated by more than one gene and about half of those
+by three genes or more, providing additional prioritization criteria. The
+derived list of broad-spectrum target subsystems covers <10% of the bacterial Central Machinery. Even before considering what is in this list, it is
+worth noting what is not. For example, it does not contain de novo biosynthesis of amino acids (except lysine, see below), purines or pyrimidines, as
+these can be replaced by salvage. The absence of catabolic pathways such
+as utilization of exogenous carbon sources, is due to their redundancy and
+variability between species. On the other hand, this list contains subsystems involved with biogenesis of indispensable cofactors (NAD, Coenzyme
+A, FAD) and nucleotides (of note, all of them being phosphorylated compounds, which, in general, cannot be imported from the medium). Not surprisingly, the largest component of the list is a set of subsystems related
+to cell wall biogenesis, including the biosynthesis of fatty acids, lipids,
+isoprenoids and peptidoglycan. The importance of the latter process provides the rationale for the apparent essentiality of the lysine biosynthetic
+pathway. While lysine requirement per se may be satisfied by salvage from
+the host, diaminopimelate (DAP), a penultimate intermediate of the same
+biosynthetic pathway is a common essential component of peptidoglycan.
+Not surprisingly, only the last step of this pathway, conversion of DAP to
+lysine, appears to be dispensable for the growth of E. coli in a regular rich
+medium (as discussed in [37]).
+Overall, one may notice a surprising consistency in the results obtained by this unbiased and strictly formal analysis with the previously
+accumulated knowledge of microbial physiology. Moreover, almost all of
+the known targets of antibiotics and other antibacterial compounds appear in the subsystems revealed by this approach. Although most of these
+targets occur in the information processing subsystems (not shown), including DNA replication and transcription (e.g., quinolones, ofloxacin, rifampin groups) and protein synthesis (indolmycin, kirromycin, mupirocin
+groups), others occur in implicated metabolic subsystems, e.g., fatty acid
+(isoniazid, cerulenin, triclosan) and folate (trimetoprim, sulfonamides)
+synthesis.
+Although it is tempting to perceive the list of genes in Table 1 as a list
+of targets, in our approach we use it for the sole purpose of compiling the
+‘list of target subsystems’. Therefore, even if some of the subsystem components were missed in the initial analysis, due to a technical failure or
+redundancy in the model organism, they would still be considered at the
+next stage. That is what we mean by saying that every target gets a second
+chance. For example, the nadD gene was deemed nonessential in our genetic footprinting studies in E. coli [48]. Nevertheless, a subsystem analysis
+strongly implicated it as a good target candidate. This was later confirmed
+by a single-gene knockout experiment and by essentiality studies in other
+species. Likewise, some of the implicated genes may be ‘downgraded’ by
+the subsequent subsystem analysis. For example, all of the genes of riboflavin de novo biosynthesis (ribH, ribA, ribD and ribE in Table 1), which
+are essential in E. coli and H. infuenzae, should be dispensable in many
+Gram-positive pathogens due to the existence of active transport of exogenous vitamin B2. Therefore, only one of the five initially listed genes
+of the FMN and FAD biosynthesis subsystem (ribF) should be considered
+as a prospective broad-spectrum drug target.
+A detailed subsystem analysis across the whole spectrum of target species (see next section) provides a solid foundation for prioritizing individual targets depending on many criteria, which will vary between drug
+development projects (as discussed in the last section of this chapter).
+3 Stage II: Analyzing target subsystems. Metabolic
+reconstruction and functional predictions
+A preliminary notion of the subsystems corresponding to experimentally
+identified essential genes or other types of evidence (discussed in the Section I) may be obtained from a variety of sources, including biochemical textbooks (such as [49]) and web-resources, such as KEGG pathways
+[21], GO terms [22], and functional categories of COGs [50]. An insightful
+integration of functional and genomic context, in the format of genome
+properties, was recently described [20]. The breadth and the depth of genomic annotations in a growing collection of subsystems within The SEED
+database is gradually improving due to a community effort and the contributions by experts [1]. While expecting that this and similar developments
+will soon provide us with substantial coverage of many target subsystems,
+we realize that for any new drug development project, an additional subsystem analysis may be in order. The scope of such analysis may range
+from the extension and refinement of existing subsystems in order to accommodate new genomes and experimental data, up to de novo encoding
+of subsystems implicated by new data and not present in the existing collection.
+Therefore, in this section we will briefly outline the key principles and
+practical steps of subsystem development and analysis. We will illustrate
+this process, as implemented in the SEED environment, using NAD(P)
+biosynthesis as an example. An early analysis of this target subsystem
+identified by essentiality and conservation data (see Tab. 1), allowed us
+to select nicotinic acid mononucleotide adenylyltransferase (NAMNAT,
+encoded by nadD gene in E. coli) as the most attractive drug target for follow-up studies [48] (see Section III for more details). This subsystem,
+covering >270 diverse genomes, and a shorter version focusing on bacterial pathogens, is a part of The SEED subsystem collection available on-line
+(http://theseed.uchicago.edu/FIG/subsys.cgi).
+Subsystem encoding uses the inference of pathways and individual reactions based on the presence of respective genes [51, 52]. A subsystem
+is initially defined by a set of functional roles (e.g., enzymes), based on
+available knowledge. Genes in the analyzed genomes are connected to
+these roles via tentative annotations. An initial set of annotations is generated by homology-based projections from a limited number of genes with
+experimentally confirmed function. These semi-automated annotations
+are further refined using additional evidence provided by genome context
+(e.g., clustering on the chromosome) and functional context (pathway reconstruction) analysis.
+Homology and genome context analysis are established techniques,
+and they are supported by a number of advanced tools [53], including
+tools in the SEED. Functional context-based reasoning is less formalized
+and includes a significant element of subjective judgment. This amounts
+to reconciling an observed pattern of relevant genes with biochemical
+transformations within established or inferred pathways. Classification
+and consistency analysis of subsystem variants [2], over a wide range of
+diverse genomes, has at least three important implications: (i) it significantly improves the quality and the reliability of genomic annotations;
+(ii) it allows us to infer novel pathway variants, and (iii) it efficiently reveals missing genes [10, 54]. In some cases, the apparent absence of a gene
+ortholog for a functional role inferred by metabolic reconstruction is due
+to ‘technical’ reasons, such as Open Reading Frame (ORF) identification
+problems or gaps in genome sequence/assembly. Individual occurrences
+of such technical problems are randomly spread in genomes, and they
+are usually easy to diagnose and reconcile. However, the appearance of a
+missing gene in the middle of an ‘almost complete’ pathway (functional
+variant) in a number of related species often points to a nonorthologous
+gene displacement.

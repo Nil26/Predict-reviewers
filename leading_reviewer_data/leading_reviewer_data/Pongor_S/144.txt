@@ -1,0 +1,17 @@
+Summary: The work is acceptable.
+
+Recommendations: In this manuscript Kozma and Tusnady describe a new web server, which uses the TMFoldRec algorithm to recognize the fold of transmembrane proteins. The topic of membrane protein fold recognition is very important as currently most folds are yet unknown and it is estimating that it will take a couple more decades for a good coverage of membrane protein fold space. It was shown, that the accuracy of the presented method is very high (77 % of the cases the native folds were identified accurately), which accuracy is far the highest among the recent methods. Moreover, the reliability estimation of the lowest energy model is very important feature of the method from the viewpoint of whole genome structure prediction of transmembrane proteins. The description of the web server is convincing, the manuscript is well written and sufficient details have been provided. Since the authors applied the most novel programming techniques, it can be used even on my smartphone.
+
+Minor issues: I suggest the following minor points for improvements:
+
+The progress bar was stuck in the beginning of the prediction process at 2 % and was moving only during the threading procedure.
+
+The direct interface is a great idea for programming access the web server, and works well, however the output is somewhat ugly, a more formatted output should be better (for example using print “Status: {}, percent: {}”.format(stat[‘message’],stat[‘percent’]) instead of the simple print function on line 70).
+
+On the result page the name of the clusters are indicated, but we do not know the elements of the clusters. It should be nice, if the user can resolve the content of the clusters by clicking to the cluster name.
+
+Also a link to the appropriate PDB entry may help the navigation on the result page.
+
+The description of Z-score is missing both from the manuscript and from the manual.
+
+It is possible to insert topology with re-entrant loop on the submit page? If yes, how?

@@ -1,0 +1,23 @@
+“The manuscript handles an interesting subject, but I do find rather superficial in its analyses, in its comparisons with the literature (most of what it mentions in the abstract as new, is known) and in its discussion of the results. Often the logic the authors suggest in their language does not make sense to this referee. I do suggest the authors go back to the “drawing board”, do there analysis more thoroughly and spend some time on interpreting their results.”
+
+1) “There is no explanation of the choice of species, some model species (e.g. a model species of the fungi for mitochondrial research like Y. lipolytica are missing) while three species of the Dictyostelium genus are present. Are these genomes particularly well sequences/annotated?
+
+There should be reciprocal checking of homologs, specifically for the “borderline” cases. In general E-values are used find homologs, not a “probability cutoff”.
+
+2) At least one reference is incomplete (Mokranjac and Neupert).
+3) The paper could have done with a more thorough analysis of the literature. The homology between NDUFA11, TIMMDC1 and the TIM17 family was already known in 2013. The authors actually cite a paper where that is mentioned but somehow forgot to read it? (Andrews et al., PNAS 2013). There are actually multiple papers mentioning this homology. Similarly PMP24 has already been part of this family in PFAM, and this should be mentioned.
+
+4) What does appear new, is that they find ROMO1/MGR2 to be homologous to the TIM17 family. Given the novelty of that, and given that MGR2 is part of a complex with the TIM17 homolog TIM23, and given the recent interest in its function, this does deserve more attention, including an alignment and interpretation of conserved residues in light of what is known about these proteins (their interactions in the membrane).
+5) The lack of homology between LivH and TIM17 has been noted before, even in this journal (Jeferson Gross and Debashish Bhattacharya Biology Direct 2012, which happens to also have been reviewed by this referee).
+6) The table with the phylogenetic distribution of the protein subfamilies appears inconsistent with the results: e.g. the authors say that they find a NDUFA11 protein in plants, and it appears in their phylogeny, but then do not show an NDUFA11 (which appears under many names in the manuscript & supplement) ortholog in the table. In general I do find the many “holes” in the table suspiscious. I suggest they do a better job of their homology searches, and also search against the DNA/RNA sequences of the species they are analyzing to search for genes that were not predicted as such.
+7) In Fig. ​Fig.11 the “Oep16” clade is not well defined. One cannot include het two yellow branches and one green branch in Oep16 based on this tree. Please clarify.
+8) The following two sentences do not make much sense:
+
+“Analogously to mitochondrial Tim22, both HP20 and HP30, participate in the import of the inner membrane plastidial proteins. The presence of the conserved cysteine residues suggests that these also participate in the stabilization of the translocase complex in the plastid as the redox-regulated protein import analogous to MIA pathway does not occur here.”
+
+Why does the absence of the MIA complex support that the cysteines are involved in stabilization?
+
+9) A sentence like “The peroxisomal localization of Tim17 family protein is reminiscent to the peroxisomal ADP/ATP carrier PMP34, a member of mitochondrial carrier protein family (Wylin et al. 1998).” also carries more meaning than it actually has.
+
+10) “This fact is accentuated by the presence of one or both invariant cysteine residues (Additional file 3: Figure S1), which are required for the Mia40- dependent import of Tim22 into mitochondria (Wrobel et al. 2013) and contribute to TIM22 complex stability via the formation of an intramolecular disulphide bond.” How can one cysteine create an intramolecular disulphide bond?
+11) I do find Fig. ​Fig.22 not enough evidence that ROMO1 is homologous to the first two transmembrane regions from TIM17.”

@@ -1,0 +1,10 @@
+In this work, the authors developed a method for predicting the structures of peptides containing natural and non-natural/modified residues. This program included six different types of peptides and desired modifications at any sites. The predicted structures showed a good agreement with experimental data. Further, a web server has been developed for peptide design. The server is well designed and sufficient details have been provided on the web with various utilities. The work is interesting and useful for designing peptides for desired therapeutic property. The following suggestions may be incorporated for improvements.
+
+Comment 1: It will be better to avoid using abbreviations in the abstract.
+Comment 2: The source for obtaining experimental data for validating the method may be included in the abstract.
+Comment 3: Page 6, psi value, −40 is split into two lines.
+Comment 4: The time required to model the structure based on different types and number of modifications could be mentioned.
+Comment 5: Table 3, it will be helpful to write the explanations for the two methods in the footnote.
+Comment 6: In Table 2, it will be informative to give the meaning of the symbol B and the blank space.
+Comment 7: The advantages of the present method over other related existing methods could be discussed.
+Comments from second revision: None

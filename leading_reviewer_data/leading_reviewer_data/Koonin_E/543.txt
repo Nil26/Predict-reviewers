@@ -1,0 +1,11 @@
+This is an attempt on a full-scale phylogeny and phylogenetic taxonomy of dsDNA tailed phages, apparently, the largest class of "organisms" (or "biological agents" if viruses cannot be called organisms) on earth. So the importance of this paper needs no additional emphasis.
+
+My main concern with the current version of the paper is that the gene-content tree is not really a phylogenetic tree (as pointed out in ref. 5 of this paper but more fully explicated in Wolf et al. 2002. Trends Genet.18(9):472–9). At best, it can be viewed as a phylogenetic tree in which LBA-type artifacts are inevitable and their source is obvious, i.e., species that have convergently lost similar subsets of genes will form false "clades", and to some extent, the same might happen with species that have convergently gained similar sets of genes. This problem is not at all addressed in the current version of the paper, and I think this needs to be rectified.
+
+The analysis of putative HGT events using updated T-Rex is, certainly, of interest and value. The results of this part are unexpected (at least, to me) in that there is rather little HGT. I am wondering whether there might be some source of systematic underestimate – perhaps, it has something to do with using the gene-content tree as the species tree?
+
+The authors indicate that the detectable HGT does not amount to erasure of the vertical phylogenetic signal. I accept this for individual clades but I am wondering about the deep branches which, as the authors rightly note, are poorly resolved. Could it be that at that evolutionary depth the amount of HGT was such that it does indeed obliterate whatever vertical signal might have been there?
+
+I have a suggestion on a potential extra figure, one that would show the network of inferred HGT events between different phages groups.
+
+Finally, this paper has a taxonomic component on which I do not feel competent to comment. I am sure those working directly on phage taxonomy will have something to say.

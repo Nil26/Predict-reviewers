@@ -1,0 +1,309 @@
+Statistical analysis of mammalian pre-mRNA splicing sites
+
+ABSTRACT
+222 donor and 222 acceptor (including 206 pairs)
+non-homologous splicing sites were studied. Well known features
+of these were confirmed and some novel observations were made.
+It is (1 ) cCAGGGag sn in (-60)-(-58) region of acceptor
+sites; (2) strong coq)lementarity between regions (-69)-(-55)
+and (-36)-(-22) of some of the acceptor sites, and (3) small
+but statistically significant corlation between
+discrimination energies of corresponding donor and acceptor
+sites.
+
+INTRODUCTION
+It is well known that many genes of higher eukaryotes
+coding for proteins include non-coding segments called introns.
+Introns are spliced out after transcription in two stages. (1)
+Cleavage at the donor (5' ) site and lariat formation at the
+branch site near the 3' end of intron, (2) cleavage at the
+acceptor site, ligation of exons and release of the
+intron-lariat. Several small nuclear ribonucleoproteins are
+implicated in the process. Particularly, U1 sRNP recognizes
+the donor site, U2 snRWN preumably recognizes the branch site
+and U5 sRNP interacts with the acceptor site [1].
+
+An intron almost always begins with GU and ende with AG
+dinucleotides (rare exceptions are listed in [2]). Highly
+conservative AG/GURAGU at the exon-intron bodary is
+complementary to the ACUUACCU near the 5' terminus of Ut snRA.
+The short consensu at the acceptor sites, CAG/G, is preceded
+by a region of pyrimidine abundance (polypyrimidine tract). A
+branch site, which is known for several introns [3], is less
+conservative and its consensus may be tentatively written as
+YURAY.
+
+There were several attempts to construct algorithms for
+predicting spliCing sites. Weight matrices were uised (4] as
+well as more complex pattern recognition methods (learnin
+technique (5], perceptron (6, 7] , syntactic pattern analysis
+[8]). However, a systematic study of the splicing sites has not
+been undertaken. In this paper we aspire to fill this gap. We
+do not try to create a recognition algorithm but some of the
+results may be used for crude recognition. It is our belief
+that in the absence of detailed knowledge of the stereochemical
+mechanismsao splicing more sUCcessful algorithms should
+include not only local but also global parameters such as base
+periodicities and patterns of oligonucleotide usage. This work
+is currently under progress.
+
+KIPHODS
+All programs were written ad hoc in the C programming
+lacnguage and run under UNIX on Wicat-150. ResUlts were plotted
+using the interactive graphics system GIN [9].
+MEATERIAL
+
+All mamalian protein coding DNA sequencesfrsom 5th
+release tof b data bank were considered. Errors in the
+features tables were corrected and pairs showing more than 75%
+similarity in the intron were excluded. Then two data sets were
+formed. The first one consisted of donor site regions (20
+nucleotides into the exon and 80 nucleotides into the intron).
+The second one consisted of acceptor site regions (80
+nucleotides into the intron and 20 nucleotides into the exon).
+The choice of parameters is motivated by the results of site
+disactivation experiments [10, 11]. Information of pairs of
+donor and acceptor sites that were termini of one intron was
+saved.
+
+Finally both data sets consisted of 222 sequences. There
+were 206 pairs of corre oing donor and acceptor sites. Some
+of the sequences were known only partially. Information about
+it is presented on Fig. I (everhere positions are numbered
+1-100). The curves are not mDnotonically non-increasing away
+from the splice sites (positions 20/21 in the donor set and
+positions 80/81 in the acceptor set) because of unknown
+nuoleotides marked 'N' or '-" in the database.
+
+Information content
+Iniormation content of position I was calculated
+according to [121:
+R1(t) = 2 + I f1(B,1) l102 f1(B,l),
+B
+where .f1 (B, I) is the (relative) frequency of the nucleotide
+B in the position 1. This characterizes the non-uniformity
+
+Of base distribution in any given position. Plots of RG()
+for donor and acceptor sites are given on Fig. 2. Similar plots
+were obtained for dinueleotide infoxmation content (not shown).
+For donor sites R1(I)>0.1 for 9 positions, their
+consensus is 1AG/GUAGAGU. Outside of this conservative region
+R1 ()<0.085 in the exon and R1 (1)<0.065 in the inltron.
+Oonsensus for acceptor 8iteB is Yr17nAG/GnY.
+
+Distribution of 2-, 4- and 5-nu1lleotides (accepo sites)
+For each position (1,1+1,1+2,1+3) and each 4-nuoleotide
+-B,B B B'4 let F(T,IX) be the number of sequences in the
+data set swh tha T occurd with m moeta
+mismatches in either Of positions (Z,....), see, (1+wP-t...);
+ion nmmber Of mismatches m and number of sirmiltaneouly
+considered positions W are parameters.
+Nowr let for each position (Z, . .) Ti (I ) be the most
+comon 4-nucleotide (in the above sense), T2(Z) be the second
+best and sO on. We mayr then plot
+Nrrs (Z) = N(T1 (I),7) = ax (T,Z) and frequencies of other
+dist' vshed 4-nucleotides. An e Ie for m-0 and o-8 is
+show onx Fig. 3. q!he peak correp -,-n to consensus CAGG and
+the slope associated writh the polypyrimidine tract are visible.
+T!here is also a not so high, but nevertheless mean fillful
+signal in the positions 1-20. The most common 4-nucleotideB are
+UGGG in positions 4-1t1, CAGG in positions 12-17 and AGGG in
+
+positions 18-22. An analysiB of nearly best quartets shows that
+the latter two may be parts of a longer signal cCAGGGag. The
+gap between frequencies of the best and the second best
+4-nucleotides also seems to be meaningful, for such a gap does
+not appear in random simulations (not shown).
+The signal is less expressive when m=O, w=16 and absent
+when m--1, Wt4 (not shown). Such a situation may be caused,
+for example, by a conservative signal in a part of the data
+set. An additional study iB required to clarify the issue.
+The signal corresponding to the branch site is notable for
+
+its abBence. This is so because this site is relatively
+non-conservative and furthermore does not occupy any
+well-defined place in our alignment. We studied this site using
+a Bimilar scheme. Frequency plots for several variants of the
+branch site consensus are shown in Fig. 4. Each sequence
+defined near the branch site region contains a 5-nucleotide in
+the positions 51-65 which differs from YURAY in at most I
+position (it is the minimum condition).
+We have noted the avoidance of the AG dinucleotide in the
+66-75 region of the acceptor sites (Tab. 1). The statistical
+significance of this iB W0.1%.
+
+Secondary structure
+Possible conservative secondary structures were studied by
+sunning dot-matrices for individual sequences or pairs of
+sequences. We considered complementarity of UI snRNA and donor
+sites, of U2 snRNA and U5 snRNA and acceptor sites, of pairs of
+corresponding donor and acceptor sites, and
+self-complementarity of donor and of acceptor sites.
+Complementarity of donor site consensus and 5' tenus of UI
+snRNA was clearly visible. The only other signal appeared in
+the study of self-complementarity of acceptor sites that pairs
+the regions 11-25 and 45-59. The distribution of the mrximn
+lengths of complementary oligocleotides in these regions
+together with the results of random simulation is shown in
+Tab. 2; some examples are given in Tab. 3. One may notice the
+increase in the number of complementary oligonucleotides of
+length 5 or more. To evaluate exact statistical significance
+does not seem to be possible because the regions have been
+chosen by a highly informal procedure (by eye). However, a
+rough estimate of the statistical significance by the %2-test
+for rare events shows that the probability of a random
+occurence of two 15-nucleotide regions with the excess of
+complementary 6- through 9-nucleotides that would be equal or
+greater that the observed one is much less than 10'.
+
+Energy parameters
+In [13] a method to evaluate (up to multiplicative
+constant) discrimination energy of binding of a recognizing
+particle and a functional site was developed. Let as before
+f,(B, 1) be the frequsncy of the base B in the position 1,
+J2(B'B,aX) be the frequency of dinucleotide B'B in the
+position (1,+1), and N(B,l) be the mmber of occurrences
+of B in 1. Denote N (l) = maxB (B,l). Let us assme
+that the site consists of the positions I = 1, ..., L. It hba
+been shown in [13] that in this case the discrimination erg
+of recognition of the site B, ...B is
+
+The first term in the formula describes the contribution of the
+individual positions, the second one takes into account the
+correlation of the neighboring positions. L is chosen either
+according to the biological considerations or as the number of
+positions with sufficiently large information content. It
+should be noted that the positions with nearly uniform base
+distribution do not influence the discrimination energy
+perceptibly and it does not matter that one can not define the
+site in any rigorous way. In some procedures we use also the
+first term of a (designated by 8').
+The energy B of base-pairing with UI snRNA was
+calculated for the donor sites using the parameters from [14].
+Bulge loops and iner loops arising from more than I mismatch
+were not allowed, destabilizing contribution of the terminatg
+base pairs was not considered and terminating G-U pairs were
+allowed. B was meaured in tenth of kcal/mole.
+
+We considered donor sites of length L=20 (positions
+9-28: 12 in the exon and 8 in the intron) and acceptor sites of
+length L=22 (positions 60-81: 21 in intron and I in exon).
+This choice allowed us to use positions with the information
+content R1>0.1 and (for donor sites) to take into account the
+longest observed bse-pairings with UI snRNA. Sites with the
+extremal values and some other sites are presented in Tab. 4.
+The distribution of E, f th ande armis given on Pig. 5.
+The correlation coefficient of Edon arnd £cis emill (0.2) but
+apparently not rndo (snoificance level 0.5%). Tae reason for
+this is not clear'. Onemght speculate that intros with str!Ong
+both donor and acceptor sites are first to be s liced out.
+
+Crude recognition
+nes rgy parameters mayursed be as recognising functions.
+(tables of mono- dsnumler and otide freqpencite that are
+necessary for that are available upon request). We name
+pre-sites (predicted sites) the sequefnces that satisfy some
+conditions. Per donor pre-sites the condition is
+£dom 12.0& don le2.0O& E -6STh
+All the sites in the data setsatisfy it. Por acceptor sites
+the condition is
+{3 13.0 8 a¢ 13.0.
+Pive sites from the acceptor data set (presented in tab. 4) do
+not satisfy it. It should be noted, however, that parameters o
+these sites sharply difier from the rest of the set (on more
+thn 3 standard deviations)o.
+We use these conditions to predict splicing sites in six
+sequences. We ranked pre-sites according to the energy
+parameters. The results are presented on Fig. 6 and in Tab. 5.
+The sequence RNACOO (rat skeletal muscle actin, 3200 bp.)
+had in the 5th intron the worst value of 6I.. There were 35
+donor and 34 acceptor pre-sites (Pig. 6a). The sequene RNYIC2
+(rat muscle myosin light chain, 3361 bp.) had one of the worst
+values of ES-72 (5th intron), and there were 55 donor and 36
+acceptor pre-sites (Pig. 6b). The sequence of the human
+P-globin HSBGL3 (2050 bp.) was studied not because it has any
+bad sites, but because many splicing affecting mutations were
+known in it. There are 25 donor and 16 acceptor sites in it and
+true sites have high ranks (Pig. 6c). The energy parameters
+change adequately when a mutation improves a cryptic or weakens
+a true splicing site, but it can not predict the choice of one
+of several competing sites.
+
+The remaining three sequences weere not present in the
+training sets. They were taken from the release 48.0 of the
+GenBank. These sequences were the mammalian sequences for which
+the predictions made by the Shapiro-Senapathy algorithm were
+available [2]. The sequence HUMH (human class I HLA gene, 4123
+bp) had a relative TBIA in the training set, the other two,
+RATOTRPB (rat chymotripsin B, 5809 bp) and RABMHI191 (rabbit
+NHC class I gene, 3881 bp) were completely new. The ranks of
+the true sites of these sequences obtained by the method
+described here together with the Shapiro-Senapathy ranks are
+presented in Tab. 5. It should be noted that the acceptor sites
+of the second introns of the NHC genes (HSHLIA, HUNMH,
+RABMHI199) do not satisfy the acceptor pre-Bite conditions (cp.
+Tab. 4). To obtain the of these sites we ran the program
+with the sole condition that the invariant AG should be
+present.
+
+It should be noted that we deliberately made our
+conditions very weak. Our aim was not to lose any site, and we
+did not try to avoid false positives. To make overall error
+smaller one might impose a stricter condition, thus opening the
+possibility of miBsing some true sites.
+
+DISOUSSION
+The avoidance of the AG dinucleotide immediately before
+the acceptor splice site has been noted previously by Ohshima
+and Gotoh [4]. It may be interpreted as the evidence for some
+sort Of scaning mechanism since there are as many AG as
+expected in the exon after the acceptor splice site. It should
+be noted that there are no AG between the branch point and the
+acceptor site in a few sequences for which the branch point is
+known.
+
+The GGGA sa al in the 20 region of acceptor sites was
+noted also in [15]. There was a model of alternate base-pairing
+proposed there, which explained the peaks in the distribution
+of thi and some other 4-nuoleotides. That model, however, can
+not be universal since this quartet and its derivatives are not
+present in all of the sequences in the acceptor data set.
+
+The observed complementarity of regions 11-25 and 45-59
+also is not a likely candidate to the role of the universal
+signal. First, in many sequences it is not present in any
+visible form, and it also does not seem to be specific to some
+family. Secondly, it is not fixed relative to the branch point
+(Tab. 2) which is either in the loop or to the right of the
+proposed stem. On the other side, the length of the
+complementary oligonucleotides in some cases makes one believe
+that the observed complementarity is not a mere statistical
+artifact. Some mutagenesis experiments are required to clarify
+the situation.
+
+Edon is a much better predictor of donor sites than B. The
+simplest explanation is that the simple procedure used to
+calculate B is not a good one. The alternative to it would be
+the assumption that the protein component of UI snRNP also
+takes part in the recognition. The existence of the consensus
+position A that does not base pair with U1 snRNA makes this C
+explanation plausible.
+
+The use of Edon and E... allows one to recognize all true
+sites, but it is not enough to explain all the results of the
+mutations (the problem of the correct choice) and to choose
+correctly true sites among all the pre-sites. The former task
+seems hopeless. Even the experiments with the duplication of
+the splicing sites gave ambiguous results, at least in vitro
+[16]. We believe that to solve the latter problem one has to
+use both the local information (studied here) and the global
+characteristics. It may be done in two wayB. One way is to try
+to choose true sites between all pre-sites using somehow the
+fact that it separates co and non-coding regions. It was
+done in (6] and to some extent in [2] where the information
+about the open reading frames have been used. An alternative
+way would be to predict coding regions using some sort of
+global recognition algorithm (e.g. well-known TSTCODE [17])
+and then to attenuate the positions of the exon-intron and
+intron-exon boundaries using the local data. This method also
+would allow the use of the information of open reading frames.

@@ -1,0 +1,291 @@
+7. TRANSDUCERS IN THE POSTGENOMIC ERA
+7.1. Diversity and Conservation within the Superfamily
+The presence of a conserved signaling module in the C-terminus necessary for
+sensory transduction in all microbial transducers makes it a relatively easy task
+to identify corresponding sequences in microbial genomes. Indeed, so far, all
+known and putative chemotaxis transducers have been successfully detected in
+completely sequenced microbial genomes by a corresponding sequencing team.
+However, annotation of transducers proved to be rather complicated due to a significant variation of sequences in their N-terminal region and a large number of
+paralogs. In fact, so far, no sensory function has been predicted from sequence
+analysis for any chemotaxis transducer in any microbial genome. Where such
+attempts were made based on the sequence similarity of the C-terminal region,
+erroneous results have been obtained (for details, see Zhulin, 2000). Even a
+superficial glance at more than 120 sequences of chemotaxis transducers available from public databases allows one to observe the fact that has been well
+documented in the pregenomic era: all transducers share the conserved C-terminal signal module and have a variable N-terminal sensing module. Thus,
+conservation of the transducer superfamily is determined by the presence of the
+C-terminal signaling module (Le Moual and Koshland, 1996) and diversity
+within the superfamily is determined by a variety of N-terminal sensing modules.
+7.2. Genomic Distribution
+Several observations arise from the analysis of the transducer distribution
+within 12 completely sequenced microbial genomes available from public
+databases (Table 2).
+.
+.
+All microorganisms that have general chemotaxis genes (CheA, CheW,
+CheY, etc.) also contain genes encoding chemotaxis transducers. This indicates that all chemotactic representatives of Bacteria and Archaea utilize
+the same design of the signal transduction system (transducers/
+CheA/CheW/CheY/motility apparatus) for controlling their motility.
+Microorganisms that do not have genes for flagellar motility (but may
+have gliding or pili-based motility) contain genes that code for chemotaxis
+transducers, e.g. Synechocystis spp. (Kaneko et al., 1996), Deinococcus
+radiodurans (White et al., 1999). This is in good agreement with the proposed role of chemotaxis transducers in directing the gliding motility in
+Myxococcus xanthus (see section 5.4) and the pili-based twitching motility
+in P. aeruginosa (Darzins, 1994). 
+3. The number of transducer genes per genome may vary from two in
+Archaeoglobus fulgidis (Klenk et al., 1997) to more than 20 in
+Pseudomonas aeruginosa (www.pseudomonas.com). The experimentally
+determined number of chemotaxis transducers in several microbial species
+is within this range (Deckers and Voordouw, 1996; Rudolph et al., 1996;
+Zhang et al., 1996b; G.H. Wadhams and J.P. Armitage, unpublished data;
+S.E. Greer and G. Alexandre, unpublished data). There is no apparent correlation between the genome size and the number of chemotaxis
+transducers per genome. For example, the genome of Campylobacterjejuni
+is three times smaller than that of E. coli, but it contains twice as many
+chemotaxis transducers. The number of transducers and their sensing repertoire may reflect the environment where a microorganism finds itself and
+the necessity to explore it. On the other hand, it may be just an intrinsic
+characteristic of a particular genome to contain a large number of paralogs or hypervariable sequences (Parkhill et al., 2000).
+4. Although some of the transducer genes are located within major chemotaxis operons, most of them are scattered randomly throughout a genome.
+This is in contrast to general chemotaxis genes (CheA, CheW and CheY),
+which are always located in gene clusters. One of the potential implications
+of this fact is that genes coding for particular chemotaxis transducers may
+be co-transcribed with other, non-chemotactic genes. This may lead to
+such phenomena as environmental control of transducer expression in some
+species (Harrison et al., 1999). Transducer genes appear to be mobile
+genetic elements and subjects of a lateral gene transfer. Occurrence of
+transducer genes on plasmids (Brito et al., 1996; Freiberg et al., 1997; Yost
+et al., 1998; Grimm and Harwood, 1999) and transposons (Allmeier et al.,
+1992) is in agreement with this notion.
+Many of the transducer genes are paralogs i.e. they have originated within
+a particular genome by gene duplication. This dramatically decreases the
+probability of a successful function prediction for transducer proteins from
+sequence analysis. For example, Tsr and Tar are related to each other more
+closely than to any other transducer from non-enteric bacteria. Yet, the
+stimuli recognized by the transducers are quite different. As with any other
+paralogs, very few changes in the amino acid composition led to acquisition of a new function for chemotaxis transducers.
+Table 2 summarizes the genomic distribution of chemotaxis transducers and
+also shows their classification with respect to the membrane topology.
+7.3. Topology Analysis: Extracellular and Intracellular
+Sensing
+Since most of the structure/function studies have been performed with E. coli
+chemotaxis transducers, their membrane topology is regarded as classical.
+First, most of the 120 chemotaxis transducers from different organisms, for
+which such analysis has been performed, have the same topology (E.
+McKinley and I.B. Zhulin, unpublished results). Second, this type of membrane topology and a dimerization mechanism are the features common not
+only for the chemotaxis transducers, but also for eukaryotic receptors (Stock,
+1996). However, transducer-like proteins from the chemotactic bacteria M.
+xanthus (McCleary et al., 1990), Sinorhizobium meliloti (Greck et al., 1995)
+and Rhodobacter sphaeroides (Ward et al., 1995) were previously reported to
+have a different membrane topology. Furthermore, topology analysis of 13
+chemotaxis transducers in the archaeon Halobacterium salinarum revealed
+three distinct classes: membrane-bound proteins with and without a periplasmic region, as well as soluble cytoplasmic proteins (Rudolph et al., 1996;
+Zhang et al., 1996a). Distinct functions have been determined for 'non-classical' transducers, such as membrane-bound transducers, McpA in R.
+sphaeroides (Ward et al., 1995) and Aer in E. coli (Bibikov et al., 1997;
+Rebbapragada et al., 1997), and the cytoplasmic Car transducer in H. saIinarum (Storch et al., 1999). The transducer membrane topology appeared as an
+important feature for the function determination or prediction. We have predicted the membrane topology for all chemotaxis transducers identified in
+completely sequenced microbial genomes (Table 2). The dense alignment surface (DAS) algorithm for identification of transmembrane (TM) t~-helices in 
+prokaryotic membrane proteins (Cserzo et al., 1997) was used for this analysis. In order to confirm the molecular orientation in the membrane, the
+presence of positively and negatively charged amino acids in close proximity
+to the TM regions was inspected (Boyd et al., 1998), and the signal sequence
+was predicted by using the SignalP program (Nielsen et al., 1997). Typical
+results obtained by using the DAS method are shown in Fig. 3. A classical two
+TM pattern with a predicted periplasmic region (class I) was observed for
+most transducers from completely sequenced genomes (Table 2) and other
+sequences available from the non-redundant database (E. McKinley and I.B.
+Zhulin, unpublished results). Predicted membrane-bound transducers without
+a periplasmic region fell into two classes. Class II consists of transducers that
+have a single hydrophobic patch between a putative sensing and a signaling
+module that are located in the cytoplasm. The Aer redox transducer (Bibikov
+et al., 1997; Rebbapragada et al., 1997) exemplifies this topology class.
+Transducers from class III have the hydrophobic patch in the very N-terminus
+without obvious demarcation between a sensing and a signaling domain. The
+photoreceptor from Synechocystis sp. is a typical representative of class III
+(Zhulin, 2000). The patch may consist of a single hydrophobic region or contain several (two to seven) TM regions. The members of class IV have no TM
+regions, all predicted to be cytoplasmic.
+Although predicting the membrane topology is an essential step in characterizing a given transducer, similarity in topology does not mean functional
+similarity. For example, the Aer protein from E. coli and the YoaH protein from
+B. subtilis have exactly the same membrane topology (class II), but their Nterminal sensing modules are entirely different. The redox-responsive PAS
+domain, which has been identified as a sensor module in Aer (Zhulin et al.,
+1997), is not present in YoaH. Conversely, proteins with a similar domain
+structure may have a different membrane topology. For example, both Aer and
+the McpA protein from Agrobacterium tumefaciens have the N-terminal
+module consisting of a single PAS domain, but no TM regions are found in
+McpA. In many cases, predicting the membrane topology is an essential step
+in further characterization of a transducer sequence, the domain analysis.
+7.4. Domain Analysis
+7.4.1. Conserved Signaling Module
+Le Moual and Koshland (1996) have performed the first detailed analysis of
+the conserved C-terminal module based on a comparison of transducer
+sequences from 16 microbial species. Their conclusions and predictions proved
+to be very accurate. Here, I provide some new data and results of other authors
+that supplement and strengthen the results of that analysis. 
+7.4.1.1. The HAMP Domain (Formerly, 'the Linker'). Improved algorithms for
+protein sequence analysis allowed Aravind and Ponting (1999) to suggest that
+the linker region located between TM2 and MD1 in chemotaxis transducers (see
+Fig. 2) is a distinct signal transduction domain. The domain was termed HAME
+since it was present in three major superfamilies of signal transducing proteins: histidine kinases, adenylate cyclases and methyl-accepting chemotaxis
+proteins (chemotaxis transducers). The HAMP domain was found in proteins
+from both prokaryotes and eukaryotes, including those that lack transmembrane regions. Therefore, the original hypothesis by Parkinson and Kofoid
+(1992) was extended beyond transmembrane signaling. Most likely, the HAMP
+domain acts not as a linker that mediates association of signaling complexes, but
+rather as a sensor of conformational changes. Sequence analysis revealed that
+some chemotaxis transducers contain two HAMP domains (Aravind and
+Ponting, 1999) that are usually located between TM1 and MD2. The HAMP
+domain was also reported in the N-terminal region of the class III transducer
+Slr0041 from the cyanobacterium Synechocystis sp. (Zhulin, 2000). The presence of two HAMP domains in one transducer is not restricted to a particular
+phylogenetic class, since this occurs in such distantly related groups as Archaea,
+cyanobacteria and o~-proteobacteria (Aravind and Ponting, 1999; Zhulin, 2000).
+7.4.1.2. Methylation Domains. Both MD1 and MD2 in proteobacteria contain
+a 14-amino acid residue deletion in comparison to those from Archaea and B.
+subtilis, which corresponds to two seven-residue repeats found throughout the
+C-terminal module (Le Moual and Koshland, 1996). Comparative sequence
+analysis revealed significant similarity between MD1 and MD2 within a given
+transducer and between transducers from different organisms. In some cases,
+MD1 from one transducer is more closely related to MD2 than to MD1 from
+another transducer and vice versa (G. Alexandre and I. Zhulin, unpublished
+observation). This supports the notion that each methylation region represents
+an independent structural element, a domain. Sensitive methods of sequence
+comparison reveal similarity between chemotaxis transducers and functionally
+unrelated myosin from eukaryotes. This reflects a similar design of coiled
+coils.
+Methylation sites were predicted in several transducers from other bacteria
+(Le Moual and Koshland, 1996), often at positions that are different from
+those in the E. coli proteins. Differences in the length of methylation domains
+and in positions of methylation sites may account for differences in the methylation/demethylation process in such organisms as B. subtilis and H. salinarum
+(Kirby et al., 1999, 2000; Perazzona and Spudich, 1999; Zimmer et al., 2000).
+Although an extended consensus sequence for the methylation sites has been
+established by Le Moual and Koshland (1996), the authors mentioned that
+some differences in the sequence neighboring a putative methylation site may
+result in a site that is less efficiently methylated or even not methylated. 
+Therefore, only experimental approaches (for recent examples, see Perazzona
+and Spudich, 1999; Zimmer et al., 2000) can provide evidence for methylation/demethylation of particular sites within methylation domains.
+7.4.1.3. HCD. Multiple alignment of more than 120 transducer sequences
+from different evolutionary branches of Bacteria and Archaea allowed us to
+generate a 90% consensus for a signature motif in the core of the HCD (Fig. 4).
+This core of the HCD forms a hairpin of the C-terminal module and an insertion, which is present in a very few transducers, is located between two glycine
+residues that make crucial turns within the hairpin. Significant deviations from
+the consensus, in particular transducer sequences, may represent either an
+extreme divergence of the gene or its 'silence', resulting from an accumulation
+of mutations. For example, transducers MCP1 from Borrelia burgdorferi and
+PH1994 from Pyrococcus horikoshii that have been identified in completely
+sequenced genomes both have changes in more than 60% of conserved positions and are predicted to be either non-functional or to have a function slightly
+different from that of traditional chemotaxis transducers. Such a transducer
+may not be able to interact with the CheW protein, but still interact with other
+transducers in the cluster. On the other hand, the HtrI transducer from H. salinarum has an insertion in the middle of the core, but all other residues of the
+core are conserved, which makes it fully functional.
+7.4.2. Sensing Domain Repertoire
+7.4.2.1. The Periplasmic Domain of Chemotaxis Transducers of Enteric
+Bacteria. It is still a common view that there is little sequence similarity
+between the sensing modules of the four chemotaxis transducers of E. coli, Tar,
+Tsr, Trg and Tap. However, improved algorithms for detecting sequence similarity, such as the Position-Specific-Iterative (PSI) BLAST program (Altschul
+et al., 1997), reveal that there is statistically significant similarity between the
+N-terminal domains of these transducers and those from close enteric relatives,
+which suggests a common fold (I. Zhulin, unpublished observation). This supports the previous prediction that the basic structure of the periplasmic domain
+in different transducers from E. coli and S. typhimurium is the same (Mowbray
+and Sandgren, 1998). The overall fold of the periplasmic ligand-binding
+domains of all classical enterobacterial transducers should be similar to the
+antiparallel four-helix bundle of the Tar protein (Milburn et al., 1991; Bowie et
+al., 1995; Yeh et al., 1996). This ligand-binding domain appears to be unique
+and does not share any detectable sequence similarity with periplasmic
+domains from any non-enteric transducers or any other proteins. It may represent a diverged version of another sensing domain yet to be identified in
+chemotaxis transducers from other species. 
+7.4.2.2. The PAS Domain. As discussed above, sequence analysis of the N-terminal sensing module of the four E. coli chemotaxis transducers did not reveal
+any homologous sequences outside the enteric bacteria. However, analysis of
+the N-terminal sensing module of the fifth transducer, Aer, resulted in an
+intriguing finding of the PAS domain (Zhulin et al., 1997). This domain occurs
+in hundreds of different signal transduction proteins from all kingdoms of life
+(for a review, see Taylor and Zhulin, 1999). Almost the entire N-terminal
+region of the Aer consists of a single PAS domain. Several PAS-domain-containing chemotaxis transducers have been identified. Some of them are
+homologs of the E. coli Aer protein (Bibikov et al., 2000; Nichols and
+Harwood, 2000), whereas others are not and may contain up to three PAS
+domains in their N-terminal region (Fig. 5). Studies on how the signal is transduced from the PAS domain to the signaling domain have just begun (Bibikov
+et al., 2000; Repik et al., 2000). Ultimately, they should lead to an understanding of how the C-terminal signaling module recognizes different types of
+conformational changes in class II and other classes of transducers.
+7.4.2.3. The GAF Domain. Although the systematic sequence analysis of the
+N-terminal sensing modules of chemotaxis transducers has just begun, some
+interesting results have already been obtained. For example, this analysis
+resulted in the identification of the first bacterial phototaxis receptor.
+Surprisingly, bacterial photoreceptors have not been found using an experimental approach, although phototaxis in bacteria has been known for more
+than 100 years. Two well-known signal transduction domains have been found
+in silico in the Sir0041 protein from Synechocystis spp (Fig. 5): the GAF
+domain and the HAMP domain (Zhulin, 2000). The GAF domain superfamily
+is almost as populated as the PAS domain superfamily, when compared by
+using the SMART domain identification program (Schultz et al., 1998, 2000),
+and its representatives also include proteins from both prokaryotes and eukaryotes. The major function of the GAF domain is light-dependent signal
+transduction (Aravind and Ponting, 1997), although the GAF domain is present in proteins from other signal transduction pathways. For example, two
+GAF domains are found in the ethylene response sensor from Arabidopsis
+thaliana (Chang and Shockey, 1999). Both GAF domains in the Slr0041 transducer contain conserved attachment sites for a tetrapyrrole chromophore, a
+light-sensitive prosthetic group from prokaryotic light-sensing histidine kinases
+and phytochromes, the plant photoreceptors (Zhulin, 2000).
+7.4.2.4. The ESENS Domain. Analysis of the sensing modules of the B. subtilis
+chemotaxis transducers led to the identification of yet another sensor domain
+superfamily containing proteins from Bacteria, Archaea and Eukarya. The
+domain, termed ESENS (extracellular sensing), comprises a major part of the
+extracellular sensor module in four homologous chemotaxis transducers, McpA, 
+McpB, TIpA and TIpB, in B. subtilis (Fig. 5). It is also present in three homologous transducers, PctA, PctB and PctC in P aeruginosa, as well as in several
+other class I transducers from Bacteria and Archaea (I. Zhulin, submitted for
+publication). The ESENS domain is also found as an input sensor module in
+other signal transduction proteins from prokaryotes, such as histidine kinases
+and adenylate cyclases. Surprisingly, it is also present in the extracellular subunit of the voltage-sensitive Ca 2÷ channel from eukaryotes, and sensing small
+molecules, such as amino acids, may be a common feature of this domain.
+7.4.3. Summary of the Domain Analysis
+The conserved C-terminal module of chemotaxis transducers is the signature
+of the superfamily. In several genomes it can be found as an open reading
+frame (Table 2). The fact that the C-terminal module of chemotaxis transducers is found only in prokaryotes, whereas some N-terminal modules present in
+chemotaxis transducers are also found in eukaryotes, including humans,
+reveals the chimeric nature of the superfamily. Apparently, not only whole
+genes coding for transducers, but also parts of the gene coding for distinct
+folds, are mobile genetic elements. Domain shuffling is responsible for creating such a great diversity of chemotaxis transducers.
+8. BACK TO PHYSIOLOGY
+The limits of in silico biology, at least in its current form, and the absolute
+necessity for in-depth physiological studies on the chemotaxis transducers can
+be clearly illustrated by the example of the newly discovered aerotaxis transducers in Halobacterium salinarum and Bacillus subtilis (Hou et al., 2000).
+The heme-containing myoglobin-like HemAT transducers were identified in
+the 'wet lab', where the proteins were isolated and their biochemical properties studied. Even the most sensitive computer programs for similarity search
+do not easily recognize a very weak similarity between the heme-binding
+domain in HemAT and that in eukaryotic hemoglobins. Interestingly,
+homologs of the halobacterial HemAT protein are found in some proteobacteria, although the sites for heme attachment are missing from these proteins (I.
+Zhulin, unpublished observation). Therefore, only experiments can provide
+evidence for or against these homologs being the aerotaxis signal transducers.
+The bioinformatics tools and approaches currently used for genome annotation cannot reveal detailed characteristics of the chemotaxis transducers.
+Although computer-assisted domain analysis has provided some insights into
+the diversity of the sensing domains, it cannot substitute for a 'wet bench' 
+experiment. However, it is clear that bioinformatics and genomics are powerful tools for the preliminary analysis of biological macromolecules. The in
+silico approach allows one to direct hypothesis-driven research into designdriven research, where more precise guesses can be made and then verified.
+Two rather alarming tendencies in transducer research in the postgenomic era
+can be observed. First, more and more sequences of transducers are available in
+public databases, but no attempts have been made to ensure correct annotation.
+Second, increasing numbers of transducers in bacteria other than E. coli are
+being studied in wet laboratories without successful assignment of a function.
+This may be for a variety of reasons, both subjective and objective. An objective
+reason would be the complexity of the chemotaxis machinery in species that are
+versatile and found in a variety of environments, such as R. sphaeroides and C.
+crescentus. Multiple chemotaxis operons and differential expression of transducer genes (Hamblin et al., 1997; Harrison et al., 1999) make it difficult to
+determine the exact role of a particular transducer. Another reason may be the
+overwhelming power of the DNA sequencing and microbial molecular genetics
+over sequence analysis and microbial physiology. Surprisingly, it is easier to
+find, sequence, clone and express the transducer gene than it is to study how the
+motility and taxis in a given microorganism differs from that of E. coli and
+which method of measuring the chemotactic response will or will not work for
+this organism. Only few laboratories have adopted a quantitative temporal gradient assay to study chemotaxis in species other than the model organisms. Even
+in E. coli, without a reliable quantitative method, most of the work on chemotaxis transducers would not have been done, including, for example, recent
+assigning of a new function to the Tsr transducer (Rebbapragada et aL, 1997).
+9. CONCLUDING REMARKS
+Chemotaxis transducers in E. coli and Salmonella comprise one of the beststudied receptor systems in biology. Genomics demonstrates that chemotaxis
+transducers are widespread in the microbial world and they may play a crucial
+role in adaptation of microorganisms to particular environments. The superfamily of chemotaxis transducers is growing as more microbial genomes are
+being sequenced and we need to find a way to predict and confirm the functions for novel transducers. The C-terminal portion of chemotaxis transducers
+has signaling and adaptation properties. Its conservation throughout all phylogenetic groups of microorganisms makes the findings obtained with E. coli
+transducers directly relevant to all other species. Basic principles of signaling
+that we still do not completely understand are well preserved during evolution,
+although some variations on a theme are apparent. Why would one need to
+study transducers in other organisms when studying them in E. coli has proven 
+most productive? There seem to be at least two reasons. First, studying chemotaxis transducers in a given species will provide useful insights into the
+organism's physiology and ecology. It is especially important for medical and
+agricultural species. Second, just scratching the surface of the diversity of
+sensory domains in microbial transducers resulted in identification of novel
+sensory elements that are conserved throughout the phylogenetic tree.
+Occurrence of PAS, GAF, HAMP, ESENS, and perhaps quite a few other
+domains in sensory proteins from prokaryotes and eukaryotes, including
+humans, is the universal theme in sensory transduction, which was wisely predicted at the early stage of chemotaxis research (Koshland, 1980, 1983). Two
+tendencies in the transducer research ensure the progress of this field of study:
+(1) in-depth structure-function investigations on transducers in model organisms, such as E. coli, and (2) broad analysis of transducers in other species with
+respect to their role in the organism's physiology, ecology and evolution. 

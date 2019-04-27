@@ -1,0 +1,15 @@
+This paper addresses the issue of co-evolution of a virus an and the immune system of a host, taking into account the dynamics of the virus and two types of immune systems: susceptible and resistant. The model is inspired by a type of immune response (CRISP-Cas) in archaea and some bacteria. The dynamics is summarized by a system of 3 nonlinear ordinary differential equations (ODEs). The system seems to exhibit various dynamical regimes including some that are chaotic. This, according to the authors, provides some analogy to the known examples of the CRISP-Cas system behavior.
+
+The paper should be reorganized before it is publishable.
+
+Major issues
+
+Comment: 1. The paper is written in a way which makes understanding it very difficult. A large portion of the paper is devoted to models which are inadequate in that they do not include sensitive and resistant immune systems, are therefore limited to two ODEs and cannot exhibit complicated dynamics. To make the paper readable, it should proceed directly to the point. The auxiliary models can be moved to an appendix.
+Comment: 2. Dynamics of the really interesting 3-ODE models is explored mostly numerically, if I understand correctly. In my opinion, more illustrative material might be provided, using the space available after removal of the 2-ODE models.
+Comment: 3. I am missing a detailed discussion of how the model is similar to experimental observations. What type of data are available? Time series are probably most desirable. Is there any information in the data regarding sensitivity to parameter change and initial conditions, which are characteristic of chaos?
+Comment: 4. Finally, why would this quite generic mathematical description be specific to the CRISP-Cas systems?
+Detailed remarks
+
+Comment: 1. Page 9. It seems x and y are each composed of a number of different "immuno-types" of host individuals. The structure will be continuous and not two-point as it is now. What will be the consequences for the dynamics? Will it not be more regular because of smoothing effect of continuity?
+Comment: 2. Page 15. Computational analysis usually cannot "show" that an equilibrium is stable. It may be at best consistent with stability.
+3. "Proposition 4" does not seem to be mathematically demonstrated. So, it is a Conjecture.

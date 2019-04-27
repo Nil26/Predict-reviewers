@@ -1,0 +1,17 @@
+This is a very elegant study which has been explained in very accessible language. I found the results very insightful, and need say little other than that, for those interested in the RNA world, this is a paper well worth reading.
+
+For my money, the most exciting result is that this model suggests that catalytic promiscuity in early ribozymes may have been extremely short-lived. This bears thinking about, particularly given the view, popular in protein science circles that early enzymes were promiscuous (both in their substrate specificity and enzymatic reactions). It is also noteworthy that group selection appears as a feature of the model. This is broadly consistent with the cooperative networks that Lehman and colleagues observed for fragmented ribozymes (Nature 491:72–77). I would be interested to see a brief discussion of that work and how it relates to the authors’ findings.
+
+Just a minor quibble about this statement in the Background: “recent organisms still carry reliable clues suggesting that RNA had played a central role both in the metabolism and in the genetics of very early forms of life [3,4]”. The papers cited here are both excellent, but address the more chemical aspects of the origin of RNA itself and of RNA catalysis. By contrast, the recent paper by Hoeppner et al. (PLoS Comp Biol 8: e1002752. http://dx.doi.org/10.1371/journal.pcbi.1002752) used a comparative genomic approach to look at whether there are ‘clues’ of the RNA world in modern organisms, so is perhaps more appropriate, given the sentence.
+
+Minor comments/typos (can be deleted from the review once addressed):
+
+Page 7, the use of the term “catching” - perhaps “binding” is more appropriate here. Enzymologists routinely talk about substrate binding and product release.
+
+Page 11, “hydroxil” should be hydroxyl
+
+P11, RNS should be RNA
+
+P26, “thedesing” should be the design
+
+Figure 2 X-axes: Ferquency

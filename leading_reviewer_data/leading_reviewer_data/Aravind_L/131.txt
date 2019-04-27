@@ -1,0 +1,5 @@
+Neil Rawlings describes the presence of calpains in bacteria and makes the case for their ultimate origin in the bacterial superkingdom. I am convinced by both the calpain affinities of the bacterial proteins and the essence of the proposed evolutionary scenario. Hence, I recommend publication of this work.
+
+The author might want to consider the following points in the revision of the manuscript: the versions fused to the WXG domains are likely to be secreted toxins of the T7SS. Such toxins including those with several types of papain-like fold peptidase domains have been described before here: PMID 22731697. The author lists several domains fused to the peptidase catalytic domain in different types of calpains. However, description of the C-termini of several eukaryotic calpains is unclear: two widespread conserved domains might have bearing on the membrane interactions of calpains (see figure 7 in PMID: 24582806).
+
+The singular of archaea is archaeon rather archaean which could convey a different sense.

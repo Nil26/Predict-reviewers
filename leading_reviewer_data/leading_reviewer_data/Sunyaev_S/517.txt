@@ -1,0 +1,5 @@
+This manuscript describes a new statistical method for the analysis of Illumina BeadChip microarrays. The authors realized that variance is underestimated for these microarrays because the measurements themselves are averaged over multiple probes. Thus, they suggest a new estimate of variance to be used in the analysis based on the Welch's t-test.
+
+The manuscript is well written. The statistical approach is straightforward but has been convincingly demonstrated to produce biologically meaningful results. The authors show that the corrected standard deviation estimate helps obtaining better results for the spike dataset (Chudin et al.) and also reveal more biologically relevant genes in the human spermatogenesis dataset and mammary epithelial dataset.
+
+As an outsider in this field, I do not understand why the analysis is based on the t-test, which heavily depends on sample estimates of variance and assumes normality. It seems that non-parametric method may suite the problem better.

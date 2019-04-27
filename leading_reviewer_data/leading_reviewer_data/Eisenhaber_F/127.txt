@@ -1,0 +1,37 @@
+1. Formulation of the qPSP methodology
+
+In its current form, qPSP basically utilizes the complex information (from the CORUM database) to form protein groups and then uses the protein abundance for the derivation of a new measure - hit rate per protein complex for any proteome sample. The hit rate measure is then used for subsequent statistic testing to elucidate enriched protein complexes between samples.
+
+The current formulation did not consider the effect of protein complex stoichometry. To emphasize, high abundance of some proteins in a complex grouping does not necessarily imply that the same abundance of the complex. Hit rate/complex calculated from such cases can be grossly overestimated in complex abundance and skewed statistical significance. In contrast, the original PSP, which only uses presence or absence of the protein, has less bias in this regard. As a separate note, abundance of proteins is also independent of whether the actual protein interactions took place to form the complexes. Often, proteins are post-translationally modified so that the interactions do not take place though they are present in the cell. It is worrisome that the term “high abundance complexes” on the basis of protein abundance alone were being used in the text.
+
+Taken together, the preceding assumptions made by qPSP are not trivial. At best, the hit rate is a predictive measure, but not a sufficient surrogate measure of protein complex formation and abundance. Its subsequent usage in statistical tests to identify enriched protein complexes creates the issue of nested predictions (predictions based on predictions); the proper usage of hypothesis testing is meant for testing differences in observed measures, not predictive measures.
+
+2. Robustness of qPSP against noise: effects of t-score or pre-filtering?
+
+From the theoretical argument, the authors presented a proof to show that t-score is independent of false-discovery rate (FDR = FP/TP + FP). Here, noise implicitly refers to the number of FP (false-positives). The proof seems incomplete since there was no discussion about effects of the pooled standard deviation term Su.v and the sample sizes n and m on the actual level of FP.
+
+With respect to the two sample t-test, FP is equivalent to type I error (α). When the variances are unequal, the probability of type I error tends to be greater than the stated α. When n ≠ m, this probability will be greater than the stated α if the smaller sample is associated with the larger variance. In both cases, the level of FP (or noise) will be underestimated and the robustness of the t-test will be compromised as well. As such, qPSP does not seem impervious to FP arising from both unequal variances and sample sizes.
+
+In actual applications, the robustness of qPSP to noise seems to stem from the pre-filtering step (i.e., the “alpha-stability analysis” that excludes protein hits below top 20 % of the ranking) rather than from the more elaborated hit rate/complex measure and FDR-independent t-statistics. There are two observations to note. First, the authors have shown that qPSP suffers in performance if the bottom hits were included in their RC-C study. Second, in the RC study, repeated qPSP analysis on various FDR-adjusted dataset has little impact on the classification tree results. The latter seems more likely a consequence of the pre-filtering step to create similarly truncated datasets (i.e., with similar level of FP hits removal) regardless of the initial FDR adjustments on the data.
+
+3. Evaluation of the qPSP methodology
+
+The evaluation of qPSP’s robustness reveals another issue. If the pre-filtering step alone in qPSP is sufficient to build similar clustering plots and hierarchical trees as shown throughout the article, then the inclusion of protein complex information and t-statistics adds little impact to the overall qPSP methodology.
+
+Specifically to the RC dataset analysis, although the authors were able to show clear discrimination between the phenotypes in the HCL trees (as depicted in Fig. 3a), the qPSP methodology was unable to conclude any particular protein complex that strongly distinguishes between the severe versus less-severe phenotypes (as depicted by Fig. 8a). As such, the merits of including protein complex information to generate the hit rate for the t-statistics to improve biological interpretation have yet to be demonstrated.
+
+Lastly, since qPSP is extended from PSP, the latter should be included in the performance comparison to demonstrate an improved performance.
+
+Minor issues :
+
+Section: qPSP is theoretically robust to experimental noise:
+
+1. False-discovery rate is a more common terminology than false-detection rate.
+
+2. It should be made clear that noise is referring to FP (false-positives) as a component of FDR (=FP/TP + FP).
+
+3. It would be more readable to write the hit rate/complex computations as a formulation of vectors and matrix.
+
+Section: implementation of qPSP:
+
+Variable n has been used to twice. One instance is to describe a vector of complexes of length n, another use is as the size of samples n of phenotype B. The naming of the two variables should be distinct.

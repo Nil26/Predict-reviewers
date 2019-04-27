@@ -1,0 +1,6 @@
+Reviewer comments: Major point 1
+
+It will help the paper if the authors explain several fundamental issues, which mostly concern the realism of this model. 1. The model does not include proliferation, which is an important element of seeding of metastases, although the authors discuss the role of EGFR in cancer progression.
+Reviewer comments: Major point 2
+
+On the technical side, the automaton includes up to 10 cells in each node, each of them in one of the four active or one of the six resting channels. It is not quite clear what is the role of such configuration. If I understand correctly, in the basic gas lattice automaton the state of the node is simply binary. 3. Again, as far as I understand the model, this is a planary (two-dimensional) automaton. If this is correct, it is a far idealization of the three-dimensional reality. On the other hand, cancer spread frequently occurs along tubular or linear structures such as breast ducts or small bronchi in the lungs. Accordingly, it might help if the authors discuss the role of geometry.

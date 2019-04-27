@@ -1,0 +1,16 @@
+The paper by Johannes Simons analyzes the level of gene expression of a number of proteasome genes across a number of tissues and people in order to study natural variations in gene expression in a set of fuctionally related genes. The ultimate goal of the project is to shed light on epigenetic factors.
+
+I do have significant issues with this manuscript, both technical and conceptual. In general I seriously doubt whether one can draw biologically meaningful conclusions just from analyzing a single dataset like that. Of course one will observe variation, and of course on will find that the total level of gene expression correlates with that of the genes that make up the sample (page 6, Table ​Table2),2), but I do not find this constitutes "enough" novelty or biological insight to warrant publication. The main conclusion, that the variation in gene expression would become smaller with age is interesting, but I am not convinced that the results are reproducible, specifically given issues like the different behaviour of probes from the same genes in the data.
+Specific comments
+
+Why were proteasome genes chosen for this research question? And why this specific set?
+Why include autopsy data, in some cases 71 hours post-mortem? Would that not give rise to biologically not relevant effects?
+A first PCA factor that explains 31% is in my experience quite significant, and I would be highly intrigued to know the interpretation of this factor.
+The tables deserve more extensive legends: I do not know what "expr. Level" means?
+To state that individual genes are differently affected by the total amount of variation in transcription we need statistics.
+How to explain that different probes from the same gene fall in the three different classes A, C and D? Is this biology? Or is this experimental noise? And if this is experimental noise how does it affect the conclusions obtained?
+Why is the considerable variation observed between the tissues not due epigenetic factors (page 5)?
+Printing such a large table as Table ​Table22 is a waste op paper.
+I do not understand the procedure on page 7, with clustering followed by statistical tests (ch-square or wilcoxon). Is there a more direct way of doing this analysis?
+Do I understand correctly that the aging effect is only significant for the middle-age to aged comparison? how should we interpret that ? would one not expect to seem the most dramatic difference between the youngest and the oldest cohort?
+The clustering on page 8 again shows the inconsistent behaviour of the different probes per gene. In the presence of such inconsistencies I doubt the biological relevance of the results.

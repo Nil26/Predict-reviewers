@@ -1,0 +1,11 @@
+p.3 "Proteins that are related to the retinoblastoma tumor suppressor RB and the E2F transcription factor... have been missing from yeasts and other fungi" -- this is incorrect. Orthologs of retinoblastoma may be missing from the fungi, but "proteins related" to retinoblastoma are certainly there, i.e., any protein that contains a BRCT domain.
+
+p.5 E-value less than e-5 was used to collect the homologs. At a more common default value of e-3, have there been more matches, especially in the species that the authors say lacked any homologs (e.g., fungi)?
+
+The authors do not mention Trichoplax adhaerens at all. This is a shortcoming: even if Placozoa are not the most primitive metazoan animal, it is still primitive clade, perhaps close to the split of cnidaria and bilateria. All hypotheses about what happened before or after the latter split may gain additional evidence if this species is included (genes are not very well annotated in Trichoplax, so some prediction by homology may be needed).
+
+I would be happier if multiple fungi with complex morphology were included in the analysis, not only yeasts with what we know to be abbreviated genomes.
+
+p.10, par.3 replace "homologue" with "orthologoue" twice? All E2F family members are homologs by definition. Similarly elsewhere in the manuscript, for example the fourth paragraph on the same page.
+
+p.16-17: "based on the significantly evolutionary rate differences [should be: significantly different evolutionary rates] within E2F family and RB family, we speculated that E2F4/5 subgroup proteins might mainly maintain the ancestral E2F function. And for RB family, the ancestral RB family 17 function might also mainly represent by RBL subgroup proteins." -- What those ancestral functions might be, as opposed to derived functions of the other family members? This is answered very briefly in penultimate paragraph on p. 17, but needs to be elaborated.

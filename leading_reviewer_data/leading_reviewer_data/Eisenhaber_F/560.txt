@@ -1,0 +1,9 @@
+The authors present a review on the functional significance and the sequence pattern-function correlations within the intracellular part of Notch ligands. Whereas this review is of considerable interest, the authors might consider the following points for making their MS even more informative:
+
+1) It would be good for the reader to see diagrams of the sequence architecture of representatives of the several Notch ligand classes as a figure.
+
+2) There are many methods to evaluate and to predict intrinsically unfolded regions. The authors might wish to show to which extent segments of the notch ligand sequences do represent such reasons.
+
+3) There are no Ying-Yang sites (except you define them, see page 4 bottom); better, speak about O-glycosylation sites.
+
+4) The work would win from a more distinct summary with the conclusions explicitely listed.

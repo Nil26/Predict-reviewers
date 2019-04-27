@@ -1,0 +1,15 @@
+The hypothesis put forward by Bendich in this manuscript states that:
+
+(a) the energy-producing stations of an eukaryotic cell, i.e., mitochondria and chloroplasts, do their job at a peril for the integrity of their own DNA, because of the ROS and their derivatives that are damaging to DNA;
+
+(b) multicellularity, and later embryonic development, have originated as the adaptations to damage and loss of organellar DNA, by sequestration in metabolically quiet subset of cells.
+
+Part (a) seems to be supported by biochemical and cytological evidence lovingly collected by the author from his own studied and from the literature. These data are very interesting. As for Part (b), I am less enthusiastic. Indeed, the advent of multicellularity and the origin of evolutionary development are two different events that may require different explanations. Moreover, even if relative protection from DNA damage is a factor in the evolution of multicellular organisms, it could be an additional benefit, not the main force behind the emergence of either multicellularity or embryogenesis. Finally, there are many other suggestions in the literature concerning the origin of multicellularity and embryogenesis. As any other hypothesis, this one has to be evaluated both on its own merits and in comparison with other hypotheses.
+
+Specifically, I think three opportunities are missed in this proposal:
+
+1. Discuss the hypothesis vis-a-vis those that place more emphasis on stochastic population effects, most importantly, the line of argument by M. Lynch.
+
+2. Give considerable attention to unicellular eukaryotes, to fungi that may adopt either unicellular or differentiated lifestyle, and to colonial eukaryotes - can author's hypothesis be tested by examining these forms that have organelles but lack defined germline or embryogenesis?
+
+3. Examine the genomic evidence: under the author's hypothesis, as a first approximation, should the number of genes (or perhaps the number of gene products per cell) that encode the organellar repair machinery scale slower than the number of genes in the genome, or at least lower than the number of nuclear repair genes?

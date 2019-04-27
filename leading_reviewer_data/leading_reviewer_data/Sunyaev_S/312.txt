@@ -1,0 +1,7 @@
+This manuscript investigates differences in sequence complexity and hydrophobicity between transmembrane helices serving purely structural role and transmembrane helices with additional functional roles. On the practical side, the analysis of sequence complexity and hydrophobicity is able to identify transmembrane helices that are responsible for spurious sequence search hits as opposed to functional transmembrane helices that are useful for homology search. The manuscript is a follow up on an earlier manuscript by the same authors that suggested suppressing transmembrane segments in domain models to increase sensitivity and specificity of remote homology search. The results are of interest both in terms of protein evolution and in terms of practical utility for sequence similarity searches.
+
+I have two minor comments:
+
+1) Since sequence complexity and hydrophobicity seem to be correlated, I wonder why is not the inverse co-variance matrix included in the Z-score.
+
+2) On a more philosophical note, I would not state that "homology" equals to common evolutionary origin but rather than 'homology" is a surprisingly high level of similarity that cannot be explained by a functional constraint and, therefore, indicative of potentially common evolutionary origin.

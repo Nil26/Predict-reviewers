@@ -1,0 +1,12 @@
+In this paper Könnyű and colleagues extend their Metabolically Coupled Replicator System (MCRS) to simulate the early evolution of metabolically coupled ribozymes on a mineral surface. The main novelty in their approach is the explicit calculation of RNA secondary structures and minimal free energies for the evolving sequences and the use of the calculated parameters for the model simulations. This makes the model more realistic than the earlier versions. I suggest that the authors state more explicitly what are the new insights gained from using the more realistic secondary structure and free energy calculations. For example the authors observe that: “The shorter (faster replicable) mutants of the parasitic mutants are heavily selected against due to the disadvantage of aggressive parasites”. Was this already shown in the less explicit versions of the MCRS model? An extra paragraph in the Conclusions section could summarize the novel results.
+It would be interesting to see results with larger metabolic neighbourhood (h = 7×7) and higher replicator diffusion. One would expect that parasitic sequences can diverge more since they will not as easily demolish metabolism in their own vicinities, due to larger diffusivity.
+Importantly, the authors should provide their code as an Additional file or deposit it to a public repository for others to reproduce or extend the model calculations.
+Minor comments:
+
+pg 19–20 The discussion about the dynamics of parasites is repetitive in this section. I suggest to delete or shorten this part: “Mono-active replicators easily mutate to parasitic ones … their own vicinities and starve to death”.
+
+Typos:
+
+page 11: “we assume that different RNS molecules” change to RNA
+
+page 17: “i.e., larger metabolic neighbourhood) that fosters parasite invasion, which is evident on Figure 4A”. - change to Figure 3A

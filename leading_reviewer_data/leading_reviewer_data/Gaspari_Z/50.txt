@@ -1,0 +1,11 @@
+The manuscript describes the application of the RPCA method for biomarker detection in metagenomic samples. The advantages of the method seem convincing and the comparative nature of the study offers important insights for those working in the field. Reviewer recommendations to authors:
+
+The diversity of the samples might be one of the reason why the histograms and the performance of some methods differ substantially. Can the authors offer a measure for this?
+2.Changes in the numbers of an abundant microbe relative to a rare one might be of different meaning/importance, is this factor relevant in the analysis?
+3.Kindly consider this essay about the 1:10 ration of human vs. bacterial cells: http://www.nature.com/news/ scientists-bust-myth-that-our-bodies-have-more-bacteria-than-human-cells-1.19136.
+4.Please explain all variables in the equations (including tau, p, mu etc.)
+5.Is a division missing from Eq. 18?
+6.LEfSe is written with small f" on page 4 and with capital everywhere else
+Quality of written English
+Acceptable.
+

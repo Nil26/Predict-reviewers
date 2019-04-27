@@ -1,0 +1,11 @@
+The most significant contribution of this study is in decomposing the tantalizingly complex problem of the origin of genetic code, translation, and RNA replication into a series of proposed small evolutionary transitions, each associated with its own contribution to the fitness of the genetic system that experiences these transitions. I whole-heartedly recommend this manuscript for publication and expect that this series of transitions will be further scrutinized, perhaps along the lines of necessity and sufficiency.
+
+My only scientific complain is about the half-haphazard conclusion that the frozen-accident model of adaptor recognition by amino acids is the most likely one. It might be, or it might be not: the fact that current direct experiments fail to establish specific recognition of cognate (anti)codons for evolutionarily more primitive amino acids does not make a "frozen accident" mechanistically attractive. Moreover, if, for example, primitive nucleobases were abiotically derivatized (see the work from S.Benner's lab that seems to point in this direction), then the experiments with the present-day codons or anticodons are not even answering the right question. The authors should mention that work or at least stay even more agnostic about the recognition model.
+
+Other, minor, comments:
+
+"The Continuity Principle" has connections with Anton Dorn's change-of-function principle (Ursprung der Wirbeltiere und das Prinzip des Funktionswechsels, Leipzig, 1875) – perhaps this is worth acknowledging.
+
+As discussed by the authors, should Darwin-Eigen cycle be renamed Darvin-Eigen-Lynch-Conery cycle?
+
+The study is well-written, but perhaps it can be edited a bit more. For example, the notion that "evolution has no foresight", however important, is seen at least five times, including two times within one bulleted list on pg 29.

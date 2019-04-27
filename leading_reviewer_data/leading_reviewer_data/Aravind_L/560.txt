@@ -1,0 +1,17 @@
+The paper reviews the role of the Notch family ligands in signal transduction. While the role of the notch intracellular regions has been intensely investigated, the role of the intracellular portions of the corresponding ligands is less understood. In this paper Pintar et al review the current understanding of the signaling functions of the cytoplasmic tails of the DSL ligands.
+
+The key points I have are:
+
+1) Figure ​Figure33 shows potential modification and binding sites on the human notch ligand. Given that alignments were made for the various ligand families it will be useful to prioritize the predicted binding and PTM sites based on their conservation within a ligand family. This might indicate their greater generality in terms of a conserved signaling role.
+2) "The intracellular region as a membrane-tethered transcription factor?": pg 7 of the PDF file. Is the evidence really favoring the intracellular tail as a TF itself? It is better to state that the intracellular region of the DSL ligands might function in conjunction with transcription factors. The authors might want to point out that the tail itself does not seem to have any recognizable DNA binding domains and might instead function in conjunction with a known transcription factor like SMAD.
+Minor
+Stylistic issue: As per BMC specifications I believe figure 2A, 2B etc need to be split up into separate figures.
+
+"Activation by Jagged-1 is at odd with AP1 repression..."
+
+Activation by Jagged-1 is at *odds* with AP1 repression
+
+Page 6: The Ub E3 ligases: you might want to specify that they have RING finger domains as the active E3 component. It would also be nice if you mentioned the interesting complex domain architectures of the Mind bomb E3s in the text (or may be show it in the fig. ​fig.44)
+
+
+        

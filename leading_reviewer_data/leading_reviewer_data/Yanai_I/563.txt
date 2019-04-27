@@ -1,0 +1,7 @@
+In this manuscript Lin and colleagues address a problem in microarray probe nomenclature. As microarray design is becoming more and more commonplace, new probes are being designed at an increasing rate. Likewise, the annotation of the RNA species targeted by the probes is quickly being updated. In such a situation, the authors point out, the only stable entity
+
+is the sequence of the probe. They propose that the probe ID should be based upon the actual sequence, encoded in base-64 along with a checksum to detect corruption of the identifier.
+
+I agree with the author's assessment of the situation in probe nomenclature. Furthermore, I plead guilty myself in introducing some probe identifiers that perhaps may have been better named. However, many probe identifiers have the usefulness of immediately communicating the target they were from the encoded-sequence identifier. Nevertheless, the proposed system is potentially useful in the modern era of integrating microarray data based upon the probe sequence alone.
+
+Perhaps one compromise would be for each lab to design two probe identifiers per prone – one formal identifier in the proposed format to be used during publication, and a second identifier for internal use in the lab based upon current annotations. The second informal identifier can change with time while the first, of course, is fixed and true.
