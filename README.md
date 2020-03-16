@@ -1,6 +1,4 @@
-# Identify Reviewers from their Comments
-
-[paper](https://github.com/Nil26/Predict-reviewers/blob/master/predict-reviewers-article.pdf)
+# [Identify Reviewers from their Comments](https://github.com/Nil26/Predict-reviewers/blob/master/predict-reviewers-article.pdf)
 
 ## Abstract
 
